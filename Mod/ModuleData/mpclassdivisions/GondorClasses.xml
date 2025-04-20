@@ -1,0 +1,1074 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- multiplier:            Captain only: This number is multiplied with the BotsPerFormation setting to get
+the final amount of troops to spawn. -->
+<!-- cost:                  Skirmish only: The gold cost of this troop. -->
+<!-- armor:                 This armor value is applied to every body part, regardless of equipment. -->
+<!-- movement_speed:        Goes from 0.0 to 1.0. This will be multiplied with 'bipedal_speed_multiplier'
+(in native_parameters.xml).        Human only. -->
+<!-- combat_movement_speed: Goes from 0.0 to 1.0. This will be multiplied with 'movement_speed'
+during combat.    Human only. -->
+<!-- acceleration:          Goes from 0.0 to 1.0. This will be multiplied with
+'bipedal_acceleration_multiplier'. Human only. -->
+<!-- hitpoints:             Goes from 1 to infinity. Default is 100. Human only. -->
+<MPClassDivisions>
+	<!---Gondor -->
+	<MPClassDivision
+		id="mp_gondor_infantry"
+		hero="mp_gondor_hero_infantry"
+		troop="mp_gondor_hero_infantry_troop"
+		hero_idle_anim="act_vlandia_mp_peasant_levy_idle"
+		troop_idle_anim="act_idle_unarmed_1"
+		multiplier="0.92"
+		cost="0"
+		casual_cost="0"
+		battle_cost="0"
+		icon="Infantry_Heavy"
+		melee_ai="30"
+		ranged_ai="0"
+		armor="30"
+		movement_speed="0.82"
+		combat_movement_speed="0.9"
+		acceleration="1.6"
+		hitpoints="200">
+		<Perks>
+			<!-- First perks-->
+			<Perk game_mode="all"
+				name="Gondor Infantry"
+				description="Soldier"
+				icon="PerkHorseHunters"
+				perk_list="1">
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="Item0"
+					item="gond_spear2" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="Item1"
+					item="gond_shld2_lrg" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="Item2"
+					item="numenorean_sword_2h_e" />
+				<RandomOnSpawnEffect type="RandomEquipmentOnSpawn">
+					<Group>
+						<Item slot="Head"
+							item="citidel_guard_helmet1" />
+					</Group>
+					<Group>
+						<Item slot="Head"
+							item="citidel_guard_helmet2" />
+					</Group>
+					<Group>
+						<Item slot="Head"
+							item="citidel_guard_helmet3" />
+					</Group>
+					<Group>
+						<Item slot="Head"
+							item="citidel_guard_helmet4" />
+					</Group>
+				</RandomOnSpawnEffect>
+				<RandomOnSpawnEffect type="RandomEquipmentOnSpawn">
+					<Group>
+						<Item slot="Body"
+							item="citidel_guard_armor1" />
+					</Group>
+					<Group>
+						<Item slot="Body"
+							item="citidel_guard_armor2" />
+					</Group>
+					<Group>
+						<Item slot="Body"
+							item="citidel_guard_armor3" />
+					</Group>
+				</RandomOnSpawnEffect>
+				<RandomOnSpawnEffect type="RandomEquipmentOnSpawn">
+					<Group>
+						<Item slot="Cape"
+							item="citidel_guard_armor_pauldrons" />
+                             </Group>
+				</RandomOnSpawnEffect>
+				<RandomOnSpawnEffect type="RandomEquipmentOnSpawn">
+					<Group>
+						<Item slot="Gloves"
+							item="citidel_guard_bracers" />
+                             </Group>
+				</RandomOnSpawnEffect>
+				<RandomOnSpawnEffect type="RandomEquipmentOnSpawn">
+					<Group>
+						<Item slot="Leg"
+							item="citidel_guard_boots" />
+                              </Group>
+                        </RandomOnSpawnEffect>
+			</Perk>
+		</Perks>
+	</MPClassDivision>
+	<MPClassDivision
+		id="mp_gondor_officer"
+		hero="mp_gondor_hero_officer"
+		troop="mp_gondor_hero_officer_troop"
+		hero_idle_anim="act_vlandia_mp_peasant_levy_idle"
+		troop_idle_anim="act_idle_unarmed_1"
+		multiplier="0.92"
+		cost="0"
+		casual_cost="0"
+		battle_cost="0"
+		icon="Infantry_Heavy"
+		melee_ai="30"
+		ranged_ai="0"
+		armor="31"
+		movement_speed="0.82"
+		combat_movement_speed="0.9"
+		acceleration="1.6"
+		hitpoints="200">
+		<Perks>
+			<Perk
+				game_mode="all"
+				name="Gondor Captain"
+				description="You play as an Gondor captain"
+				icon="PerkGenerousLord"
+				perk_list="2">
+					<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="Item0"
+					item="numenorean_sword_2h_e" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="Item1"
+					item="gond_shld2_lrg" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="Item2"
+					item="gond_spear2" />
+				<RandomOnSpawnEffect type="RandomEquipmentOnSpawn">
+					<Group>
+						<Item slot="Head"
+							item="fountain_guard_helmet.0" />
+					</Group>
+				</RandomOnSpawnEffect>
+				<RandomOnSpawnEffect type="RandomEquipmentOnSpawn">
+					<Group>
+						<Item slot="Body"
+							item="fountain_guard_armor" />
+					</Group>
+				</RandomOnSpawnEffect>
+				<RandomOnSpawnEffect type="RandomEquipmentOnSpawn">
+					<Group>
+						<Item slot="Cape"
+							item="fountain_guard_pauldrons" />
+					</Group>
+				</RandomOnSpawnEffect>
+				<RandomOnSpawnEffect type="RandomEquipmentOnSpawn">
+					<Group>
+						<Item slot="Gloves"
+							item="fountain_guard_bracers" />
+                             </Group>
+				</RandomOnSpawnEffect>
+				<RandomOnSpawnEffect type="RandomEquipmentOnSpawn">
+					<Group>
+						<Item slot="Leg"
+							item="fountain_guard_boots" />
+                              </Group>
+                        </RandomOnSpawnEffect>
+			</Perk>
+		</Perks>
+	</MPClassDivision>
+		<MPClassDivision
+		id="mp_rohan_infantry"
+		hero="mp_rohan_hero_infantry"
+		troop="mp_rohan_hero_infantry_troop"
+		hero_idle_anim="act_vlandia_mp_peasant_levy_idle"
+		troop_idle_anim="act_idle_unarmed_1"
+		multiplier="0.92"
+		cost="0"
+		casual_cost="0"
+		battle_cost="0"
+		icon="Infantry_Heavy"
+		melee_ai="30"
+		ranged_ai="0"
+		armor="30"
+		movement_speed="0.82"
+		combat_movement_speed="0.9"
+		acceleration="1.6"
+		hitpoints="200">
+		<Perks>
+			<!-- First perks-->
+			<Perk game_mode="all"
+				name="Rohan Infantry"
+				description="Soldier"
+				icon="PerkHorseHunters"
+				perk_list="1">
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="Item1"
+					item="cts_rohan_shield2" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="Item2"
+					item="mp_western_cavalry_spear" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="Item3"
+					item="dunland_caerdh_axe_toto" />
+				<RandomOnSpawnEffect type="RandomEquipmentOnSpawn">
+					<Group>
+						<Item slot="Head"
+							item="rohan_helm_5" />
+					</Group>
+				</RandomOnSpawnEffect>
+				<RandomOnSpawnEffect type="RandomEquipmentOnSpawn">
+					<Group>
+						<Item slot="Body"
+							item="armor_rohan_5" />
+					</Group>
+				</RandomOnSpawnEffect>
+				<RandomOnSpawnEffect type="RandomEquipmentOnSpawn">
+                    <Group>
+                        <Item slot="Cape"
+                            item="cts_rohan_royal_guard_shoulder_armor1" />
+                   </Group>
+				</RandomOnSpawnEffect>
+				<RandomOnSpawnEffect type="RandomEquipmentOnSpawn">
+					<Group>
+						<Item slot="Gloves"
+							item="citidel_guard_bracers" />
+                             </Group>
+				</RandomOnSpawnEffect>
+	            <RandomOnSpawnEffect type="RandomEquipmentOnSpawn">
+                    <Group>
+                        <Item slot="Leg"
+                            item="cts_rohan_boots1" />
+                   </Group>	
+				</RandomOnSpawnEffect>
+			</Perk>
+		</Perks>
+	</MPClassDivision> 
+		<MPClassDivision
+		id="mp_rohan_officer"
+		hero="mp_rohan_hero_officer"
+		troop="mp_rohan_hero_officer_troop"
+		hero_idle_anim="act_vlandia_mp_peasant_levy_idle"
+		troop_idle_anim="act_idle_unarmed_1"
+		multiplier="0.92"
+		cost="0"
+		casual_cost="0"
+		battle_cost="0"
+		icon="Infantry_Heavy"
+		melee_ai="30"
+		ranged_ai="0"
+		armor="31"
+		movement_speed="0.82"
+		combat_movement_speed="0.9"
+		acceleration="1.6"
+		hitpoints="200">
+		<Perks>
+			<Perk
+				game_mode="all"
+				name="Rohan Captain"
+				description="You play as an Rohan captain"
+				icon="PerkGenerousLord"
+				perk_list="2">
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="Item1"
+					item="cts_rohan_shield2" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="Item2"
+					item="mp_western_cavalry_spear" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="Item3"
+					item="dunland_caerdh_axe_toto" />
+				<RandomOnSpawnEffect type="RandomEquipmentOnSpawn">
+					<Group>
+						<Item slot="Head"
+							item="rohan_helm_6" />
+					</Group>
+				</RandomOnSpawnEffect>
+				<RandomOnSpawnEffect type="RandomEquipmentOnSpawn">
+					<Group>
+						<Item slot="Body"
+							item="cts_rohan_royal_guard_armor" />
+					</Group>
+				</RandomOnSpawnEffect>
+				<RandomOnSpawnEffect type="RandomEquipmentOnSpawn">
+					<Group>
+						<Item slot="Cape"
+							item="cts_rohan_royal_guard_shoulder_armor" />
+					</Group>
+				</RandomOnSpawnEffect>
+				<RandomOnSpawnEffect type="RandomEquipmentOnSpawn">
+					<Group>
+						<Item slot="Gloves"
+							item="citidel_guard_bracers" />
+                             </Group>
+				</RandomOnSpawnEffect>
+	            <RandomOnSpawnEffect type="RandomEquipmentOnSpawn">
+                    <Group>
+                        <Item slot="Leg"
+                            item="cts_rohan_boots1" />
+                   </Group>	
+				</RandomOnSpawnEffect>
+			</Perk>
+		</Perks>
+	</MPClassDivision>
+	<MPClassDivision
+		id="mp_elves_infantry"
+		hero="mp_elves_hero_infantry"
+		troop="mp_elves_hero_infantry_troop"
+		hero_idle_anim="act_vlandia_mp_peasant_levy_idle"
+		troop_idle_anim="act_idle_unarmed_1"
+		multiplier="0.92"
+		cost="0"
+		casual_cost="0"
+		battle_cost="0"
+		icon="Infantry_Heavy"
+		melee_ai="30"
+		ranged_ai="0"
+		armor="30"
+		movement_speed="0.82"
+		combat_movement_speed="0.9"
+		acceleration="1.6"
+		hitpoints="200">
+		<Perks>
+			<!-- First perks-->
+			<Perk game_mode="all"
+				name="Mirkwood Infantry"
+				description="Soldier"
+				icon="PerkHorseHunters"
+				perk_list="1">
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="Item0"
+					item="rm_swordmaster_shield" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="Item1"
+					item="he_spear" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="Item2"
+					item="elf_sword_2" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="Item3"
+					item="" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="Head"
+					item="mirkwood_helmet" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="Body"
+					item="mirkwood_armor" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="Gloves"
+					item="mirkwood_gloves" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="Cape"
+					item="mirkwood_shoulder"
+					target="Player" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="Leg"
+					item="mirkwood_legs" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="Horse"
+					item="" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="HorseHarness"
+					item="" />
+			</Perk>
+		</Perks>
+	</MPClassDivision>	 
+    <MPClassDivision
+		id="mp_gondor_archer"
+		hero="mp_gondor_hero_archer"
+		troop="mp_gondor_hero_archer_troop"
+		hero_idle_anim="act_vlandia_mp_sharpshooter_idle"
+		troop_idle_anim="act_idle_1h_with_shield_1_left_stance"
+		multiplier="0.46"
+		cost="0"
+		casual_cost="0"
+		battle_cost="0"
+		icon="Archer_Heavy"
+		melee_ai="25"
+		ranged_ai="100"
+		armor="20"
+		movement_speed="0.73"
+		combat_movement_speed="0.5"
+		acceleration="1"
+		hitpoints="200">
+		<Perks>
+			<Perk
+				game_mode="all"
+				name="Elvish Archer"
+				description="You play as an Elvish archer"
+				icon="PerkToughness"
+				perk_list="1">
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="Item0"
+					item="elf_bow_1" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="Item1"
+					item="elf_quiver_1" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="Item2"
+					item="elf_sword_2" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="Item3"
+					item="" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="Head"
+					item="elf_helm_1" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="Body"
+					item="galadhrim_armor" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="Gloves"
+					item="elf_arm_1" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="Cape"
+					item="elf_shoulder_1"
+					target="Player" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="Leg"
+					item="elf_greaves_1" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="Horse"
+					item="" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="HorseHarness"
+					item="" />
+			</Perk>
+		</Perks>
+	</MPClassDivision>
+	<MPClassDivision
+		id="mp_gondor_skirmisher"
+		hero="mp_gondor_hero_skirmisher"
+		troop="mp_gondor_hero_skirmisher_troop"
+		hero_idle_anim="act_vlandia_mp_sharpshooter_idle"
+		troop_idle_anim="act_idle_1h_with_shield_1_left_stance"
+		multiplier="0.46"
+		cost="0"
+		casual_cost="0"
+		battle_cost="0"
+		icon="Archer_Heavy"
+		melee_ai="25"
+		ranged_ai="100"
+		armor="20"
+		movement_speed="0.73"
+		combat_movement_speed="0.5"
+		acceleration="1"
+		hitpoints="200">
+		<Perks>
+			<!-- First perks-->
+			<Perk
+				game_mode="all"
+				name="Ithillien Archer"
+				description="You play as an Ithillien archer"
+				icon="PerkToughness"
+				perk_list="1">
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="Item0"
+					item="wm_elven_bow_v4" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="Item1"
+					item="elf_quiver_1" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="Item2"
+					item="numenorean_sword_2h_e" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="Item3"
+					item="" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="Head"
+					item="ithilien_hood_masked_var" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="Body"
+					item="ithilien_jerkin_long" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="Gloves"
+					item="faramir_bracers" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="Cape"
+					item="ithilien_cloak_var"
+					target="Player" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="Leg"
+					item="ithilien_boots" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="Horse"
+					item="" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="HorseHarness"
+					item="" />
+			</Perk>
+		</Perks>
+
+	</MPClassDivision>
+	<MPClassDivision
+		id="mp_gondor_hero_lossarnach_skirmisher"
+		hero="mp_gondor_hero_lossarnach_skirmisher"
+		troop="mp_gondor_hero_lossarnach_skirmisher_troop"
+		hero_idle_anim="act_vlandia_mp_sharpshooter_idle"
+		troop_idle_anim="act_idle_1h_with_shield_1_left_stance"
+		multiplier="0.46"
+		cost="0"
+		casual_cost="0"
+		battle_cost="0"
+		icon="Archer_Heavy"
+		melee_ai="25"
+		ranged_ai="100"
+		armor="20"
+		movement_speed="0.8"
+		combat_movement_speed="0.6"
+		acceleration="1"
+		hitpoints="200">
+		<Perks>
+			<!-- First perks-->
+			<Perk
+				game_mode="all"
+				name="Lossarnach Axeman"
+				description="You play as an Lossarnach axeman"
+				icon="PerkToughness"
+				perk_list="1">
+				<RandomOnSpawnEffect type="RandomEquipmentOnSpawn">
+					<Group>
+						<Item slot="Head"
+							item="lossarnach_helmet" />
+					</Group>
+					<Group>
+						<Item slot="Head"
+							item="lossarnach_helmet" />
+					</Group>
+					<Group>
+						<Item slot="Head"
+							item="lossarnach_helmet" />
+					</Group>
+					<Group>
+						<Item slot="Head"
+							item="lossarnach_helmet" />
+					</Group>
+				</RandomOnSpawnEffect>
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="Item1"
+					item="numenorean_sword_2h_e" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="Item2"
+					item="mp_sturgia_throwing_axe_captain" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="Item3"
+					item="mp_sturgia_throwing_axe_captain" />
+				<RandomOnSpawnEffect type="RandomEquipmentOnSpawn">
+					<Group>
+						<Item slot="Body"
+							item="lossarnach_armor" />
+					</Group>
+					<Group>
+						<Item slot="Body"
+							item="lossarnach_armor" />
+					</Group>
+					<Group>
+						<Item slot="Body"
+							item="lossarnach_armor" />
+					</Group>
+				</RandomOnSpawnEffect>
+				<RandomOnSpawnEffect type="RandomEquipmentOnSpawn">
+					<Group>
+						<Item slot="Cape"
+							item="ithilien_cloak_var" />
+					</Group>
+					<Group>
+						<Item slot="Cape"
+							item="ithilien_cloak_var" />
+					</Group>
+					<Group>
+						<Item slot="Cape"
+							item="ithilien_cloak_var" />
+					</Group>
+					<Group>
+						<Item slot="Cape"
+							item="ithilien_cloak_var" />
+					</Group>
+				</RandomOnSpawnEffect>
+				<RandomOnSpawnEffect type="RandomEquipmentOnSpawn">
+					<Group>
+						<Item slot="Leg"
+							item="lossarnach_boots" />
+					</Group>
+					<Group>
+						<Item slot="Leg"
+							item="lossarnach_boots" />
+					</Group>
+					<Group>
+						<Item slot="Leg"
+							item="lossarnach_boots" />
+					</Group>
+				</RandomOnSpawnEffect>
+
+
+			</Perk>
+			<Perk
+				game_mode="all"
+				name="Lossarnach Javelins"
+				description="You play as an Lossarnach javelins"
+				icon="PerkToughness"
+				perk_list="1">
+				<RandomOnSpawnEffect type="RandomEquipmentOnSpawn">
+					<Group>
+						<Item slot="Head"
+							item="lossarnach_helmet" />
+					</Group>
+					<Group>
+						<Item slot="Head"
+							item="lossarnach_helmet" />
+					</Group>
+					<Group>
+						<Item slot="Head"
+							item="lossarnach_helmet" />
+					</Group>
+					<Group>
+						<Item slot="Head"
+							item="lossarnach_helmet" />
+					</Group>
+				</RandomOnSpawnEffect>
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="Item1"
+					item="numenorean_sword_2h_e" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="Item2"
+					item="mp_javelin_extraammo_captain" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="Item3"
+					item="mp_javelin_extraammo_captain" />
+				<RandomOnSpawnEffect type="RandomEquipmentOnSpawn">
+					<Group>
+						<Item slot="Body"
+							item="lossarnach_armor" />
+					</Group>
+					<Group>
+						<Item slot="Body"
+							item="lossarnach_armor" />
+					</Group>
+					<Group>
+						<Item slot="Body"
+							item="lossarnach_armor" />
+					</Group>
+
+
+				</RandomOnSpawnEffect>
+				<RandomOnSpawnEffect type="RandomEquipmentOnSpawn">
+					<Group>
+						<Item slot="Cape"
+							item="ithilien_cloak_var" />
+					</Group>
+					<Group>
+						<Item slot="Cape"
+							item="ithilien_cloak_var" />
+					</Group>
+					<Group>
+						<Item slot="Cape"
+							item="ithilien_cloak_var" />
+					</Group>
+					<Group>
+						<Item slot="Cape"
+							item="ithilien_cloak_var" />
+					</Group>
+				</RandomOnSpawnEffect>
+				<RandomOnSpawnEffect type="RandomEquipmentOnSpawn">
+					<Group>
+						<Item slot="Leg"
+							item="lossarnach_boots" />
+					</Group>
+					<Group>
+						<Item slot="Leg"
+							item="lossarnach_boots" />
+					</Group>
+					<Group>
+						<Item slot="Leg"
+							item="lossarnach_boots" />
+					</Group>
+				</RandomOnSpawnEffect>
+			</Perk>
+		</Perks>
+	</MPClassDivision>
+	<MPClassDivision
+		id="mp_gondor_cavalry_heavy"
+		hero="mp_gondor_hero_cavalry_heavy"
+		troop="mp_gondor_hero_cavalry_heavy_troop"
+		hero_mount_idle_anim="act_vlandia_mp_vanguard_mount_idle"
+		troop_mount_idle_anim="act_horse_idle_1"
+		multiplier="0.92"
+		cost="0"
+		casual_cost="0"
+		battle_cost="0"
+		icon="Infantry_Heavy"
+		melee_ai="30"
+		ranged_ai="0"
+		armor="30"
+		movement_speed="0.82"
+		combat_movement_speed="0.9"
+		acceleration="1.6"
+		hitpoints="200">
+		<Perks>
+			<!-- First perks-->
+			<Perk game_mode="all" name="Rohirrim" description="" icon="PerkToughness"
+				perk_list="1">
+				<OnSpawnEffect type="ArmorOnSpawn" value="1" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item0"
+					item="rohan_sword_1" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item1"
+					item="rohan_shield_2" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item2"
+					item="england_infantry_spear_banner" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item3" item="" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Head"
+					item="whiterun_helm" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Body"
+					item="armor_rohan_3" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Gloves"
+					item="faramir_bracers" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Cape"
+					item="cts_rohan_royal_guard_shoulder_armor"
+					target="Player" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Leg"
+					item="cts_rohan_boots1" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Horse"
+					item="england_cavalry_horse_brown" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="HorseHarness"
+					item="mp_rohan_horse_harness" />
+			</Perk>
+
+		</Perks>
+	</MPClassDivision>
+	<MPClassDivision
+		id="mp_gondor_cavalry_light"
+		hero="mp_gondor_hero_cavalry_light"
+		troop="mp_gondor_hero_cavalry_light_troop"
+		hero_mount_idle_anim="act_vlandia_mp_vanguard_mount_idle"
+		troop_mount_idle_anim="act_horse_idle_1"
+		multiplier="0.92"
+		cost="0"
+		casual_cost="0"
+		battle_cost="0"
+		icon="Infantry_Heavy"
+		melee_ai="30"
+		ranged_ai="0"
+		armor="25"
+		movement_speed="0.82"
+		combat_movement_speed="0.9"
+		acceleration="1.6"
+		hitpoints="150">
+		<Perks>
+			<Perk game_mode="all" name="Swan Knight" description="" icon="PerkToughness"
+				perk_list="1">
+				<OnSpawnEffect type="ArmorOnSpawn" value="1" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item0"
+					item="numenorean_sword_2h_e1" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item1"
+					item="gond_shield_two_swan" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item2"
+					item="mp_western_cavalry_spear" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item3" item="" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Head"
+					item="citidel_guard_helmet3" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Body"
+					item="imrahil_body" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Gloves"
+					item="imrahil_gloves" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Cape"
+					item="imrahil_shoulder"
+					target="Player" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Leg"
+					item="imrahil_boot" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Horse"
+					item="mp_vlandia_horse_faster" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="HorseHarness"
+					item="mp_northern_light_harness_lotr" />
+			</Perk>
+		</Perks>
+	</MPClassDivision>
+	<MPClassDivision
+		id="mp_gondor_boromir"
+		hero="mp_gondor_hero_boromir"
+		troop="mp_gondor_hero_boromir_troop"
+		hero_idle_anim="act_vlandia_mp_peasant_levy_idle"
+		troop_idle_anim="act_idle_unarmed_1"
+		multiplier="0.92"
+		cost="0"
+		casual_cost="0"
+		battle_cost="0"
+		icon="Infantry_Heavy"
+		melee_ai="30"
+		ranged_ai="0"
+		armor="35"
+		movement_speed="0.82"
+		combat_movement_speed="0.9"
+		acceleration="1.6"
+		hitpoints="200">
+		<Perks>
+			<Perk game_mode="all" name="Boromir " description="Boromir was a noble warrior of Gondor and the eldest son of Denethor II, the Steward of Gondor. A brave and skilled fighter, he was chosen to represent his people in the Fellowship of the Ring. However, his desire to use the One Ring to defend Gondor led to his downfall. He attempted to take the Ring from Frodo but later redeemed himself by heroically defending Merry and Pippin from orcs. Mortally wounded in battle, he died with honor, confessing his failure to Aragorn and reaffirming his loyalty to Gondor." icon="PerkToughness"
+				perk_list="1">
+				<OnSpawnEffect type="ArmorOnSpawn" value="1" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item0"
+					item="gond_shld2_lrg" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item1"
+					item="numenorean_sword_2h_e" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item2"
+					item="" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item3" item="" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Head"
+					item="citidel_guard_helmet7" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Body"
+					item="boromir_jerkin" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Gloves"
+					item="boromir_bracers" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Cape"
+					item="boromir_cloak"
+					target="Player" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Leg"
+					item="citidel_guard_boots" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Horse"
+					item="" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="HorseHarness"
+					item="" />
+			</Perk>
+				</Perks>	
+	</MPClassDivision>
+	<MPClassDivision
+		id="mp_gondor_hero_aragorn"
+		hero="mp_gondor_hero_aragorn"
+		troop="mp_gondor_hero_aragorn_troop"
+		hero_idle_anim="act_vlandia_mp_peasant_levy_idle"
+		troop_idle_anim="act_idle_unarmed_1"
+		multiplier="0.92"
+		cost="0"
+		casual_cost="0"
+		battle_cost="0"
+		icon="Infantry_Heavy"
+		melee_ai="30"
+		ranged_ai="0"
+		armor="35"
+		movement_speed="0.82"
+		combat_movement_speed="0.9"
+		acceleration="1.6"
+		hitpoints="200">
+		<Perks>
+			<Perk game_mode="all" name="Anduril " description="He is the rightful heir to the throne of Gondor but initially lives as a ranger under the name Strider. A skilled warrior and a wise leader, Aragorn plays a crucial role in the War of the Ring, aiding Frodo Baggins in his quest to destroy the One Ring. With his bravery, loyalty, and strong sense of duty, he ultimately claims his destiny, becoming King Elessar of Gondor and Arnor. His story is one of courage, leadership, and destiny fulfilled." icon="PerkTwoHandedSwords"
+				perk_list="1">
+				<OnSpawnEffect type="ArmorOnSpawn" value="1" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item0"
+					item="anduril" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item1"
+					item="" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item2"
+					item="" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item3" item="" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Head"
+					item="gondor_king_crown" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Body"
+					item="gondor_king_armor" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Gloves"
+					item="gondor_king_bracers" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Cape"
+					item="gondor_king_pauldrons"
+					target="Player" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Leg"
+					item="gondor_king_boots" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Horse"
+					item="" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="HorseHarness"
+					item="" />
+			</Perk>
+		</Perks>
+	</MPClassDivision>
+	<MPClassDivision
+		id="mp_gondor_hero_theodred"
+		hero="mp_gondor_hero_theodred"
+		troop="mp_gondor_hero_theodred_troop"
+		hero_idle_anim="act_vlandia_mp_peasant_levy_idle"
+		troop_idle_anim="act_idle_unarmed_1"
+		multiplier="0.92"
+		cost="0"
+		casual_cost="0"
+		battle_cost="0"
+		icon="Infantry_Heavy"
+		melee_ai="30"
+		ranged_ai="0"
+		armor="32"
+		movement_speed="0.82"
+		combat_movement_speed="0.9"
+		acceleration="1.6"
+		hitpoints="200">
+		<Perks>
+			<Perk game_mode="all" name=" Theodred " description="Theodred was the only son and heir of King Theoden of Rohan. A valiant warrior and Marshal of the Mark, he led Rohans forces against the invading armies of Saruman. He was mortally wounded in battle at the Fords of Isen, a key strategic location, and later died of his wounds." icon="PerkToughness"
+				perk_list="1">
+				<OnSpawnEffect type="ArmorOnSpawn" value="1" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item0"
+					item="theodred_sword" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item1"
+					item="" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item2"
+					item="" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item3" item="" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Head"
+					item="theodred_helmet" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Body"
+					item="theodred_armour" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Gloves"
+					item="theodred_bracers" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Cape"
+					item="theodred_pauldrons"
+					target="Player" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Leg"
+					item="theodred_boots" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Horse"
+					item="" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="HorseHarness"
+					item="" />
+			</Perk>
+				</Perks>	
+	</MPClassDivision>
+    <MPClassDivision
+		id="mp_gondor_hero_faramir"
+		hero="mp_gondor_hero_faramir"
+		troop="mp_gondor_hero_faramir_troop"
+		hero_idle_anim="act_vlandia_mp_sharpshooter_idle"
+		troop_idle_anim="act_idle_1h_with_shield_1_left_stance"
+		multiplier="0.46"
+		cost="0"
+		casual_cost="0"
+		battle_cost="0"
+		icon="Archer_Heavy"
+		melee_ai="30"
+		ranged_ai="100"
+		armor="24"
+		movement_speed="0.75"
+		combat_movement_speed="0.5"
+		acceleration="1.2"
+		hitpoints="200">
+		<Perks>
+			<Perk
+				game_mode="all"
+				name="Prince of Ithillien"
+				description="Faramir was the younger son of Denethor II and the brother of Boromir. Unlike his brother, Faramir possessed a strong will and wisdom, resisting the temptation of the One Ring. As a captain of Gondor, he defended Osgiliath but was gravely wounded during the war. Later, he was healed by Aragorn and became the Prince of Ithilien. He also fell in love with Eowyn of Rohan, and together they helped rebuild their lands after Saurons defeat. "
+				icon="PerkToughness"
+				perk_list="1">
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="Item0"
+					item="wm_elven_bow_v4" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="Item1"
+					item="elf_quiver_1" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="Item2"
+					item="numenorean_sword_2h_e" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="Item3"
+					item="" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="Head"
+					item="ithilien_hood_masked_var" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="Body"
+					item="faramir_armor" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="Gloves"
+					item="faramir_bracers" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="Cape"
+					item="ithilien_cloak_var"
+					target="Player" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="Leg"
+					item="ithilien_boots" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="Horse"
+					item="" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="HorseHarness"
+					item="" />
+			</Perk>
+		</Perks>
+	</MPClassDivision>
+	<MPClassDivision
+		id="mp_gondor_hero_cavalry_theoden"
+		hero="mp_gondor_hero_cavalry_theoden"
+		troop="mp_gondor_hero_cavalry_theoden_troop"
+		hero_mount_idle_anim="act_vlandia_mp_vanguard_mount_idle"
+		troop_mount_idle_anim="act_horse_idle_1"
+		multiplier="0.92"
+		cost="0"
+		casual_cost="0"
+		battle_cost="0"
+		icon="Infantry_Heavy"
+		melee_ai="30"
+		ranged_ai="0"
+		armor="30"
+		movement_speed="0.82"
+		combat_movement_speed="0.9"
+		acceleration="1.6"
+		hitpoints="200">
+		<Perks>
+			<!-- First perks-->
+			<Perk game_mode="all" name="King of Rohan" description="Theoden was the King of Rohan and a legendary leader who overcame Saruman s influence to lead his people in the War of the Ring. Under the guidance of Gandalf, he regained his strength and rode to battle against the forces of Mordor. He led the Riders of Rohan at the Battle of the Pelennor Fields, where he fought valiantly but was ultimately mortally wounded by the Witch-king of Angmar. His leadership and bravery inspired his people, and he died a hero’s death.
+" icon="PerkToughness"
+				perk_list="1">
+				<OnSpawnEffect type="ArmorOnSpawn" value="1" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item0"
+					item="rohan_sword_1" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item1"
+					item="rohan_shield_2" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item2"
+					item="england_infantry_spear" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item3"
+       				item="" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Head"
+					item="rohan_helm_8" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Body"
+					item="armor_rohan_7" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Gloves"
+					item="faramir_bracers" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Cape"
+					item="armor_rohan_shoulder_7"
+					target="Player" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Leg"
+					item="cts_rohan_boots1" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Horse"
+					item="england_cavalry_horse_white" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="HorseHarness"
+					item="mp_rohan_horse_harness" />
+			</Perk>
+
+		</Perks>
+	</MPClassDivision>
+	<MPClassDivision
+		id="mp_gondor_hero_cavalry_imrahil"
+		hero="mp_gondor_hero_cavalry_imrahil"
+		troop="mp_gondor_hero_cavalry_imrahil_troop"
+		hero_mount_idle_anim="act_vlandia_mp_vanguard_mount_idle"
+		troop_mount_idle_anim="act_horse_idle_1"
+		multiplier="0.92"
+		cost="0"
+		casual_cost="0"
+		battle_cost="0"
+		icon="Infantry_Heavy"
+		melee_ai="30"
+		ranged_ai="0"
+		armor="25"
+		movement_speed="0.82"
+		combat_movement_speed="0.9"
+		acceleration="1.6"
+		hitpoints="150">
+		<Perks>
+			<Perk game_mode="all" name="Prince of Dol Amroth" description="Imrahil was the Prince of Dol Amroth, a noble and valiant leader of Gondor. He commanded the knights of Dol Amroth and played a crucial role in the defense of Minas Tirith. Wise and courageous, he led reinforcements during the Battle of the Pelennor Fields and later fought in the final battle against Sauron s forces. He was also the uncle of Boromir and Faramir and served as a key figure in Gondor s survival during the War of the Ring." icon="PerkToughness"
+				perk_list="1">
+				<OnSpawnEffect type="ArmorOnSpawn" value="1" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item0"
+					item="numenorean_sword_2h_e1" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item1"
+					item="gond_shield_two_swan" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item2"
+					item="mp_western_cavalry_spear" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item3" item="" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Head"
+					item="imrahil_helmet" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Body"
+					item="imrahil_body" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Gloves"
+					item="imrahil_gloves" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Cape"
+					item="imrahil_shoulder"
+					target="Player" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Leg"
+					item="imrahil_boot" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Horse"
+					item="mp_vlandia_horse_faster" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="HorseHarness"
+					item="mp_northern_light_harness_lotr" />
+			</Perk>
+		</Perks>
+	</MPClassDivision>		
+</MPClassDivisions>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Module>
+  <Name value="RealmsOfTheWest" />
+  <Id value="RoW" />
+  <Version value="v1.0.0" />
+  <DefaultModule value="false" />
+  <Official value="false" />
+  <ModuleCategory value="Multiplayer" />
+  <SubModules>
+  </SubModules>
+  <Xmls>
+	<XmlNode>
+		<XmlName id="MPCharacters" path="mpcharacters" />
+	</XmlNode>
+	<XmlNode>
+		<XmlName id="MPClassDivisions" path="mpclassdivisions" />
+	</XmlNode>
+	<XmlNode>
+		<XmlName id="BasicCultures" path="mpcultures" />
+	</XmlNode>
+  </Xmls>
+</Module>

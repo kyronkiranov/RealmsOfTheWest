@@ -1,0 +1,1017 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- multiplier:            Captain only: This number is multiplied with the BotsPerFormation setting to get
+the final amount of troops to spawn. -->
+<!-- cost:                  Skirmish only: The gold cost of this troop. -->
+<!-- armor:                 This armor value is applied to every body part, regardless of equipment. -->
+<!-- movement_speed:        Goes from 0.0 to 1.0. This will be multiplied with 'bipedal_speed_multiplier'
+(in native_parameters.xml).        Human only. -->
+<!-- combat_movement_speed: Goes from 0.0 to 1.0. This will be multiplied with 'movement_speed'
+during combat.    Human only. -->
+<!-- acceleration:          Goes from 0.0 to 1.0. This will be multiplied with
+'bipedal_acceleration_multiplier'. Human only. -->
+<!-- hitpoints:             Goes from 1 to infinity. Default is 100. Human only. -->
+<MPClassDivisions>
+	<!-- Orcs -->
+	<MPClassDivision
+		id="mp_orc_infantry"
+		hero="mp_orc_hero_infantry"
+		troop="mp_orc_hero_infantry_troop"
+		hero_idle_anim="act_vlandia_mp_peasant_levy_idle"
+		troop_idle_anim="act_idle_unarmed_1"
+		multiplier="0.92"
+		cost="0"
+		casual_cost="0"
+		battle_cost="0"
+		icon="Infantry_Heavy"
+		melee_ai="30"
+		ranged_ai="0"
+		armor="30"
+		movement_speed="0.82"
+		combat_movement_speed="0.9"
+		acceleration="1.6"
+		hitpoints="200">
+		<Perks>
+			<!-- First perks-->
+			<Perk game_mode="all"
+				name="Uruk-hai Infantry"
+				description="You play as an Uruk-hai infantryman"
+				icon="PerkHorseHunters"
+				perk_list="1">
+				<RandomOnSpawnEffect type="RandomEquipmentOnSpawn">
+					<Group>
+						<Item slot="Head"
+							item="uruk_helmet_1" />
+					</Group>
+					<Group>
+						<Item slot="Head"
+							item="uruk_helmet_2" />
+					</Group>
+					<Group>
+						<Item slot="Head"
+							item="uruk_helmet_4" />
+					</Group>
+				</RandomOnSpawnEffect>
+				<RandomOnSpawnEffect type="RandomEquipmentOnSpawn">
+
+					<Group>
+						<Item slot="Body"
+							item="sk_uruk_mordor_chainmail_captain_a2" />
+					</Group>
+					<Group>
+						<Item slot="Body"
+							item="sk_uruk_mordor_chainmail_captain_b1" />
+					</Group>
+					<Group>
+						<Item slot="Body"
+							item="sk_uruk_mordor_chainmail_captain_c1" />
+					</Group>
+					<Group>
+						<Item slot="Body"
+							item="sk_uruk_mordor_chainmail_captain_c2" />
+					</Group>
+					<Group>
+						<Item slot="Body"
+							item="sk_uruk_mordor_chainmail_elite_a1" />
+					</Group>
+					<Group>
+						<Item slot="Body"
+							item="sk_uruk_mordor_chainmail_elite_a2" />
+					</Group>
+					<Group>
+						<Item slot="Body"
+							item="sk_uruk_mordor_chainmail_elite_b1" />
+					</Group>
+					<Group>
+						<Item slot="Body"
+							item="sk_uruk_mordor_chainmail_elite_b2" />
+					</Group>
+					<Group>
+						<Item slot="Body"
+							item="sk_uruk_mordor_chainmail_elite_c1" />
+					</Group>
+					<Group>
+						<Item slot="Body"
+							item="sk_uruk_mordor_chainmail_elite_c2" />
+					</Group>
+				</RandomOnSpawnEffect>
+				<RandomOnSpawnEffect type="RandomEquipmentOnSpawn">
+					<Group>
+						<Item slot="Cape"
+							item="sk_uruk_mordor_pauldron_heavy_a" />
+					</Group>
+					<Group>
+						<Item slot="Cape"
+							item="sk_uruk_mordor_pauldron_heavy_b" />
+					</Group>
+					<Group>
+						<Item slot="Cape"
+							item="sk_uruk_mordor_pauldron_heavy_c" />
+					</Group>
+					<Group>
+						<Item slot="Cape"
+							item="sk_uruk_mordor_pauldron_heavy_d" />
+					</Group>
+				</RandomOnSpawnEffect>
+				<RandomOnSpawnEffect type="RandomEquipmentOnSpawn">
+					<Group>
+						<Item slot="Leg"
+							item="sk_uruk_mordor_greaves_heavy_a" />
+					</Group>
+					<Group>
+						<Item slot="Leg"
+							item="sk_uruk_mordor_greaves_heavy_b" />
+					</Group>
+					<Group>
+						<Item slot="Leg"
+							item="sk_uruk_mordor_greaves_heavy_c" />
+					</Group>
+					<Group>
+						<Item slot="Leg"
+							item="sk_uruk_mordor_greaves_heavy_d" />
+					</Group>
+					<Group>
+						<Item slot="Leg"
+							item="sk_uruk_mordor_greaves_heavy_e" />
+					</Group>
+					<Group>
+						<Item slot="Leg"
+							item="sk_uruk_mordor_greaves_heavy_f" />
+					</Group>
+				</RandomOnSpawnEffect>
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="Item0"
+					item="uruk_pike_1" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="Item1"
+					item="urukhai_shield" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="Item2"
+					item="uruk_sword_1" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="Item3"
+					item="" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="Gloves"
+					item="citidel_guard_gloves" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="Horse"
+					item="" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="HorseHarness"
+					item="" />				
+			</Perk>
+		</Perks>
+	</MPClassDivision>
+	<MPClassDivision
+		id="mp_orc_officer"
+		hero="mp_orc_hero_officer"
+		troop="mp_orc_hero_officer_troop"
+		hero_idle_anim="act_vlandia_mp_peasant_levy_idle"
+		troop_idle_anim="act_idle_unarmed_1"
+		multiplier="0.92"
+		cost="0"
+		casual_cost="0"
+		battle_cost="0"
+		icon="Infantry_Heavy"
+		melee_ai="30"
+		ranged_ai="0"
+		armor="31"
+		movement_speed="0.82"
+		combat_movement_speed="0.9"
+		acceleration="1.6"
+		hitpoints="200">
+		<Perks>
+			<Perk
+				game_mode="all"
+				name="Uruk Captain"
+				description="You play as an Uruk-hai captain"
+				icon="PerkGenerousLord"
+				perk_list="2">
+				<RandomOnSpawnEffect type="RandomEquipmentOnSpawn">
+					<Group>
+						<Item slot="Head"
+							item="uruk_helmet_3" />
+					</Group>
+				</RandomOnSpawnEffect>
+				<RandomOnSpawnEffect type="RandomEquipmentOnSpawn">
+					<Group>
+						<Item slot="Body"
+							item="sk_uruk_mordor_chainmail_captain_a1" />
+					</Group>
+					<Group>
+						<Item slot="Body"
+							item="sk_uruk_mordor_chainmail_captain_a2" />
+					</Group>
+					<Group>
+						<Item slot="Body"
+							item="sk_uruk_mordor_chainmail_captain_b1" />
+					</Group>
+					<Group>
+						<Item slot="Body"
+							item="sk_uruk_mordor_chainmail_captain_b2" />
+					</Group>
+					<Group>
+						<Item slot="Body"
+							item="sk_uruk_mordor_chainmail_captain_d1" />
+					</Group>
+					<Group>
+						<Item slot="Body"
+							item="sk_uruk_mordor_chainmail_captain_c2" />
+					</Group>
+					<Group>
+						<Item slot="Body"
+							item="sk_uruk_mordor_chainmail_elite_a1" />
+					</Group>
+					<Group>
+						<Item slot="Body"
+							item="sk_uruk_mordor_chainmail_elite_a2" />
+					</Group>
+					<Group>
+						<Item slot="Body"
+							item="sk_uruk_mordor_chainmail_elite_b1" />
+					</Group>
+					<Group>
+						<Item slot="Body"
+							item="sk_uruk_mordor_chainmail_elite_b2" />
+					</Group>
+					<Group>
+						<Item slot="Body"
+							item="sk_uruk_mordor_chainmail_elite_c1" />
+					</Group>
+					<Group>
+						<Item slot="Body"
+							item="sk_uruk_mordor_chainmail_elite_c2" />
+					</Group>
+				</RandomOnSpawnEffect>
+				<RandomOnSpawnEffect type="RandomEquipmentOnSpawn">
+					<Group>
+						<Item slot="Cape"
+							item="sk_uruk_mordor_pauldron_heavy_a" />
+					</Group>
+					<Group>
+						<Item slot="Cape"
+							item="sk_uruk_mordor_pauldron_heavy_b" />
+					</Group>
+					<Group>
+						<Item slot="Cape"
+							item="sk_uruk_mordor_pauldron_heavy_c" />
+					</Group>
+					<Group>
+						<Item slot="Cape"
+							item="sk_uruk_mordor_pauldron_heavy_d" />
+					</Group>
+				</RandomOnSpawnEffect>
+				<RandomOnSpawnEffect type="RandomEquipmentOnSpawn">
+					<Group>
+						<Item slot="Leg"
+							item="sk_uruk_mordor_greaves_heavy_a" />
+					</Group>
+					<Group>
+						<Item slot="Leg"
+							item="sk_uruk_mordor_greaves_heavy_b" />
+					</Group>
+					<Group>
+						<Item slot="Leg"
+							item="sk_uruk_mordor_greaves_heavy_c" />
+					</Group>
+					<Group>
+						<Item slot="Leg"
+							item="sk_uruk_mordor_greaves_heavy_d" />
+					</Group>
+					<Group>
+						<Item slot="Leg"
+							item="sk_uruk_mordor_greaves_heavy_e" />
+					</Group>
+					<Group>
+						<Item slot="Leg"
+							item="sk_uruk_mordor_greaves_heavy_f" />
+					</Group>
+				</RandomOnSpawnEffect>
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="Item0"
+					item="urukhai_shield" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="Item1"
+					item="uruk_pike_1" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="Item2"
+					item="uruk_sword_1" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="Item3"
+					item="" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="Gloves"
+					item="citidel_guard_gloves" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="Horse"
+					item="" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="HorseHarness"
+					item="" />						
+			</Perk>
+		</Perks>
+	</MPClassDivision>
+	<MPClassDivision
+		id="mp_orc_hero_easterling_infantry"
+		hero="mp_orc_hero_easterling_infantry"
+		troop="mp_orc_hero_easterling_infantry_troop"
+		hero_idle_anim="act_vlandia_mp_peasant_levy_idle"
+		troop_idle_anim="act_idle_unarmed_1"
+		multiplier="0.92"
+		cost="0"
+		casual_cost="0"
+		battle_cost="0"
+		icon="Infantry_Heavy"
+		melee_ai="30"
+		ranged_ai="0"
+		armor="30"
+		movement_speed="0.82"
+		combat_movement_speed="0.9"
+		acceleration="1.6"
+		hitpoints="200">
+		<Perks>
+			<!-- First perks-->
+			<Perk game_mode="all"
+				name="Easterling Infantry"
+				description="Soldier"
+				icon="PerkHorseHunters"
+				perk_list="1">
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="Item0"
+					item="easterling_shield" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="Item1"
+					item="easterling_spear" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="Item2"
+					item="easterling_sword" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="Item3"
+					item="" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="Head"
+					item="easterling_head" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="Body"
+					item="easterling_torso" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="Gloves"
+					item="easterling_glove" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="Cape"
+					item="easterling_cape"
+					target="Player" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="Leg"
+					item="easterling_boots" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="Horse"
+					item="" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="HorseHarness"
+					item="" />
+			</Perk>
+		</Perks>
+	</MPClassDivision>	 	
+	<MPClassDivision
+		id="mp_orc_hero_dunlanding_infantry"
+		hero="mp_orc_hero_dunlanding_infantry"
+		troop="mp_orc_hero_dunlanding_infantry_troop"
+		hero_idle_anim="act_vlandia_mp_peasant_levy_idle"
+		troop_idle_anim="act_idle_unarmed_1"
+		multiplier="0.92"
+		cost="0"
+		casual_cost="0"
+		battle_cost="0"
+		icon="Infantry_Heavy"
+		melee_ai="30"
+		ranged_ai="0"
+		armor="30"
+		movement_speed="0.82"
+		combat_movement_speed="0.9"
+		acceleration="1.6"
+		hitpoints="200">
+		<Perks>
+			<!-- First perks-->
+			<Perk game_mode="all"
+				name="Rhun Infantry"
+				description="Soldier"
+				icon="PerkHorseHunters"
+				perk_list="1">
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="Item0"
+					item="dunlanding_shielda" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="Item1"
+					item="england_infantry_spear" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="Item2"
+					item="dunland_caerdh_axe_toto" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="Item3"
+					item="" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="Head"
+					item="dunland_wulf_helmet_lord_a" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="Body"
+					item="dunland_caerdh_chainmail_elite_a" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="Gloves"
+					item="citidel_guard_gloves" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="Cape"
+					item="dunland_caerdh_pauldron_heavy_cape_b"
+					target="Player" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="Leg"
+					item="dunland_caerdh_boots_heavy_a" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="Horse"
+					item="" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="HorseHarness"
+					item="" />
+			</Perk>
+		</Perks>
+	</MPClassDivision>	 		
+	<MPClassDivision
+		id="mp_orc_hero_dunlanding_officer_infantry"
+		hero="mp_orc_hero_dunlanding_officer_infantry"
+		troop="mp_orc_hero_dunlanding_officer_infantry_troop"
+		hero_idle_anim="act_vlandia_mp_peasant_levy_idle"
+		troop_idle_anim="act_idle_unarmed_1"
+		multiplier="0.92"
+		cost="0"
+		casual_cost="0"
+		battle_cost="0"
+		icon="Infantry_Heavy"
+		melee_ai="30"
+		ranged_ai="0"
+		armor="31"
+		movement_speed="0.82"
+		combat_movement_speed="0.9"
+		acceleration="1.6"
+		hitpoints="200">
+		<Perks>
+			<!-- First perks-->
+			<Perk game_mode="all"
+				name="Rhun Officer"
+				description="Soldier"
+				icon="PerkHorseHunters"
+				perk_list="1">
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="Item0"
+					item="dunlanding_shielda" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="Item1"
+					item="england_infantry_spear" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="Item2"
+					item="dunland_caerdh_axe_toto" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="Item3"
+					item="" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="Head"
+					item="dunland_caerdh_helmet_lord_f" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="Body"
+					item="dunland_caerdh_chainmail_elite_a" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="Gloves"
+					item="citidel_guard_gloves" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="Cape"
+					item="dunland_caerdh_pauldron_heavy_cape_a"
+					target="Player" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="Leg"
+					item="dunland_caerdh_boots_heavy_a" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="Horse"
+					item="" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="HorseHarness"
+					item="" />
+			</Perk>
+		</Perks>
+	</MPClassDivision>	 			
+	<MPClassDivision
+		id="mp_orc_archer"
+		hero="mp_orc_hero_archer"
+		troop="mp_orc_hero_archer_troop"
+		hero_idle_anim="act_vlandia_mp_sharpshooter_idle"
+		troop_idle_anim="act_idle_1h_with_shield_1_left_stance"
+		multiplier="0.46"
+		cost="0"
+		casual_cost="0"
+		battle_cost="0"
+		icon="Archer_Heavy"
+		melee_ai="25"
+		ranged_ai="100"
+		armor="20"
+		movement_speed="0.73"
+		combat_movement_speed="0.5"
+		acceleration="1"
+		hitpoints="200">
+		<Perks>
+			<Perk
+				game_mode="all"
+				name="Uruk Archer"
+				description="You play as an Uruk-hai archer"
+				icon="PerkToughness"
+				perk_list="1">
+				<RandomOnSpawnEffect type="RandomEquipmentOnSpawn">
+					<Group>
+						<Item slot="Head"
+							item="uruk_helmet_5" />
+					</Group>
+					<Group>
+						<Item slot="Head"
+							item="uruk_helmet_6" />
+					</Group>
+					<Group>
+						<Item slot="Head"
+							item="uruk_helmet_7" />
+					</Group>
+					<Group>
+						<Item slot="Head"
+							item="uruk_helmet_8" />
+					</Group>
+				</RandomOnSpawnEffect>
+				<RandomOnSpawnEffect type="RandomEquipmentOnSpawn">
+					<Group>
+						<Item slot="Body"
+							item="sk_uruk_mordor_chainmail_medium_a2" />
+					</Group>
+					<Group>
+						<Item slot="Body"
+							item="sk_uruk_mordor_chainmail_medium_b1" />
+					</Group>
+					<Group>
+						<Item slot="Body"
+							item="sk_uruk_mordor_chainmail_medium_b2" />
+					</Group>
+
+
+				</RandomOnSpawnEffect>
+				<RandomOnSpawnEffect type="RandomEquipmentOnSpawn">
+					<Group>
+						<Item slot="Cape"
+							item="sk_uruk_mordor_pauldron_medium_a" />
+					</Group>
+					<Group>
+						<Item slot="Cape"
+							item="sk_uruk_mordor_pauldron_medium_b" />
+					</Group>
+					<Group>
+						<Item slot="Cape"
+							item="sk_uruk_mordor_pauldron_medium_c" />
+					</Group>
+					<Group>
+						<Item slot="Cape"
+							item="sk_uruk_mordor_pauldron_medium_d" />
+					</Group>
+				</RandomOnSpawnEffect>
+				<RandomOnSpawnEffect type="RandomEquipmentOnSpawn">
+					<Group>
+						<Item slot="Leg"
+							item="sk_uruk_mordor_greaves_medium_a" />
+					</Group>
+					<Group>
+						<Item slot="Leg"
+							item="sk_uruk_mordor_greaves_medium_b" />
+					</Group>
+					<Group>
+						<Item slot="Leg"
+							item="sk_uruk_mordor_greaves_medium_c" />
+					</Group>
+				</RandomOnSpawnEffect>
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="Gloves"
+					item="citidel_guard_gloves" />				
+			</Perk>
+			<Perk game_mode="all"
+				name="Crossbow"
+				description="Uruk-hai Crossbowman"
+				icon="PerkHeavyCrossbows"
+				perk_list="2">
+				<Effect type="MountDamage"
+					value="0.50"
+					hit_type="Ranged" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="Item0"
+					item="uruk_crossbow_1" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="Item1"
+					item="mp_bolts_western" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="Item2"
+					item="uruk_sword_1" />					
+			</Perk>
+			<Perk game_mode="all"
+				name="BowMan"
+				description="Uruk-hai BowMan"
+				icon="PerkHeavyCrossbows"
+				perk_list="2">
+				<Effect type="MountDamage"
+					value="0.50"
+					hit_type="Ranged" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="Item0"
+					item="uruk_bow_1" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="Item1"
+					item="mp_arrows_barbed" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="Item2"
+					item="uruk_sword_1" />					
+			</Perk>
+		</Perks>
+	</MPClassDivision>
+    <MPClassDivision
+		id="mp_orc_hero_haradrim_archer"
+		hero="mp_orc_hero_haradrim_archer"
+		troop="mp_orc_hero_haradrim_archer_troop"
+		hero_idle_anim="act_vlandia_mp_sharpshooter_idle"
+		troop_idle_anim="act_idle_1h_with_shield_1_left_stance"
+		multiplier="0.46"
+		cost="0"
+		casual_cost="0"
+		battle_cost="0"
+		icon="Archer_Heavy"
+		melee_ai="25"
+		ranged_ai="100"
+		armor="20"
+		movement_speed="0.73"
+		combat_movement_speed="0.5"
+		acceleration="1"
+		hitpoints="200">
+		<Perks>
+			<Perk
+				game_mode="all"
+				name="Haradrim Archer"
+				description="You play as Haradrim archer"
+				icon="PerkToughness"
+				perk_list="1">
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="Item0"
+					item="wm_elven_bow_v4" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="Item1"
+					item="mp_arrows_barbed" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="Item2"
+					item="easterling_sword" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="Item3"
+					item="" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="Head"
+					item="haradrim_head" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="Body"
+					item="haradrim_torso" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="Gloves"
+					item="citidel_guard_gloves" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="Cape"
+					item=""
+					target="Player" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="Leg"
+					item="haradrim_boots" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="Horse"
+					item="" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="HorseHarness"
+					item="" />
+			</Perk>
+		</Perks>
+	</MPClassDivision>	
+	<MPClassDivision
+		id="mp_orc_skirmisher"
+		hero="mp_orc_hero_skirmisher"
+		troop="mp_orc_hero_skirmisher_troop"
+		hero_idle_anim="act_vlandia_mp_sharpshooter_idle"
+		troop_idle_anim="act_idle_1h_with_shield_1_left_stance"
+		multiplier="0.46"
+		cost="0"
+		casual_cost="0"
+		battle_cost="0"
+		icon="Archer_Heavy"
+		melee_ai="25"
+		ranged_ai="100"
+		armor="20"
+		movement_speed="0.8"
+		combat_movement_speed="0.6"
+		acceleration="1"
+		hitpoints="200">
+		<Perks>
+			<Perk
+				game_mode="all"
+				name="Uruk Skirmisher"
+				description="You play as an Uruk-hai skirmisher"
+				icon="PerkToughness"
+				perk_list="1">
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item0"
+					item="uruk_sword_1" />
+				<RandomOnSpawnEffect type="RandomEquipmentOnSpawn">
+					<Group>
+						<Item slot="Head"
+							item="uruk_helmet_5" />
+					</Group>
+					<Group>
+						<Item slot="Head"
+							item="uruk_helmet_6" />
+					</Group>
+					<Group>
+						<Item slot="Head"
+							item="uruk_helmet_7" />
+					</Group>
+					<Group>
+						<Item slot="Head"
+							item="uruk_helmet_8" />
+					</Group>
+				</RandomOnSpawnEffect>
+				<RandomOnSpawnEffect type="RandomEquipmentOnSpawn">
+					<Group>
+						<Item slot="Body"
+							item="sk_uruk_mordor_chainmail_medium_a2" />
+					</Group>
+					<Group>
+						<Item slot="Body"
+							item="sk_uruk_mordor_chainmail_medium_b1" />
+					</Group>
+					<Group>
+						<Item slot="Body"
+							item="sk_uruk_mordor_chainmail_medium_b2" />
+					</Group>
+
+
+				</RandomOnSpawnEffect>
+				<RandomOnSpawnEffect type="RandomEquipmentOnSpawn">
+					<Group>
+						<Item slot="Cape"
+							item="sk_uruk_mordor_pauldron_medium_a" />
+					</Group>
+					<Group>
+						<Item slot="Cape"
+							item="sk_uruk_mordor_pauldron_medium_b" />
+					</Group>
+					<Group>
+						<Item slot="Cape"
+							item="sk_uruk_mordor_pauldron_medium_c" />
+					</Group>
+					<Group>
+						<Item slot="Cape"
+							item="sk_uruk_mordor_pauldron_medium_d" />
+					</Group>
+				</RandomOnSpawnEffect>
+				<RandomOnSpawnEffect type="RandomEquipmentOnSpawn">
+					<Group>
+						<Item slot="Leg"
+							item="sk_uruk_mordor_greaves_medium_a" />
+					</Group>
+					<Group>
+						<Item slot="Leg"
+							item="sk_uruk_mordor_greaves_medium_b" />
+					</Group>
+					<Group>
+						<Item slot="Leg"
+							item="sk_uruk_mordor_greaves_medium_c" />
+					</Group>
+				</RandomOnSpawnEffect>
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="Gloves"
+					item="citidel_guard_gloves" />				
+			</Perk>
+			<Perk game_mode="all"
+				name="Axeman"
+				description="Gundabad Axe Thrower"
+				icon="PerkHeavyCrossbows"
+				perk_list="2">
+				<Effect type="MountDamage"
+					value="0.50"
+					hit_type="Ranged" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="Item2"
+					item="mp_sturgia_throwing_axe_captain" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="Item3"
+					item="mp_sturgia_throwing_axe_captain" />
+			</Perk>
+			<Perk game_mode="all"
+				name="Javalins"
+				description="Javalins"
+				icon="PerkHeavyCrossbows"
+				perk_list="2">
+				<Effect type="MountDamage"
+					value="0.50"
+					hit_type="Ranged" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="Item2"
+					item="mp_javelin_extraammo_captain" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn"
+					slot="Item3"
+					item="mp_javelin_extraammo_captain" />
+			</Perk>
+		</Perks>
+	</MPClassDivision>
+	<MPClassDivision
+		id="mp_orc_hero_cavalry_heavy"
+		hero="mp_orc_hero_cavalry_heavy"
+		troop="mp_orc_hero_cavalry_heavy_troop"
+		hero_mount_idle_anim="act_vlandia_mp_vanguard_mount_idle"
+		troop_mount_idle_anim="act_horse_idle_1"
+		multiplier="0.92"
+		cost="0"
+		casual_cost="0"
+		battle_cost="0"
+		icon="Infantry_Heavy"
+		melee_ai="30"
+		ranged_ai="0"
+		armor="30"
+		movement_speed="0.82"
+		combat_movement_speed="0.9"
+		acceleration="1.6"
+		hitpoints="200">
+		<Perks>
+			<!-- First perks-->
+			<Perk game_mode="all" name="Rhun Raiders" description="" icon="PerkToughness"
+				perk_list="1">
+				<OnSpawnEffect type="ArmorOnSpawn" value="1" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item0"
+					item="dunland_caerdh_axe_totocav" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item1"
+					item="dunland_caerdh_shield_elite_a" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item2"
+					item="england_infantry_spear" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item3" item="" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Head"
+					item="dunland_caerdh_helmet_lord_c" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Body"
+					item="dunland_caerdh_chainmail_elite_c" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Gloves"
+					item="citidel_guard_gloves" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Cape"
+					item="dunland_caerdh_cape_short_a"
+					target="Player" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Leg"
+					item="dunland_caerdh_boots_heavy_d" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Horse"
+					item="england_cavalry_horse_black" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="HorseHarness"
+					item="mp_stripped_leather_harness_lotr" />
+			</Perk>
+
+		</Perks>
+	</MPClassDivision>
+	<MPClassDivision
+		id="mp_orc_cavalry_light"
+		hero="mp_orc_hero_cavalry_light"
+		troop="mp_orc_hero_cavalry_light_troop"
+		hero_mount_idle_anim="act_vlandia_mp_vanguard_mount_idle"
+		troop_mount_idle_anim="act_horse_idle_1"
+		multiplier="0.92"
+		cost="0"
+		casual_cost="0"
+		battle_cost="0"
+		icon="Infantry_Heavy"
+		melee_ai="30"
+		ranged_ai="0"
+		armor="25"
+		movement_speed="0.82"
+		combat_movement_speed="0.9"
+		acceleration="1.6"
+		hitpoints="150">
+		<Perks>
+			<Perk game_mode="all" name="Haradrim Lancers" description=""
+				icon="PerkToughness"
+				perk_list="1">
+				<OnSpawnEffect type="ArmorOnSpawn" value="1" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item0"
+					item="easterling_sword" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item1"
+					item="dunland_caerdh_shield_light_c" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item2"
+					item="mp_western_cavalry_spear" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item3" item="" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Head"
+					item="haradrim02b_head" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Body"
+					item="haradrim02b_toso" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Gloves"
+					item="citidel_guard_gloves" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Cape"
+					item="dunland_caerdh_pauldron_heavy_cape_b"
+					target="Player" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Leg"
+					item="haradrim02b_boots" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Horse"
+					item="england_cavalry_horse_brown" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="HorseHarness"
+					item="mp_northern_light_harness_lotr" />
+			</Perk>
+		</Perks>
+	</MPClassDivision>
+	<MPClassDivision
+		id="mp_orc_hero_nazgul"
+		hero="mp_orc_hero_nazgul"
+		troop="mp_orc_hero_nazgul_troop"
+		hero_idle_anim="act_vlandia_mp_peasant_levy_idle"
+		troop_idle_anim="act_idle_unarmed_1"
+		multiplier="0.92"
+		cost="0"
+		casual_cost="0"
+		battle_cost="0"
+		icon="Infantry_Heavy"
+		melee_ai="30"
+		ranged_ai="0"
+		armor="35"
+		movement_speed="0.82"
+		combat_movement_speed="0.9"
+		acceleration="1.6"
+		hitpoints="200">
+		<Perks>
+			<Perk game_mode="all" name="Ringwraiths" description="The Nazgul, also known as the Ringwraiths, were nine former kings of men who were enslaved by Sauron through the Nine Rings of Power. They became spectral beings, neither living nor dead, and served as Sauron’s most relentless and terrifying servants. Clad in black robes, they spread fear wherever they went, with the Witch-king as their leader. They hunted for the One Ring, pursuing Frodo and his companions across Middle-earth. Their presence on the battlefield struck terror into their enemies, and they played a key role in the siege of Gondor. However, with the destruction of the One Ring, they were finally destroyed along with their master."
+				icon="PerkToughness"
+				perk_list="1">
+				<OnSpawnEffect type="ArmorOnSpawn" value="1" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item0"
+					item="anduril2" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item1"
+					item="" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item2"
+					item="" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item3" item="" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Head"
+					item="" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Body"
+					item="nazgul_costume_a" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Gloves"
+					item="witch_king_gloves" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Cape"
+					item="witch_king_pauldrons"
+					target="Player" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Leg"
+					item="witch_king_boots" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Horse"
+					item="" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="HorseHarness"
+					item="" />
+			</Perk>
+		</Perks>
+	</MPClassDivision>
+		<MPClassDivision
+		id="mp_orc_hero_witchking"
+		hero="mp_orc_hero_witchking"
+		troop="mp_orc_hero_witchking_troop"
+		hero_idle_anim="act_vlandia_mp_peasant_levy_idle"
+		troop_idle_anim="act_idle_unarmed_1"
+		multiplier="0.92"
+		cost="0"
+		casual_cost="0"
+		battle_cost="0"
+		icon="Infantry_Heavy"
+		melee_ai="30"
+		ranged_ai="0"
+		armor="35"
+		movement_speed="0.82"
+		combat_movement_speed="0.9"
+		acceleration="1.6"
+		hitpoints="200">
+		<Perks>
+			<Perk game_mode="all" name="Witch King of Angmar" description="The Witch-king of Angmar was the leader of the Nazgul and Sauron s most feared servant. Once a mortal king, he was corrupted by one of the Nine Rings of Power, which bound him to Saurons will. He became the Lord of the Nazgul and ruled the dark realm of Angmar for centuries, waging war against the northern kingdoms of men. During the War of the Ring, he led Sauron s armies, capturing Minas Ithil (later named Minas Morgul) and commanding the siege of Gondor. He was prophesied to fall to no man, but he was ultimately slain by Eowyn and Merry during the Battle of the Pelennor Fields."
+				icon="PerkToughness"
+				perk_list="1">
+				<OnSpawnEffect type="ArmorOnSpawn" value="1" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item0"
+					item="anduril2" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item1"
+					item="" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item2"
+					item="" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Item3" item="" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Head"
+					item="witch_king_helmet" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Body"
+					item="witch_king" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Gloves"
+					item="witch_king_gloves" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Cape"
+					item="witch_king_pauldrons"
+					target="Player" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Leg"
+					item="witch_king_boots" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="Horse"
+					item="" />
+				<OnSpawnEffect type="AlternativeEquipmentOnSpawn" slot="HorseHarness"
+					item="" />
+			</Perk>
+		</Perks>
+	</MPClassDivision>
+</MPClassDivisions>

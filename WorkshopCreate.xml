@@ -1,0 +1,15 @@
+<Tasks>
+	<CreateItem/>
+	<UpdateItem>
+		<ModuleFolder Value="C:\...\Mod"/>
+		<ItemDescription Value="Realms of the West"/>
+		<Tags> 
+			<Tag Value="Fantasy" />
+			<Tag Value="Multiplayer" />
+			<Tag Value="Clan" />
+		</Tags>
+		<Image Value="C:\...\image.png"/>
+		<!-- Image smaller than 1 MB) -->
+		<Visibility Value="Public"/>
+	</UpdateItem>
+</Tasks>
