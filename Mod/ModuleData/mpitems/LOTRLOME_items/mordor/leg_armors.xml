@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+	<!-- Mordor -->
+<Item
+		id="sk_uruk_mordor_boots_a"
+		name="{=mordorbootsleathera}Mordor Leather Boots A"
+		mesh="sk_uruk_mordor_boots_a"
+		culture="Culture.mordor"
+		weight="1.6"
+		difficulty="0"
+		appearance="3"
+		Type="LegArmor">
+		<ItemComponent>
+			<Armor
+				leg_armor="16"
+				covers_legs="true"
+				modifier_group="leather"
+				material_type="Leather" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+	<Item
+			id="sk_uruk_mordor_greaves_medium_a"
+			name="{=mordorbootsleathera}Mordor Medium Greaves A"
+			mesh="sk_uruk_mordor_greaves_medium_a"
+			culture="Culture.mordor"
+			weight="1.6"
+			difficulty="0"
+			appearance="3"
+			Type="LegArmor">
+		<ItemComponent>
+			<Armor
+				leg_armor="20"
+				covers_legs="true"
+				modifier_group="leather"
+				material_type="Leather" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+		<Item
+			id="sk_uruk_mordor_greaves_medium_b"
+			name="{=mordorbootsleatherb}Mordor Medium Greaves B"
+			mesh="sk_uruk_mordor_greaves_medium_b"
+			culture="Culture.mordor"
+			weight="1.6"
+			difficulty="0"
+			appearance="3"
+			Type="LegArmor">
+			<ItemComponent>
+				<Armor
+					leg_armor="20"
+					covers_legs="true"
+					modifier_group="leather"
+					material_type="Leather" />
+			</ItemComponent>
+			<Flags />
+		</Item>
+		<Item
+			id="sk_uruk_mordor_greaves_medium_c"
+			name="{=mordorbootsleatherc}Mordor Medium Greaves C"
+			mesh="sk_uruk_mordor_greaves_medium_c"
+			culture="Culture.mordor"
+			weight="1.6"
+			difficulty="0"
+			appearance="3"
+			Type="LegArmor">
+			<ItemComponent>
+				<Armor
+					leg_armor="20"
+					covers_legs="true"
+					modifier_group="leather"
+					material_type="Leather" />
+			</ItemComponent>
+			<Flags />
+		</Item>
+
+		<Item
+			id="sk_uruk_mordor_greaves_heavy_a"
+			name="{=mordorbootsplatea}Mordor Heavy Greaves A"
+			mesh="sk_uruk_mordor_greaves_heavy_a"
+			culture="Culture.mordor"
+			weight="2.5"
+			difficulty="0"
+			appearance="3"
+			Type="LegArmor">
+			<ItemComponent>
+				<Armor
+					leg_armor="30"
+					covers_legs="true"
+					modifier_group="plate"
+					material_type="Plate" />
+			</ItemComponent>
+			<Flags />
+		</Item>
+		<Item
+			id="sk_uruk_mordor_greaves_heavy_b"
+			name="{=mordorbootsplateb}Mordor Heavy Greaves B"
+			mesh="sk_uruk_mordor_greaves_heavy_b"
+			culture="Culture.mordor"
+			weight="2.5"
+			difficulty="0"
+			appearance="3"
+			Type="LegArmor">
+			<ItemComponent>
+				<Armor
+					leg_armor="30"
+					covers_legs="true"
+					modifier_group="plate"
+					material_type="Plate" />
+			</ItemComponent>
+			<Flags />
+		</Item>
+		<Item
+			id="sk_uruk_mordor_greaves_heavy_c"
+			name="{=mordorbootsplatec}Mordor Heavy Greaves C"
+			mesh="sk_uruk_mordor_greaves_heavy_c"
+			culture="Culture.mordor"
+			weight="2.5"
+			difficulty="0"
+			appearance="3"
+			Type="LegArmor">
+			<ItemComponent>
+				<Armor
+					leg_armor="30"
+					covers_legs="true"
+					modifier_group="plate"
+					material_type="Plate" />
+			</ItemComponent>
+			<Flags />
+		</Item>
+		<Item
+			id="sk_uruk_mordor_greaves_heavy_d"
+			name="{=mordorbootsplated}Mordor Heavy Greaves D"
+			mesh="sk_uruk_mordor_greaves_heavy_d"
+			culture="Culture.mordor"
+			weight="2.5"
+			difficulty="0"
+			appearance="3"
+			Type="LegArmor">
+			<ItemComponent>
+				<Armor
+					leg_armor="30"
+					covers_legs="true"
+					modifier_group="plate"
+					material_type="Plate" />
+			</ItemComponent>
+			<Flags />
+		</Item>
+		<Item
+			id="sk_uruk_mordor_greaves_heavy_e"
+			name="{=mordorbootsplatee}Mordor Heavy Greaves E"
+			mesh="sk_uruk_mordor_greaves_heavy_e"
+			culture="Culture.mordor"
+			weight="2.5"
+			difficulty="0"
+			appearance="3"
+			Type="LegArmor">
+			<ItemComponent>
+				<Armor
+					leg_armor="30"
+					covers_legs="true"
+					modifier_group="plate"
+					material_type="Plate" />
+			</ItemComponent>
+			<Flags />
+		</Item>
+
+
+	<Item
+			id="sk_uruk_mordor_greaves_heavy_f"
+			name="{=mordorbootsplatef}Mordor Heavy Greaves F"
+			mesh="sk_uruk_mordor_greaves_heavy_f"
+			culture="Culture.mordor"
+			weight="2.5"
+			difficulty="0"
+			appearance="3"
+			Type="LegArmor">
+		<ItemComponent>
+			<Armor
+				leg_armor="30"
+				covers_legs="true"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+<!--Witch King-->
+	<Item
+			id="witch_king_boots"
+			name="{=witchkingboots}Witch King Boots"
+			mesh="witch_king_boots"
+			culture="Culture.mordor"
+			weight="1.6"
+			difficulty="0"
+			appearance="3"
+			Type="LegArmor">
+		<ItemComponent>
+			<Armor
+				leg_armor="95"
+				covers_legs="true"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+
+	<!-- #endregion -->
+</Items>

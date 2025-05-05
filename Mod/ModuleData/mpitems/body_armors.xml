@@ -1,0 +1,842 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+	<!-- Gondor -->
+
+	<Item
+		id="gondor_armor"
+		name="{=gondorarmorone}Gondor Armor One"
+		subtype="body_armor"
+		mesh="gondor_armor"
+		culture="Culture.gondor"
+		weight="16.5"
+		difficulty="0"
+		appearance="1.5"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="40"
+				arm_armor="10"
+				has_gender_variations="false"
+				covers_body="true"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+		id="citidel_guard_armor1"
+		name="{=gondorcitidelarmorone}Gondor Citidel Armor One"
+		subtype="body_armor"
+		mesh="citidel_guard_armor1"
+		culture="Culture.gondor"
+		weight="17.5"
+		difficulty="0"
+		appearance="1.5"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="50"
+				arm_armor="25"
+				has_gender_variations="false"
+				covers_body="true"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+	id="citidel_guard_armor2"
+	name="{=gondorcitidelarmortwo}Gondor Citidel Armor Two"
+	subtype="body_armor"
+	mesh="citidel_guard_armor2"
+	culture="Culture.gondor"
+	weight="17.5"
+	difficulty="0"
+	appearance="1.5"
+	Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="50"
+				arm_armor="25"
+				has_gender_variations="false"
+				covers_body="true"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+	id="citidel_guard_armor3"
+	name="{=gondorcitidelarmortwo}Gondor Citidel Armor Three"
+	subtype="body_armor"
+	mesh="citidel_guard_armor3"
+	culture="Culture.gondor"
+	weight="17.5"
+	difficulty="0"
+	appearance="1.5"
+	Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="50"
+				arm_armor="25"
+				has_gender_variations="false"
+				covers_body="true"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+	id="citidel_guard_armor4"
+	name="{=gondorcitidelarmortwo}Gondor Citidel Armor Four"
+	subtype="body_armor"
+	mesh="citidel_guard_armor4"
+	culture="Culture.gondor"
+	weight="17.5"
+	difficulty="0"
+	appearance="1.5"
+	Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="50"
+				arm_armor="25"
+				has_gender_variations="false"
+				covers_body="true"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+	
+	
+	
+	
+	<Item
+	id="citidel_guard_armor1_slim"
+	name="{=gondorcitidelarmoroneslim}Gondor Citidel Armor One - Slim"
+	subtype="body_armor"
+	mesh="citidel_guard_armor1_slim"
+	culture="Culture.gondor"
+	weight="17.5"
+	difficulty="0"
+	appearance="1.5"
+	Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="50"
+				arm_armor="25"
+				has_gender_variations="false"
+				covers_body="true"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+	<Item
+	id="citidel_guard_armor2_slim"
+	name="{=gondorcitidelarmortwoslim}Gondor Citidel Armor Two - Slim"
+	subtype="body_armor"
+	mesh="citidel_guard_armor1_slim"
+	culture="Culture.gondor"
+	weight="17.5"
+	difficulty="0"
+	appearance="1.5"
+	Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="50"
+				arm_armor="25"
+				has_gender_variations="false"
+				covers_body="true"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+	<Item
+	id="citidel_guard_armor2_slim"
+	name="{=gondorcitidelarmortwoslim}Gondor Citidel Armor Two - Slim"
+	subtype="body_armor"
+	mesh="citidel_guard_armor2_slim"
+	culture="Culture.gondor"
+	weight="17.5"
+	difficulty="0"
+	appearance="1.5"
+	Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="50"
+				arm_armor="25"
+				has_gender_variations="false"
+				covers_body="true"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+	<Item
+	id="citidel_guard_armor3_slim"
+	name="{=gondorcitidelarmorthreeslim}Gondor Citidel Armor Three - Slim"
+	subtype="body_armor"
+	mesh="citidel_guard_armor3_slim"
+	culture="Culture.gondor"
+	weight="17.5"
+	difficulty="0"
+	appearance="1.5"
+	Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="50"
+				arm_armor="25"
+				has_gender_variations="false"
+				covers_body="true"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+	id="citidel_guard_armor4_slim"
+	name="{=gondorcitidelarmorfourslim}Gondor Citidel Armor Four - Slim"
+	subtype="body_armor"
+	mesh="citidel_guard_armor4_slim"
+	culture="Culture.gondor"
+	weight="17.5"
+	difficulty="0"
+	appearance="1.5"
+	Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="50"
+				arm_armor="25"
+				has_gender_variations="false"
+				covers_body="true"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+
+	<Item
+	id="fountain_guard_armor"
+	name="{=gondorfountainarmorone}Gondor Fountain Armor - Gold"
+	subtype="body_armor"
+	mesh="fountain_guard_armor"
+	culture="Culture.gondor"
+	weight="17.5"
+	difficulty="0"
+	appearance="1.5"
+	Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="55"
+				arm_armor="20"
+				has_gender_variations="false"
+				covers_body="true"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+		id="faramir_armor"
+		name="{=faramir_armor1}Faramir Armor"
+		subtype="body_armor"
+		mesh="faramir_armor"
+		culture="Culture.gondor"
+		weight="10.5"
+		difficulty="0"
+		appearance="1.5"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="35"
+				arm_armor="15"
+				has_gender_variations="false"
+				covers_body="true"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+
+	<Item
+		id="faramir_armor_slim"
+		name="{=faramir_armor2}Faramir Armor - Slim"
+		subtype="body_armor"
+		mesh="faramir_armor_slim"
+		culture="Culture.gondor"
+		weight="10.5"
+		difficulty="0"
+		appearance="1.5"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="35"
+				arm_armor="15"
+				has_gender_variations="false"
+				covers_body="true"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+	id="ithilien_jerkin_long"
+	name="{=ithilienjerkinlong1}Ithilien Jerkin - Long"
+	subtype="body_armor"
+	mesh="ithilien_jerkin_long"
+	culture="Culture.gondor"
+	weight="8.5"
+	difficulty="0"
+	appearance="1.5"
+	Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="30"
+				arm_armor="15"
+				has_gender_variations="false"
+				covers_body="true"
+				modifier_group="leather"
+				material_type="Leather" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+	id="ithilien_jerkin_long_slim"
+	name="{=ithilienjerkinlong2}Ithilien Jerkin - Long - Slim"
+	subtype="body_armor"
+	mesh="ithilien_jerkin_long_slim"
+	culture="Culture.gondor"
+	weight="8.5"
+	difficulty="0"
+	appearance="1.5"
+	Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="30"
+				arm_armor="15"
+				has_gender_variations="false"
+				covers_body="true"
+				modifier_group="leather"
+				material_type="Leather" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+	id="ithilien_jerkin_long_var"
+	name="{=ithilienjerkinlong3}Ithilien Jerkin - Long - Two"
+	subtype="body_armor"
+	mesh="ithilien_jerkin_long_var"
+	culture="Culture.gondor"
+	weight="8.5"
+	difficulty="0"
+	appearance="1.5"
+	Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="25"
+				arm_armor="15"
+				has_gender_variations="false"
+				covers_body="true"
+				modifier_group="leather"
+				material_type="Leather" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+	id="ithilien_jerkin_long_var_slim"
+	name="{=ithilienjerkinlong4}Ithilien Jerkin - Long - Slim - Two"
+	subtype="body_armor"
+	mesh="ithilien_jerkin_long_var_slim"
+	culture="Culture.gondor"
+	weight="8.5"
+	difficulty="0"
+	appearance="1.5"
+	Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="25"
+				arm_armor="15"
+				has_gender_variations="false"
+				covers_body="true"
+				modifier_group="leather"
+				material_type="Leather" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+		id="ithilien_jerkin_short"
+		name="{=ithilienjerkinshort1}Ithilien Jerkin - Short"
+		subtype="body_armor"
+		mesh="ithilien_jerkin_short"
+		culture="Culture.gondor"
+		weight="8.5"
+		difficulty="0"
+		appearance="1.5"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="20"
+				arm_armor="12"
+				has_gender_variations="false"
+				covers_body="true"
+				modifier_group="leather"
+				material_type="Leather" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+		id="ithilien_jerkin_short"
+		name="{=ithilienjerkinshort1}Ithilien Jerkin - Short"
+		subtype="body_armor"
+		mesh="ithilien_jerkin_short"
+		culture="Culture.gondor"
+		weight="8.5"
+		difficulty="0"
+		appearance="1.5"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="20"
+				arm_armor="12"
+				has_gender_variations="false"
+				covers_body="true"
+				modifier_group="leather"
+				material_type="Leather" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+	
+	<Item
+		id="ithilien_jerkin_short_slim"
+		name="{=ithilienjerkinshort2}Ithilien Jerkin - Short - Slim"
+		subtype="body_armor"
+		mesh="ithilien_jerkin_short_slim"
+		culture="Culture.gondor"
+		weight="8.5"
+		difficulty="0"
+		appearance="1.5"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="20"
+				arm_armor="12"
+				has_gender_variations="false"
+				covers_body="true"
+				modifier_group="leather"
+				material_type="Leather" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+	<Item
+			id="ithilien_jerkin_short_var"
+			name="{=ithilienjerkinshort3}Ithilien Jerkin - Short - Two"
+			subtype="body_armor"
+			mesh="ithilien_jerkin_short_var"
+			culture="Culture.gondor"
+			weight="8.5"
+			difficulty="0"
+			appearance="1.5"
+			Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="20"
+				arm_armor="12"
+				has_gender_variations="false"
+				covers_body="true"
+				modifier_group="leather"
+				material_type="Leather" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+			id="ithilien_jerkin_short_var_slim"
+			name="{=ithilienjerkinshort4}Ithilien Jerkin - Short - Slim Two"
+			subtype="body_armor"
+			mesh="ithilien_jerkin_short_var_slim"
+			culture="Culture.gondor"
+			weight="8.5"
+			difficulty="0"
+			appearance="1.5"
+			Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="20"
+				arm_armor="12"
+				has_gender_variations="false"
+				covers_body="true"
+				modifier_group="leather"
+				material_type="Leather" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	
+
+<Item
+		id="gond_tab_9ld"
+		name="{=gondor_tabard}Gondor Chainmail - Tabard"
+		subtype="body_armor"
+		mesh="gond_tab_9ld"
+		culture="Culture.gondor"
+		weight="10.5"
+		difficulty="0"
+		appearance="1.5"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="25"
+				arm_armor="10"
+				has_gender_variations="false"
+				covers_body="true"
+				modifier_group="chain"
+				material_type="Chainmail" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+			id="gondor_king_armor"
+			name="{=gondorkingarmor}Gondor King Armor"
+			subtype="body_armor"
+			mesh="gondor_king_armor"
+			culture="Culture.gondor"
+			weight="17.5"
+			difficulty="0"
+			appearance="1.5"
+			Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="50"
+				arm_armor="25"
+				has_gender_variations="false"
+				covers_body="true"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+			id="gondor_nobke_armor"
+			name="{=gondornoblearmor}Gondor Noble Armor"
+			subtype="body_armor"
+			mesh="gondor_nobke_armor"
+			culture="Culture.gondor"
+			weight="17.5"
+			difficulty="0"
+			appearance="1.5"
+			Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="50"
+				arm_armor="25"
+				has_gender_variations="false"
+				covers_body="true"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	
+<Item
+		id="gondor_chainmaila"
+		name="{=atSRQkCE}Gondor Chainmail A"
+		mesh="vlandia_chainmail_a"
+		culture="Culture.gondor"
+		weight="12"
+		appearance="1"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="13"
+				leg_armor="10"
+				arm_armor="10"
+				has_gender_variations="false"
+				covers_body="true"
+				modifier_group="chain"
+				material_type="Chainmail" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>	
+	
+<!--Fountain Armor-->
+	<Item
+			id="fountain_armor3"
+			name="{=gondorfountainarmor3}Gondor Fountain Armor One"
+			subtype="body_armor"
+			mesh="fountain_armor3"
+			culture="Culture.gondor"
+			weight="17.5"
+			difficulty="0"
+			appearance="1.5"
+			Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="50"
+				arm_armor="25"
+				has_gender_variations="false"
+				covers_body="true"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+			id="fountain_armor2"
+			name="{=gondorfountainarmor2}Gondor Fountain Armor Two"
+			subtype="body_armor"
+			mesh="fountain_armor2"
+			culture="Culture.gondor"
+			weight="17.5"
+			difficulty="0"
+			appearance="1.5"
+			Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="50"
+				arm_armor="25"
+				has_gender_variations="false"
+				covers_body="true"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+			id="fountain_armor1"
+			name="{=gondorfountainarmor1}Gondor Fountain Armor Three"
+			subtype="body_armor"
+			mesh="fountain_armor1"
+			culture="Culture.gondor"
+			weight="17.5"
+			difficulty="0"
+			appearance="1.5"
+			Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="50"
+				arm_armor="25"
+				has_gender_variations="false"
+				covers_body="true"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+
+	<Item
+		id="gondor_veteran_armor"
+		name="{=gondorveteranarmor}Gondor Veteran Armor"
+		subtype="body_armor"
+		mesh="gondor_armor"
+		culture="Culture.gondor"
+		weight="16.5"
+		difficulty="0"
+		appearance="1.5"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="25"
+				arm_armor="12"
+				has_gender_variations="false"
+				covers_body="true"
+				modifier_group="chain"
+				material_type="Chainmail" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+<!--Lamedon-->
+	<Item
+		id="cts_gondor_armor1"
+		name="{=gondorlamedonarmorone}Gondor Lamedon Chainmail"
+		subtype="body_armor"
+		mesh="cts_gondor_armor1"
+		culture="Culture.gondor"
+		weight="9.5"
+		difficulty="0"
+		appearance="1.5"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="20"
+				arm_armor="10"
+				has_gender_variations="false"
+				covers_body="true"
+				modifier_group="chain"
+				material_type="Chainmail" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+			id="cts_gondor_armor2"
+			name="{=gondorlamedonarmortwo}Gondor Lamedon Leather"
+			subtype="body_armor"
+			mesh="cts_gondor_armor2"
+			culture="Culture.gondor"
+			weight="5.5"
+			difficulty="0"
+			appearance="1.5"
+			Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="10"
+				arm_armor="5"
+				has_gender_variations="false"
+				covers_body="true"
+				modifier_group="leather"
+				material_type="Leather" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+				id="cts_gondor_armor3"
+				name="{=gondorlamedonarmorthree}Gondor Lamedon Cloth Armor"
+				subtype="body_armor"
+				mesh="cts_gondor_armor3"
+				culture="Culture.gondor"
+				weight="3.5"
+				difficulty="0"
+				appearance="1.5"
+				Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="8"
+				arm_armor="5"
+				has_gender_variations="false"
+				covers_body="true"
+				modifier_group="cloth"
+				material_type="Cloth" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+
+	<Item
+	id="imrahil_body"
+	name="{=imrahil_body}Imrahil Chestplate"
+	subtype="body_armor"
+	mesh="imrahil_body"
+	culture="Culture.gondor"
+	weight="17.5"
+	difficulty="0"
+	appearance="1.5"
+	Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="50"
+				arm_armor="25"
+				has_gender_variations="false"
+				covers_body="true"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+	id="golasgil_body"
+	name="{=golasgil_body}Golasgil Chestplate"
+	subtype="body_armor"
+	mesh="golasgil_body"
+	culture="Culture.gondor"
+	weight="17.5"
+	difficulty="0"
+	appearance="1.5"
+	Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="50"
+				arm_armor="25"
+				has_gender_variations="false"
+				covers_body="true"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+
+	<Item
+			id="lossarnach_armor"
+			name="{=lossarnach_armor}Gondor Lossarnach Chainmail"
+			subtype="body_armor"
+			mesh="lossarnach_armor"
+			culture="Culture.gondor"
+			weight="9.5"
+			difficulty="0"
+			appearance="1.5"
+			Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="20"
+				arm_armor="10"
+				has_gender_variations="false"
+				covers_body="true"
+				modifier_group="chain"
+				material_type="Chainmail" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+	<!-- #endregion -->
+	<!-- #endregion -->
+</Items>

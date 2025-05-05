@@ -1,0 +1,840 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+	<!-- Dunland -->
+	<Item
+		id="dunland_caerdh_chainmail_elite_a"
+		name="{=dunlandcaerdhchainmailea}Dunland Caerdh Chainmail Elite A"
+		subtype="body_armor"
+		mesh="dunland_caerdh_chainmail_elite_a"
+		culture="Culture.battania"
+		weight="10"
+		difficulty="0"
+		appearance="1.5"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="45"
+				arm_armor="10"
+				has_gender_variations="false"
+				covers_body="true"
+				modifier_group="chain"
+				material_type="Chainmail" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+		id="dunland_caerdh_chainmail_elite_b"
+		name="{=dunlandcaerdhchainmaileb}Dunland Caerdh Chainmail Elite B"
+		subtype="body_armor"
+		mesh="dunland_caerdh_chainmail_elite_b"
+		culture="Culture.battania"
+		weight="10"
+		difficulty="0"
+		appearance="1.5"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="40"
+				arm_armor="10"
+				has_gender_variations="false"
+				covers_body="true"
+				modifier_group="chain"
+				material_type="Chainmail" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+		id="dunland_caerdh_chainmail_elite_c"
+		name="{=dunlandcaerdhchainmailec}Dunland Caerdh Chainmail Elite C"
+		subtype="body_armor"
+		mesh="dunland_caerdh_chainmail_elite_c"
+		culture="Culture.battania"
+		weight="10"
+		difficulty="0"
+		appearance="1.5"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="45"
+				arm_armor="10"
+				has_gender_variations="false"
+				covers_body="true"
+				modifier_group="chain"
+				material_type="Chainmail" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+		id="dunland_caerdh_chainmail_elite_d"
+		name="{=dunlandcaerdhchainmailed}Dunland Caerdh Chainmail Elite D"
+		subtype="body_armor"
+		mesh="dunland_caerdh_chainmail_elite_d"
+		culture="Culture.battania"
+		weight="10"
+		difficulty="0"
+		appearance="1.5"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="40"
+				arm_armor="10"
+				has_gender_variations="false"
+				covers_body="true"
+				modifier_group="chain"
+				material_type="Chainmail" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+
+	<Item
+		id="dunland_caerdh_chainmail_elite_e"
+		name="{=dunlandcaerdhchainmailee}Dunland Caerdh Chainmail Elite E"
+		subtype="body_armor"
+		mesh="dunland_caerdh_chainmail_elite_e"
+		culture="Culture.battania"
+		weight="10"
+		difficulty="0"
+		appearance="1.5"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="45"
+				arm_armor="10"
+				has_gender_variations="false"
+				covers_body="true"
+				modifier_group="chain"
+				material_type="Chainmail" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+		id="dunland_caerdh_chainmail_elite_f"
+		name="{=dunlandcaerdhchainmailef}Dunland Caerdh Chainmail Elite F"
+		subtype="body_armor"
+		mesh="dunland_caerdh_chainmail_elite_f"
+		culture="Culture.battania"
+		weight="10"
+		difficulty="0"
+		appearance="1.5"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="45"
+				arm_armor="10"
+				has_gender_variations="false"
+				covers_body="true"
+				modifier_group="chain"
+				material_type="Chainmail" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+		id="dunland_caerdh_chainmail_heavy_a"
+		name="{=dunlandcaerdhchainmailha}Dunland Caerdh Chainmail Heavy A"
+		subtype="body_armor"
+		mesh="dunland_caerdh_chainmail_heavy_a"
+		culture="Culture.battania"
+		weight="10"
+		difficulty="0"
+		appearance="1.5"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="35"
+				arm_armor="10"
+				has_gender_variations="false"
+				covers_body="true"
+				modifier_group="chain"
+				material_type="Chainmail" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+		id="dunland_caerdh_chainmail_heavy_b"
+		name="{=dunlandcaerdhchainmailhb}Dunland Caerdh Chainmail Heavy B"
+		subtype="body_armor"
+		mesh="dunland_caerdh_chainmail_heavy_b"
+		culture="Culture.battania"
+		weight="10"
+		difficulty="0"
+		appearance="1.5"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="35"
+				arm_armor="10"
+				has_gender_variations="false"
+				covers_body="true"
+				modifier_group="chain"
+				material_type="Chainmail" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+		id="dunland_caerdh_chainmail_heavy_c"
+		name="{=dunlandcaerdhchainmailhc}Dunland Caerdh Chainmail Heavy C"
+		subtype="body_armor"
+		mesh="dunland_caerdh_chainmail_heavy_c"
+		culture="Culture.battania"
+		weight="10"
+		difficulty="0"
+		appearance="1.5"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="35"
+				arm_armor="10"
+				has_gender_variations="false"
+				covers_body="true"
+				modifier_group="chain"
+				material_type="Chainmail" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+		id="dunland_caerdh_chainmail_heavy_d"
+		name="{=dunlandcaerdhchainmailhd}Dunland Caerdh Chainmail Heavy D"
+		subtype="body_armor"
+		mesh="dunland_caerdh_chainmail_heavy_d"
+		culture="Culture.battania"
+		weight="10"
+		difficulty="0"
+		appearance="1.5"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="35"
+				arm_armor="10"
+				has_gender_variations="false"
+				covers_body="true"
+				modifier_group="chain"
+				material_type="Chainmail" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+			id="dunland_caerdh_chainmail_heavy_e"
+			name="{=dunlandcaerdhchainmailhe}Dunland Caerdh Chainmail Heavy E"
+			subtype="body_armor"
+			mesh="dunland_caerdh_chainmail_heavy_e"
+			culture="Culture.battania"
+			weight="10"
+			difficulty="0"
+			appearance="1.5"
+			Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="35"
+				arm_armor="10"
+				has_gender_variations="false"
+				covers_body="true"
+				modifier_group="chain"
+				material_type="Chainmail" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+		id="dunland_caerdh_chainmail_heavy_f"
+		name="{=dunlandcaerdhchainmailhf}Dunland Caerdh Chainmail Heavy F"
+		subtype="body_armor"
+		mesh="dunland_caerdh_chainmail_heavy_f"
+		culture="Culture.battania"
+		weight="10"
+		difficulty="0"
+		appearance="1.5"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="35"
+				arm_armor="10"
+				has_gender_variations="false"
+				covers_body="true"
+				modifier_group="chain"
+				material_type="Chainmail" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+
+	<Item
+		id="dunland_caerdh_chainmail_light_a"
+		name="{=dunlandcaerdhchainmailla}Dunland Caerdh Chainmail Light A"
+		subtype="body_armor"
+		mesh="dunland_caerdh_chainmail_light_a"
+		culture="Culture.battania"
+		weight="10"
+		difficulty="0"
+		appearance="1.5"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="30"
+				arm_armor="5"
+				has_gender_variations="false"
+				covers_body="true"
+				modifier_group="chain"
+				material_type="Chainmail" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+		id="dunland_caerdh_chainmail_light_b"
+		name="{=dunlandcaerdhchainmaillb}Dunland Caerdh Chainmail Light B"
+		subtype="body_armor"
+		mesh="dunland_caerdh_chainmail_light_b"
+		culture="Culture.battania"
+		weight="10"
+		difficulty="0"
+		appearance="1.5"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="30"
+				arm_armor="5"
+				has_gender_variations="false"
+				covers_body="true"
+				modifier_group="chain"
+				material_type="Chainmail" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+
+	<Item
+		id="dunland_caerdh_chainmail_lord_a"
+		name="{=dunlandcaerdhchainmaillorda}Dunland Caerdh Chainmail Lord A"
+		subtype="body_armor"
+		mesh="dunland_caerdh_chainmail_lord_a"
+		culture="Culture.battania"
+		weight="10"
+		difficulty="0"
+		appearance="1.5"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="45"
+				arm_armor="12"
+				has_gender_variations="false"
+				covers_body="true"
+				modifier_group="chain"
+				material_type="Chainmail" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+		id="dunland_caerdh_chainmail_lord_b"
+		name="{=dunlandcaerdhchainmaillordb}Dunland Caerdh Chainmail Lord B"
+		subtype="body_armor"
+		mesh="dunland_caerdh_chainmail_lord_b"
+		culture="Culture.battania"
+		weight="10"
+		difficulty="0"
+		appearance="1.5"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="45"
+				arm_armor="12"
+				has_gender_variations="false"
+				covers_body="true"
+				modifier_group="chain"
+				material_type="Chainmail" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+		id="dunland_caerdh_chainmail_lord_c"
+		name="{=dunlandcaerdhchainmaillordc}Dunland Caerdh Chainmail Lord C"
+		subtype="body_armor"
+		mesh="dunland_caerdh_chainmail_lord_c"
+		culture="Culture.battania"
+		weight="10"
+		difficulty="0"
+		appearance="1.5"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="45"
+				arm_armor="12"
+				has_gender_variations="false"
+				covers_body="true"
+				modifier_group="chain"
+				material_type="Chainmail" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+		id="dunland_caerdh_chainmail_lord_d"
+		name="{=dunlandcaerdhchainmaillorda}Dunland Caerdh Chainmail Lord D"
+		subtype="body_armor"
+		mesh="dunland_caerdh_chainmail_lord_d"
+		culture="Culture.battania"
+		weight="10"
+		difficulty="0"
+		appearance="1.5"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="45"
+				arm_armor="12"
+				has_gender_variations="false"
+				covers_body="true"
+				modifier_group="chain"
+				material_type="Chainmail" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<!-- Wulf -->
+	<Item
+		id="dunland_wulf_scalemail_elite_a"
+		name="{=dunlandwulfscalemailea}Dunland Wulf Scalemail Elite A"
+		subtype="body_armor"
+		mesh="dunland_wulf_scalemail_elite_a"
+		culture="Culture.battania"
+		weight="10"
+		difficulty="0"
+		appearance="1.5"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="45"
+				arm_armor="10"
+				has_gender_variations="false"
+				covers_body="true"
+				modifier_group="chain"
+				material_type="Chainmail" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+		id="dunland_wulf_scalemail_elite_b"
+		name="{=dunlandwulfscalemaileb}Dunland Wulf Scalemail Elite B"
+		subtype="body_armor"
+		mesh="dunland_wulf_scalemail_elite_b"
+		culture="Culture.battania"
+		weight="10"
+		difficulty="0"
+		appearance="1.5"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="40"
+				arm_armor="10"
+				has_gender_variations="false"
+				covers_body="true"
+				modifier_group="chain"
+				material_type="Chainmail" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+		id="dunland_wulf_scalemail_elite_c"
+		name="{=dunlandwulfscalemailec}Dunland Wulf Scalemail Elite C"
+		subtype="body_armor"
+		mesh="dunland_wulf_scalemail_elite_c"
+		culture="Culture.battania"
+		weight="10"
+		difficulty="0"
+		appearance="1.5"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="45"
+				arm_armor="10"
+				has_gender_variations="false"
+				covers_body="true"
+				modifier_group="chain"
+				material_type="Chainmail" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+		id="dunland_wulf_scalemail_elite_d"
+		name="{=dunlandwulfscalemailed}Dunland Wulf Scalemail Elite D"
+		subtype="body_armor"
+		mesh="dunland_wulf_scalemail_elite_d"
+		culture="Culture.battania"
+		weight="10"
+		difficulty="0"
+		appearance="1.5"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="40"
+				arm_armor="10"
+				has_gender_variations="false"
+				covers_body="true"
+				modifier_group="chain"
+				material_type="Chainmail" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+
+	<Item
+		id="dunland_wulf_scalemail_elite_e"
+		name="{=dunlandwulfscalemailee}Dunland Wulf Scalemail Elite E"
+		subtype="body_armor"
+		mesh="dunland_wulf_scalemail_elite_e"
+		culture="Culture.battania"
+		weight="10"
+		difficulty="0"
+		appearance="1.5"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="45"
+				arm_armor="10"
+				has_gender_variations="false"
+				covers_body="true"
+				modifier_group="chain"
+				material_type="Chainmail" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+		id="dunland_wulf_scalemail_elite_f"
+		name="{=dunlandwulfscalemailef}Dunland Wulf Scalemail Elite F"
+		subtype="body_armor"
+		mesh="dunland_wulf_scalemail_elite_f"
+		culture="Culture.battania"
+		weight="10"
+		difficulty="0"
+		appearance="1.5"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="45"
+				arm_armor="10"
+				has_gender_variations="false"
+				covers_body="true"
+				modifier_group="chain"
+				material_type="Chainmail" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+		id="dunland_wulf_scalemail_heavy_a"
+		name="{=dunlandwulfscalemailha}Dunland Wulf Scalemail Heavy A"
+		subtype="body_armor"
+		mesh="dunland_wulf_scalemail_heavy_a"
+		culture="Culture.battania"
+		weight="10"
+		difficulty="0"
+		appearance="1.5"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="35"
+				arm_armor="10"
+				has_gender_variations="false"
+				covers_body="true"
+				modifier_group="chain"
+				material_type="Chainmail" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+		id="dunland_wulf_scalemail_heavy_b"
+		name="{=dunlandwulfscalemailhb}Dunland Wulf Scalemail Heavy B"
+		subtype="body_armor"
+		mesh="dunland_wulf_scalemail_heavy_b"
+		culture="Culture.battania"
+		weight="10"
+		difficulty="0"
+		appearance="1.5"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="35"
+				arm_armor="10"
+				has_gender_variations="false"
+				covers_body="true"
+				modifier_group="chain"
+				material_type="Chainmail" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+		id="dunland_wulf_scalemail_heavy_c"
+		name="{=dunlandwulfscalemailhc}Dunland Wulf Scalemail Heavy C"
+		subtype="body_armor"
+		mesh="dunland_wulf_scalemail_heavy_c"
+		culture="Culture.battania"
+		weight="10"
+		difficulty="0"
+		appearance="1.5"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="35"
+				arm_armor="10"
+				has_gender_variations="false"
+				covers_body="true"
+				modifier_group="chain"
+				material_type="Chainmail" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+		id="dunland_wulf_scalemail_heavy_d"
+		name="{=dunlandwulfscalemailhd}Dunland Wulf Scalemail Heavy D"
+		subtype="body_armor"
+		mesh="dunland_wulf_scalemail_heavy_d"
+		culture="Culture.battania"
+		weight="10"
+		difficulty="0"
+		appearance="1.5"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="35"
+				arm_armor="10"
+				has_gender_variations="false"
+				covers_body="true"
+				modifier_group="chain"
+				material_type="Chainmail" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+			id="dunland_wulf_scalemail_heavy_e"
+			name="{=dunlandwulfscalemailhe}Dunland Wulf Scalemail Heavy E"
+			subtype="body_armor"
+			mesh="dunland_wulf_scalemail_heavy_e"
+			culture="Culture.battania"
+			weight="10"
+			difficulty="0"
+			appearance="1.5"
+			Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="35"
+				arm_armor="10"
+				has_gender_variations="false"
+				covers_body="true"
+				modifier_group="chain"
+				material_type="Chainmail" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+		id="dunland_wulf_scalemail_heavy_f"
+		name="{=dunlandwulfscalemailhf}Dunland Wulf Scalemail Heavy F"
+		subtype="body_armor"
+		mesh="dunland_wulf_scalemail_heavy_f"
+		culture="Culture.battania"
+		weight="10"
+		difficulty="0"
+		appearance="1.5"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="35"
+				arm_armor="10"
+				has_gender_variations="false"
+				covers_body="true"
+				modifier_group="chain"
+				material_type="Chainmail" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+
+	<Item
+		id="dunland_wulf_scalemail_light_a"
+		name="{=dunlandwulfscalemailla}Dunland Wulf Scalemail Light A"
+		subtype="body_armor"
+		mesh="dunland_wulf_scalemail_light_a"
+		culture="Culture.battania"
+		weight="10"
+		difficulty="0"
+		appearance="1.5"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="30"
+				arm_armor="5"
+				has_gender_variations="false"
+				covers_body="true"
+				modifier_group="chain"
+				material_type="Chainmail" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+		id="dunland_wulf_scalemail_light_b"
+		name="{=dunlandwulfscalemaillb}Dunland Wulf Scalemail Light B"
+		subtype="body_armor"
+		mesh="dunland_wulf_scalemail_light_b"
+		culture="Culture.battania"
+		weight="10"
+		difficulty="0"
+		appearance="1.5"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="30"
+				arm_armor="5"
+				has_gender_variations="false"
+				covers_body="true"
+				modifier_group="chain"
+				material_type="Chainmail" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+
+	<Item
+		id="dunland_wulf_scalemail_lord_a"
+		name="{=dunlandwulfscalemaillorda}Dunland Wulf Scalemail Lord A"
+		subtype="body_armor"
+		mesh="dunland_wulf_scalemail_lord_a"
+		culture="Culture.battania"
+		weight="10"
+		difficulty="0"
+		appearance="1.5"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="45"
+				arm_armor="12"
+				has_gender_variations="false"
+				covers_body="true"
+				modifier_group="chain"
+				material_type="Chainmail" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+		id="dunland_wulf_scalemail_lord_b"
+		name="{=dunlandwulfscalemaillordb}Dunland Wulf Scalemail Lord B"
+		subtype="body_armor"
+		mesh="dunland_wulf_scalemail_lord_b"
+		culture="Culture.battania"
+		weight="10"
+		difficulty="0"
+		appearance="1.5"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="45"
+				arm_armor="12"
+				has_gender_variations="false"
+				covers_body="true"
+				modifier_group="chain"
+				material_type="Chainmail" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+		id="dunland_wulf_scalemail_lord_c"
+		name="{=dunlandwulfscalemaillordc}Dunland Wulf Scalemail Lord C"
+		subtype="body_armor"
+		mesh="dunland_wulf_scalemail_lord_c"
+		culture="Culture.battania"
+		weight="10"
+		difficulty="0"
+		appearance="1.5"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="45"
+				arm_armor="12"
+				has_gender_variations="false"
+				covers_body="true"
+				modifier_group="chain"
+				material_type="Chainmail" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+		id="dunland_wulf_scalemail_lord_d"
+		name="{=dunlandwulfscalemaillorda}Dunland Wulf Scalemail Lord D"
+		subtype="body_armor"
+		mesh="dunland_wulf_scalemail_lord_d"
+		culture="Culture.battania"
+		weight="10"
+		difficulty="0"
+		appearance="1.5"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="45"
+				arm_armor="12"
+				has_gender_variations="false"
+				covers_body="true"
+				modifier_group="chain"
+				material_type="Chainmail" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+	<!-- #endregion -->
+	<!-- #endregion -->
+</Items>

@@ -1,0 +1,967 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+	<!-- Dunland -->
+<Item
+		id="dunland_caerdh_helmet_elite_a"
+		name="{=dunlandcaerdhhelmetea}Dunland Caerdh Elite Helmet A"
+		subtype="head_armor"
+		mesh="dunland_caerdh_helmet_elite_a"
+		culture="Culture.battania"
+		weight="5.0"
+		difficulty="0"
+		appearance="2"
+		Type="HeadArmor">
+		<ItemComponent>
+			<Armor
+				head_armor="40"
+				has_gender_variations="false"
+				hair_cover_type="all"
+				modifier_group="plate"
+				material_type="Plate"
+				beard_cover_type="type3" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+	
+	<Item
+			id="dunland_caerdh_helmet_elite_b"
+			name="{=dunlandcaerdhhelmeteb}Dunland Caerdh Elite Helmet B"
+			subtype="head_armor"
+			mesh="dunland_caerdh_helmet_elite_b"
+			culture="Culture.battania"
+			weight="5.0"
+			difficulty="0"
+			appearance="2"
+			Type="HeadArmor">
+		<ItemComponent>
+			<Armor
+				head_armor="40"
+				has_gender_variations="false"
+				hair_cover_type="all"
+				modifier_group="plate"
+				material_type="Plate"
+				beard_cover_type="type3" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+	<Item
+			id="dunland_caerdh_helmet_elite_c"
+			name="{=dunlandcaerdhhelmetec}Dunland Caerdh Elite Helmet C"
+			subtype="head_armor"
+			mesh="dunland_caerdh_helmet_elite_c"
+			culture="Culture.battania"
+			weight="5.0"
+			difficulty="0"
+			appearance="2"
+			Type="HeadArmor">
+		<ItemComponent>
+			<Armor
+				head_armor="40"
+				has_gender_variations="false"
+				hair_cover_type="all"
+				modifier_group="plate"
+				material_type="Plate"
+				beard_cover_type="type3" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+				id="dunland_caerdh_helmet_elite_d"
+				name="{=dunlandcaerdhhelmeted}Dunland Caerdh Elite Helmet D"
+				subtype="head_armor"
+				mesh="dunland_caerdh_helmet_elite_d"
+				culture="Culture.battania"
+				weight="5.0"
+				difficulty="0"
+				appearance="2"
+				Type="HeadArmor">
+		<ItemComponent>
+			<Armor
+				head_armor="40"
+				has_gender_variations="false"
+				hair_cover_type="all"
+				modifier_group="plate"
+				material_type="Plate"
+				beard_cover_type="type3" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+				id="dunland_caerdh_helmet_elite_e"
+				name="{=dunlandcaerdhhelmetee}Dunland Caerdh Elite Helmet E"
+				subtype="head_armor"
+				mesh="dunland_caerdh_helmet_elite_e"
+				culture="Culture.battania"
+				weight="5.0"
+				difficulty="0"
+				appearance="2"
+				Type="HeadArmor">
+		<ItemComponent>
+			<Armor
+				head_armor="40"
+				has_gender_variations="false"
+				hair_cover_type="all"
+				modifier_group="plate"
+				material_type="Plate"
+				beard_cover_type="type3" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+					id="dunland_caerdh_helmet_elite_f"
+					name="{=dunlandcaerdhhelmetef}Dunland Caerdh Elite Helmet F"
+					subtype="head_armor"
+					mesh="dunland_caerdh_helmet_elite_f"
+					culture="Culture.battania"
+					weight="5.0"
+					difficulty="0"
+					appearance="2"
+					Type="HeadArmor">
+		<ItemComponent>
+			<Armor
+				head_armor="40"
+				has_gender_variations="false"
+				hair_cover_type="all"
+				modifier_group="plate"
+				material_type="Plate"
+				beard_cover_type="type3" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+						id="dunland_caerdh_helmet_heavy_a"
+						name="{=dunlandcaerdhhelmetha}Dunland Caerdh Heavy Helmet A"
+						subtype="head_armor"
+						mesh="dunland_caerdh_helmet_heavy_a"
+						culture="Culture.battania"
+						weight="4.0"
+						difficulty="0"
+						appearance="2"
+						Type="HeadArmor">
+		<ItemComponent>
+			<Armor
+				head_armor="30"
+				has_gender_variations="false"
+				hair_cover_type="all"
+				modifier_group="plate"
+				material_type="Plate"
+				beard_cover_type="type3" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+						id="dunland_caerdh_helmet_heavy_b"
+						name="{=dunlandcaerdhhelmethb}Dunland Caerdh Heavy Helmet B"
+						subtype="head_armor"
+						mesh="dunland_caerdh_helmet_heavy_b"
+						culture="Culture.battania"
+						weight="4.0"
+						difficulty="0"
+						appearance="2"
+						Type="HeadArmor">
+		<ItemComponent>
+			<Armor
+				head_armor="30"
+				has_gender_variations="false"
+				hair_cover_type="all"
+				modifier_group="plate"
+				material_type="Plate"
+				beard_cover_type="type3" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+						id="dunland_caerdh_helmet_heavy_c"
+						name="{=dunlandcaerdhhelmethc}Dunland Caerdh Heavy Helmet C"
+						subtype="head_armor"
+						mesh="dunland_caerdh_helmet_heavy_c"
+						culture="Culture.battania"
+						weight="4.0"
+						difficulty="0"
+						appearance="2"
+						Type="HeadArmor">
+		<ItemComponent>
+			<Armor
+				head_armor="30"
+				has_gender_variations="false"
+				hair_cover_type="all"
+				modifier_group="plate"
+				material_type="Plate"
+				beard_cover_type="type3" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+						id="dunland_caerdh_helmet_heavy_d"
+						name="{=dunlandcaerdhhelmethd}Dunland Caerdh Heavy Helmet D"
+						subtype="head_armor"
+						mesh="dunland_caerdh_helmet_heavy_d"
+						culture="Culture.battania"
+						weight="4.0"
+						difficulty="0"
+						appearance="2"
+						Type="HeadArmor">
+		<ItemComponent>
+			<Armor
+				head_armor="30"
+				has_gender_variations="false"
+				hair_cover_type="all"
+				modifier_group="plate"
+				material_type="Plate"
+				beard_cover_type="type3" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+						id="dunland_caerdh_helmet_heavy_e"
+						name="{=dunlandcaerdhhelmethe}Dunland Caerdh Heavy Helmet E"
+						subtype="head_armor"
+						mesh="dunland_caerdh_helmet_heavy_e"
+						culture="Culture.battania"
+						weight="4.0"
+						difficulty="0"
+						appearance="2"
+						Type="HeadArmor">
+		<ItemComponent>
+			<Armor
+				head_armor="30"
+				has_gender_variations="false"
+				hair_cover_type="all"
+				modifier_group="plate"
+				material_type="Plate"
+				beard_cover_type="type3" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+						id="dunland_caerdh_helmet_heavy_f"
+						name="{=dunlandcaerdhhelmethe}Dunland Caerdh Heavy Helmet F"
+						subtype="head_armor"
+						mesh="dunland_caerdh_helmet_heavy_f"
+						culture="Culture.battania"
+						weight="4.0"
+						difficulty="0"
+						appearance="2"
+						Type="HeadArmor">
+		<ItemComponent>
+			<Armor
+				head_armor="30"
+				has_gender_variations="false"
+				hair_cover_type="all"
+				modifier_group="plate"
+				material_type="Plate"
+				beard_cover_type="type3" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+							id="dunland_caerdh_helmet_lord_a"
+							name="{=dunlandcaerdhhelmetla}Dunland Caerdh Lord Helmet A"
+							subtype="head_armor"
+							mesh="dunland_caerdh_helmet_lord_a"
+							culture="Culture.battania"
+							weight="5.0"
+							difficulty="0"
+							appearance="2"
+							Type="HeadArmor">
+		<ItemComponent>
+			<Armor
+				head_armor="45"
+				has_gender_variations="false"
+				hair_cover_type="all"
+				modifier_group="plate"
+				material_type="Plate"
+				beard_cover_type="type3" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+							id="dunland_caerdh_helmet_lord_b"
+							name="{=dunlandcaerdhhelmetlb}Dunland Caerdh Lord Helmet B"
+							subtype="head_armor"
+							mesh="dunland_caerdh_helmet_lord_b"
+							culture="Culture.battania"
+							weight="5.0"
+							difficulty="0"
+							appearance="2"
+							Type="HeadArmor">
+		<ItemComponent>
+			<Armor
+				head_armor="45"
+				has_gender_variations="false"
+				hair_cover_type="all"
+				modifier_group="plate"
+				material_type="Plate"
+				beard_cover_type="type3" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+							id="dunland_caerdh_helmet_lord_c"
+							name="{=dunlandcaerdhhelmetlc}Dunland Caerdh Lord Helmet C"
+							subtype="head_armor"
+							mesh="dunland_caerdh_helmet_lord_c"
+							culture="Culture.battania"
+							weight="5.0"
+							difficulty="0"
+							appearance="2"
+							Type="HeadArmor">
+		<ItemComponent>
+			<Armor
+				head_armor="45"
+				has_gender_variations="false"
+				hair_cover_type="all"
+				modifier_group="plate"
+				material_type="Plate"
+				beard_cover_type="type3" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+								id="dunland_caerdh_helmet_lord_c"
+								name="{=dunlandcaerdhhelmetlc}Dunland Caerdh Lord Helmet C"
+								subtype="head_armor"
+								mesh="dunland_caerdh_helmet_lord_c"
+								culture="Culture.battania"
+								weight="5.0"
+								difficulty="0"
+								appearance="2"
+								Type="HeadArmor">
+		<ItemComponent>
+			<Armor
+				head_armor="45"
+				has_gender_variations="false"
+				hair_cover_type="all"
+				modifier_group="plate"
+				material_type="Plate"
+				beard_cover_type="type3" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+	<Item
+								id="dunland_caerdh_helmet_lord_d"
+								name="{=dunlandcaerdhhelmetld}Dunland Caerdh Lord Helmet D"
+								subtype="head_armor"
+								mesh="dunland_caerdh_helmet_lord_d"
+								culture="Culture.battania"
+								weight="5.0"
+								difficulty="0"
+								appearance="2"
+								Type="HeadArmor">
+		<ItemComponent>
+			<Armor
+				head_armor="45"
+				has_gender_variations="false"
+				hair_cover_type="all"
+				modifier_group="plate"
+				material_type="Plate"
+				beard_cover_type="type3" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+							id="dunland_caerdh_helmet_lord_e"
+							name="{=dunlandcaerdhhelmetle}Dunland Caerdh Lord Helmet E"
+							subtype="head_armor"
+							mesh="dunland_caerdh_helmet_lord_e"
+							culture="Culture.battania"
+							weight="5.0"
+							difficulty="0"
+							appearance="2"
+							Type="HeadArmor">
+		<ItemComponent>
+			<Armor
+				head_armor="45"
+				has_gender_variations="false"
+				hair_cover_type="all"
+				modifier_group="plate"
+				material_type="Plate"
+				beard_cover_type="type3" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+	<Item
+								id="dunland_caerdh_helmet_lord_f"
+								name="{=dunlandcaerdhhelmetlf}Dunland Caerdh Lord Helmet F"
+								subtype="head_armor"
+								mesh="dunland_caerdh_helmet_lord_f"
+								culture="Culture.battania"
+								weight="5.0"
+								difficulty="0"
+								appearance="2"
+								Type="HeadArmor">
+		<ItemComponent>
+			<Armor
+				head_armor="45"
+				has_gender_variations="false"
+				hair_cover_type="all"
+				modifier_group="plate"
+				material_type="Plate"
+				beard_cover_type="type3" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+								id="dunland_caerdh_helmet_lord_g"
+								name="{=dunlandcaerdhhelmetlg}Dunland Caerdh Lord Helmet G"
+								subtype="head_armor"
+								mesh="dunland_caerdh_helmet_lord_g"
+								culture="Culture.battania"
+								weight="5.0"
+								difficulty="0"
+								appearance="2"
+								Type="HeadArmor">
+		<ItemComponent>
+			<Armor
+				head_armor="45"
+				has_gender_variations="false"
+				hair_cover_type="all"
+				modifier_group="plate"
+				material_type="Plate"
+				beard_cover_type="type3" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+								id="dunland_caerdh_helmet_lord_h"
+								name="{=dunlandcaerdhhelmetlh}Dunland Caerdh Lord Helmet H"
+								subtype="head_armor"
+								mesh="dunland_caerdh_helmet_lord_h"
+								culture="Culture.battania"
+								weight="5.0"
+								difficulty="0"
+								appearance="2"
+								Type="HeadArmor">
+		<ItemComponent>
+			<Armor
+				head_armor="45"
+				has_gender_variations="false"
+				hair_cover_type="all"
+				modifier_group="plate"
+				material_type="Plate"
+				beard_cover_type="type3" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+
+	<!-- Wulf -->
+
+	<Item
+			id="dunland_wulf_helmet_elite_a"
+			name="{=dunlandwulfhelmetea}Dunland Wulf Elite Helmet A"
+			subtype="head_armor"
+			mesh="dunland_wulf_helmet_elite_a"
+			culture="Culture.battania"
+			weight="5.0"
+			difficulty="0"
+			appearance="2"
+			Type="HeadArmor">
+		<ItemComponent>
+			<Armor
+				head_armor="40"
+				has_gender_variations="false"
+				hair_cover_type="all"
+				modifier_group="plate"
+				material_type="Plate"
+				beard_cover_type="type3" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+			id="dunland_wulf_helmet_elite_b"
+			name="{=dunlandwulfhelmeteb}Dunland Wulf Elite Helmet B"
+			subtype="head_armor"
+			mesh="dunland_wulf_helmet_elite_b"
+			culture="Culture.battania"
+			weight="5.0"
+			difficulty="0"
+			appearance="2"
+			Type="HeadArmor">
+		<ItemComponent>
+			<Armor
+				head_armor="40"
+				has_gender_variations="false"
+				hair_cover_type="all"
+				modifier_group="plate"
+				material_type="Plate"
+				beard_cover_type="type3" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+	<Item
+			id="dunland_wulf_helmet_elite_c"
+			name="{=dunlandwulfhelmetec}Dunland Wulf Elite Helmet C"
+			subtype="head_armor"
+			mesh="dunland_wulf_helmet_elite_c"
+			culture="Culture.battania"
+			weight="5.0"
+			difficulty="0"
+			appearance="2"
+			Type="HeadArmor">
+		<ItemComponent>
+			<Armor
+				head_armor="40"
+				has_gender_variations="false"
+				hair_cover_type="all"
+				modifier_group="plate"
+				material_type="Plate"
+				beard_cover_type="type3" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+				id="dunland_wulf_helmet_elite_d"
+				name="{=dunlandwulfhelmeted}Dunland Wulf Elite Helmet D"
+				subtype="head_armor"
+				mesh="dunland_wulf_helmet_elite_d"
+				culture="Culture.battania"
+				weight="5.0"
+				difficulty="0"
+				appearance="2"
+				Type="HeadArmor">
+		<ItemComponent>
+			<Armor
+				head_armor="40"
+				has_gender_variations="false"
+				hair_cover_type="all"
+				modifier_group="plate"
+				material_type="Plate"
+				beard_cover_type="type3" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+				id="dunland_wulf_helmet_elite_e"
+				name="{=dunlandwulfhelmetee}Dunland Wulf Elite Helmet E"
+				subtype="head_armor"
+				mesh="dunland_wulf_helmet_elite_e"
+				culture="Culture.battania"
+				weight="5.0"
+				difficulty="0"
+				appearance="2"
+				Type="HeadArmor">
+		<ItemComponent>
+			<Armor
+				head_armor="40"
+				has_gender_variations="false"
+				hair_cover_type="all"
+				modifier_group="plate"
+				material_type="Plate"
+				beard_cover_type="type3" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+					id="dunland_wulf_helmet_elite_f"
+					name="{=dunlandwulfhelmetef}Dunland Wulf Elite Helmet F"
+					subtype="head_armor"
+					mesh="dunland_wulf_helmet_elite_f"
+					culture="Culture.battania"
+					weight="5.0"
+					difficulty="0"
+					appearance="2"
+					Type="HeadArmor">
+		<ItemComponent>
+			<Armor
+				head_armor="40"
+				has_gender_variations="false"
+				hair_cover_type="all"
+				modifier_group="plate"
+				material_type="Plate"
+				beard_cover_type="type3" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+						id="dunland_wulf_helmet_heavy_a"
+						name="{=dunlandwulfhelmetha}Dunland Wulf Heavy Helmet A"
+						subtype="head_armor"
+						mesh="dunland_wulf_helmet_heavy_a"
+						culture="Culture.battania"
+						weight="4.0"
+						difficulty="0"
+						appearance="2"
+						Type="HeadArmor">
+		<ItemComponent>
+			<Armor
+				head_armor="30"
+				has_gender_variations="false"
+				hair_cover_type="all"
+				modifier_group="plate"
+				material_type="Plate"
+				beard_cover_type="type3" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+						id="dunland_wulf_helmet_heavy_b"
+						name="{=dunlandwulfhelmethb}Dunland Wulf Heavy Helmet B"
+						subtype="head_armor"
+						mesh="dunland_wulf_helmet_heavy_b"
+						culture="Culture.battania"
+						weight="4.0"
+						difficulty="0"
+						appearance="2"
+						Type="HeadArmor">
+		<ItemComponent>
+			<Armor
+				head_armor="30"
+				has_gender_variations="false"
+				hair_cover_type="all"
+				modifier_group="plate"
+				material_type="Plate"
+				beard_cover_type="type3" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+						id="dunland_wulf_helmet_heavy_c"
+						name="{=dunlandwulfhelmethc}Dunland Wulf Heavy Helmet C"
+						subtype="head_armor"
+						mesh="dunland_wulf_helmet_heavy_c"
+						culture="Culture.battania"
+						weight="4.0"
+						difficulty="0"
+						appearance="2"
+						Type="HeadArmor">
+		<ItemComponent>
+			<Armor
+				head_armor="30"
+				has_gender_variations="false"
+				hair_cover_type="all"
+				modifier_group="plate"
+				material_type="Plate"
+				beard_cover_type="type3" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+						id="dunland_wulf_helmet_heavy_d"
+						name="{=dunlandwulfhelmethd}Dunland Wulf Heavy Helmet D"
+						subtype="head_armor"
+						mesh="dunland_wulf_helmet_heavy_d"
+						culture="Culture.battania"
+						weight="4.0"
+						difficulty="0"
+						appearance="2"
+						Type="HeadArmor">
+		<ItemComponent>
+			<Armor
+				head_armor="30"
+				has_gender_variations="false"
+				hair_cover_type="all"
+				modifier_group="plate"
+				material_type="Plate"
+				beard_cover_type="type3" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+						id="dunland_wulf_helmet_heavy_e"
+						name="{=dunlandwulfhelmethe}Dunland Wulf Heavy Helmet E"
+						subtype="head_armor"
+						mesh="dunland_wulf_helmet_heavy_e"
+						culture="Culture.battania"
+						weight="4.0"
+						difficulty="0"
+						appearance="2"
+						Type="HeadArmor">
+		<ItemComponent>
+			<Armor
+				head_armor="30"
+				has_gender_variations="false"
+				hair_cover_type="all"
+				modifier_group="plate"
+				material_type="Plate"
+				beard_cover_type="type3" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+						id="dunland_wulf_helmet_heavy_f"
+						name="{=dunlandwulfhelmethe}Dunland Wulf Heavy Helmet F"
+						subtype="head_armor"
+						mesh="dunland_wulf_helmet_heavy_f"
+						culture="Culture.battania"
+						weight="4.0"
+						difficulty="0"
+						appearance="2"
+						Type="HeadArmor">
+		<ItemComponent>
+			<Armor
+				head_armor="30"
+				has_gender_variations="false"
+				hair_cover_type="all"
+				modifier_group="plate"
+				material_type="Plate"
+				beard_cover_type="type3" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+							id="dunland_wulf_helmet_lord_a"
+							name="{=dunlandwulfhelmetla}Dunland Wulf Lord Helmet A"
+							subtype="head_armor"
+							mesh="dunland_wulf_helmet_lord_a"
+							culture="Culture.battania"
+							weight="5.0"
+							difficulty="0"
+							appearance="2"
+							Type="HeadArmor">
+		<ItemComponent>
+			<Armor
+				head_armor="45"
+				has_gender_variations="false"
+				hair_cover_type="all"
+				modifier_group="plate"
+				material_type="Plate"
+				beard_cover_type="type3" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+							id="dunland_wulf_helmet_lord_b"
+							name="{=dunlandwulfhelmetlb}Dunland Wulf Lord Helmet B"
+							subtype="head_armor"
+							mesh="dunland_wulf_helmet_lord_b"
+							culture="Culture.battania"
+							weight="5.0"
+							difficulty="0"
+							appearance="2"
+							Type="HeadArmor">
+		<ItemComponent>
+			<Armor
+				head_armor="45"
+				has_gender_variations="false"
+				hair_cover_type="all"
+				modifier_group="plate"
+				material_type="Plate"
+				beard_cover_type="type3" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+							id="dunland_wulf_helmet_lord_c"
+							name="{=dunlandwulfhelmetlc}Dunland Wulf Lord Helmet C"
+							subtype="head_armor"
+							mesh="dunland_wulf_helmet_lord_c"
+							culture="Culture.battania"
+							weight="5.0"
+							difficulty="0"
+							appearance="2"
+							Type="HeadArmor">
+		<ItemComponent>
+			<Armor
+				head_armor="45"
+				has_gender_variations="false"
+				hair_cover_type="all"
+				modifier_group="plate"
+				material_type="Plate"
+				beard_cover_type="type3" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+								id="dunland_wulf_helmet_lord_c"
+								name="{=dunlandwulfhelmetlc}Dunland Wulf Lord Helmet C"
+								subtype="head_armor"
+								mesh="dunland_wulf_helmet_lord_c"
+								culture="Culture.battania"
+								weight="5.0"
+								difficulty="0"
+								appearance="2"
+								Type="HeadArmor">
+		<ItemComponent>
+			<Armor
+				head_armor="45"
+				has_gender_variations="false"
+				hair_cover_type="all"
+				modifier_group="plate"
+				material_type="Plate"
+				beard_cover_type="type3" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+	<Item
+								id="dunland_wulf_helmet_lord_d"
+								name="{=dunlandwulfhelmetld}Dunland Wulf Lord Helmet D"
+								subtype="head_armor"
+								mesh="dunland_wulf_helmet_lord_d"
+								culture="Culture.battania"
+								weight="5.0"
+								difficulty="0"
+								appearance="2"
+								Type="HeadArmor">
+		<ItemComponent>
+			<Armor
+				head_armor="45"
+				has_gender_variations="false"
+				hair_cover_type="all"
+				modifier_group="plate"
+				material_type="Plate"
+				beard_cover_type="type3" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+		id="dunland_wulf_helmet_lord_e"
+		name="{=dunlandwulfhelmetle}Dunland Wulf Lord Helmet E"
+		subtype="head_armor"
+		mesh="dunland_wulf_helmet_lord_e"
+		culture="Culture.battania"
+		weight="5.0"
+		difficulty="0"
+		appearance="2"
+		Type="HeadArmor">
+		<ItemComponent>
+			<Armor
+				head_armor="45"
+				has_gender_variations="false"
+				hair_cover_type="all"
+				modifier_group="plate"
+				material_type="Plate"
+				beard_cover_type="type3" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+	<Item
+		id="dunland_wulf_helmet_lord_f"
+		name="{=dunlandwulfhelmetlf}Dunland Wulf Lord Helmet F"
+		subtype="head_armor"
+		mesh="dunland_wulf_helmet_lord_f"
+		culture="Culture.battania"
+		weight="5.0"
+		difficulty="0"
+		appearance="2"
+		Type="HeadArmor">
+		<ItemComponent>
+			<Armor
+				head_armor="45"
+				has_gender_variations="false"
+				hair_cover_type="all"
+				modifier_group="plate"
+				material_type="Plate"
+				beard_cover_type="type3" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+		id="dunland_wulf_helmet_medium_a"
+		name="{=dunlandwulfhelmetlg}Dunland Wulf Medium Helmet A"
+		subtype="head_armor"
+		mesh="dunland_wulf_helmet_medium_a"
+		culture="Culture.battania"
+		weight="5.0"
+		difficulty="0"
+		appearance="2"
+		Type="HeadArmor">
+		<ItemComponent>
+			<Armor
+				head_armor="45"
+				has_gender_variations="false"
+				hair_cover_type="all"
+				modifier_group="plate"
+				material_type="Plate"
+				beard_cover_type="type3" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+		id="dunland_wulf_helmet_medium_b"
+		name="{=dunlandwulfhelmetmedb}Dunland Wulf Medium Helmet B"
+		subtype="head_armor"
+		mesh="dunland_wulf_helmet_medium_b"
+		culture="Culture.battania"
+		weight="5.0"
+		difficulty="0"
+		appearance="2"
+		Type="HeadArmor">
+		<ItemComponent>
+			<Armor
+				head_armor="45"
+				has_gender_variations="false"
+				hair_cover_type="all"
+				modifier_group="plate"
+				material_type="Plate"
+				beard_cover_type="type3" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+	<!-- #endregion -->
+</Items>

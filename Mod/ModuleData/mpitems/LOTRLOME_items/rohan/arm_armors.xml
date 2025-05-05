@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+	<!-- Rohan -->
+<Item
+		id="cts_rohan_royal_guard_gloves"
+		name="{=I0vRCZ7U}Rohan Guard Plate Gloves"
+		mesh="cts_rohan_royal_guard_gloves"
+		culture="Culture.vlandia"
+		weight="1.5"
+		difficulty="0"
+		appearance="3"
+		Type="HandArmor">
+		<ItemComponent>
+			<Armor
+				arm_armor="25"
+				covers_hands="false"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+	<Item
+			id="whiterun_bracers"
+			name="{=I0vRCZ7U}Rohan Guard Plate Gloves Two"
+			mesh="whiterun_bracers"
+			culture="Culture.vlandia"
+			weight="1.5"
+			difficulty="0"
+			appearance="3"
+			Type="HandArmor">
+		<ItemComponent>
+			<Armor
+				arm_armor="25"
+				covers_hands="false"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+	
+	<Item
+			id="cts_rohan_armguard1"
+			name="{=rohanleatherarmguardone}Rohan Leather Armguard One"
+			mesh="cts_rohan_armguard1"
+			culture="Culture.vlandia"
+			weight="1.5"
+			difficulty="0"
+			appearance="3"
+			Type="HandArmor">
+		<ItemComponent>
+			<Armor
+				arm_armor="15"
+				covers_hands="false"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+	<Item
+			id="cts_rohan_armguard2"
+			name="{=rohanleatherarmguardtwo}Rohan Leather Armguard Two"
+			mesh="cts_rohan_armguard2"
+			culture="Culture.vlandia"
+			weight="1.5"
+			difficulty="0"
+			appearance="3"
+			Type="HandArmor">
+		<ItemComponent>
+			<Armor
+				arm_armor="15"
+				covers_hands="false"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+	<Item
+			id="cts_rohan_armguard3"
+			name="{=rohanleatherarmguardthree}Rohan Leather Armguard Three"
+			mesh="cts_rohan_armguard3"
+			culture="Culture.vlandia"
+			weight="1.5"
+			difficulty="0"
+			appearance="3"
+			Type="HandArmor">
+		<ItemComponent>
+			<Armor
+				arm_armor="15"
+				covers_hands="false"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+	
+	<Item
+	 id="cts_rohan_armguard4"
+	 name="{=rohanleatherarmguardfour}Rohan Leather Armguard Four"
+	 mesh="cts_rohan_armguard4"
+	 culture="Culture.vlandia"
+	 weight="1.5"
+	 difficulty="0"
+	 appearance="3"
+	 Type="HandArmor">
+		<ItemComponent>
+			<Armor
+				arm_armor="15"
+				covers_hands="false"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+	<Item
+				id="theodred_bracers"
+				name="{=theodredbracers}Theodred Bracers"
+				mesh="theodred_bracers"
+				culture="Culture.vlandia"
+				weight="1.5"
+				difficulty="0"
+				appearance="3"
+				Type="HandArmor">
+		<ItemComponent>
+			<Armor
+				arm_armor="30"
+				covers_hands="false"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+
+	<Item
+			id="jor_lord_brcr_fgc3"
+			name="{=rohanlordgloves}Rohan Soldier Leather Gloves"
+			mesh="jor_lord_brcr_fgc3"
+			culture="Culture.vlandia"
+			weight="1.5"
+			difficulty="0"
+			appearance="3"
+			Type="HandArmor">
+		<ItemComponent>
+			<Armor
+				arm_armor="10"
+				covers_hands="true"
+				modifier_group="leather"
+				material_type="Leather" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+	<Item
+			id="roh_nbl_glv"
+			name="{=roh_nbl_glv}Rohan Soldier Leather Gloves - Two"
+			mesh="roh_nbl_glv"
+			culture="Culture.vlandia"
+			weight="1.5"
+			difficulty="0"
+			appearance="3"
+			Type="HandArmor">
+		<ItemComponent>
+			<Armor
+				arm_armor="10"
+				covers_hands="true"
+				modifier_group="leather"
+				material_type="Leather" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+
+
+	<Item
+		id="cts_rohan_captain_bracer"
+		name="{=cts_rohan_captain_bracer}Rohan Captain Plate Bracers - One"
+		mesh="cts_rohan_captain_bracer"
+		culture="Culture.vlandia"
+		weight="1.9"
+		difficulty="0"
+		appearance="3"
+		Type="HandArmor">
+		<ItemComponent>
+			<Armor
+				arm_armor="28"
+				covers_hands="false"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+	<Item
+		id="cts_rohan_captain_bracers1"
+		name="{=cts_rohan_captain_bracers1}Rohan Captain Plate Bracers - Two"
+		mesh="cts_rohan_captain_bracers1"
+		culture="Culture.vlandia"
+		weight="1.9"
+		difficulty="0"
+		appearance="3"
+		Type="HandArmor">
+		<ItemComponent>
+			<Armor
+				arm_armor="28"
+				covers_hands="false"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+	<!-- #endregion -->
+</Items>

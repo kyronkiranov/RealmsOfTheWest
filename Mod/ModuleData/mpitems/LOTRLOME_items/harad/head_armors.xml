@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+	<!-- Harad -->
+<Item
+		id="haradrim_head"
+		name="{=haradrimhelmet}Haradrim Helmet"
+		subtype="head_armor"
+		mesh="haradrim_head"
+		culture="Culture.aserai"
+		weight="2.0"
+		difficulty="0"
+		appearance="2"
+		Type="HeadArmor">
+		<ItemComponent>
+			<Armor
+				head_armor="12"
+				has_gender_variations="false"
+				hair_cover_type="all"
+				modifier_group="leather"
+				material_type="Leather"
+				beard_cover_type="type3" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+			id="haradrim02_head"
+			name="{=haradrim02_head}Haradrim Helmet - Two - Black"
+			subtype="head_armor"
+			mesh="haradrim02_head"
+			culture="Culture.aserai"
+			weight="2.0"
+			difficulty="0"
+			appearance="2"
+			Type="HeadArmor">
+		<ItemComponent>
+			<Armor
+				head_armor="12"
+				has_gender_variations="false"
+				hair_cover_type="all"
+				modifier_group="leather"
+				material_type="Leather"
+				beard_cover_type="type3" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+			id="haradrim02a_head"
+			name="{=haradrim02a_head}Haradrim Helmet - Two - Maroon"
+			subtype="head_armor"
+			mesh="haradrim02a_head"
+			culture="Culture.aserai"
+			weight="2.0"
+			difficulty="0"
+			appearance="2"
+			Type="HeadArmor">
+		<ItemComponent>
+			<Armor
+				head_armor="12"
+				has_gender_variations="false"
+				hair_cover_type="all"
+				modifier_group="leather"
+				material_type="Leather"
+				beard_cover_type="type3" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+
+	<Item
+				id="haradrim02b_head"
+				name="{=haradrim02b_head}Haradrim Helmet - Two - Gray"
+				subtype="head_armor"
+				mesh="haradrim02b_head"
+				culture="Culture.aserai"
+				weight="2.0"
+				difficulty="0"
+				appearance="2"
+				Type="HeadArmor">
+		<ItemComponent>
+			<Armor
+				head_armor="12"
+				has_gender_variations="false"
+				hair_cover_type="all"
+				modifier_group="leather"
+				material_type="Leather"
+				beard_cover_type="type3" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+
+	<Item
+				id="haradrim02c_head"
+				name="{=haradrim02c_head}Haradrim Helmet - Two - Gold"
+				subtype="head_armor"
+				mesh="haradrim02c_head"
+				culture="Culture.aserai"
+				weight="2.0"
+				difficulty="0"
+				appearance="2"
+				Type="HeadArmor">
+		<ItemComponent>
+			<Armor
+				head_armor="12"
+				has_gender_variations="false"
+				hair_cover_type="all"
+				modifier_group="leather"
+				material_type="Leather"
+				beard_cover_type="type3" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<!-- #endregion -->
+</Items>

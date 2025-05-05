@@ -1,0 +1,263 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+	<!-- Gondor -->
+<Item
+		id="gondor_pauldrons"
+		name="{=gondorshoulders}Gondor Shoulder Armor"
+		mesh="gondor_pauldrons"
+		culture="Culture.gondor"
+		weight="9.0"
+		appearance="6"
+		Type="Cape">
+	<ItemComponent>
+		<Armor
+			body_armor="10"
+			arm_armor="10"
+			modifier_group="plate"
+			material_type="Plate" />
+	</ItemComponent>
+	<Flags />
+</Item>
+
+	<Item
+			id="citidel_guard_armor_pauldrons_light"
+			name="{=gondorshoulders}Gondor Citidel Pauldrons Light"
+			mesh="citidel_guard_armor_pauldrons_light"
+			culture="Culture.gondor"
+			weight="10.0"
+			appearance="6"
+			Type="Cape">
+		<ItemComponent>
+			<Armor
+				body_armor="12"
+				arm_armor="12"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+	<Item
+			id="citidel_guard_armor_pauldrons"
+			name="{=gondorshoulders}Gondor Citidel Pauldrons Regular"
+			mesh="citidel_guard_armor_pauldrons"
+			culture="Culture.gondor"
+			weight="10.0"
+			appearance="6"
+			Type="Cape">
+		<ItemComponent>
+			<Armor
+				body_armor="12"
+				arm_armor="12"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+	<Item
+		id="fountain_guard_pauldrons"
+		name="{=gondorshoulders}Gondor Fountain Guard Pauldrons "
+		mesh="fountain_guard_pauldrons"
+		culture="Culture.gondor"
+		weight="10.0"
+		appearance="6"
+		Type="Cape">
+		<ItemComponent>
+			<Armor
+				body_armor="14"
+				arm_armor="14"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+
+	<Item
+		id="ithilien_cloak"
+		name="{=ithilien_cloak}Ithilien Cloak"
+		mesh="ithilien_cloak"
+		culture="Culture.gondor"
+		weight="0.5"
+		appearance="6"
+		Type="Cape">
+		<ItemComponent>
+			<Armor
+				body_armor="5"
+				arm_armor="1"
+				modifier_group="cloth"
+				material_type="Cloth" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+	<Item
+	id="ithilien_cloak_var"
+	name="{=ithilien_cloak}Ithilien Cloak Two"
+	mesh="ithilien_cloak_var"
+	culture="Culture.gondor"
+	weight="0.5"
+	appearance="6"
+	Type="Cape">
+		<ItemComponent>
+			<Armor
+				body_armor="5"
+				arm_armor="1"
+				modifier_group="cloth"
+				material_type="Cloth" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+
+	<Item
+		id="gondor_king_pauldrons"
+		name="{=gondorkingshoulders}Gondor King Pauldrons"
+		mesh="gondor_king_pauldrons"
+		culture="Culture.gondor"
+		weight="9.0"
+		appearance="6"
+		Type="Cape">
+		<ItemComponent>
+			<Armor
+				body_armor="10"
+				arm_armor="10"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+	<Item
+	id="gondor_nobke_pauldrons"
+	name="{=gondornobleshoulders}Gondor Noble Pauldrons"
+	mesh="gondor_nobke_pauldrons"
+	culture="Culture.gondor"
+	weight="9.0"
+	appearance="6"
+	Type="Cape">
+		<ItemComponent>
+			<Armor
+				body_armor="10"
+				arm_armor="10"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+	
+
+	<Item
+		id="gondor_shldr_plt_ld"
+		name="{=gondor_shldr_plt_ld}Gondor Shoulder Pauldrons Tabard"
+		mesh="gondor_shldr_plt_ld"
+		culture="Culture.gondor"
+		weight="9.0"
+		appearance="6"
+		Type="Cape">
+		<ItemComponent>
+			<Armor
+				body_armor="10"
+				arm_armor="10"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+	<Item
+		id="fountain_shoulders2"
+		name="{=gondorfountainshoulders2}Gondor Fountain Guard Shoulders - One "
+		mesh="fountain_shoulders2"
+		culture="Culture.gondor"
+		weight="10.0"
+		appearance="6"
+		Type="Cape">
+		<ItemComponent>
+			<Armor
+				body_armor="14"
+				arm_armor="14"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+	<Item
+		id="fountain_shoulders3"
+		name="{=gondorfountainshoulders3}Gondor Fountain Guard Shoulders - Two "
+		mesh="fountain_shoulders3"
+		culture="Culture.gondor"
+		weight="10.0"
+		appearance="6"
+		Type="Cape">
+		<ItemComponent>
+			<Armor
+				body_armor="14"
+				arm_armor="14"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+	<Item
+		id="fountain_shoulders1"
+		name="{=gondorfountainshoulders1}Gondor Fountain Guard Shoulders - Three"
+		mesh="fountain_shoulders1"
+		culture="Culture.gondor"
+		weight="10.0"
+		appearance="6"
+		Type="Cape">
+		<ItemComponent>
+			<Armor
+				body_armor="12"
+				arm_armor="12"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+
+	<Item
+	id="imrahil_shoulder"
+	name="{=imrahil_shoulder}Imrahil Pauldrons"
+	mesh="imrahil_shoulder"
+	culture="Culture.gondor"
+	weight="10.0"
+	appearance="6"
+	Type="Cape">
+		<ItemComponent>
+			<Armor
+				body_armor="20"
+				arm_armor="15"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+	<Item
+	id="golasgil_shoulder"
+	name="{=golasgil_shoulder}Golasgil Pauldrons"
+	mesh="golasgil_shoulder"
+	culture="Culture.gondor"
+	weight="10.0"
+	appearance="6"
+	Type="Cape">
+		<ItemComponent>
+			<Armor
+				body_armor="20"
+				arm_armor="15"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+	
+
+	<!-- #endregion -->
+</Items>

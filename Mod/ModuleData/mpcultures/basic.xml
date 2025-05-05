@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BasicCultures>
+	<Culture id="gondor" name="Gondor" is_main_culture="true" 
+         default_face_key="000fa92e90004202aced5d976886573d5d679585a376fdd605877a7764b8987c00000000000007520000037f0000000f00000037049140010000000000000000" 
+         color="FFFFFFFF" color2="FFFFFF00" 
+         cloth_alternative_color1="FFf5f5f5" cloth_alternative_color2="FFf4d32e" 
+         banner_background_color1="FFf5f5f5" banner_foreground_color1="FFf4d32e" 
+         banner_background_color2="FFf5f5f5" banner_foreground_color2="FFf4d32e" 
+         faction_banner_key="11.140.140.1836.1836.764.764.1.0.-30.102.143.127.538.481.762.753.1.1.0" />
+
+<Culture id="orcs" name="Orcs" is_main_culture="true" 
+         default_face_key="000fa92e90004202aced5d976886573d5d679585a376fdd605877a7764b8987c00000000000007520000037f0000000f00000037049140010000000000000000" 
+         color="000000" color2="FFFFFF" 
+         cloth_alternative_color1="000000" cloth_alternative_color2="FFFFFF" 
+         banner_background_color1="FF000000" banner_foreground_color1="FFFFFFFF" 
+         banner_background_color2="FF000000" banner_foreground_color2="FFFFFFFF" 
+         faction_banner_key="11.116.116.1836.1836.768.788.1.0.-30.212.128.116.468.438.764.740.1.1.0" />
+</BasicCultures>

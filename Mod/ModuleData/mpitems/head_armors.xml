@@ -1,0 +1,884 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+	<!-- Gondor -->
+<Item
+		id="gondor_helmet"
+		name="{=gondorhelmet}Gondor Plate Helmet"
+		subtype="head_armor"
+		mesh="gondor_helmet"
+		culture="Culture.gondor"
+		weight="5.0"
+		difficulty="0"
+		appearance="2"
+		Type="HeadArmor">
+		<ItemComponent>
+			<Armor
+				head_armor="22"
+				has_gender_variations="false"
+				hair_cover_type="all"
+				modifier_group="plate"
+				material_type="Plate"
+				beard_cover_type="type3" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+			id="fountain_guard_helmet"
+			name="{=fountainhelmet}Gondor Fountain Guard Helmet - Gold"
+			subtype="head_armor"
+			mesh="fountain_guard_helmet"
+			culture="Culture.gondor"
+			weight="6.0"
+			difficulty="0"
+			appearance="2"
+			Type="HeadArmor">
+		<ItemComponent>
+			<Armor
+				head_armor="45"
+				has_gender_variations="false"
+				hair_cover_type="all"
+				modifier_group="plate"
+				material_type="Plate"
+				beard_cover_type="type3" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+			id="citidel_guard_helmet1"
+			name="{=citidelsilverhelmet1}Gondor CG Helmet - Silver - No Wings"
+			subtype="head_armor"
+			mesh="citidel_guard_helmet1"
+			culture="Culture.gondor"
+			weight="6.0"
+			difficulty="0"
+			appearance="2"
+			Type="HeadArmor">
+		<ItemComponent>
+			<Armor
+				head_armor="40"
+				has_gender_variations="false"
+				hair_cover_type="all"
+				modifier_group="plate"
+				material_type="Plate"
+				beard_cover_type="type3" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+			id="citidel_guard_helmet2"
+			name="{=citidelsilverhelmet2}Gondor CG Helmet - Silver - Wings Flared One"
+			subtype="head_armor"
+			mesh="citidel_guard_helmet2"
+			culture="Culture.gondor"
+			weight="6.0"
+			difficulty="0"
+			appearance="2"
+			Type="HeadArmor">
+		<ItemComponent>
+			<Armor
+				head_armor="40"
+				has_gender_variations="false"
+				hair_cover_type="all"
+				modifier_group="plate"
+				material_type="Plate"
+				beard_cover_type="type3" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+			id="citidel_guard_helmet3"
+			name="{=citidelsilverhelmet3}Gondor CG Helmet - Silver - Wings Flared Two"
+			subtype="head_armor"
+			mesh="citidel_guard_helmet3"
+			culture="Culture.gondor"
+			weight="6.0"
+			difficulty="0"
+			appearance="2"
+			Type="HeadArmor">
+		<ItemComponent>
+			<Armor
+				head_armor="40"
+				has_gender_variations="false"
+				hair_cover_type="all"
+				modifier_group="plate"
+				material_type="Plate"
+				beard_cover_type="type3" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+			id="citidel_guard_helmet4"
+			name="{=citidelsilverhelmet4}Gondor Citidel Guard Helmet - Silver - Wings Back"
+			subtype="head_armor"
+			mesh="citidel_guard_helmet4"
+			culture="Culture.gondor"
+			weight="6.0"
+			difficulty="0"
+			appearance="2"
+			Type="HeadArmor">
+		<ItemComponent>
+			<Armor
+				head_armor="40"
+				has_gender_variations="false"
+				hair_cover_type="all"
+				modifier_group="plate"
+				material_type="Plate"
+				beard_cover_type="type3" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+			id="citidel_guard_helmet5"
+			name="{=citidelgoldhelmet5}Gondor Citidel Guard Helmet - Gold - No Wings"
+			subtype="head_armor"
+			mesh="citidel_guard_helmet5"
+			culture="Culture.gondor"
+			weight="6.0"
+			difficulty="0"
+			appearance="2"
+			Type="HeadArmor">
+		<ItemComponent>
+			<Armor
+				head_armor="40"
+				has_gender_variations="false"
+				hair_cover_type="all"
+				modifier_group="plate"
+				material_type="Plate"
+				beard_cover_type="type3" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+			id="citidel_guard_helmet6"
+			name="{=citidelgoldhelmet6}Gondor Citidel Guard Helmet - Gold - Wings Flared One"
+			subtype="head_armor"
+			mesh="citidel_guard_helmet6"
+			culture="Culture.gondor"
+			weight="6.0"
+			difficulty="0"
+			appearance="2"
+			Type="HeadArmor">
+		<ItemComponent>
+			<Armor
+				head_armor="40"
+				has_gender_variations="false"
+				hair_cover_type="all"
+				modifier_group="plate"
+				material_type="Plate"
+				beard_cover_type="type3" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+		id="citidel_guard_helmet7"
+		name="{=citidelgoldhelmet7}Gondor Citidel Guard Helmet - Gold - Wings Flared Two"
+		subtype="head_armor"
+		mesh="citidel_guard_helmet7"
+		culture="Culture.gondor"
+		weight="6.0"
+		difficulty="0"
+		appearance="2"
+		Type="HeadArmor">
+		<ItemComponent>
+			<Armor
+				head_armor="40"
+				has_gender_variations="false"
+				hair_cover_type="all"
+				modifier_group="plate"
+				material_type="Plate"
+				beard_cover_type="type3" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+			id="citidel_guard_helmet8"
+			name="{=citidelgoldhelmet8}Gondor Citidel Guard Helmet - Gold - Wings Back"
+			subtype="head_armor"
+			mesh="citidel_guard_helmet8"
+			culture="Culture.gondor"
+			weight="6.0"
+			difficulty="0"
+			appearance="2"
+			Type="HeadArmor">
+		<ItemComponent>
+			<Armor
+				head_armor="40"
+				has_gender_variations="false"
+				hair_cover_type="all"
+				modifier_group="plate"
+				material_type="Plate"
+				beard_cover_type="type3" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+<Item
+			id="ithilien_hood"
+			name="{=ithilien_hood}Ithilien Hood"
+			subtype="head_armor"
+			mesh="ithilien_hood"
+			culture="Culture.gondor"
+			weight="1.0"
+			difficulty="0"
+			appearance="2"
+			Type="HeadArmor">
+		<ItemComponent>
+			<Armor
+				head_armor="15"
+				has_gender_variations="false"
+				hair_cover_type="all"
+				modifier_group="cloth"
+				material_type="Cloth"
+				beard_cover_type="type3" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+				id="ithilien_hood_var"
+				name="{=ithilien_hood2}Ithilien Hood Two"
+				subtype="head_armor"
+				mesh="ithilien_hood_var"
+				culture="Culture.gondor"
+				weight="1.0"
+				difficulty="0"
+				appearance="2"
+				Type="HeadArmor">
+		<ItemComponent>
+			<Armor
+				head_armor="15"
+				has_gender_variations="false"
+				hair_cover_type="all"
+				modifier_group="cloth"
+				material_type="Cloth"
+				beard_cover_type="type3" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+					id="ithilien_hood_masked"
+					name="{=ithilien_hood3}Ithilien Hood Masked"
+					subtype="head_armor"
+					mesh="ithilien_hood_masked"
+					culture="Culture.gondor"
+					weight="1.5"
+					difficulty="0"
+					appearance="2"
+					Type="HeadArmor">
+		<ItemComponent>
+			<Armor
+				head_armor="20"
+				has_gender_variations="false"
+				hair_cover_type="all"
+				modifier_group="cloth"
+				material_type="Cloth"
+				beard_cover_type="type3" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+					id="ithilien_hood_masked_var"
+					name="{=ithilien_hood3}Ithilien Hood Masked"
+					subtype="head_armor"
+					mesh="ithilien_hood_masked_var"
+					culture="Culture.gondor"
+					weight="1.5"
+					difficulty="0"
+					appearance="2"
+					Type="HeadArmor">
+		<ItemComponent>
+			<Armor
+				head_armor="20"
+				has_gender_variations="false"
+				hair_cover_type="all"
+				modifier_group="cloth"
+				material_type="Cloth"
+				beard_cover_type="type3" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+	
+<Item
+		id="gondor_king_crown"
+		name="{=gondorkingcrown}Gondor King Crown"
+		subtype="head_armor"
+		mesh="gondor_king_crown"
+		culture="Culture.gondor"
+		weight="5.0"
+		difficulty="0"
+		appearance="2"
+		Type="HeadArmor">
+		<ItemComponent>
+			<Armor
+				head_armor="22"
+				has_gender_variations="false"
+				hair_cover_type="none"
+				modifier_group="plate"
+				material_type="Plate"
+				beard_cover_type="type3" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+		id="gondor_nobke_helmet"
+		name="{=gondornoblehelmet1}Gondor Noble Helmet"
+		subtype="head_armor"
+		mesh="gondor_nobke_helmet"
+		culture="Culture.gondor"
+		weight="5.0"
+		difficulty="0"
+		appearance="2"
+		Type="HeadArmor">
+		<ItemComponent>
+			<Armor
+				head_armor="22"
+				has_gender_variations="false"
+				hair_cover_type="all"
+				modifier_group="plate"
+				material_type="Plate"
+				beard_cover_type="type3" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+	id="gondor_nobke_helmet1"
+	name="{=gondornoblehelmet2}Gondor Noble Helmet Two"
+	subtype="head_armor"
+	mesh="gondor_nobke_helmet1"
+	culture="Culture.gondor"
+	weight="5.0"
+	difficulty="0"
+	appearance="2"
+	Type="HeadArmor">
+		<ItemComponent>
+			<Armor
+				head_armor="22"
+				has_gender_variations="false"
+				hair_cover_type="all"
+				modifier_group="plate"
+				material_type="Plate"
+				beard_cover_type="type3" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+
+	<Item
+			id="gond_hlm_b_ld"
+			name="{=gondorhelmetplain1}Gondor Helmet One"
+			subtype="head_armor"
+			mesh="gond_hlm_b_ld"
+			culture="Culture.gondor"
+			weight="5.0"
+			difficulty="0"
+			appearance="2"
+			Type="HeadArmor">
+		<ItemComponent>
+			<Armor
+				head_armor="22"
+				has_gender_variations="false"
+				hair_cover_type="all"
+				modifier_group="plate"
+				material_type="Plate"
+				beard_cover_type="type3" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+			id="gond_hlm_ld"
+			name="{=gondorhelmetplain2}Gondor Helmet Two"
+			subtype="head_armor"
+			mesh="gond_hlm_ld"
+			culture="Culture.gondor"
+			weight="5.0"
+			difficulty="0"
+			appearance="2"
+			Type="HeadArmor">
+		<ItemComponent>
+			<Armor
+				head_armor="22"
+				has_gender_variations="false"
+				hair_cover_type="all"
+				modifier_group="plate"
+				material_type="Plate"
+				beard_cover_type="type3" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+			id="gond_hlm_mask_b_ld"
+			name="{=gondorhelmetplainmask}Gondor Helmet - Mask"
+			subtype="head_armor"
+			mesh="gond_hlm_mask_b_ld"
+			culture="Culture.gondor"
+			weight="5.0"
+			difficulty="0"
+			appearance="2"
+			Type="HeadArmor">
+		<ItemComponent>
+			<Armor
+				head_armor="22"
+				has_gender_variations="false"
+				hair_cover_type="all"
+				modifier_group="plate"
+				material_type="Plate"
+				beard_cover_type="type3" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+
+<Item
+		id="gondor_chainmail_helmeta"
+		name="{=gondorchainmailhelmeta}Gondor Chainmail Helmet A"
+		subtype="head_armor"
+		mesh="empire_helmet_f"
+		culture="Culture.gondor"
+		weight="1.5"
+		difficulty="0"
+		appearance="1"
+		Type="HeadArmor">
+		<ItemComponent>
+			<Armor
+				head_armor="20"
+				has_gender_variations="false"
+				hair_cover_type="all"
+				modifier_group="chain"
+				material_type="Chainmail"
+				beard_cover_type="type3" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+	
+	
+<!--Fountain Guard Helmet-->
+	<Item
+			id="fountain_helm13"
+			name="{=fountainhelmet1}Gondor Fountain Guard Helmet - One"
+			subtype="head_armor"
+			mesh="fountain_helm13"
+			culture="Culture.gondor"
+			weight="6.0"
+			difficulty="0"
+			appearance="2"
+			Type="HeadArmor">
+		<ItemComponent>
+			<Armor
+				head_armor="48"
+				has_gender_variations="false"
+				hair_cover_type="all"
+				modifier_group="plate"
+				material_type="Plate"
+				beard_cover_type="type3" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+
+	<Item
+			id="fountain_helm1"
+			name="{=fountainhelmet111}Gondor Fountain Guard Helmet - Dol Amroth Knight"
+			subtype="head_armor"
+			mesh="fountain_helm1"
+			culture="Culture.gondor"
+			weight="6.0"
+			difficulty="0"
+			appearance="2"
+			Type="HeadArmor">
+		<ItemComponent>
+			<Armor
+				head_armor="48"
+				has_gender_variations="false"
+				hair_cover_type="all"
+				modifier_group="plate"
+				material_type="Plate"
+				beard_cover_type="type3" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+		id="fountain_helm1"
+		name="{=fountainhelmet111}Gondor Fountain Guard Helmet - Dol Amroth Knight"
+		subtype="head_armor"
+		mesh="fountain_helm1"
+		culture="Culture.gondor"
+		weight="6.0"
+		difficulty="0"
+		appearance="2"
+		Type="HeadArmor">
+		<ItemComponent>
+			<Armor
+				head_armor="48"
+				has_gender_variations="false"
+				hair_cover_type="all"
+				modifier_group="plate"
+				material_type="Plate"
+				beard_cover_type="type3" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+	
+	<Item
+			id="fountain_helm3"
+			name="{=fountainhelmet33}Gondor Fountain Guard Helmet - Veteran DA Knight"
+			subtype="head_armor"
+			mesh="fountain_helm3"
+			culture="Culture.gondor"
+			weight="6.0"
+			difficulty="0"
+			appearance="2"
+			Type="HeadArmor">
+		<ItemComponent>
+			<Armor
+				head_armor="48"
+				has_gender_variations="false"
+				hair_cover_type="all"
+				modifier_group="plate"
+				material_type="Plate"
+				beard_cover_type="type3" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+			id="fountain_helm11"
+			name="{=fountainhelmet3}Gondor Fountain Guard Helmet - Three"
+			subtype="head_armor"
+			mesh="fountain_helm11"
+			culture="Culture.gondor"
+			weight="6.0"
+			difficulty="0"
+			appearance="2"
+			Type="HeadArmor">
+		<ItemComponent>
+			<Armor
+				head_armor="48"
+				has_gender_variations="false"
+				hair_cover_type="all"
+				modifier_group="plate"
+				material_type="Plate"
+				beard_cover_type="type3" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+			id="fountain_helm9"
+			name="{=fountainhelmet9}Gondor Fountain Guard Helmet - Four"
+			subtype="head_armor"
+			mesh="fountain_helm9"
+			culture="Culture.gondor"
+			weight="6.0"
+			difficulty="0"
+			appearance="2"
+			Type="HeadArmor">
+		<ItemComponent>
+			<Armor
+				head_armor="48"
+				has_gender_variations="false"
+				hair_cover_type="all"
+				modifier_group="plate"
+				material_type="Plate"
+				beard_cover_type="type3" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+			id="fountain_helm2"
+			name="{=fountainhelmet2}Gondor Fountain Guard Helmet - Five"
+			subtype="head_armor"
+			mesh="fountain_helm2"
+			culture="Culture.gondor"
+			weight="6.0"
+			difficulty="0"
+			appearance="2"
+			Type="HeadArmor">
+		<ItemComponent>
+			<Armor
+				head_armor="35"
+				has_gender_variations="false"
+				hair_cover_type="all"
+				modifier_group="plate"
+				material_type="Plate"
+				beard_cover_type="type3" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+			id="fountain_helm20"
+			name="{=fountainhelmet20}Gondor Fountain Guard Helmet - Six"
+			subtype="head_armor"
+			mesh="fountain_helm20"
+			culture="Culture.gondor"
+			weight="6.0"
+			difficulty="0"
+			appearance="2"
+			Type="HeadArmor">
+		<ItemComponent>
+			<Armor
+				head_armor="35"
+				has_gender_variations="false"
+				hair_cover_type="all"
+				modifier_group="plate"
+				material_type="Plate"
+				beard_cover_type="type3" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+			id="fountain_helm5"
+			name="{=fountainhelmet5}Gondor Fountain Guard Helmet - Seven"
+			subtype="head_armor"
+			mesh="fountain_helm5"
+			culture="Culture.gondor"
+			weight="6.0"
+			difficulty="0"
+			appearance="2"
+			Type="HeadArmor">
+		<ItemComponent>
+			<Armor
+				head_armor="40"
+				has_gender_variations="false"
+				hair_cover_type="all"
+				modifier_group="plate"
+				material_type="Plate"
+				beard_cover_type="type3" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+			id="fountain_helm7"
+			name="{=fountainhelmet7}Gondor Fountain Guard Helmet - Eight"
+			subtype="head_armor"
+			mesh="fountain_helm7"
+			culture="Culture.gondor"
+			weight="6.0"
+			difficulty="0"
+			appearance="2"
+			Type="HeadArmor">
+		<ItemComponent>
+			<Armor
+				head_armor="40"
+				has_gender_variations="false"
+				hair_cover_type="all"
+				modifier_group="plate"
+				material_type="Plate"
+				beard_cover_type="type3" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+			id="fountain_helm6"
+			name="{=fountainhelmet6}Gondor Fountain Guard Helmet - Nine"
+			subtype="head_armor"
+			mesh="fountain_helm6"
+			culture="Culture.gondor"
+			weight="6.0"
+			difficulty="0"
+			appearance="2"
+			Type="HeadArmor">
+		<ItemComponent>
+			<Armor
+				head_armor="40"
+				has_gender_variations="false"
+				hair_cover_type="all"
+				modifier_group="plate"
+				material_type="Plate"
+				beard_cover_type="type3" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<!--Lamedon-->
+	<Item
+			id="cts_gondor_citadel_helmet1"
+			name="{=gondorlamedonhelmet1}Gondor Lamedon Helmet - One"
+			subtype="head_armor"
+			mesh="cts_gondor_citadel_helmet1"
+			culture="Culture.gondor"
+			weight="5.0"
+			difficulty="0"
+			appearance="2"
+			Type="HeadArmor">
+		<ItemComponent>
+			<Armor
+				head_armor="20"
+				has_gender_variations="false"
+				hair_cover_type="all"
+				modifier_group="plate"
+				material_type="Plate"
+				beard_cover_type="type3" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+			id="cts_gondor_citadel_helmet2"
+			name="{=gondorlamedonhelmet2}Gondor Lamedon Helmet - Two"
+			subtype="head_armor"
+			mesh="cts_gondor_citadel_helmet2"
+			culture="Culture.gondor"
+			weight="5.0"
+			difficulty="0"
+			appearance="2"
+			Type="HeadArmor">
+		<ItemComponent>
+			<Armor
+				head_armor="20"
+				has_gender_variations="false"
+				hair_cover_type="all"
+				modifier_group="plate"
+				material_type="Plate"
+				beard_cover_type="type3" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+	<Item
+			id="cts_gondor_helmet3"
+			name="{=gondorlamedonhelmet3}Gondor Lamedon Helmet - Three"
+			subtype="head_armor"
+			mesh="cts_gondor_helmet3"
+			culture="Culture.gondor"
+			weight="5.0"
+			difficulty="0"
+			appearance="2"
+			Type="HeadArmor">
+		<ItemComponent>
+			<Armor
+				head_armor="20"
+				has_gender_variations="false"
+				hair_cover_type="all"
+				modifier_group="plate"
+				material_type="Plate"
+				beard_cover_type="type3" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+			id="imrahil_helmet"
+			name="{=imrahil_helmet}Imrahil Helmet"
+			subtype="head_armor"
+			mesh="imrahil_helmet"
+			culture="Culture.gondor"
+			weight="5.0"
+			difficulty="0"
+			appearance="2"
+			Type="HeadArmor">
+		<ItemComponent>
+			<Armor
+				head_armor="45"
+				has_gender_variations="false"
+				hair_cover_type="all"
+				modifier_group="plate"
+				material_type="Plate"
+				beard_cover_type="type3" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+			id="golasgil_helment"
+			name="{=golasgil_helment}Golasgil Helmet"
+			subtype="head_armor"
+			mesh="golasgil_helment"
+			culture="Culture.gondor"
+			weight="5.0"
+			difficulty="0"
+			appearance="2"
+			Type="HeadArmor">
+		<ItemComponent>
+			<Armor
+				head_armor="45"
+				has_gender_variations="false"
+				hair_cover_type="all"
+				modifier_group="plate"
+				material_type="Plate"
+				beard_cover_type="type3" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+
+	<Item
+			id="lossarnach_helmet"
+			name="{=lossarnach_helmet}Lossarnach Helmet"
+			subtype="head_armor"
+			mesh="lossarnach_helmet"
+			culture="Culture.gondor"
+			weight="5.0"
+			difficulty="0"
+			appearance="2"
+			Type="HeadArmor">
+		<ItemComponent>
+			<Armor
+				head_armor="25"
+				has_gender_variations="false"
+				hair_cover_type="all"
+				modifier_group="plate"
+				material_type="Plate"
+				beard_cover_type="type3" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+	<!-- #endregion -->
+</Items>

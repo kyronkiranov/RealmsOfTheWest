@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+	<!-- Mirkwood -->
+	<Item
+		id="elvean_start_armor"
+		name="{=elfstarter}Elvean Starter Armor"
+		subtype="body_armor"
+		mesh="elvean_start_armor"
+		culture="Culture.battania"
+		weight="10"
+		difficulty="0"
+		appearance="1.5"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="10"
+				arm_armor="8"
+				has_gender_variations="false"
+				covers_body="true"
+				modifier_group="leather"
+				material_type="Leather" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+	<Item
+		id="mirkwood_armor"
+		name="{=mirkwoodarmourone}Mirkwood Armour One"
+		subtype="body_armor"
+		mesh="mirkwood_armor"
+		culture="Culture.battania"
+		weight="16.5"
+		difficulty="0"
+		appearance="1.5"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="48"
+				arm_armor="20"
+				has_gender_variations="false"
+				covers_body="true"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+	<!-- #endregion -->
+	<!-- #endregion -->
+</Items>

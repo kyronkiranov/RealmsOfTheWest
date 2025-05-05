@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+	<!-- Rohan -->
+<Item
+		id="cts_rohan_royal_guard_boots"
+		name="{=UuWPfE1x}Rohan Royal Guard Boots"
+		mesh="cts_rohan_royal_guard_boots"
+		culture="Culture.vlandia"
+		weight="2.6"
+		difficulty="0"
+		appearance="3"
+		Type="LegArmor">
+		<ItemComponent>
+			<Armor
+				leg_armor="26"
+				covers_legs="true"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+	<Item
+			id="whiterun_boots"
+			name="{=UuWPfE1x}Rohan Royal Guard Boots Two"
+			mesh="whiterun_boots"
+			culture="Culture.vlandia"
+			weight="2.6"
+			difficulty="0"
+			appearance="3"
+			Type="LegArmor">
+		<ItemComponent>
+			<Armor
+				leg_armor="26"
+				covers_legs="true"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+	<Item
+			id="cts_rohan_boots1"
+			name="{=rohansoldierbootsone}Rohan Soldier Boots One"
+			mesh="cts_rohan_boots1"
+			culture="Culture.vlandia"
+			weight="1.6"
+			difficulty="0"
+			appearance="3"
+			Type="LegArmor">
+		<ItemComponent>
+			<Armor
+				leg_armor="8"
+				covers_legs="true"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+	<Item
+		id="cts_rohan_boots3"
+		name="{=rohansoldierbootsthree}Rohan Soldier Boots Three"
+		mesh="cts_rohan_boots3"
+		culture="Culture.vlandia"
+		weight="1.0"
+		difficulty="0"
+		appearance="3"
+		Type="LegArmor">
+		<ItemComponent>
+			<Armor
+				leg_armor="5"
+				covers_legs="true"
+				modifier_group="leather"
+				material_type="Leather" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+	<Item
+			id="cts_rohan_boots4"
+			name="{=rohansoldierbootsfour}Rohan Soldier Boots Four"
+			mesh="cts_rohan_boots4"
+			culture="Culture.vlandia"
+			weight="1.6"
+			difficulty="0"
+			appearance="3"
+			Type="LegArmor">
+		<ItemComponent>
+			<Armor
+				leg_armor="8"
+				covers_legs="true"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+	<Item
+			id="theodred_boots"
+			name="{=theodredboots}Theodred Boots"
+			mesh="theodred_boots"
+			culture="Culture.vlandia"
+			weight="2.6"
+			difficulty="0"
+			appearance="3"
+			Type="LegArmor">
+		<ItemComponent>
+			<Armor
+				leg_armor="30"
+				covers_legs="true"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+	<Item
+			id="roh_nbl_bts"
+			name="{=roh_nbl_bts}Rohan Noble Plate Boots"
+			mesh="roh_nbl_bts"
+			culture="Culture.vlandia"
+			weight="2.6"
+			difficulty="0"
+			appearance="3"
+			Type="LegArmor">
+		<ItemComponent>
+			<Armor
+				leg_armor="25"
+				covers_legs="true"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+	
+	<Item
+			id="cts_rohan_captain_boots1"
+			name="{=cts_rohan_captain_boots1}Rohan Captain Boots - Two"
+			mesh="cts_rohan_captain_boots1"
+			culture="Culture.vlandia"
+			weight="2.6"
+			difficulty="0"
+			appearance="3"
+			Type="LegArmor">
+		<ItemComponent>
+			<Armor
+				leg_armor="30"
+				covers_legs="true"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+	<Item
+			id="cts_rohan_captain_boots"
+			name="{=cts_rohan_captain_boots}Rohan Captain Boots - One"
+			mesh="cts_rohan_captain_boots"
+			culture="Culture.vlandia"
+			weight="2.6"
+			difficulty="0"
+			appearance="3"
+			Type="LegArmor">
+		<ItemComponent>
+			<Armor
+				leg_armor="30"
+				covers_legs="true"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+	
+<!-- #endregion -->
+</Items>

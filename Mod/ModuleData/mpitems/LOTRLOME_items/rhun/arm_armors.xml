@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+	<!-- Easterling Glove -->
+<Item
+		id="easterling_glove"
+		name="{=easterlingglove}Easterling Glove"
+		mesh="easterling_glove"
+		culture="Culture.vlandia"
+		weight="1.5"
+		difficulty="0"
+		appearance="3"
+		Type="HandArmor">
+		<ItemComponent>
+			<Armor
+				arm_armor="25"
+				covers_hands="true"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+	<!-- #endregion -->
+</Items>

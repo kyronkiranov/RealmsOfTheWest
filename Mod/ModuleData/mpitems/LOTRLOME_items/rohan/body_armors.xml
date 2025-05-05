@@ -1,0 +1,835 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+	<!-- Rohan -->
+	<Item
+		id="cts_rohan_royal_guard_armor"
+		name="{=rohanroryalguardchestone}Rohan Royal Guard Chestpiece"
+		subtype="body_armor"
+		mesh="cts_rohan_royal_guard_armor"
+		culture="Culture.vlandia"
+		weight="16.5"
+		difficulty="0"
+		appearance="1.5"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="40"
+				arm_armor="15"
+				has_gender_variations="false"
+				covers_body="true"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+	<Item
+		id="whiterun_armor"
+		name="{=rohanroyalguardchesttwo}Rohan Royal Guard Chestpiece Two"
+		subtype="body_armor"
+		mesh="whiterun_armor"
+		culture="Culture.vlandia"
+		weight="16.5"
+		difficulty="0"
+		appearance="1.5"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="40"
+				arm_armor="15"
+				has_gender_variations="false"
+				covers_body="true"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+		id="rohan_militia_armour_a"
+		name="{=rohanmilitiaa}Rohan Militia Armour A"
+		subtype="body_armor"
+		mesh="rohan_militia_armour_a"
+		culture="Culture.vlandia"
+		weight="9.5"
+		difficulty="0"
+		appearance="1.5"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="20"
+				arm_armor="10"
+				has_gender_variations="false"
+				covers_body="true"
+				modifier_group="leather"
+				material_type="Leather" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+		id="rohan_militia_armour_b"
+		name="{=rohanmilitiab}Rohan Militia Armor B"
+		subtype="body_armor"
+		mesh="rohan_militia_armour_b"
+		culture="Culture.vlandia"
+		weight="9.5"
+		difficulty="0"
+		appearance="1.5"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="20"
+				arm_armor="10"
+				has_gender_variations="false"
+				covers_body="true"
+				modifier_group="leather"
+				material_type="Leather" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+		id="rohan_militia_armour_c"
+		name="{=rohanmilitiac}Rohan Militia Armor C"
+		subtype="body_armor"
+		mesh="rohan_militia_armour_c"
+		culture="Culture.vlandia"
+		weight="9.5"
+		difficulty="0"
+		appearance="1.5"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="20"
+				arm_armor="10"
+				has_gender_variations="false"
+				covers_body="true"
+				modifier_group="leather"
+				material_type="Leather" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+		id="rohan_militia_armour_d"
+		name="{=rohanmilitiad}Rohan Militia Armor D"
+		subtype="body_armor"
+		mesh="rohan_militia_armour_d"
+		culture="Culture.vlandia"
+		weight="9.5"
+		difficulty="0"
+		appearance="1.5"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="20"
+				arm_armor="10"
+				has_gender_variations="false"
+				covers_body="true"
+				modifier_group="leather"
+				material_type="Leather" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+		id="rohan_militia_armour_e"
+		name="{=rohanmilitiad}Rohan Militia Armor E"
+		subtype="body_armor"
+		mesh="rohan_militia_armour_e"
+		culture="Culture.vlandia"
+		weight="9.5"
+		difficulty="0"
+		appearance="1.5"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="20"
+				arm_armor="10"
+				has_gender_variations="false"
+				covers_body="true"
+				modifier_group="leather"
+				material_type="Leather" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+
+	<Item
+		id="rohan_militia_armour_f"
+		name="{=rohanmilitiad}Rohan Militia Armor F"
+		subtype="body_armor"
+		mesh="rohan_militia_armour_f"
+		culture="Culture.vlandia"
+		weight="9.5"
+		difficulty="0"
+		appearance="1.5"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="20"
+				arm_armor="10"
+				has_gender_variations="false"
+				covers_body="true"
+				modifier_group="leather"
+				material_type="Leather" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+	<Item
+	id="rohan_militia_armour_g"
+	name="{=rohanmilitiad}Rohan Militia Armor G"
+	subtype="body_armor"
+	mesh="rohan_militia_armour_g"
+	culture="Culture.vlandia"
+	weight="9.5"
+	difficulty="0"
+	appearance="1.5"
+	Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="20"
+				arm_armor="10"
+				has_gender_variations="false"
+				covers_body="true"
+				modifier_group="leather"
+				material_type="Leather" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+	id="cts_rohan_armor1"
+	name="{=rohansoliderarmourone}Rohan Chainmail Armor"
+	subtype="body_armor"
+	mesh="cts_rohan_armor1"
+	culture="Culture.vlandia"
+	weight="12.5"
+	difficulty="0"
+	appearance="1.5"
+	Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="30"
+				arm_armor="10"
+				has_gender_variations="false"
+				covers_body="true"
+				modifier_group="chain"
+				material_type="Chainmail" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+	id="cts_rohan_armor2"
+	name="{=rohansoliderarmourone}Rohan Scalemail Armor"
+	subtype="body_armor"
+	mesh="cts_rohan_armor2"
+	culture="Culture.vlandia"
+	weight="13.5"
+	difficulty="0"
+	appearance="1.5"
+	Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="33"
+				arm_armor="10"
+				has_gender_variations="false"
+				covers_body="true"
+				modifier_group="chain"
+				material_type="Chainmail" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+	<Item
+		id="cts_rohan_armor4"
+		name="{=rohansoliderleatherarmor}Rohan Leather Armor"
+		subtype="body_armor"
+		mesh="cts_rohan_armor4"
+		culture="Culture.vlandia"
+		weight="9.5"
+		difficulty="0"
+		appearance="1.5"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="20"
+				arm_armor="10"
+				has_gender_variations="false"
+				covers_body="true"
+				modifier_group="leather"
+				material_type="Leather" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+	id="cts_rohan_armor3"
+	name="{=rohansoliderarmourfour}Rohan Chainmail Armor Two"
+	subtype="body_armor"
+	mesh="cts_rohan_armor3"
+	culture="Culture.vlandia"
+	weight="13.5"
+	difficulty="0"
+	appearance="1.5"
+	Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="30"
+				arm_armor="10"
+				has_gender_variations="false"
+				covers_body="true"
+				modifier_group="chain"
+				material_type="Chainmail" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	
+<Item
+		id="rohan_militia_tunic_a"
+		name="{=rohanmilitiatunica}Rohan Militia Tunic A"
+		subtype="body_armor"
+		mesh="rohan_militia_tunic_a"
+		culture="Culture.vlandia"
+		weight="2.5"
+		difficulty="0"
+		appearance="1.5"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="10"
+				arm_armor="3"
+				has_gender_variations="false"
+				covers_body="true"
+				modifier_group="leather"
+				material_type="Leather" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>	
+
+	<Item
+		id="rohan_militia_tunic_b"
+		name="{=rohanmilitiatunicb}Rohan Militia Tunic B"
+		subtype="body_armor"
+		mesh="rohan_militia_tunic_b"
+		culture="Culture.vlandia"
+		weight="2.5"
+		difficulty="0"
+		appearance="1.5"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="10"
+				arm_armor="3"
+				has_gender_variations="false"
+				covers_body="true"
+				modifier_group="leather"
+				material_type="Leather" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+			id="rohan_militia_tunic_c"
+			name="{=rohanmilitiatunicb}Rohan Militia Tunic C"
+			subtype="body_armor"
+			mesh="rohan_militia_tunic_c"
+			culture="Culture.vlandia"
+			weight="2.5"
+			difficulty="0"
+			appearance="1.5"
+			Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="10"
+				arm_armor="3"
+				has_gender_variations="false"
+				covers_body="true"
+				modifier_group="leather"
+				material_type="Leather" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+	
+<Item
+			id="theodred_armour"
+			name="{=theodredaarmourone}Theodred Armor"
+			subtype="body_armor"
+			mesh="theodred_armour"
+			culture="Culture.vlandia"
+			weight="16.5"
+			difficulty="0"
+			appearance="1.5"
+			Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="50"
+				arm_armor="25"
+				has_gender_variations="false"
+				covers_body="true"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+		id="theodred_armour_slim"
+		name="{=theodredaarmourone}Theodred Armor - Slim"
+		subtype="body_armor"
+		mesh="theodred_armour_slim"
+		culture="Culture.vlandia"
+		weight="16.5"
+		difficulty="0"
+		appearance="1.5"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="50"
+				arm_armor="25"
+				has_gender_variations="false"
+				covers_body="true"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+		id="roh_nbl_arm_1"
+		name="{=roh_nbl_arm_1}Rohan Solder Chestplate - Chainmail"
+		subtype="body_armor"
+		mesh="roh_nbl_arm_1"
+		culture="Culture.vlandia"
+		weight="10.5"
+		difficulty="0"
+		appearance="1.5"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="25"
+				arm_armor="20"
+				has_gender_variations="false"
+				covers_body="true"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+		id="roh_nbl_arm_b"
+		name="{=roh_nbl_arm_b}Rohan Solder Chestplate - Brown"
+		subtype="body_armor"
+		mesh="roh_nbl_arm_b"
+		culture="Culture.vlandia"
+		weight="8.5"
+		difficulty="0"
+		appearance="1.5"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="25"
+				arm_armor="10"
+				has_gender_variations="false"
+				covers_body="true"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+		id="roh_nbl_arm_g"
+		name="{=roh_nbl_arm_g}Rohan Solder Chestplate - Green"
+		subtype="body_armor"
+		mesh="roh_nbl_arm_g"
+		culture="Culture.vlandia"
+		weight="8.5"
+		difficulty="0"
+		appearance="1.5"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="25"
+				arm_armor="10"
+				has_gender_variations="false"
+				covers_body="true"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+		id="roh_nbl_arm_r"
+		name="{=roh_nbl_arm_r}Rohan Solder Chestplate - Red"
+		subtype="body_armor"
+		mesh="roh_nbl_arm_r"
+		culture="Culture.vlandia"
+		weight="8.5"
+		difficulty="0"
+		appearance="1.5"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="25"
+				arm_armor="10"
+				has_gender_variations="false"
+				covers_body="true"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+
+	<Item
+		id="roh_nbl_arm_y"
+		name="{=roh_nbl_arm_y}Rohan Solder Chestplate - Yellow"
+		subtype="body_armor"
+		mesh="roh_nbl_arm_y"
+		culture="Culture.vlandia"
+		weight="8.5"
+		difficulty="0"
+		appearance="1.5"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="25"
+				arm_armor="10"
+				has_gender_variations="false"
+				covers_body="true"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+	<!-- #endregion -->
+	<!-- #endregion -->
+
+	<Item
+		id="cts_rohan_armor11"
+		name="{=rohansoliderarmouroneb}Rohan Chainmail Armor - Brown"
+		subtype="body_armor"
+		mesh="cts_rohan_armor11"
+		culture="Culture.vlandia"
+		weight="12.5"
+		difficulty="0"
+		appearance="1.5"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="30"
+				arm_armor="10"
+				has_gender_variations="false"
+				covers_body="true"
+				modifier_group="chain"
+				material_type="Chainmail" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+	id="cts_rohan_armor22"
+	name="{=rohansoliderarmouroneb}Rohan Scalemail Armor - Brown"
+	subtype="body_armor"
+	mesh="cts_rohan_armor22"
+	culture="Culture.vlandia"
+	weight="13.5"
+	difficulty="0"
+	appearance="1.5"
+	Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="33"
+				arm_armor="10"
+				has_gender_variations="false"
+				covers_body="true"
+				modifier_group="chain"
+				material_type="Chainmail" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+	<Item
+		id="cts_rohan_armor44"
+		name="{=rohansoliderleatherarmorb}Rohan Leather Armor - Brown"
+		subtype="body_armor"
+		mesh="cts_rohan_armor44"
+		culture="Culture.vlandia"
+		weight="9.5"
+		difficulty="0"
+		appearance="1.5"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="20"
+				arm_armor="10"
+				has_gender_variations="false"
+				covers_body="true"
+				modifier_group="leather"
+				material_type="Leather" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+	id="cts_rohan_armor33"
+	name="{=rohansoliderarmourfourb}Rohan Chainmail Armor - Brown"
+	subtype="body_armor"
+	mesh="cts_rohan_armor33"
+	culture="Culture.vlandia"
+	weight="13.5"
+	difficulty="0"
+	appearance="1.5"
+	Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="30"
+				arm_armor="10"
+				has_gender_variations="false"
+				covers_body="true"
+				modifier_group="chain"
+				material_type="Chainmail" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	
+	<Item
+	id="cts_rohan_armor222"
+	name="{=rohansoliderarmouroneg}Rohan Scalemail Armor - Gold"
+	subtype="body_armor"
+	mesh="cts_rohan_armor222"
+	culture="Culture.vlandia"
+	weight="13.5"
+	difficulty="0"
+	appearance="1.5"
+	Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="33"
+				arm_armor="10"
+				has_gender_variations="false"
+				covers_body="true"
+				modifier_group="chain"
+				material_type="Chainmail" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+	<Item
+		id="cts_rohan_armor444"
+		name="{=rohansoliderleatherarmorg}Rohan Leather Armor - Gold"
+		subtype="body_armor"
+		mesh="cts_rohan_armor444"
+		culture="Culture.vlandia"
+		weight="9.5"
+		difficulty="0"
+		appearance="1.5"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="20"
+				arm_armor="10"
+				has_gender_variations="false"
+				covers_body="true"
+				modifier_group="leather"
+				material_type="Leather" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+	id="cts_rohan_armor333"
+	name="{=rohansoliderarmourfourg}Rohan Chainmail Armor - Gold"
+	subtype="body_armor"
+	mesh="cts_rohan_armor333"
+	culture="Culture.vlandia"
+	weight="13.5"
+	difficulty="0"
+	appearance="1.5"
+	Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="30"
+				arm_armor="10"
+				has_gender_variations="false"
+				covers_body="true"
+				modifier_group="chain"
+				material_type="Chainmail" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+		id="cts_rohan_armor1111"
+		name="{=rohansoliderarmouronegr}Rohan Chainmail Armor - Green"
+		subtype="body_armor"
+		mesh="cts_rohan_armor1111"
+		culture="Culture.vlandia"
+		weight="12.5"
+		difficulty="0"
+		appearance="1.5"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="30"
+				arm_armor="10"
+				has_gender_variations="false"
+				covers_body="true"
+				modifier_group="chain"
+				material_type="Chainmail" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+	id="cts_rohan_armor2222"
+	name="{=rohansoliderarmouronegr}Rohan Scalemail Armor - Green"
+	subtype="body_armor"
+	mesh="cts_rohan_armor2222"
+	culture="Culture.vlandia"
+	weight="13.5"
+	difficulty="0"
+	appearance="1.5"
+	Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="33"
+				arm_armor="10"
+				has_gender_variations="false"
+				covers_body="true"
+				modifier_group="chain"
+				material_type="Chainmail" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+	<Item
+		id="cts_rohan_armor4444"
+		name="{=rohansoliderleatherarmorgr}Rohan Leather Armor - Green"
+		subtype="body_armor"
+		mesh="cts_rohan_armor4444"
+		culture="Culture.vlandia"
+		weight="9.5"
+		difficulty="0"
+		appearance="1.5"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="20"
+				arm_armor="10"
+				has_gender_variations="false"
+				covers_body="true"
+				modifier_group="leather"
+				material_type="Leather" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+	id="cts_rohan_armor3333"
+	name="{=rohansoliderarmourfourgr}Rohan Chainmail Armor - Green"
+	subtype="body_armor"
+	mesh="cts_rohan_armor3333"
+	culture="Culture.vlandia"
+	weight="13.5"
+	difficulty="0"
+	appearance="1.5"
+	Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="30"
+				arm_armor="10"
+				has_gender_variations="false"
+				covers_body="true"
+				modifier_group="chain"
+				material_type="Chainmail" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+			id="cts_rohan_armor_captain1"
+			name="{=cts_rohan_armor_captain1}Rohan Captain Chestpiece - Two"
+			subtype="body_armor"
+			mesh="cts_rohan_armor_captain1"
+			culture="Culture.vlandia"
+			weight="16.5"
+			difficulty="0"
+			appearance="1.5"
+			Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="50"
+				arm_armor="21"
+				has_gender_variations="false"
+				covers_body="true"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+
+	<Item
+			id="cts_rohan_armor_captain"
+			name="{=cts_rohan_armor_captain}Rohan Captain Chestpiece - One"
+			subtype="body_armor"
+			mesh="cts_rohan_armor_captain"
+			culture="Culture.vlandia"
+			weight="16.5"
+			difficulty="0"
+			appearance="1.5"
+			Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="50"
+				arm_armor="21"
+				has_gender_variations="false"
+				covers_body="true"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+	
+
+
+</Items>

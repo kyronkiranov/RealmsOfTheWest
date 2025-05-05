@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+	<!-- Rhun -->
+<Item
+		id="haradrim_boots"
+		name="{=haradrimboots}Haradrim Boots"
+		mesh="haradrim_boots"
+		culture="Culture.aserai"
+		weight="1.6"
+		difficulty="0"
+		appearance="3"
+		Type="LegArmor">
+		<ItemComponent>
+			<Armor
+				leg_armor="16"
+				covers_legs="true"
+				modifier_group="leather"
+				material_type="Leather" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+	<Item
+		id="haradrim02_boots"
+		name="{=haradrim02_boots}Haradrim Boots - Two"
+		mesh="haradrim02_boots"
+		culture="Culture.aserai"
+		weight="1.6"
+		difficulty="0"
+		appearance="3"
+		Type="LegArmor">
+		<ItemComponent>
+			<Armor
+				leg_armor="17"
+				covers_legs="true"
+				modifier_group="leather"
+				material_type="Leather" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+<!-- #endregion -->
+</Items>

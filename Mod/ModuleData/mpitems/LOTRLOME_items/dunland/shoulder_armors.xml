@@ -1,0 +1,383 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+	<!-- Dunland -->
+<Item
+		id="dunland_caerdh_cape_long_a"
+		name="{=dunlandshoulderla}Dunland Caerdh Long Cape A"
+		mesh="dunland_caerdh_cape_long_a"
+		culture="Culture.battania"
+		weight="3.0"
+		appearance="6"
+		Type="Cape">
+	<ItemComponent>
+		<Armor
+			body_armor="5"
+			arm_armor="1"
+			modifier_group="plate"
+			material_type="Plate" />
+	</ItemComponent>
+	<Flags />
+</Item>
+
+	<Item
+			id="dunland_caerdh_cape_long_b"
+			name="{=dunlandshoulderlb}Dunland Caerdh Long Cape B"
+			mesh="dunland_caerdh_cape_long_b"
+			culture="Culture.battania"
+			weight="3.0"
+			appearance="6"
+			Type="Cape">
+		<ItemComponent>
+			<Armor
+				body_armor="5"
+				arm_armor="1"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+	<Item
+		id="dunland_caerdh_cape_short_a"
+		name="{=dunlandshouldersa}Dunland Caerdh Short Cape A"
+		mesh="dunland_caerdh_cape_short_a"
+		culture="Culture.battania"
+		weight="1.0"
+		appearance="6"
+		Type="Cape">
+		<ItemComponent>
+			<Armor
+				body_armor="1"
+				arm_armor="1"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+	<Item
+	id="dunland_caerdh_pauldron_light_cape"
+	name="{=dunlandshoulderla}Dunland Caerdh Light Cape A"
+	mesh="dunland_caerdh_pauldron_light_cape"
+	culture="Culture.battania"
+	weight="1.0"
+	appearance="6"
+	Type="Cape">
+		<ItemComponent>
+			<Armor
+				body_armor="1"
+				arm_armor="1"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+	<Item
+		id="dunland_caerdh_pauldron_elite_cape_a"
+		name="{=dunlandshoulderea}Dunland Caerdh Elite Cape A"
+		mesh="dunland_caerdh_pauldron_elite_cape_a"
+		culture="Culture.battania"
+		weight="4.0"
+		appearance="6"
+		Type="Cape">
+		<ItemComponent>
+			<Armor
+				body_armor="8"
+				arm_armor="1"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+	<Item
+			id="dunland_caerdh_pauldron_elite_cape_b"
+			name="{=dunlandshouldereb}Dunland Caerdh Elite Cape B"
+			mesh="dunland_caerdh_pauldron_elite_cape_b"
+			culture="Culture.battania"
+			weight="4.0"
+			appearance="6"
+			Type="Cape">
+		<ItemComponent>
+			<Armor
+				body_armor="8"
+				arm_armor="1"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+	<Item
+				id="dunland_caerdh_pauldron_heavy_cape_a"
+				name="{=dunlandshoulderpha}Dunland Caerdh Heavy Cape A"
+				mesh="dunland_caerdh_pauldron_heavy_cape_a"
+				culture="Culture.battania"
+				weight="4.0"
+				appearance="6"
+				Type="Cape">
+		<ItemComponent>
+			<Armor
+				body_armor="10"
+				arm_armor="1"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+	<Item
+				id="dunland_caerdh_pauldron_heavy_cape_b"
+				name="{=dunlandshoulderpha}Dunland Caerdh Heavy Cape B"
+				mesh="dunland_caerdh_pauldron_heavy_cape_b"
+				culture="Culture.battania"
+				weight="4.0"
+				appearance="6"
+				Type="Cape">
+		<ItemComponent>
+			<Armor
+				body_armor="9"
+				arm_armor="1"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+	<Item
+				id="dunland_caerdh_pauldron_light_cape_b"
+				name="{=dunlandshoulderpha}Dunland Caerdh Light Pauldron Cape B"
+				mesh="dunland_caerdh_pauldron_light_cape_b"
+				culture="Culture.battania"
+				weight="4.0"
+				appearance="6"
+				Type="Cape">
+		<ItemComponent>
+			<Armor
+				body_armor="9"
+				arm_armor="1"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+	<!-- Wulf -->
+	<Item
+			id="dunland_wulf_cape_long_a"
+			name="{=dunlandwulfshoulderla}Dunland Wulf Long Cape A"
+			mesh="dunland_wulf_cape_long_a"
+			culture="Culture.battania"
+			weight="3.0"
+			appearance="6"
+			Type="Cape">
+		<ItemComponent>
+			<Armor
+				body_armor="5"
+				arm_armor="1"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+	<Item
+			id="dunland_wulf_cape_long_b"
+			name="{=dunlandwulfshoulderlb}Dunland Wulf Long Cape B"
+			mesh="dunland_wulf_cape_long_b"
+			culture="Culture.battania"
+			weight="3.0"
+			appearance="6"
+			Type="Cape">
+		<ItemComponent>
+			<Armor
+				body_armor="5"
+				arm_armor="1"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+	<Item
+		id="dunland_wulf_cape_short_a"
+		name="{=dunlandwulfshouldersa}Dunland Wulf Short Cape A"
+		mesh="dunland_wulf_cape_short_a"
+		culture="Culture.battania"
+		weight="1.0"
+		appearance="6"
+		Type="Cape">
+		<ItemComponent>
+			<Armor
+				body_armor="1"
+				arm_armor="1"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+	<Item
+			id="dunland_wulf_cape_short_b"
+			name="{=dunlandwulfshouldersb}Dunland Wulf Short Cape B"
+			mesh="dunland_wulf_cape_short_b"
+			culture="Culture.battania"
+			weight="1.0"
+			appearance="6"
+			Type="Cape">
+		<ItemComponent>
+			<Armor
+				body_armor="1"
+				arm_armor="1"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+	<Item
+			id="dunland_wulf_pauldron_cape_a"
+			name="{=dunlandwulfpauldroncapea}Dunland Wulf Pauldron Cape A"
+			mesh="dunland_wulf_pauldron_cape_a"
+			culture="Culture.battania"
+			weight="1.0"
+			appearance="6"
+			Type="Cape">
+		<ItemComponent>
+			<Armor
+				body_armor="9"
+				arm_armor="5"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+	<Item
+			id="dunland_wulf_pauldron_cape_b"
+			name="{=dunlandwulfpauldroncapeb}Dunland Wulf Pauldron Cape B"
+			mesh="dunland_wulf_pauldron_cape_b"
+			culture="Culture.battania"
+			weight="1.0"
+			appearance="6"
+			Type="Cape">
+		<ItemComponent>
+			<Armor
+				body_armor="9"
+				arm_armor="5"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+	<Item
+		id="dunland_wulf_pauldron_cape_c"
+		name="{=dunlandwulfpauldroncapec}Dunland Wulf Pauldron Cape C"
+		mesh="dunland_wulf_pauldron_cape_c"
+		culture="Culture.battania"
+		weight="1.0"
+		appearance="6"
+		Type="Cape">
+		<ItemComponent>
+			<Armor
+				body_armor="9"
+				arm_armor="5"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+	<Item
+		id="dunland_wulf_pauldron_cape_d"
+		name="{=dunlandwulfpauldroncapea}Dunland Wulf Pauldron Cape D"
+		mesh="dunland_wulf_pauldron_cape_d"
+		culture="Culture.battania"
+		weight="1.0"
+		appearance="6"
+		Type="Cape">
+		<ItemComponent>
+			<Armor
+				body_armor="9"
+				arm_armor="5"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+	<Item
+		id="dunland_wulf_pauldron_cape_short_a"
+		name="{=dunlandwulfpauldroncapeshorta}Dunland Wulf Pauldron Short Cape A"
+		mesh="dunland_wulf_pauldron_cape_short_a"
+		culture="Culture.battania"
+		weight="1.0"
+		appearance="6"
+		Type="Cape">
+		<ItemComponent>
+			<Armor
+				body_armor="9"
+				arm_armor="5"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+	<Item
+		id="dunland_wulf_pauldron_cape_short_b"
+		name="{=dunlandwulfpauldroncapeshortb}Dunland Wulf Pauldron Short Cape B"
+		mesh="dunland_wulf_pauldron_cape_short_b"
+		culture="Culture.battania"
+		weight="1.0"
+		appearance="6"
+		Type="Cape">
+		<ItemComponent>
+			<Armor
+				body_armor="9"
+				arm_armor="5"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+	<Item
+		id="dunland_wulf_pauldron_cape_short_c"
+		name="{=dunlandwulfpauldroncapeshortc}Dunland Wulf Pauldron Short Cape C"
+		mesh="dunland_wulf_pauldron_cape_short_c"
+		culture="Culture.battania"
+		weight="1.0"
+		appearance="6"
+		Type="Cape">
+		<ItemComponent>
+			<Armor
+				body_armor="9"
+				arm_armor="5"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+	<Item
+		id="dunland_wulf_pauldron_cape_short_d"
+		name="{=dunlandwulfpauldroncapeshortd}Dunland Wulf Pauldron Short Cape D"
+		mesh="dunland_wulf_pauldron_cape_short_d"
+		culture="Culture.battania"
+		weight="1.0"
+		appearance="6"
+		Type="Cape">
+		<ItemComponent>
+			<Armor
+				body_armor="9"
+				arm_armor="5"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+	<!-- #endregion -->
+</Items>

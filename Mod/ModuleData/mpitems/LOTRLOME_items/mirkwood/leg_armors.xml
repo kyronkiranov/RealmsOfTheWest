@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+	<!-- Mirkwood -->
+<Item
+		id="mirkwood_legs"
+		name="{=mirkwoodboots}Mirkwood Plate Boots"
+		mesh="mirkwood_legs"
+		culture="Culture.battania"
+		weight="2.6"
+		difficulty="0"
+		appearance="3"
+		Type="LegArmor">
+		<ItemComponent>
+			<Armor
+				leg_armor="26"
+				covers_legs="true"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+	
+<!-- #endregion -->
+</Items>

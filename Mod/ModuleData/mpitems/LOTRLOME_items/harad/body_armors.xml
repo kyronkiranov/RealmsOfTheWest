@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+	<!-- Harad -->
+	<Item
+		id="haradrim_torso"
+		name="{=haradrimtorso}Haradrim Mail Armor"
+		mesh="haradrim_torso"
+		subtype="body_armor"
+		culture="Culture.aserai"
+		weight="9.5"
+		difficulty="0"
+		appearance="1.5"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="18"
+				arm_armor="10"
+				has_gender_variations="false"
+				covers_body="true"
+				modifier_group="leather"
+				material_type="Leather" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+
+	<Item
+			id="haradrim02_toso"
+			name="{=haradrim02_toso}Haradrim ScaleMail Armor - Maroon"
+			mesh="haradrim02_toso"
+			subtype="body_armor"
+			culture="Culture.aserai"
+			weight="9.5"
+			difficulty="0"
+			appearance="1.5"
+			Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="20"
+				arm_armor="13"
+				has_gender_variations="false"
+				covers_body="true"
+				modifier_group="chain"
+				material_type="Chainmail" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+			id="haradrim02a_toso"
+			name="{=haradrim02a_toso}Haradrim ScaleMail Armor - Green"
+			mesh="haradrim02a_toso"
+			subtype="body_armor"
+			culture="Culture.aserai"
+			weight="9.5"
+			difficulty="0"
+			appearance="1.5"
+			Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="20"
+				arm_armor="13"
+				has_gender_variations="false"
+				covers_body="true"
+				modifier_group="chain"
+				material_type="Chainmail" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+
+	<Item
+			id="haradrim02b_toso"
+			name="{=haradrim02b_toso}Haradrim ScaleMail Armor - Grey"
+			mesh="haradrim02b_toso"
+			subtype="body_armor"
+			culture="Culture.aserai"
+			weight="9.5"
+			difficulty="0"
+			appearance="1.5"
+			Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="20"
+				arm_armor="13"
+				has_gender_variations="false"
+				covers_body="true"
+				modifier_group="chain"
+				material_type="Chainmail" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+			id="haradrim02c_toso"
+			name="{=haradrim02c_toso}Haradrim ScaleMail Armor - Gold"
+			mesh="haradrim02c_toso"
+			subtype="body_armor"
+			culture="Culture.aserai"
+			weight="9.5"
+			difficulty="0"
+			appearance="1.5"
+			Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="20"
+				arm_armor="13"
+				has_gender_variations="false"
+				covers_body="true"
+				modifier_group="chain"
+				material_type="Chainmail" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+
+	<!-- #endregion -->
+	<!-- #endregion -->
+</Items>

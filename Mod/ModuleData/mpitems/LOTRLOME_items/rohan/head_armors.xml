@@ -1,0 +1,465 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+	<!-- Rohan -->
+<Item
+		id="cts_cts_rohan_royal_guard_helmet_tail"
+		name="{=NB9bQt6O}Rohan Royal Guard Helmet"
+		subtype="head_armor"
+		mesh="cts_cts_rohan_royal_guard_helmet_tail"
+		culture="Culture.vlandia"
+		weight="2.0"
+		difficulty="0"
+		appearance="2"
+		Type="HeadArmor">
+		<ItemComponent>
+			<Armor
+				head_armor="22"
+				has_gender_variations="false"
+				hair_cover_type="all"
+				modifier_group="plate"
+				material_type="Plate"
+				beard_cover_type="type3" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+	<Item
+			id="whiterun_helm"
+			name="{=NB9bQt81}Rohan Royal Guard Helmet Two"
+			subtype="head_armor"
+			mesh="whiterun_helm"
+			culture="Culture.vlandia"
+			weight="2.0"
+			difficulty="0"
+			appearance="2"
+			Type="HeadArmor">
+		<ItemComponent>
+			<Armor
+				head_armor="22"
+				has_gender_variations="false"
+				hair_cover_type="all"
+				modifier_group="plate"
+				material_type="Plate"
+				beard_cover_type="type3" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+			id="cts_cts_rohan_royal_guard_helmet_tail"
+			name="{=NB9bQt6O}Rohan Royal Guard Helmet"
+			subtype="head_armor"
+			mesh="cts_cts_rohan_royal_guard_helmet_tail"
+			culture="Culture.vlandia"
+			weight="2.0"
+			difficulty="0"
+			appearance="2"
+			Type="HeadArmor">
+		<ItemComponent>
+			<Armor
+				head_armor="22"
+				has_gender_variations="false"
+				hair_cover_type="all"
+				modifier_group="plate"
+				material_type="Plate"
+				beard_cover_type="type3" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+	<Item
+		 id="cts_rohan_helmet1"
+		 name="{=rohanhelmetleatherone}Rohan Leather Helmet One"
+		 subtype="head_armor"
+		 mesh="cts_rohan_helmet1"
+		 culture="Culture.vlandia"
+		 weight="2.0"
+		 difficulty="0"
+		 appearance="2"
+		 Type="HeadArmor">
+		<ItemComponent>
+			<Armor
+				head_armor="15"
+				has_gender_variations="false"
+				hair_cover_type="all"
+				modifier_group="leather"
+				material_type="Leather"
+				beard_cover_type="type3" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+		 id="cts_rohan_helmet1a"
+		 name="{=rohanhelmetleatheronea}Rohan Leather Helmet A"
+		 subtype="head_armor"
+		 mesh="cts_rohan_helmet1a"
+		 culture="Culture.vlandia"
+		 weight="2.0"
+		 difficulty="0"
+		 appearance="2"
+		 Type="HeadArmor">
+		<ItemComponent>
+			<Armor
+				head_armor="15"
+				has_gender_variations="false"
+				hair_cover_type="all"
+				modifier_group="leather"
+				material_type="Leather"
+				beard_cover_type="type3" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+		 id="cts_rohan_helmet1b"
+		 name="{=rohanhelmetleatheroneb}Rohan Leather Helmet B"
+		 subtype="head_armor"
+		 mesh="cts_rohan_helmet1b"
+		 culture="Culture.vlandia"
+		 weight="2.0"
+		 difficulty="0"
+		 appearance="2"
+		 Type="HeadArmor">
+		<ItemComponent>
+			<Armor
+				head_armor="15"
+				has_gender_variations="false"
+				hair_cover_type="all"
+				modifier_group="leather"
+				material_type="Leather"
+				beard_cover_type="type3" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+		 id="cts_rohan_helmet1c"
+		 name="{=rohanhelmetleatheronec}Rohan Leather Helmet C"
+		 subtype="head_armor"
+		 mesh="cts_rohan_helmet1c"
+		 culture="Culture.vlandia"
+		 weight="2.0"
+		 difficulty="0"
+		 appearance="2"
+		 Type="HeadArmor">
+		<ItemComponent>
+			<Armor
+				head_armor="15"
+				has_gender_variations="false"
+				hair_cover_type="all"
+				modifier_group="leather"
+				material_type="Leather"
+				beard_cover_type="type3" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+		 id="cts_rohan_helmet2"
+		 name="{=rohanhelmetleathertwoa}Rohan Leather Helmet D"
+		 subtype="head_armor"
+		 mesh="cts_rohan_helmet2"
+		 culture="Culture.vlandia"
+		 weight="2.5"
+		 difficulty="0"
+		 appearance="2"
+		 Type="HeadArmor">
+		<ItemComponent>
+			<Armor
+				head_armor="17"
+				has_gender_variations="false"
+				hair_cover_type="all"
+				modifier_group="leather"
+				material_type="Leather"
+				beard_cover_type="type3" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+			 id="cts_rohan_helmet2a"
+			 name="{=rohanhelmetleathertwob}Rohan Leather Helmet E"
+			 subtype="head_armor"
+			 mesh="cts_rohan_helmet2a"
+			 culture="Culture.vlandia"
+			 weight="2.5"
+			 difficulty="0"
+			 appearance="2"
+			 Type="HeadArmor">
+		<ItemComponent>
+			<Armor
+				head_armor="17"
+				has_gender_variations="false"
+				hair_cover_type="all"
+				modifier_group="leather"
+				material_type="Leather"
+				beard_cover_type="type3" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+			 id="cts_rohan_helmet3"
+			 name="{=rohanhelmetleatherthreea}Rohan Leather Helmet F"
+			 subtype="head_armor"
+			 mesh="cts_rohan_helmet3"
+			 culture="Culture.vlandia"
+			 weight="2.5"
+			 difficulty="0"
+			 appearance="2"
+			 Type="HeadArmor">
+		<ItemComponent>
+			<Armor
+				head_armor="17"
+				has_gender_variations="false"
+				hair_cover_type="all"
+				modifier_group="leather"
+				material_type="Leather"
+				beard_cover_type="type3" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+		 id="cts_rohan_helmet3a"
+		 name="{=rohanhelmetleatherthreeb}Rohan Leather Helmet G"
+		 subtype="head_armor"
+		 mesh="cts_rohan_helmet3a"
+		 culture="Culture.vlandia"
+		 weight="2.5"
+		 difficulty="0"
+		 appearance="2"
+		 Type="HeadArmor">
+		<ItemComponent>
+			<Armor
+				head_armor="17"
+				has_gender_variations="false"
+				hair_cover_type="all"
+				modifier_group="leather"
+				material_type="Leather"
+				beard_cover_type="type3" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+		 id="cts_rohan_helmet4"
+		 name="{=rohanhelmetleatherfoura}Rohan Leather Helmet H"
+		 subtype="head_armor"
+		 mesh="cts_rohan_helmet4"
+		 culture="Culture.vlandia"
+		 weight="2.5"
+		 difficulty="0"
+		 appearance="2"
+		 Type="HeadArmor">
+		<ItemComponent>
+			<Armor
+				head_armor="17"
+				has_gender_variations="false"
+				hair_cover_type="all"
+				modifier_group="leather"
+				material_type="Leather"
+				beard_cover_type="type3" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+		 id="cts_rohan_helmet4a"
+		 name="{=rohanhelmetleatherfourb}Rohan Leather Helmet I"
+		 subtype="head_armor"
+		 mesh="cts_rohan_helmet4a"
+		 culture="Culture.vlandia"
+		 weight="2.5"
+		 difficulty="0"
+		 appearance="2"
+		 Type="HeadArmor">
+		<ItemComponent>
+			<Armor
+				head_armor="17"
+				has_gender_variations="false"
+				hair_cover_type="all"
+				modifier_group="leather"
+				material_type="Leather"
+				beard_cover_type="type3" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+		 id="cts_rohan_helmet4b"
+		 name="{=rohanhelmetleatherfourc}Rohan Leather Helmet J"
+		 subtype="head_armor"
+		 mesh="cts_rohan_helmet4b"
+		 culture="Culture.vlandia"
+		 weight="2.5"
+		 difficulty="0"
+		 appearance="2"
+		 Type="HeadArmor">
+		<ItemComponent>
+			<Armor
+				head_armor="17"
+				has_gender_variations="false"
+				hair_cover_type="all"
+				modifier_group="leather"
+				material_type="Leather"
+				beard_cover_type="type3" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+
+	<Item
+		 id="cts_rohan_helmet4c"
+		 name="{=rohanhelmetleatherfourd}Rohan Leather Helmet K"
+		 subtype="head_armor"
+		 mesh="cts_rohan_helmet4c"
+		 culture="Culture.vlandia"
+		 weight="2.0"
+		 difficulty="0"
+		 appearance="2"
+		 Type="HeadArmor">
+		<ItemComponent>
+			<Armor
+				head_armor="15"
+				has_gender_variations="false"
+				hair_cover_type="all"
+				modifier_group="leather"
+				material_type="Leather"
+				beard_cover_type="type3" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+		 id="cts_rohan_helmet4d"
+		 name="{=rohanhelmetleatherfourd}Rohan Leather Helmet L"
+		 subtype="head_armor"
+		 mesh="cts_rohan_helmet4d"
+		 culture="Culture.vlandia"
+		 weight="2.0"
+		 difficulty="0"
+		 appearance="2"
+		 Type="HeadArmor">
+		<ItemComponent>
+			<Armor
+				head_armor="15"
+				has_gender_variations="false"
+				hair_cover_type="all"
+				modifier_group="leather"
+				material_type="Leather"
+				beard_cover_type="type3" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+	
+<Item
+			id="theodred_helmet"
+			name="{=theodredhelmet}Theodred Helmet"
+			subtype="head_armor"
+			mesh="theodred_helmet"
+			culture="Culture.vlandia"
+			weight="2.0"
+			difficulty="0"
+			appearance="2"
+			Type="HeadArmor">
+		<ItemComponent>
+			<Armor
+				head_armor="45"
+				has_gender_variations="false"
+				hair_cover_type="all"
+				modifier_group="plate"
+				material_type="Plate"
+				beard_cover_type="type3" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+
+	<Item
+			id="roh_nbl_hlm_cf"
+			name="{=roh_nbl_hlm_cf}Rohan Noble Helm"
+			subtype="head_armor"
+			mesh="roh_nbl_hlm_cf"
+			culture="Culture.vlandia"
+			weight="2.0"
+			difficulty="0"
+			appearance="2"
+			Type="HeadArmor">
+		<ItemComponent>
+			<Armor
+				head_armor="45"
+				has_gender_variations="false"
+				hair_cover_type="all"
+				modifier_group="plate"
+				material_type="Plate"
+				beard_cover_type="type3" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+
+	<Item
+			id="cts_rohan_helmet_captain1"
+			name="{=cts_rohan_helmet_captain1}Rohan Captain Helmet - One"
+			subtype="head_armor"
+			mesh="cts_rohan_helmet_captain1"
+			culture="Culture.vlandia"
+			weight="2.5"
+			difficulty="0"
+			appearance="2"
+			Type="HeadArmor">
+		<ItemComponent>
+			<Armor
+				head_armor="45"
+				has_gender_variations="false"
+				hair_cover_type="all"
+				modifier_group="plate"
+				material_type="Plate"
+				beard_cover_type="type3" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<Item
+			id="cts_rohan_helmet_captain"
+			name="{=cts_rohan_helmet_captain}Rohan Captain Helmet - Two"
+			subtype="head_armor"
+			mesh="cts_rohan_helmet_captain"
+			culture="Culture.vlandia"
+			weight="2.5"
+			difficulty="0"
+			appearance="2"
+			Type="HeadArmor">
+		<ItemComponent>
+			<Armor
+				head_armor="45"
+				has_gender_variations="false"
+				hair_cover_type="all"
+				modifier_group="plate"
+				material_type="Plate"
+				beard_cover_type="type3" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+	<!-- #endregion -->
+</Items>

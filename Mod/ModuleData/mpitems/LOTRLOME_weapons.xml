@@ -1,0 +1,1443 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+	<!-- #region Weapons -->
+	<CraftedItem id="anduril" name="Anduril Sword" crafting_template="TwoHandedSword" is_merchandise="true" culture="Culture.gondor">
+		<Pieces>
+			<Piece id="anduril_blade" Type="Blade" scale_factor="100" />
+			<Piece id="anduril_guard" Type="Guard" scale_factor="100" />
+			<Piece id="anduril_handle" Type="Handle" scale_factor="100" />
+			<Piece id="anduril_pommel" Type="Pommel" scale_factor="100" />
+		</Pieces>
+	</CraftedItem>
+
+	<CraftedItem id="easterling_sword" name="Easterling Sword" crafting_template="TwoHandedSword" is_merchandise="true" culture="Culture.aserai">
+		<Pieces>
+			<Piece id="easterling_sword_blade" Type="Blade" scale_factor="100" />
+			<Piece id="easterling_sword_guard" Type="Guard" scale_factor="100" />
+			<Piece id="easterling_sword_handle" Type="Handle" scale_factor="100" />
+			<Piece id="easterling_sword_pommel" Type="Pommel" scale_factor="100" />
+		</Pieces>
+	</CraftedItem>
+
+	<CraftedItem id="easterling_spear" name="Easterling Spear"  crafting_template="TwoHandedPolearm" culture="Culture.aserai" is_merchandise="true" modifier_group="polearm">
+		<Pieces>
+			<Piece id="easterling_spear_blade" Type="Blade" scale_factor="100" />
+			<Piece id="easterling_spear_handle" Type="Handle" scale_factor="100" />
+		</Pieces>
+	</CraftedItem>
+
+	<CraftedItem id="gond_spear2"
+					   name="Gondorian Spear"
+					   crafting_template="TwoHandedPolearm"
+					   is_merchandise="true"
+					   value="3000"
+					 culture="Culture.gondor"
+					   modifier_group="polearm">
+
+		<Pieces>
+			<Piece id="gond_spr2_bld"
+				   Type="Blade"
+				   scale_factor="108" />
+
+			<Piece id="gond_spr2_hndl"
+				   Type="Handle"
+				   scale_factor="110" />
+			<Piece id="gond_spr2_pml"
+				   Type="Pommel"
+				   scale_factor="110" />
+		</Pieces>
+	</CraftedItem>
+
+
+	<CraftedItem id="wm_gondor_spear"
+				   name="Gondorian Spear Two"
+				   crafting_template="TwoHandedPolearm"
+				   is_merchandise="true"
+				   culture="Culture.gondor"
+				   value="4000"
+				   modifier_group="polearm">
+
+		<Pieces>
+			<Piece id="wm_gondor_spear_blade"
+				   Type="Blade"
+				   scale_factor="100" />
+			<Piece id="wm_gondor_spear_shaft"
+				   Type="Handle"
+				   scale_factor="100" />
+
+		</Pieces>
+	</CraftedItem>
+
+	<CraftedItem id="wm_gondor_spear_a"
+					   name="Gondorian Spear Three"
+					   crafting_template="TwoHandedPolearm"
+					   culture="Culture.gondor"
+					   is_merchandise="true"
+					   value="6000"
+					   modifier_group="polearm">
+
+		<Pieces>
+			<Piece id="wm_gondor_spear_a_blade"
+				   Type="Blade"
+				   scale_factor="100" />
+			<Piece id="wm_gondor_spear_a_shaft"
+				   Type="Handle"
+				   scale_factor="100" />
+
+		</Pieces>
+	</CraftedItem>
+
+	<CraftedItem id="wm_gondor_spear_b"
+					   name="Gondorian Spear Four"
+					   crafting_template="TwoHandedPolearm"
+						culture="Culture.gondor"
+					   is_merchandise="true"
+					   value="6000"
+					   modifier_group="polearm">
+
+		<Pieces>
+			<Piece id="wm_gondor_spear_b_blade"
+				   Type="Blade"
+				   scale_factor="100" />
+			<Piece id="wm_gondor_spear_b_shaft"
+				   Type="Handle"
+				   scale_factor="100" />
+
+		</Pieces>
+	</CraftedItem>
+
+	<!--Gondor 1H Sword-->
+
+	<CraftedItem id="wm_gondor_boromir_sword" name="Boromir Sword" crafting_template="OneHandedSword" is_merchandise="true" culture="Culture.gondor">
+		<Pieces>
+			<Piece id="wm_boromir_sword_blade" Type="Blade" scale_factor="100" />
+			<Piece id="wm_boromir_sword_guard" Type="Guard" scale_factor="100" />
+			<Piece id="wm_boromir_sword_hilt" Type="Handle" scale_factor="100" />
+			<Piece id="wm_boromir_sword_pommel" Type="Pommel" scale_factor="100" />
+		</Pieces>
+	</CraftedItem>
+
+	<CraftedItem id="wm_gondor_faramir_sword" name="Faramir Sword" crafting_template="OneHandedSword" is_merchandise="true" culture="Culture.gondor">
+		<Pieces>
+			<Piece id="wm_faramir_sword_blade" Type="Blade" scale_factor="100" />
+			<Piece id="wm_faramir_sword_guard" Type="Guard" scale_factor="100" />
+			<Piece id="wm_faramir_sword_hilt" Type="Handle" scale_factor="100" />
+			<Piece id="wm_faramir_sword_pommel" Type="Pommel" scale_factor="100" />
+		</Pieces>
+	</CraftedItem>
+
+	<CraftedItem id="wm_gondor_sword_a10" name="Gondor 1H A10" crafting_template="OneHandedSword" is_merchandise="true" culture="Culture.gondor">
+		<Pieces>
+			<Piece id="wm_gondor_sword_a10_blade" Type="Blade" scale_factor="100" />
+			<Piece id="wm_gondor_sword_a10_guard" Type="Guard" scale_factor="100" />
+			<Piece id="wm_gondor_sword_a10_hilt" Type="Handle" scale_factor="100" />
+			<Piece id="wm_gondor_sword_a10_pommel" Type="Pommel" scale_factor="100" />
+		</Pieces>
+	</CraftedItem>
+
+	<CraftedItem id="wm_gondor_sword_a09" name="Gondor 1H A09" crafting_template="OneHandedSword" is_merchandise="true" culture="Culture.gondor">
+		<Pieces>
+			<Piece id="wm_gondor_sword_a09_blade" Type="Blade" scale_factor="100" />
+			<Piece id="wm_gondor_sword_a09_guard" Type="Guard" scale_factor="100" />
+			<Piece id="wm_gondor_sword_a09_hilt" Type="Handle" scale_factor="100" />
+			<Piece id="wm_gondor_sword_a09_pommel" Type="Pommel" scale_factor="100" />
+		</Pieces>
+	</CraftedItem>
+
+	<CraftedItem id="wm_gondor_sword_a08" name="Gondor 1H A08" crafting_template="OneHandedSword" is_merchandise="true" culture="Culture.gondor">
+		<Pieces>
+			<Piece id="wm_gondor_sword_a08_blade" Type="Blade" scale_factor="100" />
+			<Piece id="wm_gondor_sword_a08_guard" Type="Guard" scale_factor="100" />
+			<Piece id="wm_gondor_sword_a08_hilt" Type="Handle" scale_factor="100" />
+			<Piece id="wm_gondor_sword_a08_pommel" Type="Pommel" scale_factor="100" />
+		</Pieces>
+	</CraftedItem>
+
+	<CraftedItem id="wm_gondor_sword_a07" name="Gondor 1H A07" crafting_template="OneHandedSword" is_merchandise="true" culture="Culture.gondor">
+		<Pieces>
+			<Piece id="wm_gondor_sword_a07_blade" Type="Blade" scale_factor="100" />
+			<Piece id="wm_gondor_sword_a07_guard" Type="Guard" scale_factor="100" />
+			<Piece id="wm_gondor_sword_a07_hilt" Type="Handle" scale_factor="100" />
+			<Piece id="wm_gondor_sword_a07_pommel" Type="Pommel" scale_factor="100" />
+		</Pieces>
+	</CraftedItem>
+
+	<CraftedItem id="wm_gondor_sword_a06" name="Gondor 1H A06" crafting_template="OneHandedSword" is_merchandise="true" culture="Culture.gondor">
+		<Pieces>
+			<Piece id="wm_gondor_sword_a06_blade" Type="Blade" scale_factor="100" />
+			<Piece id="wm_gondor_sword_a06_guard" Type="Guard" scale_factor="100" />
+			<Piece id="wm_gondor_sword_a06_hilt" Type="Handle" scale_factor="100" />
+			<Piece id="wm_gondor_sword_a06_pommel" Type="Pommel" scale_factor="100" />
+		</Pieces>
+	</CraftedItem>
+
+	<CraftedItem id="wm_gondor_sword_a05" name="Gondor 1H A05" crafting_template="OneHandedSword" is_merchandise="true" culture="Culture.gondor">
+		<Pieces>
+			<Piece id="wm_gondor_sword_a05_blade" Type="Blade" scale_factor="100" />
+			<Piece id="wm_gondor_sword_a05_guard" Type="Guard" scale_factor="100" />
+			<Piece id="wm_gondor_sword_a05_hilt" Type="Handle" scale_factor="100" />
+			<Piece id="wm_gondor_sword_a05_pommel" Type="Pommel" scale_factor="100" />
+		</Pieces>
+	</CraftedItem>
+
+	<CraftedItem id="wm_gondor_sword_a04" name="Gondor 1H A04" crafting_template="OneHandedSword" is_merchandise="true" culture="Culture.gondor">
+		<Pieces>
+			<Piece id="wm_gondor_sword_a04_blade" Type="Blade" scale_factor="100" />
+			<Piece id="wm_gondor_sword_a04_guard" Type="Guard" scale_factor="100" />
+			<Piece id="wm_gondor_sword_a04_hilt" Type="Handle" scale_factor="100" />
+			<Piece id="wm_gondor_sword_a04_pommel" Type="Pommel" scale_factor="100" />
+		</Pieces>
+	</CraftedItem>
+
+	<CraftedItem id="wm_gondor_sword_a03" name="Gondor 1H A03" crafting_template="OneHandedSword" is_merchandise="true" culture="Culture.gondor">
+		<Pieces>
+			<Piece id="wm_gondor_sword_a03_blade" Type="Blade" scale_factor="100" />
+			<Piece id="wm_gondor_sword_a03_guard" Type="Guard" scale_factor="100" />
+			<Piece id="wm_gondor_sword_a03_hilt" Type="Handle" scale_factor="100" />
+			<Piece id="wm_gondor_sword_a03_pommel" Type="Pommel" scale_factor="100" />
+		</Pieces>
+	</CraftedItem>
+
+	<CraftedItem id="wm_gondor_sword_a02" name="Gondor 1H A02" crafting_template="OneHandedSword" is_merchandise="true" culture="Culture.gondor">
+		<Pieces>
+			<Piece id="wm_gondor_sword_a02_blade" Type="Blade" scale_factor="100" />
+			<Piece id="wm_gondor_sword_a02_guard" Type="Guard" scale_factor="100" />
+			<Piece id="wm_gondor_sword_a02_hilt" Type="Handle" scale_factor="100" />
+			<Piece id="wm_gondor_sword_a02_pommel" Type="Pommel" scale_factor="100" />
+		</Pieces>
+	</CraftedItem>
+
+	<CraftedItem id="wm_gondor_sword_a01" name="Gondor 1H A01" crafting_template="OneHandedSword" is_merchandise="true" culture="Culture.gondor">
+		<Pieces>
+			<Piece id="wm_gondor_sword_a01_blade" Type="Blade" scale_factor="100" />
+			<Piece id="wm_gondor_sword_a01_guard" Type="Guard" scale_factor="100" />
+			<Piece id="wm_gondor_sword_a01_hilt" Type="Handle" scale_factor="100" />
+			<Piece id="wm_gondor_sword_a01_pommel" Type="Pommel" scale_factor="100" />
+		</Pieces>
+	</CraftedItem>
+
+	<!--Dunland One Hand Axes-->
+	<CraftedItem id="dunland_caerdh_axe_1h_a"
+					   name="{=dunlandcaerdhaxeonehanda}Dunland Caerdh 1H Axe A"
+					   is_merchandise="true"
+						culture="Culture.empire"
+					   crafting_template="OneHandedAxe"
+					   value="3000"
+					   modifier_group="axe">
+
+		<Pieces>
+			<Piece id="dunland_caerdh_axe_blade_1h_a"
+				   Type="Blade"
+				   scale_factor="100" />
+			<Piece id="dunland_caerdh_axe_handle_1h_a"
+				   Type="Handle"
+				   scale_factor="100" />
+			<Piece id="dunland_caerdh_axe_pommel_1h_a"
+				   Type="Pommel"
+				   scale_factor="100" />
+		</Pieces>
+	</CraftedItem>
+
+	<CraftedItem id="dunland_caerdh_axe_1h_b"
+					   name="{=dunlandcaerdhaxeonehandb}Dunland Caerdh 1H Axe B"
+					   is_merchandise="true"
+				 culture="Culture.empire"
+					   crafting_template="OneHandedAxe"
+					   value="3000"
+					   modifier_group="axe">
+
+		<Pieces>
+			<Piece id="dunland_caerdh_axe_blade_1h_b"
+				   Type="Blade"
+				   scale_factor="100" />
+			<Piece id="dunland_caerdh_axe_handle_1h_b"
+				   Type="Handle"
+				   scale_factor="100" />
+			<Piece id="dunland_caerdh_axe_pommel_1h_b"
+				   Type="Pommel"
+				   scale_factor="100" />
+		</Pieces>
+	</CraftedItem>
+
+	<CraftedItem id="dunland_caerdh_axe_1h_c"
+				   name="{=dunlandcaerdhaxeonehandc}Dunland Caerdh 1H Axe C"
+				   is_merchandise="true"
+				 culture="Culture.empire"
+				   crafting_template="OneHandedAxe"
+				   value="3000"
+				   modifier_group="axe">
+
+		<Pieces>
+			<Piece id="dunland_caerdh_axe_blade_1h_a"
+				   Type="Blade"
+				   scale_factor="100" />
+			<Piece id="dunland_caerdh_axe_handle_1h_b"
+				   Type="Handle"
+				   scale_factor="100" />
+			<Piece id="dunland_caerdh_axe_pommel_1h_b"
+				   Type="Pommel"
+				   scale_factor="100" />
+		</Pieces>
+	</CraftedItem>
+
+	<CraftedItem id="dunland_caerdh_axe_1h_d"
+				   name="{=dunlandcaerdhaxeonehandd}Dunland Caerdh 1H Axe D"
+				   is_merchandise="true"
+				 culture="Culture.empire"
+				   crafting_template="OneHandedAxe"
+				   value="3000"
+				   modifier_group="axe">
+
+		<Pieces>
+			<Piece id="dunland_caerdh_axe_blade_1h_b"
+				   Type="Blade"
+				   scale_factor="100" />
+			<Piece id="dunland_caerdh_axe_handle_1h_a"
+				   Type="Handle"
+				   scale_factor="100" />
+			<Piece id="dunland_caerdh_axe_pommel_1h_a"
+				   Type="Pommel"
+				   scale_factor="100" />
+		</Pieces>
+	</CraftedItem>
+
+	<!--Dunland Two Hand Axes-->
+	<CraftedItem id="dunland_caerdh_axe_2h_a"
+						   name="{=dunlandcaerdhaxetwohanda}Dunland Caerdh 2H Axe A"
+						   is_merchandise="true"
+						   crafting_template="TwoHandedAxe"
+						 culture="Culture.empire"
+						   value="5000"
+						   modifier_group="axe">
+
+		<Pieces>
+			<Piece id="dunland_caerdh_axe_blade_2h_a"
+				   Type="Blade"
+				   scale_factor="100" />
+			<Piece id="dunland_caerdh_axe_handle_2h_a"
+				   Type="Handle"
+				   scale_factor="100" />
+			<Piece id="dunland_caerdh_axe_pommel_2h_a"
+				   Type="Pommel"
+				   scale_factor="100" />
+		</Pieces>
+	</CraftedItem>
+
+	<CraftedItem id="dunland_caerdh_axe_2h_b"
+							   name="{=dunlandcaerdhaxetwohandb}Dunland Caerdh 2H Axe B"
+							   is_merchandise="true"
+				 culture="Culture.empire"
+							   crafting_template="TwoHandedAxe"
+							   value="5500"
+							   modifier_group="axe">
+
+		<Pieces>
+			<Piece id="dunland_caerdh_axe_blade_2h_b"
+				   Type="Blade"
+				   scale_factor="100" />
+			<Piece id="dunland_caerdh_axe_handle_2h_b"
+				   Type="Handle"
+				   scale_factor="100" />
+			<Piece id="dunland_caerdh_axe_pommel_2h_b"
+				   Type="Pommel"
+				   scale_factor="100" />
+		</Pieces>
+	</CraftedItem>
+
+	<CraftedItem id="dunland_caerdh_axe_2h_c"
+					   name="{=dunlandcaerdhaxetwohandc}Dunland Caerdh 2H Axe C"
+					   is_merchandise="true"
+				 culture="Culture.empire"
+					   crafting_template="TwoHandedAxe"
+					   value="5000"
+					   modifier_group="axe">
+
+		<Pieces>
+			<Piece id="dunland_caerdh_axe_blade_2h_a"
+				   Type="Blade"
+				   scale_factor="100" />
+			<Piece id="dunland_caerdh_axe_handle_2h_b"
+				   Type="Handle"
+				   scale_factor="100" />
+			<Piece id="dunland_caerdh_axe_pommel_2h_a"
+				   Type="Pommel"
+				   scale_factor="100" />
+		</Pieces>
+	</CraftedItem>
+
+	<CraftedItem id="dunland_caerdh_axe_2h_d"
+						   name="{=dunlandcaerdhaxetwohandd}Dunland Caerdh 2H Axe D"
+						   is_merchandise="true"
+							culture="Culture.empire"
+						   crafting_template="TwoHandedAxe"
+						   value="5500"
+						   modifier_group="axe">
+
+		<Pieces>
+			<Piece id="dunland_caerdh_axe_blade_2h_b"
+				   Type="Blade"
+				   scale_factor="100" />
+			<Piece id="dunland_caerdh_axe_handle_2h_a"
+				   Type="Handle"
+				   scale_factor="100" />
+			<Piece id="dunland_caerdh_axe_pommel_2h_a"
+				   Type="Pommel"
+				   scale_factor="100" />
+		</Pieces>
+	</CraftedItem>
+
+	<!--Dunland Two Hand Sword-->
+
+	<CraftedItem id="dunland_caerdh_sword_2h_a"
+			 name="{=dunlandcaerdhswordtwohanda}Dunland Caerdh 2H Sword A"
+				culture="Culture.empire"
+			 is_merchandise="true"
+			 crafting_template="TwoHandedSword"
+			 value="5300"
+			 modifier_group="sword">
+
+		<Pieces>
+			<Piece id="dunland_caerdh_sword_blade_2h_a"
+				   Type="Blade"
+				   scale_factor="100" />
+			<Piece id="dunland_caerdh_sword_guard_2h_a"
+				   Type="Guard"
+				   scale_factor="100" />
+			<Piece id="dunland_caerdh_sword_handle_2h_a"
+				   Type="Handle"
+				   scale_factor="100" />
+			<Piece id="dunland_caerdh_sword_pommel_2h_a"
+				   Type="Pommel"
+				   scale_factor="100" />
+		</Pieces>
+	</CraftedItem>
+
+	<!--Dunland Caerdh Short Spears-->
+	<CraftedItem id="dunland_caerdh_short_spear_a"
+          name="{=dunlandshortspeara}Dunland Short Spear A"
+				 culture="Culture.empire"
+          crafting_template="TwoHandedPolearm"
+		  is_merchandise="true"
+		  value="2000"
+		  modifier_group="polearm">
+
+		<Pieces>
+			<Piece id="dunland_caerdh_spear_head_a"
+				   Type="Blade"
+				   scale_factor="100" />
+			<Piece id="dunland_caerdh_short_spear_handle_b"
+				   Type="Handle"
+				   scale_factor="100" />
+		</Pieces>
+	</CraftedItem>
+
+	<CraftedItem id="dunland_caerdh_short_spear_b"
+          name="{=dunlandshortspearb}Dunland Short Spear B"
+				 culture="Culture.empire"
+          crafting_template="TwoHandedPolearm"
+		  is_merchandise="true"
+		  value="2000"
+		  modifier_group="polearm">
+
+		<Pieces>
+			<Piece id="dunland_caerdh_spear_head_b"
+				   Type="Blade"
+				   scale_factor="100" />
+			<Piece id="dunland_caerdh_short_spear_handle_b"
+				   Type="Handle"
+				   scale_factor="100" />
+		</Pieces>
+	</CraftedItem>
+
+	<CraftedItem id="dunland_caerdh_short_spear_c"
+			  name="{=dunlandshortspearc}Dunland Short Spear C"
+			  crafting_template="TwoHandedPolearm"
+			  is_merchandise="true"
+			  value="2000"
+			  modifier_group="polearm">
+
+
+		<Pieces>
+			<Piece id="dunland_caerdh_spear_head_c"
+				   Type="Blade"
+				   scale_factor="100" />
+			<Piece id="dunland_caerdh_short_spear_handle_b"
+				   Type="Handle"
+				   scale_factor="100" />
+		</Pieces>
+	</CraftedItem>
+
+	<CraftedItem id="dunland_caerdh_short_spear_d"
+			  name="{=dunlandshortspeard}Dunland Short Spear D"
+				 culture="Culture.empire"
+			  crafting_template="TwoHandedPolearm"
+			  is_merchandise="true"
+			  value="2000"
+			  modifier_group="polearm">
+
+
+		<Pieces>
+			<Piece id="dunland_caerdh_spear_head_d"
+				   Type="Blade"
+				   scale_factor="100" />
+			<Piece id="dunland_caerdh_short_spear_handle_b"
+				   Type="Handle"
+				   scale_factor="100" />
+		</Pieces>
+	</CraftedItem>
+
+	<CraftedItem id="dunland_caerdh_short_spear_e"
+				  name="{=dunlandshortspeare}Dunland Short Spear E"
+				 culture="Culture.empire"
+				  crafting_template="TwoHandedPolearm"
+				  is_merchandise="true"
+				  value="2000"
+				  modifier_group="polearm">
+
+
+		<Pieces>
+			<Piece id="dunland_caerdh_spear_head_e"
+				   Type="Blade"
+				   scale_factor="100" />
+			<Piece id="dunland_caerdh_short_spear_handle_b"
+				   Type="Handle"
+				   scale_factor="100" />
+		</Pieces>
+	</CraftedItem>
+
+
+	<CraftedItem id="dunland_caerdh_short_spear_f"
+			  name="{=dunlandshortspearf}Dunland Short Spear F"
+				 culture="Culture.empire"
+			  crafting_template="TwoHandedPolearm"
+			  is_merchandise="true"
+			  value="2000"
+			  modifier_group="polearm">
+
+
+		<Pieces>
+			<Piece id="dunland_caerdh_spear_head_a"
+				   Type="Blade"
+				   scale_factor="100" />
+			<Piece id="dunland_caerdh_short_spear_handle_c"
+				   Type="Handle"
+				   scale_factor="100" />
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="dunland_caerdh_short_spear_g"
+		  name="{=dunlandshortspearg}Dunland Short Spear G"
+				 culture="Culture.empire"
+		  crafting_template="TwoHandedPolearm"
+		  is_merchandise="true"
+		  value="2000"
+		  modifier_group="polearm">
+
+
+		<Pieces>
+			<Piece id="dunland_caerdh_spear_head_b"
+				   Type="Blade"
+				   scale_factor="100" />
+			<Piece id="dunland_caerdh_short_spear_handle_c"
+				   Type="Handle"
+				   scale_factor="100" />
+		</Pieces>
+	</CraftedItem>
+
+	<CraftedItem id="dunland_caerdh_short_spear_h"
+			  name="{=dunlandshortspearh}Dunland Short Spear H"
+				 culture="Culture.empire"
+			  crafting_template="TwoHandedPolearm"
+			  is_merchandise="true"
+			  value="2000"
+			  modifier_group="polearm">
+
+
+		<Pieces>
+			<Piece id="dunland_caerdh_spear_head_c"
+				   Type="Blade"
+				   scale_factor="100" />
+			<Piece id="dunland_caerdh_short_spear_handle_c"
+				   Type="Handle"
+				   scale_factor="100" />
+		</Pieces>
+	</CraftedItem>
+
+	<CraftedItem id="dunland_caerdh_short_spear_i"
+			  name="{=dunlandshortspeari}Dunland Short Spear I"
+				 culture="Culture.empire"
+			  crafting_template="TwoHandedPolearm"
+			  is_merchandise="true"
+			  value="2000"
+			  modifier_group="polearm">
+
+
+		<Pieces>
+			<Piece id="dunland_caerdh_spear_head_d"
+				   Type="Blade"
+				   scale_factor="100" />
+			<Piece id="dunland_caerdh_short_spear_handle_c"
+				   Type="Handle"
+				   scale_factor="100" />
+		</Pieces>
+	</CraftedItem>
+
+	<CraftedItem id="dunland_caerdh_short_spear_j"
+				  name="{=dunlandshortspearj}Dunland Short Spear J"
+				 culture="Culture.empire"
+				  crafting_template="TwoHandedPolearm"
+				  is_merchandise="true"
+				  value="2000"
+				  modifier_group="polearm">
+
+
+		<Pieces>
+			<Piece id="dunland_caerdh_spear_head_e"
+				   Type="Blade"
+				   scale_factor="100" />
+			<Piece id="dunland_caerdh_short_spear_handle_c"
+				   Type="Handle"
+				   scale_factor="100" />
+		</Pieces>
+	</CraftedItem>
+
+
+	<CraftedItem id="dunland_caerdh_short_spear_k"
+			  name="{=dunlandshortspeark}Dunland Short Spear K"
+				 culture="Culture.empire"
+			  crafting_template="TwoHandedPolearm"
+			  is_merchandise="true"
+			  value="2000"
+			  modifier_group="polearm">
+
+
+		<Pieces>
+			<Piece id="dunland_caerdh_spear_head_a"
+				   Type="Blade"
+				   scale_factor="100" />
+			<Piece id="dunland_caerdh_short_spear_handle_d"
+				   Type="Handle"
+				   scale_factor="100" />
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="dunland_caerdh_short_spear_l"
+		  name="{=dunlandshortspearl}Dunland Short Spear L"
+				 culture="Culture.empire"
+		  crafting_template="TwoHandedPolearm"
+		  is_merchandise="true"
+		  value="2000"
+		  modifier_group="polearm">
+
+
+		<Pieces>
+			<Piece id="dunland_caerdh_spear_head_b"
+				   Type="Blade"
+				   scale_factor="100" />
+			<Piece id="dunland_caerdh_short_spear_handle_d"
+				   Type="Handle"
+				   scale_factor="100" />
+		</Pieces>
+	</CraftedItem>
+
+	<CraftedItem id="dunland_caerdh_short_spear_m"
+			  name="{=dunlandshortspearm}Dunland Short Spear M"
+				 culture="Culture.empire"
+			  crafting_template="TwoHandedPolearm"
+			  is_merchandise="true"
+			  value="2000"
+			  modifier_group="polearm">
+
+
+		<Pieces>
+			<Piece id="dunland_caerdh_spear_head_c"
+				   Type="Blade"
+				   scale_factor="100" />
+			<Piece id="dunland_caerdh_short_spear_handle_d"
+				   Type="Handle"
+				   scale_factor="100" />
+		</Pieces>
+	</CraftedItem>
+
+	<CraftedItem id="dunland_caerdh_short_spear_n"
+			  name="{=dunlandshortspearn}Dunland Short Spear N"
+				 culture="Culture.empire"
+			  crafting_template="TwoHandedPolearm"
+			  is_merchandise="true"
+			  value="2000"
+			  modifier_group="polearm">
+
+
+		<Pieces>
+			<Piece id="dunland_caerdh_spear_head_d"
+				   Type="Blade"
+				   scale_factor="100" />
+			<Piece id="dunland_caerdh_short_spear_handle_d"
+				   Type="Handle"
+				   scale_factor="100" />
+		</Pieces>
+	</CraftedItem>
+
+	<CraftedItem id="dunland_caerdh_short_spear_o"
+				  name="{=dunlandshortspearo}Dunland Short Spear O"
+				 culture="Culture.empire"
+				  crafting_template="TwoHandedPolearm"
+				  is_merchandise="true"
+				  value="2000"
+				  modifier_group="polearm">
+
+
+		<Pieces>
+			<Piece id="dunland_caerdh_spear_head_e"
+				   Type="Blade"
+				   scale_factor="100" />
+			<Piece id="dunland_caerdh_short_spear_handle_d"
+				   Type="Handle"
+				   scale_factor="100" />
+		</Pieces>
+	</CraftedItem>
+
+
+	<!--Dunland Caerdh Regular Spears-->
+	<CraftedItem id="dunland_caerdh_spear_a"
+		  name="{=dunlandregularspeara}Dunland Regular Spear A"
+				 culture="Culture.empire"
+		  crafting_template="TwoHandedPolearm"
+		  is_merchandise="true"
+		  value="4000"
+		  modifier_group="polearm">
+
+		<Pieces>
+			<Piece id="dunland_caerdh_spear_head_a"
+				   Type="Blade"
+				   scale_factor="100" />
+			<Piece id="dunland_caerdh_spear_handle_a"
+				   Type="Handle"
+				   scale_factor="100" />
+		</Pieces>
+	</CraftedItem>
+
+	<CraftedItem id="dunland_caerdh_spear_b"
+		  name="{=dunlandregularspearb}Dunland Regular Spear B"
+				 culture="Culture.empire"
+		  crafting_template="TwoHandedPolearm"
+		  is_merchandise="true"
+		  value="4000"
+		  modifier_group="polearm">
+
+		<Pieces>
+			<Piece id="dunland_caerdh_spear_head_b"
+				   Type="Blade"
+				   scale_factor="100" />
+			<Piece id="dunland_caerdh_spear_handle_b"
+				   Type="Handle"
+				   scale_factor="100" />
+		</Pieces>
+	</CraftedItem>
+
+	<CraftedItem id="dunland_caerdh_spear_c"
+			  name="{=dunlandregularspearc}Dunland Regular Spear C"
+				 culture="Culture.empire"
+			  crafting_template="TwoHandedPolearm"
+			  is_merchandise="true"
+			  value="4000"
+			  modifier_group="polearm">
+
+
+		<Pieces>
+			<Piece id="dunland_caerdh_spear_head_c"
+				   Type="Blade"
+				   scale_factor="100" />
+			<Piece id="dunland_caerdh_spear_handle_c"
+				   Type="Handle"
+				   scale_factor="100" />
+		</Pieces>
+	</CraftedItem>
+
+	<CraftedItem id="dunland_caerdh_spear_d"
+			  name="{=dunlandregularspeard}Dunland Regular Spear D"
+				 culture="Culture.empire"
+			  crafting_template="TwoHandedPolearm"
+			  is_merchandise="true"
+			  value="4000"
+			  modifier_group="polearm">
+
+
+		<Pieces>
+			<Piece id="dunland_caerdh_spear_head_d"
+				   Type="Blade"
+				   scale_factor="100" />
+			<Piece id="dunland_caerdh_spear_handle_d"
+				   Type="Handle"
+				   scale_factor="100" />
+		</Pieces>
+	</CraftedItem>
+
+	<CraftedItem id="dunland_caerdh_spear_e"
+				  name="{=dunlandregularspeare}Dunland Regular Spear E"
+				 culture="Culture.empire"
+				  crafting_template="TwoHandedPolearm"
+				  is_merchandise="true"
+				  value="4000"
+				  modifier_group="polearm">
+
+
+		<Pieces>
+			<Piece id="dunland_caerdh_spear_head_e"
+				   Type="Blade"
+				   scale_factor="100" />
+			<Piece id="dunland_caerdh_spear_handle_b"
+				   Type="Handle"
+				   scale_factor="100" />
+		</Pieces>
+	</CraftedItem>
+
+
+	<CraftedItem id="dunland_caerdh_spear_f"
+			  name="{=dunlandregularspearf}Dunland Regular Spear F"
+				 culture="Culture.empire"
+			  crafting_template="TwoHandedPolearm"
+			  is_merchandise="true"
+			  value="4000"
+			  modifier_group="polearm">
+
+
+		<Pieces>
+			<Piece id="dunland_caerdh_spear_head_a"
+				   Type="Blade"
+				   scale_factor="100" />
+			<Piece id="dunland_caerdh_spear_handle_c"
+				   Type="Handle"
+				   scale_factor="100" />
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="dunland_caerdh_spear_g"
+		  name="{=dunlandregularspearg}Dunland Regular Spear G"
+				 culture="Culture.empire"
+		  crafting_template="TwoHandedPolearm"
+		  is_merchandise="true"
+		  value="4000"
+		  modifier_group="polearm">
+
+
+		<Pieces>
+			<Piece id="dunland_caerdh_spear_head_b"
+				   Type="Blade"
+				   scale_factor="100" />
+			<Piece id="dunland_caerdh_spear_handle_c"
+				   Type="Handle"
+				   scale_factor="100" />
+		</Pieces>
+	</CraftedItem>
+
+	<CraftedItem id="dunland_caerdh_spear_h"
+			  name="{=dunlandregularspearh}Dunland Regular Spear H"
+				 culture="Culture.empire"
+			  crafting_template="TwoHandedPolearm"
+			  is_merchandise="true"
+			  value="4000"
+			  modifier_group="polearm">
+
+
+		<Pieces>
+			<Piece id="dunland_caerdh_spear_head_c"
+				   Type="Blade"
+				   scale_factor="100" />
+			<Piece id="dunland_caerdh_spear_handle_c"
+				   Type="Handle"
+				   scale_factor="100" />
+		</Pieces>
+	</CraftedItem>
+
+	<CraftedItem id="dunland_caerdh_spear_i"
+			  name="{=dunlandregularspeari}Dunland Regular Spear I"
+				 culture="Culture.empire"
+			  crafting_template="TwoHandedPolearm"
+			  is_merchandise="true"
+			  value="4000"
+			  modifier_group="polearm">
+
+
+		<Pieces>
+			<Piece id="dunland_caerdh_spear_head_d"
+				   Type="Blade"
+				   scale_factor="100" />
+			<Piece id="dunland_caerdh_spear_handle_c"
+				   Type="Handle"
+				   scale_factor="100" />
+		</Pieces>
+	</CraftedItem>
+
+	<CraftedItem id="dunland_caerdh_spear_j"
+				  name="{=dunlandregularspearj}Dunland Regular Spear J"
+				 culture="Culture.empire"
+				  crafting_template="TwoHandedPolearm"
+				  is_merchandise="true"
+				  value="4000"
+				  modifier_group="polearm">
+
+
+		<Pieces>
+			<Piece id="dunland_caerdh_spear_head_e"
+				   Type="Blade"
+				   scale_factor="100" />
+			<Piece id="dunland_caerdh_spear_handle_c"
+				   Type="Handle"
+				   scale_factor="100" />
+		</Pieces>
+	</CraftedItem>
+
+
+	<CraftedItem id="dunland_caerdh_spear_k"
+			  name="{=dunlandregularspeark}Dunland Regular Spear K"
+				 culture="Culture.empire"
+			  crafting_template="TwoHandedPolearm"
+			  is_merchandise="true"
+			  value="4000"
+			  modifier_group="polearm">
+
+
+		<Pieces>
+			<Piece id="dunland_caerdh_spear_head_a"
+				   Type="Blade"
+				   scale_factor="100" />
+			<Piece id="dunland_caerdh_spear_handle_d"
+				   Type="Handle"
+				   scale_factor="100" />
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="dunland_caerdh_spear_l"
+		  name="{=dunlandregularspearl}Dunland Regular Spear L"
+				 culture="Culture.empire"
+		  crafting_template="TwoHandedPolearm"
+		  is_merchandise="true"
+		  value="4000"
+		  modifier_group="polearm">
+
+
+		<Pieces>
+			<Piece id="dunland_caerdh_spear_head_b"
+				   Type="Blade"
+				   scale_factor="100" />
+			<Piece id="dunland_caerdh_spear_handle_d"
+				   Type="Handle"
+				   scale_factor="100" />
+		</Pieces>
+	</CraftedItem>
+
+	<CraftedItem id="dunland_caerdh_spear_m"
+			  name="{=dunlandregularspearm}Dunland Regular Spear M"
+			  crafting_template="TwoHandedPolearm"
+				 culture="Culture.empire"
+			  is_merchandise="true"
+			  value="4000"
+			  modifier_group="polearm">
+
+
+		<Pieces>
+			<Piece id="dunland_caerdh_spear_head_c"
+				   Type="Blade"
+				   scale_factor="100" />
+			<Piece id="dunland_caerdh_spear_handle_d"
+				   Type="Handle"
+				   scale_factor="100" />
+		</Pieces>
+	</CraftedItem>
+
+	<CraftedItem id="dunland_caerdh_spear_n"
+			  name="{=dunlandregularspearn}Dunland Regular Spear N"
+			  crafting_template="TwoHandedPolearm"
+				 culture="Culture.empire"
+			  is_merchandise="true"
+			  value="4000"
+			  modifier_group="polearm">
+
+
+		<Pieces>
+			<Piece id="dunland_caerdh_spear_head_d"
+				   Type="Blade"
+				   scale_factor="100" />
+			<Piece id="dunland_caerdh_spear_handle_d"
+				   Type="Handle"
+				   scale_factor="100" />
+		</Pieces>
+	</CraftedItem>
+
+	<CraftedItem id="dunland_caerdh_spear_o"
+				  name="{=dunlandregularspearo}Dunland Regular Spear O"
+				  crafting_template="TwoHandedPolearm"
+				 culture="Culture.empire"
+				  is_merchandise="true"
+				  value="4000"
+				  modifier_group="polearm">
+
+		<Pieces>
+			<Piece id="dunland_caerdh_spear_head_e"
+				   Type="Blade"
+				   scale_factor="100" />
+			<Piece id="dunland_caerdh_spear_handle_d"
+				   Type="Handle"
+				   scale_factor="100" />
+		</Pieces>
+	</CraftedItem>
+
+	<!--Numenorean Swords -->
+	<CraftedItem id="numenorean_sword_2h_a" name="Numenorean Two Handed Sword A" crafting_template="TwoHandedSword" is_merchandise="true">
+		<Pieces>
+			<Piece id="numenorean_sword_blade_a" Type="Blade" scale_factor="100" />
+			<Piece id="numenorean_sword_guard_a" Type="Guard" scale_factor="100" />
+			<Piece id="numenorean_sword_handle_a" Type="Handle" scale_factor="100" />
+			<Piece id="numenorean_sword_pommel_a" Type="Pommel" scale_factor="100" />
+		</Pieces>
+	</CraftedItem>
+
+	<CraftedItem id="numenorean_sword_2h_b" name="Numenorean Two Handed Sword B" crafting_template="TwoHandedSword" is_merchandise="true">
+		<Pieces>
+			<Piece id="numenorean_sword_blade_b" Type="Blade" scale_factor="100" />
+			<Piece id="numenorean_sword_guard_b" Type="Guard" scale_factor="100" />
+			<Piece id="numenorean_sword_handle_b" Type="Handle" scale_factor="100" />
+			<Piece id="numenorean_sword_pommel_b" Type="Pommel" scale_factor="100" />
+		</Pieces>
+	</CraftedItem>
+
+	<CraftedItem id="numenorean_sword_2h_c" name="Numenorean Two Handed Sword C" crafting_template="TwoHandedSword" is_merchandise="true">
+		<Pieces>
+			<Piece id="numenorean_sword_blade_c" Type="Blade" scale_factor="100" />
+			<Piece id="numenorean_sword_guard_c" Type="Guard" scale_factor="100" />
+			<Piece id="numenorean_sword_handle_c" Type="Handle" scale_factor="100" />
+			<Piece id="numenorean_sword_pommel_c" Type="Pommel" scale_factor="100" />
+		</Pieces>
+	</CraftedItem>
+
+
+	<CraftedItem id="numenorean_sword_2h_d" name="Numenorean Two Handed Sword D" crafting_template="TwoHandedSword" is_merchandise="true">
+		<Pieces>
+			<Piece id="numenorean_sword_blade_d" Type="Blade" scale_factor="100" />
+			<Piece id="numenorean_sword_guard_d" Type="Guard" scale_factor="100" />
+			<Piece id="numenorean_sword_handle_d" Type="Handle" scale_factor="100" />
+			<Piece id="numenorean_sword_pommel_d" Type="Pommel" scale_factor="100" />
+		</Pieces>
+	</CraftedItem>
+
+	<CraftedItem id="numenorean_sword_2h_e" name="Numenorean Two Handed Sword E" crafting_template="TwoHandedSword" is_merchandise="true">
+		<Pieces>
+			<Piece id="numenorean_sword_blade_e" Type="Blade" scale_factor="100" />
+			<Piece id="numenorean_sword_guard_e" Type="Guard" scale_factor="100" />
+			<Piece id="numenorean_sword_handle_d" Type="Handle" scale_factor="100" />
+			<Piece id="numenorean_sword_pommel_d" Type="Pommel" scale_factor="100" />
+		</Pieces>
+	</CraftedItem>
+
+	<CraftedItem id="numenorean_sword_2h_f" name="Numenorean Two Handed Sword F" crafting_template="TwoHandedSword" is_merchandise="true">
+		<Pieces>
+			<Piece id="numenorean_sword_blade_a" Type="Blade" scale_factor="100" />
+			<Piece id="numenorean_sword_guard_b" Type="Guard" scale_factor="100" />
+			<Piece id="numenorean_sword_handle_b" Type="Handle" scale_factor="100" />
+			<Piece id="numenorean_sword_pommel_b" Type="Pommel" scale_factor="100" />
+		</Pieces>
+	</CraftedItem>
+
+	<CraftedItem id="numenorean_sword_2h_h" name="Numenorean Two Handed Sword H" crafting_template="TwoHandedSword" is_merchandise="true">
+		<Pieces>
+			<Piece id="numenorean_sword_blade_a" Type="Blade" scale_factor="100" />
+			<Piece id="numenorean_sword_guard_c" Type="Guard" scale_factor="100" />
+			<Piece id="numenorean_sword_handle_c" Type="Handle" scale_factor="100" />
+			<Piece id="numenorean_sword_pommel_c" Type="Pommel" scale_factor="100" />
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="numenorean_sword_2h_i" name="Numenorean Two Handed Sword I" crafting_template="TwoHandedSword" is_merchandise="true">
+		<Pieces>
+			<Piece id="numenorean_sword_blade_a" Type="Blade" scale_factor="100" />
+			<Piece id="numenorean_sword_guard_d" Type="Guard" scale_factor="100" />
+			<Piece id="numenorean_sword_handle_d" Type="Handle" scale_factor="100" />
+			<Piece id="numenorean_sword_pommel_d" Type="Pommel" scale_factor="100" />
+		</Pieces>
+	</CraftedItem>
+
+	<CraftedItem id="numenorean_sword_2h_j" name="Numenorean Two Handed Sword J" crafting_template="TwoHandedSword" is_merchandise="true">
+		<Pieces>
+			<Piece id="numenorean_sword_blade_a" Type="Blade" scale_factor="100" />
+			<Piece id="numenorean_sword_guard_e" Type="Guard" scale_factor="100" />
+			<Piece id="numenorean_sword_handle_d" Type="Handle" scale_factor="100" />
+			<Piece id="numenorean_sword_pommel_d" Type="Pommel" scale_factor="100" />
+		</Pieces>
+	</CraftedItem>
+
+	<CraftedItem id="numenorean_sword_2h_k" name="Numenorean Two Handed Sword K" crafting_template="TwoHandedSword" is_merchandise="true">
+		<Pieces>
+			<Piece id="numenorean_sword_blade_b" Type="Blade" scale_factor="100" />
+			<Piece id="numenorean_sword_guard_a" Type="Guard" scale_factor="100" />
+			<Piece id="numenorean_sword_handle_a" Type="Handle" scale_factor="100" />
+			<Piece id="numenorean_sword_pommel_a" Type="Pommel" scale_factor="100" />
+		</Pieces>
+	</CraftedItem>
+
+	<CraftedItem id="numenorean_sword_2h_l" name="Numenorean Two Handed Sword L" crafting_template="TwoHandedSword" is_merchandise="true">
+		<Pieces>
+			<Piece id="numenorean_sword_blade_b" Type="Blade" scale_factor="100" />
+			<Piece id="numenorean_sword_guard_c" Type="Guard" scale_factor="100" />
+			<Piece id="numenorean_sword_handle_c" Type="Handle" scale_factor="100" />
+			<Piece id="numenorean_sword_pommel_c" Type="Pommel" scale_factor="100" />
+		</Pieces>
+	</CraftedItem>
+
+
+	<CraftedItem id="numenorean_sword_2h_m" name="Numenorean Two Handed Sword M" crafting_template="TwoHandedSword" is_merchandise="true">
+		<Pieces>
+			<Piece id="numenorean_sword_blade_a" Type="Blade" scale_factor="100" />
+			<Piece id="numenorean_sword_guard_d" Type="Guard" scale_factor="100" />
+			<Piece id="numenorean_sword_handle_d" Type="Handle" scale_factor="100" />
+			<Piece id="numenorean_sword_pommel_d" Type="Pommel" scale_factor="100" />
+		</Pieces>
+	</CraftedItem>
+
+	<CraftedItem id="numenorean_sword_2h_n" name="Numenorean Two Handed Sword N" crafting_template="TwoHandedSword" is_merchandise="true">
+		<Pieces>
+			<Piece id="numenorean_sword_blade_b" Type="Blade" scale_factor="100" />
+			<Piece id="numenorean_sword_guard_e" Type="Guard" scale_factor="100" />
+			<Piece id="numenorean_sword_handle_d" Type="Handle" scale_factor="100" />
+			<Piece id="numenorean_sword_pommel_d" Type="Pommel" scale_factor="100" />
+		</Pieces>
+	</CraftedItem>
+
+	<CraftedItem id="numenorean_sword_2h_o" name="Numenorean Two Handed Sword O" crafting_template="TwoHandedSword" is_merchandise="true">
+		<Pieces>
+			<Piece id="numenorean_sword_blade_c" Type="Blade" scale_factor="100" />
+			<Piece id="numenorean_sword_guard_a" Type="Guard" scale_factor="100" />
+			<Piece id="numenorean_sword_handle_a" Type="Handle" scale_factor="100" />
+			<Piece id="numenorean_sword_pommel_a" Type="Pommel" scale_factor="100" />
+		</Pieces>
+	</CraftedItem>
+
+	<CraftedItem id="numenorean_sword_2h_p" name="Numenorean Two Handed Sword P" crafting_template="TwoHandedSword" is_merchandise="true">
+		<Pieces>
+			<Piece id="numenorean_sword_blade_c" Type="Blade" scale_factor="100" />
+			<Piece id="numenorean_sword_guard_b" Type="Guard" scale_factor="100" />
+			<Piece id="numenorean_sword_handle_b" Type="Handle" scale_factor="100" />
+			<Piece id="numenorean_sword_pommel_b" Type="Pommel" scale_factor="100" />
+		</Pieces>
+	</CraftedItem>
+
+
+	<CraftedItem id="numenorean_sword_2h_q" name="Numenorean Two Handed Sword Q" crafting_template="TwoHandedSword" is_merchandise="true">
+		<Pieces>
+			<Piece id="numenorean_sword_blade_c" Type="Blade" scale_factor="100" />
+			<Piece id="numenorean_sword_guard_d" Type="Guard" scale_factor="100" />
+			<Piece id="numenorean_sword_handle_d" Type="Handle" scale_factor="100" />
+			<Piece id="numenorean_sword_pommel_d" Type="Pommel" scale_factor="100" />
+		</Pieces>
+	</CraftedItem>
+
+	<CraftedItem id="numenorean_sword_2h_r" name="Numenorean Two Handed Sword R" crafting_template="TwoHandedSword" is_merchandise="true">
+		<Pieces>
+			<Piece id="numenorean_sword_blade_c" Type="Blade" scale_factor="100" />
+			<Piece id="numenorean_sword_guard_e" Type="Guard" scale_factor="100" />
+			<Piece id="numenorean_sword_handle_d" Type="Handle" scale_factor="100" />
+			<Piece id="numenorean_sword_pommel_d" Type="Pommel" scale_factor="100" />
+		</Pieces>
+	</CraftedItem>
+
+
+	<CraftedItem id="numenorean_sword_2h_s" name="Numenorean Two Handed Sword S" crafting_template="TwoHandedSword" is_merchandise="true">
+		<Pieces>
+			<Piece id="numenorean_sword_blade_d" Type="Blade" scale_factor="100" />
+			<Piece id="numenorean_sword_guard_a" Type="Guard" scale_factor="100" />
+			<Piece id="numenorean_sword_handle_a" Type="Handle" scale_factor="100" />
+			<Piece id="numenorean_sword_pommel_a" Type="Pommel" scale_factor="100" />
+		</Pieces>
+	</CraftedItem>
+
+	<CraftedItem id="numenorean_sword_2h_t" name="Numenorean Two Handed Sword T" crafting_template="TwoHandedSword" is_merchandise="true">
+		<Pieces>
+			<Piece id="numenorean_sword_blade_d" Type="Blade" scale_factor="100" />
+			<Piece id="numenorean_sword_guard_b" Type="Guard" scale_factor="100" />
+			<Piece id="numenorean_sword_handle_b" Type="Handle" scale_factor="100" />
+			<Piece id="numenorean_sword_pommel_b" Type="Pommel" scale_factor="100" />
+		</Pieces>
+	</CraftedItem>
+
+
+	<CraftedItem id="numenorean_sword_2h_u" name="Numenorean Two Handed Sword U" crafting_template="TwoHandedSword" is_merchandise="true">
+		<Pieces>
+			<Piece id="numenorean_sword_blade_d" Type="Blade" scale_factor="100" />
+			<Piece id="numenorean_sword_guard_c" Type="Guard" scale_factor="100" />
+			<Piece id="numenorean_sword_handle_c" Type="Handle" scale_factor="100" />
+			<Piece id="numenorean_sword_pommel_c" Type="Pommel" scale_factor="100" />
+		</Pieces>
+	</CraftedItem>
+
+	<CraftedItem id="numenorean_sword_2h_v" name="Numenorean Two Handed Sword V" crafting_template="TwoHandedSword" is_merchandise="true">
+		<Pieces>
+			<Piece id="numenorean_sword_blade_d" Type="Blade" scale_factor="100" />
+			<Piece id="numenorean_sword_guard_e" Type="Guard" scale_factor="100" />
+			<Piece id="numenorean_sword_handle_d" Type="Handle" scale_factor="100" />
+			<Piece id="numenorean_sword_pommel_d" Type="Pommel" scale_factor="100" />
+		</Pieces>
+	</CraftedItem>
+
+
+
+	<CraftedItem id="numenorean_sword_2h_w" name="Numenorean Two Handed Sword W" crafting_template="TwoHandedSword" is_merchandise="true">
+		<Pieces>
+			<Piece id="numenorean_sword_blade_e" Type="Blade" scale_factor="100" />
+			<Piece id="numenorean_sword_guard_a" Type="Guard" scale_factor="100" />
+			<Piece id="numenorean_sword_handle_a" Type="Handle" scale_factor="100" />
+			<Piece id="numenorean_sword_pommel_a" Type="Pommel" scale_factor="100" />
+		</Pieces>
+	</CraftedItem>
+
+	<CraftedItem id="numenorean_sword_2h_x" name="Numenorean Two Handed Sword X" crafting_template="TwoHandedSword" is_merchandise="true">
+		<Pieces>
+			<Piece id="numenorean_sword_blade_e" Type="Blade" scale_factor="100" />
+			<Piece id="numenorean_sword_guard_b" Type="Guard" scale_factor="100" />
+			<Piece id="numenorean_sword_handle_b" Type="Handle" scale_factor="100" />
+			<Piece id="numenorean_sword_pommel_b" Type="Pommel" scale_factor="100" />
+		</Pieces>
+	</CraftedItem>
+
+
+	<CraftedItem id="numenorean_sword_2h_y" name="Numenorean Two Handed Sword Y" crafting_template="TwoHandedSword" is_merchandise="true">
+		<Pieces>
+			<Piece id="numenorean_sword_blade_e" Type="Blade" scale_factor="100" />
+			<Piece id="numenorean_sword_guard_c" Type="Guard" scale_factor="100" />
+			<Piece id="numenorean_sword_handle_c" Type="Handle" scale_factor="100" />
+			<Piece id="numenorean_sword_pommel_c" Type="Pommel" scale_factor="100" />
+		</Pieces>
+	</CraftedItem>
+
+	<CraftedItem id="numenorean_sword_2h_z" name="Numenorean Two Handed Sword Z" crafting_template="TwoHandedSword" is_merchandise="true">
+		<Pieces>
+			<Piece id="numenorean_sword_blade_e" Type="Blade" scale_factor="100" />
+			<Piece id="numenorean_sword_guard_e" Type="Guard" scale_factor="100" />
+			<Piece id="numenorean_sword_handle_a" Type="Handle" scale_factor="100" />
+			<Piece id="numenorean_sword_pommel_b" Type="Pommel" scale_factor="100" />
+		</Pieces>
+	</CraftedItem>
+
+
+	<!--Elf Spear-->
+	<CraftedItem id="he_spear" name="High Elf Spear"  crafting_template="TwoHandedPolearm" culture="Culture.rivendell" is_merchandise="true" modifier_group="polearm">
+		<Pieces>
+			<Piece id="wm_elven_spear_blade" Type="Blade" scale_factor="100" />
+			<Piece id="wm_elven_spear_shaft" Type="Handle" scale_factor="100" />
+		</Pieces>
+	</CraftedItem>
+
+	<!--Elf Sword-->
+	<CraftedItem id="he_sword" name="High Elf Sword" crafting_template="TwoHandedSword" is_merchandise="true">
+		<Pieces>
+			<Piece id="wm_elven_sword_a_blade" Type="Blade" scale_factor="100" />
+			<Piece id="wm_elven_sword_a_handguard" Type="Guard" scale_factor="100" />
+			<Piece id="wm_elven_sword_a_hilt" Type="Handle" scale_factor="100" />
+			<Piece id="wm_elven_sword_a_pommel" Type="Pommel" scale_factor="100" />
+		</Pieces>
+	</CraftedItem>
+
+
+	<!--Elf Bows -->
+
+	<Item
+			id="highelf_longbowa"
+			name="{=helongbowa}High Elf Longbow A"
+			body_name="bo_wm_elven_bow_v1"
+			mesh="wm_elven_bow_v1"
+			culture="Culture.battania"
+			weight="0.1"
+			difficulty="50"
+			appearance="0.1"
+			Type="Bow"
+			item_holsters="bow_back:bow_back_2:bow_hip:bow_hip_2">
+		<ItemComponent>
+			<Weapon
+				weapon_class="Bow"
+				ammo_class="Arrow"
+				ammo_limit="1"
+				thrust_speed="78"
+				speed_rating="88"
+				missile_speed="85"
+				weapon_length="182"
+				accuracy="100"
+				thrust_damage="76"
+				thrust_damage_type="Pierce"
+				item_usage="long_bow"
+				physics_material="wood_weapon"
+				center_of_mass="0.15,0,0"
+				modifier_group="bow">
+				<WeaponFlags
+					RangedWeapon="true"
+					HasString="true"
+					StringHeldByHand="true"
+					NotUsableWithOneHand="true"
+					TwoHandIdleOnMount="true"
+					AutoReload="true"
+					UnloadWhenSheathed="true" />
+			</Weapon>
+		</ItemComponent>
+		<Flags
+			ForceAttachOffHandPrimaryItemBone="true" />
+	</Item>
+	<Item
+	 id="highelf_longbowb"
+	 name="{=helongbowb}High Elf Longbow B"
+	 body_name="bo_wm_elven_bow_v2"
+	 mesh="wm_elven_bow_v2"
+	 culture="Culture.battania"
+	 weight="0.2"
+	 difficulty="50"
+	 appearance="0.1"
+	 Type="Bow"
+	 item_holsters="bow_back:bow_back_2:bow_hip:bow_hip_2">
+		<ItemComponent>
+			<Weapon
+				weapon_class="Bow"
+				ammo_class="Arrow"
+				ammo_limit="1"
+				thrust_speed="78"
+				speed_rating="88"
+				missile_speed="90"
+				weapon_length="182"
+				accuracy="100"
+				thrust_damage="76"
+				thrust_damage_type="Pierce"
+				item_usage="long_bow"
+				physics_material="wood_weapon"
+				center_of_mass="0.15,0,0"
+				modifier_group="bow">
+				<WeaponFlags
+					RangedWeapon="true"
+					HasString="true"
+					StringHeldByHand="true"
+					NotUsableWithOneHand="true"
+					TwoHandIdleOnMount="true"
+					AutoReload="true"
+					UnloadWhenSheathed="true" />
+			</Weapon>
+		</ItemComponent>
+		<Flags
+			ForceAttachOffHandPrimaryItemBone="true" />
+	</Item>
+
+	<Item
+	 id="highelf_longbowc"
+	 name="{=helongbowc}High Elf Longbow C"
+	 body_name="bo_wm_elven_bow_v3"
+	 mesh="wm_elven_bow_v3"
+	 culture="Culture.battania"
+	 weight="0.3"
+	 difficulty="50"
+	 appearance="0.1"
+	 Type="Bow"
+	 item_holsters="bow_back:bow_back_2:bow_hip:bow_hip_2">
+		<ItemComponent>
+			<Weapon
+				weapon_class="Bow"
+				ammo_class="Arrow"
+				ammo_limit="1"
+				thrust_speed="78"
+				speed_rating="88"
+				missile_speed="95"
+				weapon_length="184"
+				accuracy="100"
+				thrust_damage="76"
+				thrust_damage_type="Pierce"
+				item_usage="long_bow"
+				physics_material="wood_weapon"
+				center_of_mass="0.15,0,0"
+				modifier_group="bow">
+				<WeaponFlags
+					RangedWeapon="true"
+					HasString="true"
+					StringHeldByHand="true"
+					NotUsableWithOneHand="true"
+					TwoHandIdleOnMount="true"
+					AutoReload="true"
+					UnloadWhenSheathed="true" />
+			</Weapon>
+		</ItemComponent>
+		<Flags
+			ForceAttachOffHandPrimaryItemBone="true" />
+	</Item>
+
+	<Item
+	 id="highelf_longbowd"
+	 name="{=helongbowd}High Elf Longbow D"
+	 body_name="bo_wm_elven_bow_v4"
+	 mesh="wm_elven_bow_v4"
+	 culture="Culture.battania"
+	 weight="0.3"
+	 difficulty="50"
+	 appearance="0.1"
+	 Type="Bow"
+	 item_holsters="bow_back:bow_back_2:bow_hip:bow_hip_2">
+		<ItemComponent>
+			<Weapon
+				weapon_class="Bow"
+				ammo_class="Arrow"
+				ammo_limit="1"
+				thrust_speed="78"
+				speed_rating="99"
+				missile_speed="100"
+				weapon_length="188"
+				accuracy="100"
+				thrust_damage="76"
+				thrust_damage_type="Pierce"
+				item_usage="long_bow"
+				physics_material="wood_weapon"
+				center_of_mass="0.15,0,0"
+				modifier_group="bow">
+				<WeaponFlags
+					RangedWeapon="true"
+					HasString="true"
+					StringHeldByHand="true"
+					NotUsableWithOneHand="true"
+					TwoHandIdleOnMount="true"
+					AutoReload="true"
+					UnloadWhenSheathed="true" />
+			</Weapon>
+		</ItemComponent>
+		<Flags
+			ForceAttachOffHandPrimaryItemBone="true" />
+	</Item>
+
+
+	<!--Arrows
+	<Item
+			id="wm_elven_arrow_v1a"
+			name="{=s7jkSgba}Elven Arrow A1"
+			body_name="bo_capsule_arrow"
+			holster_body_name="bo_axe_short"
+			mesh="wm_elven_arrow_v1a"
+			weight="0.05"
+			appearance="1"
+			flying_mesh="arrow_bl_flying"
+			holster_mesh="arrow_bl_h_quiver"
+			holster_mesh_with_weapon="arrow_bl_h_quiver"
+			Type="Arrows"
+			item_holsters="quiver_back_middle:quiver_bolts_2:quiver_bolts"
+			holster_position_shift="0.0,0.0,0.15">
+		<ItemComponent>
+			<Weapon
+				weapon_class="Arrow"
+				stack_amount="40"
+				thrust_speed="0"
+				speed_rating="0"
+				physics_material="missile"
+				missile_speed="10"
+				weapon_length="97.14"
+				thrust_damage="1"
+				thrust_damage_type="Pierce"
+				item_usage="arrow_right"
+				passby_sound_code="event:/mission/combat/missile/passby"
+				rotation="0, -80, 25"
+				sticking_position="0,-0.97,0"
+				sticking_rotation="90,0,0"
+				center_of_mass="0,0,-0.13"
+				modifier_group="arrow">
+				<WeaponFlags
+					Consumable="true"
+					AmmoSticksWhenShot="true"
+					AmmoBreaksOnBounceBack="true" />
+			</Weapon>
+		</ItemComponent>
+		<Flags />
+	</Item>-->
+
+</Items>

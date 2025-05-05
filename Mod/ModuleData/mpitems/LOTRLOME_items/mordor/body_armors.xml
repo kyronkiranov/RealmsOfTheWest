@@ -1,0 +1,817 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+	<!-- Mordor -->
+	<Item
+		id="sk_uruk_mordor_chainmail_light_a"
+		name="{=mordorchainmaila}Mordor Chainmail A"
+		mesh="sk_uruk_mordor_chainmail_light_a"
+		subtype="body_armor"
+		culture="Culture.mordor"
+		weight="9.5"
+		difficulty="0"
+		appearance="1.5"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="15"
+				arm_armor="10"
+				has_gender_variations="false"
+				covers_body="true"
+				modifier_group="chain"
+				material_type="Chainmail" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+		<Item
+			id="sk_uruk_mordor_chainmail_light_b"
+			name="{=mordorchainmailb}Mordor Chainmail B"
+			mesh="sk_uruk_mordor_chainmail_light_b"
+			subtype="body_armor"
+			culture="Culture.mordor"
+			weight="9.5"
+			difficulty="0"
+			appearance="1.5"
+			Type="BodyArmor">
+			<ItemComponent>
+				<Armor
+					body_armor="15"
+					arm_armor="10"
+					has_gender_variations="false"
+					covers_body="true"
+					modifier_group="chain"
+					material_type="Chainmail" />
+			</ItemComponent>
+			<Flags
+				UseTeamColor="true" />
+		</Item>
+	
+		<Item
+			id="sk_uruk_mordor_chainmail_light_c"
+			name="{=mordorchainmailc}Mordor Chainmail C"
+			mesh="sk_uruk_mordor_chainmail_light_c"
+			subtype="body_armor"
+			culture="Culture.mordor"
+			weight="9.5"
+			difficulty="0"
+			appearance="1.5"
+			Type="BodyArmor">
+			<ItemComponent>
+				<Armor
+					body_armor="15"
+					arm_armor="10"
+					has_gender_variations="false"
+					covers_body="true"
+					modifier_group="chain"
+					material_type="Chainmail" />
+			</ItemComponent>
+			<Flags
+				UseTeamColor="true" />
+		</Item>
+
+
+
+
+
+		<Item
+			id="sk_uruk_mordor_chainmail_medium_a1"
+			name="{=mordorchainmailmediuma}Mordor Chainmail Medium A1"
+			mesh="sk_uruk_mordor_chainmail_medium_a1"
+			subtype="body_armor"
+			culture="Culture.mordor"
+			weight="9.5"
+			difficulty="0"
+			appearance="1.5"
+			Type="BodyArmor">
+			<ItemComponent>
+				<Armor
+					body_armor="20"
+					arm_armor="15"
+					has_gender_variations="false"
+					covers_body="true"
+					modifier_group="chain"
+					material_type="Chainmail" />
+			</ItemComponent>
+			<Flags
+				UseTeamColor="true" />
+		</Item>
+
+
+		<Item
+			id="sk_uruk_mordor_chainmail_medium_b1"
+			name="{=mordorchainmailmediumb1}Mordor Chainmail Medium B1"
+			mesh="sk_uruk_mordor_chainmail_medium_b1"
+			subtype="body_armor"
+			culture="Culture.mordor"
+			weight="9.5"
+			difficulty="0"
+			appearance="1.5"
+			Type="BodyArmor">
+			<ItemComponent>
+				<Armor
+					body_armor="20"
+					arm_armor="15"
+					has_gender_variations="false"
+					covers_body="true"
+					modifier_group="chain"
+					material_type="Chainmail" />
+			</ItemComponent>
+			<Flags
+				UseTeamColor="true" />
+		</Item>
+		<Item
+			id="sk_uruk_mordor_chainmail_medium_c1"
+			name="{=mordorchainmailmediumc1}Mordor Chainmail Medium C1"
+			mesh="sk_uruk_mordor_chainmail_medium_c1"
+			subtype="body_armor"
+			culture="Culture.mordor"
+			weight="9.5"
+			difficulty="0"
+			appearance="1.5"
+			Type="BodyArmor">
+			<ItemComponent>
+				<Armor
+					body_armor="20"
+					arm_armor="15"
+					has_gender_variations="false"
+					covers_body="true"
+					modifier_group="chain"
+					material_type="Chainmail" />
+			</ItemComponent>
+			<Flags
+				UseTeamColor="true" />
+		</Item>
+		<Item
+			id="sk_uruk_mordor_chainmail_medium_d1"
+			name="{=mordorchainmailmediumd1}Mordor Chainmail Medium D1"
+			mesh="sk_uruk_mordor_chainmail_medium_d1"
+			subtype="body_armor"
+			culture="Culture.mordor"
+			weight="9.5"
+			difficulty="0"
+			appearance="1.5"
+			Type="BodyArmor">
+			<ItemComponent>
+				<Armor
+					body_armor="20"
+					arm_armor="15"
+					has_gender_variations="false"
+					covers_body="true"
+					modifier_group="chain"
+					material_type="Chainmail" />
+			</ItemComponent>
+			<Flags
+				UseTeamColor="true" />
+		</Item>
+
+		<Item
+			id="sk_uruk_mordor_chainmail_medium_a2"
+			name="{=mordorchainmailmediuma2}Mordor Chainmail Medium A2"
+			mesh="sk_uruk_mordor_chainmail_medium_a2"
+			subtype="body_armor"
+			culture="Culture.mordor"
+			weight="9.5"
+			difficulty="0"
+			appearance="1.5"
+			Type="BodyArmor">
+			<ItemComponent>
+				<Armor
+					body_armor="20"
+					arm_armor="15"
+					has_gender_variations="false"
+					covers_body="true"
+					modifier_group="chain"
+					material_type="Chainmail" />
+			</ItemComponent>
+			<Flags
+				UseTeamColor="true" />
+		</Item>
+
+		<!-- Mordor -->
+		<Item
+			id="sk_uruk_mordor_chainmail_medium_b2"
+			name="{=mordorchainmailmediumb2}Mordor Chainmail Medium B2"
+			mesh="sk_uruk_mordor_chainmail_medium_b2"
+			subtype="body_armor"
+			culture="Culture.mordor"
+			weight="9.5"
+			difficulty="0"
+			appearance="1.5"
+			Type="BodyArmor">
+			<ItemComponent>
+				<Armor
+					body_armor="20"
+					arm_armor="15"
+					has_gender_variations="false"
+					covers_body="true"
+					modifier_group="chain"
+					material_type="Chainmail" />
+			</ItemComponent>
+			<Flags
+				UseTeamColor="true" />
+		</Item>
+		<Item
+			id="sk_uruk_mordor_chainmail_medium_c2"
+			name="{=mordorchainmailmediumc2}Mordor Chainmail Medium C2"
+			mesh="sk_uruk_mordor_chainmail_medium_c2"
+			subtype="body_armor"
+			culture="Culture.mordor"
+			weight="9.5"
+			difficulty="0"
+			appearance="1.5"
+			Type="BodyArmor">
+			<ItemComponent>
+				<Armor
+					body_armor="20"
+					arm_armor="15"
+					has_gender_variations="false"
+					covers_body="true"
+					modifier_group="chain"
+					material_type="Chainmail" />
+			</ItemComponent>
+			<Flags
+				UseTeamColor="true" />
+		</Item>
+		<Item
+			id="sk_uruk_mordor_chainmail_medium_d2"
+			name="{=mordorchainmailmediumd2}Mordor Chainmail Medium D2"
+			mesh="sk_uruk_mordor_chainmail_medium_d2"
+			subtype="body_armor"
+			culture="Culture.mordor"
+			weight="9.5"
+			difficulty="0"
+			appearance="1.5"
+			Type="BodyArmor">
+			<ItemComponent>
+				<Armor
+					body_armor="20"
+					arm_armor="15"
+					has_gender_variations="false"
+					covers_body="true"
+					modifier_group="chain"
+					material_type="Chainmail" />
+			</ItemComponent>
+			<Flags
+				UseTeamColor="true" />
+		</Item>
+
+		<Item
+			id="sk_uruk_mordor_chainmail_heavy_a1"
+			name="{=mordorchainmailheavya1}Mordor Chainmail Heavy A1"
+			mesh="sk_uruk_mordor_chainmail_heavy_a1"
+			subtype="body_armor"
+			culture="Culture.mordor"
+			weight="9.5"
+			difficulty="0"
+			appearance="1.5"
+			Type="BodyArmor">
+			<ItemComponent>
+				<Armor
+					body_armor="25"
+					arm_armor="15"
+					has_gender_variations="false"
+					covers_body="true"
+					modifier_group="plate"
+					material_type="Plate" />
+			</ItemComponent>
+			<Flags
+				UseTeamColor="true" />
+		</Item>
+		<Item
+			id="sk_uruk_mordor_chainmail_heavy_a2"
+			name="{=mordorchainmailheavya2}Mordor Chainmail Heavy A2"
+			mesh="sk_uruk_mordor_chainmail_heavy_a2"
+			subtype="body_armor"
+			culture="Culture.mordor"
+			weight="9.5"
+			difficulty="0"
+			appearance="1.5"
+			Type="BodyArmor">
+			<ItemComponent>
+				<Armor
+					body_armor="25"
+					arm_armor="15"
+					has_gender_variations="false"
+					covers_body="true"
+					modifier_group="plate"
+					material_type="Plate" />
+			</ItemComponent>
+			<Flags
+				UseTeamColor="true" />
+		</Item>
+		<Item
+			id="sk_uruk_mordor_chainmail_heavy_b1"
+			name="{=mordorchainmailheavyb1}Mordor Chainmail Heavy B1"
+			mesh="sk_uruk_mordor_chainmail_heavy_b1"
+			subtype="body_armor"
+			culture="Culture.mordor"
+			weight="9.5"
+			difficulty="0"
+			appearance="1.5"
+			Type="BodyArmor">
+			<ItemComponent>
+				<Armor
+					body_armor="25"
+					arm_armor="15"
+					has_gender_variations="false"
+					covers_body="true"
+					modifier_group="plate"
+					material_type="Plate" />
+			</ItemComponent>
+			<Flags
+				UseTeamColor="true" />
+		</Item>
+		<Item
+			id="sk_uruk_mordor_chainmail_heavy_b2"
+			name="{=mordorchainmailheavyb2}Mordor Chainmail Heavy B2"
+			mesh="sk_uruk_mordor_chainmail_heavy_b2"
+			subtype="body_armor"
+			culture="Culture.mordor"
+			weight="9.5"
+			difficulty="0"
+			appearance="1.5"
+			Type="BodyArmor">
+			<ItemComponent>
+				<Armor
+					body_armor="25"
+					arm_armor="15"
+					has_gender_variations="false"
+					covers_body="true"
+					modifier_group="plate"
+					material_type="Plate" />
+			</ItemComponent>
+			<Flags
+				UseTeamColor="true" />
+		</Item>
+		<Item
+			id="sk_uruk_mordor_chainmail_heavy_c1"
+			name="{=mordorchainmailheavyc1}Mordor Chainmail Heavy C1"
+			mesh="sk_uruk_mordor_chainmail_heavy_c1"
+			subtype="body_armor"
+			culture="Culture.mordor"
+			weight="9.5"
+			difficulty="0"
+			appearance="1.5"
+			Type="BodyArmor">
+			<ItemComponent>
+				<Armor
+					body_armor="25"
+					arm_armor="15"
+					has_gender_variations="false"
+					covers_body="true"
+					modifier_group="plate"
+					material_type="Plate" />
+			</ItemComponent>
+			<Flags
+				UseTeamColor="true" />
+		</Item>
+		<Item
+			id="sk_uruk_mordor_chainmail_heavy_c2"
+			name="{=mordorchainmailheavyc2}Mordor Chainmail Heavy C2"
+			mesh="sk_uruk_mordor_chainmail_heavy_c2"
+			subtype="body_armor"
+			culture="Culture.mordor"
+			weight="9.5"
+			difficulty="0"
+			appearance="1.5"
+			Type="BodyArmor">
+			<ItemComponent>
+				<Armor
+					body_armor="25"
+					arm_armor="15"
+					has_gender_variations="false"
+					covers_body="true"
+					modifier_group="plate"
+					material_type="Plate" />
+			</ItemComponent>
+			<Flags
+				UseTeamColor="true" />
+		</Item>
+		<Item
+			id="sk_uruk_mordor_chainmail_heavy_d1"
+			name="{=mordorchainmailheavyd1}Mordor Chainmail Heavy D1"
+			mesh="sk_uruk_mordor_chainmail_heavy_d1"
+			subtype="body_armor"
+			culture="Culture.mordor"
+			weight="9.5"
+			difficulty="0"
+			appearance="1.5"
+			Type="BodyArmor">
+			<ItemComponent>
+				<Armor
+					body_armor="25"
+					arm_armor="15"
+					has_gender_variations="false"
+					covers_body="true"
+					modifier_group="plate"
+					material_type="Plate" />
+			</ItemComponent>
+			<Flags
+				UseTeamColor="true" />
+		</Item>
+		<Item
+			id="sk_uruk_mordor_chainmail_heavy_d2"
+			name="{=mordorchainmailheavyd2}Mordor Chainmail Heavy D2"
+			mesh="sk_uruk_mordor_chainmail_heavy_d2"
+			subtype="body_armor"
+			culture="Culture.mordor"
+			weight="9.5"
+			difficulty="0"
+			appearance="1.5"
+			Type="BodyArmor">
+			<ItemComponent>
+				<Armor
+					body_armor="25"
+					arm_armor="15"
+					has_gender_variations="false"
+					covers_body="true"
+					modifier_group="plate"
+					material_type="Plate" />
+			</ItemComponent>
+			<Flags
+				UseTeamColor="true" />
+		</Item>
+
+
+	
+			<Item
+				id="sk_uruk_mordor_chainmail_elite_a1"
+				name="{=mordorchainmailelitea1}Mordor Chainmail Elite A1"
+				mesh="sk_uruk_mordor_chainmail_elite_a1"
+				subtype="body_armor"
+				culture="Culture.mordor"
+				weight="10.5"
+				difficulty="0"
+				appearance="1.5"
+				Type="BodyArmor">
+				<ItemComponent>
+					<Armor
+						body_armor="30"
+						arm_armor="15"
+						has_gender_variations="false"
+						covers_body="true"
+						modifier_group="plate"
+						material_type="Plate" />
+				</ItemComponent>
+				<Flags
+					UseTeamColor="true" />
+			</Item>
+			<Item
+				id="sk_uruk_mordor_chainmail_elite_a2"
+				name="{=mordorchainmailelitea2}Mordor Chainmail Elite A2"
+				mesh="sk_uruk_mordor_chainmail_elite_a2"
+				subtype="body_armor"
+				culture="Culture.mordor"
+				weight="10.5"
+				difficulty="0"
+				appearance="1.5"
+				Type="BodyArmor">
+				<ItemComponent>
+					<Armor
+						body_armor="30"
+						arm_armor="15"
+						has_gender_variations="false"
+						covers_body="true"
+						modifier_group="plate"
+						material_type="Plate" />
+				</ItemComponent>
+				<Flags
+					UseTeamColor="true" />
+			</Item>
+			<Item
+				id="sk_uruk_mordor_chainmail_elite_b1"
+				name="{=mordorchainmaileliteb1}Mordor Chainmail Elite B1"
+				mesh="sk_uruk_mordor_chainmail_elite_b1"
+				subtype="body_armor"
+				culture="Culture.mordor"
+				weight="10.5"
+				difficulty="0"
+				appearance="1.5"
+				Type="BodyArmor">
+				<ItemComponent>
+					<Armor
+						body_armor="30"
+						arm_armor="15"
+						has_gender_variations="false"
+						covers_body="true"
+						modifier_group="plate"
+						material_type="Plate" />
+				</ItemComponent>
+				<Flags
+					UseTeamColor="true" />
+			</Item>
+			<Item
+				id="sk_uruk_mordor_chainmail_elite_b2"
+				name="{=mordorchainmaileliteb2}Mordor Chainmail Elite B2"
+				mesh="sk_uruk_mordor_chainmail_elite_b2"
+				subtype="body_armor"
+				culture="Culture.mordor"
+				weight="10.5"
+				difficulty="0"
+				appearance="1.5"
+				Type="BodyArmor">
+				<ItemComponent>
+					<Armor
+						body_armor="30"
+						arm_armor="15"
+						has_gender_variations="false"
+						covers_body="true"
+						modifier_group="plate"
+						material_type="Plate" />
+				</ItemComponent>
+				<Flags
+					UseTeamColor="true" />
+			</Item>
+			<Item
+				id="sk_uruk_mordor_chainmail_elite_c1"
+				name="{=mordorchainmailelitec1}Mordor Chainmail Elite C1"
+				mesh="sk_uruk_mordor_chainmail_elite_c1"
+				subtype="body_armor"
+				culture="Culture.mordor"
+				weight="10.5"
+				difficulty="0"
+				appearance="1.5"
+				Type="BodyArmor">
+				<ItemComponent>
+					<Armor
+						body_armor="30"
+						arm_armor="15"
+						has_gender_variations="false"
+						covers_body="true"
+						modifier_group="plate"
+						material_type="Plate" />
+				</ItemComponent>
+				<Flags
+					UseTeamColor="true" />
+			</Item>
+			<Item
+				id="sk_uruk_mordor_chainmail_elite_c2"
+				name="{=mordorchainmailelitec2}Mordor Chainmail Elite C2"
+				mesh="sk_uruk_mordor_chainmail_elite_c2"
+				subtype="body_armor"
+				culture="Culture.mordor"
+				weight="10.5"
+				difficulty="0"
+				appearance="1.5"
+				Type="BodyArmor">
+				<ItemComponent>
+					<Armor
+						body_armor="30"
+						arm_armor="15"
+						has_gender_variations="false"
+						covers_body="true"
+						modifier_group="plate"
+						material_type="Plate" />
+				</ItemComponent>
+				<Flags
+					UseTeamColor="true" />
+			</Item>
+			<Item
+				id="sk_uruk_mordor_chainmail_elite_d1"
+				name="{=mordorchainmailelited1}Mordor Chainmail Elite D1"
+				mesh="sk_uruk_mordor_chainmail_elite_d1"
+				subtype="body_armor"
+				culture="Culture.mordor"
+				weight="10.5"
+				difficulty="0"
+				appearance="1.5"
+				Type="BodyArmor">
+				<ItemComponent>
+					<Armor
+						body_armor="30"
+						arm_armor="15"
+						has_gender_variations="false"
+						covers_body="true"
+						modifier_group="plate"
+						material_type="Plate" />
+				</ItemComponent>
+				<Flags
+					UseTeamColor="true" />
+			</Item>
+			<Item
+				id="sk_uruk_mordor_chainmail_elite_d2"
+				name="{=mordorchainmailelited2}Mordor Chainmail Elite D2"
+				mesh="sk_uruk_mordor_chainmail_elite_d2"
+				subtype="body_armor"
+				culture="Culture.mordor"
+				weight="10.5"
+				difficulty="0"
+				appearance="1.5"
+				Type="BodyArmor">
+				<ItemComponent>
+					<Armor
+						body_armor="30"
+						arm_armor="15"
+						has_gender_variations="false"
+						covers_body="true"
+						modifier_group="plate"
+						material_type="Plate" />
+				</ItemComponent>
+				<Flags
+					UseTeamColor="true" />
+			</Item>
+
+		<Item
+			id="sk_uruk_mordor_chainmail_captain_a1"
+			name="{=mordorchainmailcaptaina1}Mordor Chainmail Captain A1"
+			mesh="sk_uruk_mordor_chainmail_captain_a1"
+			subtype="body_armor"
+			culture="Culture.mordor"
+			weight="12.5"
+			difficulty="0"
+			appearance="1.5"
+			Type="BodyArmor">
+			<ItemComponent>
+				<Armor
+					body_armor="35"
+					arm_armor="15"
+					has_gender_variations="false"
+					covers_body="true"
+					modifier_group="plate"
+					material_type="Plate" />
+			</ItemComponent>
+			<Flags
+				UseTeamColor="true" />
+		</Item>
+		<Item
+			id="sk_uruk_mordor_chainmail_captain_a2"
+			name="{=mordorchainmailcaptaina2}Mordor Chainmail Captain A2"
+			mesh="sk_uruk_mordor_chainmail_captain_a2"
+			subtype="body_armor"
+			culture="Culture.mordor"
+			weight="12.5"
+			difficulty="0"
+			appearance="1.5"
+			Type="BodyArmor">
+			<ItemComponent>
+				<Armor
+					body_armor="35"
+					arm_armor="15"
+					has_gender_variations="false"
+					covers_body="true"
+					modifier_group="plate"
+					material_type="Plate" />
+			</ItemComponent>
+			<Flags
+				UseTeamColor="true" />
+		</Item>
+		<Item
+			id="sk_uruk_mordor_chainmail_captain_b1"
+			name="{=mordorchainmailcaptainb1}Mordor Chainmail Captain B1"
+			mesh="sk_uruk_mordor_chainmail_captain_b1"
+			subtype="body_armor"
+			culture="Culture.mordor"
+			weight="12.5"
+			difficulty="0"
+			appearance="1.5"
+			Type="BodyArmor">
+			<ItemComponent>
+				<Armor
+					body_armor="35"
+					arm_armor="15"
+					has_gender_variations="false"
+					covers_body="true"
+					modifier_group="plate"
+					material_type="Plate" />
+			</ItemComponent>
+			<Flags
+				UseTeamColor="true" />
+		</Item>
+		<Item
+			id="sk_uruk_mordor_chainmail_captain_b2"
+			name="{=mordorchainmailcaptainb2}Mordor Chainmail Captain B2"
+			mesh="sk_uruk_mordor_chainmail_captain_b2"
+			subtype="body_armor"
+			culture="Culture.mordor"
+			weight="12.5"
+			difficulty="0"
+			appearance="1.5"
+			Type="BodyArmor">
+			<ItemComponent>
+				<Armor
+					body_armor="35"
+					arm_armor="15"
+					has_gender_variations="false"
+					covers_body="true"
+					modifier_group="plate"
+					material_type="Plate" />
+			</ItemComponent>
+			<Flags
+				UseTeamColor="true" />
+		</Item>
+		<Item
+			id="sk_uruk_mordor_chainmail_captain_c1"
+			name="{=mordorchainmailcaptainc1}Mordor Chainmail Captain C1"
+			mesh="sk_uruk_mordor_chainmail_captain_c1"
+			subtype="body_armor"
+			culture="Culture.mordor"
+			weight="12.5"
+			difficulty="0"
+			appearance="1.5"
+			Type="BodyArmor">
+			<ItemComponent>
+				<Armor
+					body_armor="35"
+					arm_armor="15"
+					has_gender_variations="false"
+					covers_body="true"
+					modifier_group="plate"
+					material_type="Plate" />
+			</ItemComponent>
+			<Flags
+				UseTeamColor="true" />
+		</Item>
+		<Item
+			id="sk_uruk_mordor_chainmail_captain_c2"
+			name="{=mordorchainmailcaptainc2}Mordor Chainmail Captain C2"
+			mesh="sk_uruk_mordor_chainmail_captain_c2"
+			subtype="body_armor"
+			culture="Culture.mordor"
+			weight="12.5"
+			difficulty="0"
+			appearance="1.5"
+			Type="BodyArmor">
+			<ItemComponent>
+				<Armor
+					body_armor="35"
+					arm_armor="15"
+					has_gender_variations="false"
+					covers_body="true"
+					modifier_group="plate"
+					material_type="Plate" />
+			</ItemComponent>
+			<Flags
+				UseTeamColor="true" />
+		</Item>
+		<Item
+			id="sk_uruk_mordor_chainmail_captain_d1"
+			name="{=mordorchainmailcaptaind1}Mordor Chainmail Captain D1"
+			mesh="sk_uruk_mordor_chainmail_captain_d1"
+			subtype="body_armor"
+			culture="Culture.mordor"
+			weight="12.5"
+			difficulty="0"
+			appearance="1.5"
+			Type="BodyArmor">
+			<ItemComponent>
+				<Armor
+					body_armor="35"
+					arm_armor="15"
+					has_gender_variations="false"
+					covers_body="true"
+					modifier_group="plate"
+					material_type="Plate" />
+			</ItemComponent>
+			<Flags
+				UseTeamColor="true" />
+		</Item>
+		<Item
+			id="sk_uruk_mordor_chainmail_captain_d2"
+			name="{=mordorchainmailcaptaind2}Mordor Chainmail Captain D2"
+			mesh="sk_uruk_mordor_chainmail_captain_d2"
+			subtype="body_armor"
+			culture="Culture.mordor"
+			weight="12.5"
+			difficulty="0"
+			appearance="1.5"
+			Type="BodyArmor">
+			<ItemComponent>
+				<Armor
+					body_armor="35"
+					arm_armor="15"
+					has_gender_variations="false"
+					covers_body="true"
+					modifier_group="plate"
+					material_type="Plate" />
+			</ItemComponent>
+			<Flags
+				UseTeamColor="true" />
+		</Item>
+
+
+	<Item
+		id="witch_king"
+		name="{=witchkingchestplate}Witch King Chestplate"
+		mesh="witch_king"
+		subtype="body_armor"
+		culture="Culture.mordor"
+		weight="9.5"
+		difficulty="0"
+		appearance="1.5"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="95"
+				arm_armor="95"
+				has_gender_variations="false"
+				covers_body="true"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+
+	<!-- #endregion -->
+</Items>

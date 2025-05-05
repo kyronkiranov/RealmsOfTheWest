@@ -1,0 +1,274 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+	<!-- Gondor -->
+<Item
+		id="gondor_boots"
+		name="{=gondorboots}Gondor Plate Boots"
+		mesh="gondor_boots"
+		culture="Culture.gondor"
+		weight="3.6"
+		difficulty="0"
+		appearance="3"
+		Type="LegArmor">
+		<ItemComponent>
+			<Armor
+				leg_armor="26"
+				covers_legs="true"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+	<Item
+			id="citidel_guard_boots"
+			name="{=citidelguardplateboots}Gondor Citidel Plate Boots"
+			mesh="citidel_guard_boots"
+			culture="Culture.gondor"
+			weight="3.6"
+			difficulty="0"
+			appearance="3"
+			Type="LegArmor">
+		<ItemComponent>
+			<Armor
+				leg_armor="26"
+				covers_legs="true"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+	<Item
+			id="citidel_guard_boots_light"
+			name="{=citidelguardleatherboots}Gondor Citidel Leather Boots"
+			mesh="citidel_guard_boots_light"
+			culture="Culture.gondor"
+			weight="2.6"
+			difficulty="0"
+			appearance="3"
+			Type="LegArmor">
+		<ItemComponent>
+			<Armor
+				leg_armor="26"
+				covers_legs="true"
+				modifier_group="leather"
+				material_type="Leather" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+
+	<Item
+		id="fountain_guard_boots"
+		name="{=fountainguardplateboots}Gondor Fountain Plate Boots"
+		mesh="fountain_guard_boots"
+		culture="Culture.gondor"
+		weight="4.6"
+		difficulty="0"
+		appearance="3"
+		Type="LegArmor">
+		<ItemComponent>
+			<Armor
+				leg_armor="26"
+				covers_legs="true"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+	
+	<Item
+		id="ithilien_boots_heavy"
+		name="{=ithilien_boots_heavy}Ithilien Heavy Leather Boots"
+		mesh="ithilien_boots_heavy"
+		culture="Culture.gondor"
+		weight="1.9"
+		difficulty="0"
+		appearance="3"
+		Type="LegArmor">
+		<ItemComponent>
+			<Armor
+				leg_armor="20"
+				covers_legs="true"
+				modifier_group="leather"
+				material_type="Leather" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+	<Item
+		id="ithilien_boots"
+		name="{=ithilien_boots}Ithilien Leather Boots"
+		mesh="ithilien_boots"
+		culture="Culture.gondor"
+		weight="1.6"
+		difficulty="0"
+		appearance="3"
+		Type="LegArmor">
+		<ItemComponent>
+			<Armor
+				leg_armor="15"
+				covers_legs="true"
+				modifier_group="leather"
+				material_type="Leather" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+	<Item
+		id="gond_bts_lth_ld"
+		name="{=gondor_leather_boots}Gondor Leather Boots"
+		mesh="gond_bts_lth_ld"
+		culture="Culture.gondor"
+		weight="1.6"
+		difficulty="0"
+		appearance="3"
+		Type="LegArmor">
+		<ItemComponent>
+			<Armor
+				leg_armor="15"
+				covers_legs="true"
+				modifier_group="leather"
+				material_type="Leather" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+	<Item
+		id="gond_bts_plt_b_ld"
+		name="{=gondor_plate_bootstwo}Gondor Plate Boots Two"
+		mesh="gond_bts_plt_b_ld"
+		culture="Culture.gondor"
+		weight="1.6"
+		difficulty="0"
+		appearance="3"
+		Type="LegArmor">
+		<ItemComponent>
+			<Armor
+				leg_armor="20"
+				covers_legs="true"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+	<Item
+		id="gondor_king_boots"
+		name="{=gondorkingboots}Gondor King Boots"
+		mesh="gondor_king_boots"
+		culture="Culture.gondor"
+		weight="3.6"
+		difficulty="0"
+		appearance="3"
+		Type="LegArmor">
+		<ItemComponent>
+			<Armor
+				leg_armor="26"
+				covers_legs="true"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+	<Item
+		id="gondor_nobke_boots"
+		name="{=gondornobleboots}Gondor Noble Boots"
+		mesh="gondor_nobke_boots"
+		culture="Culture.gondor"
+		weight="3.6"
+		difficulty="0"
+		appearance="3"
+		Type="LegArmor">
+		<ItemComponent>
+			<Armor
+				leg_armor="26"
+				covers_legs="true"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+
+	<Item
+		id="imrahil_boot"
+		name="{=imrahil_boot}Imrahil Boots"
+		mesh="imrahil_boot"
+		culture="Culture.gondor"
+		weight="3.6"
+		difficulty="0"
+		appearance="3"
+		Type="LegArmor">
+		<ItemComponent>
+			<Armor
+				leg_armor="50"
+				covers_legs="true"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+	<Item
+		id="golasgil_boots"
+		name="{=golasgil_boots}Golasgil Boots"
+		mesh="golasgil_boots"
+		culture="Culture.gondor"
+		weight="3.6"
+		difficulty="0"
+		appearance="3"
+		Type="LegArmor">
+		<ItemComponent>
+			<Armor
+				leg_armor="40"
+				covers_legs="true"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+
+	<Item
+				id="lossarnach_boots"
+				name="{=lossarnach_boots}Gondor Lossarnach Leather Boots"
+				mesh="lossarnach_boots"
+				culture="Culture.gondor"
+				weight="2.6"
+				difficulty="0"
+				appearance="3"
+				Type="LegArmor">
+		<ItemComponent>
+			<Armor
+				leg_armor="10"
+				covers_legs="true"
+				modifier_group="leather"
+				material_type="Leather" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+	
+	<!--Lamedon-->
+	<Item
+				id="cts_gondor_boot"
+				name="{=lamedonleatherboots}Gondor Lamedon Leather Boots"
+				mesh="cts_gondor_boot"
+				culture="Culture.gondor"
+				weight="2.6"
+				difficulty="0"
+				appearance="3"
+				Type="LegArmor">
+		<ItemComponent>
+			<Armor
+				leg_armor="10"
+				covers_legs="true"
+				modifier_group="leather"
+				material_type="Leather" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+	<!-- #endregion -->
+</Items>

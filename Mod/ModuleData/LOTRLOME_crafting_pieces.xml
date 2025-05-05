@@ -1,0 +1,1935 @@
+<?xml version="1.0" ?>
+<CraftingPieces>
+	<!--Gondor Sword-->
+	<CraftingPiece
+		id="dunland_caerdh_axe_blade_1h_b"
+		name="{=dunlandcaerdhaxebladeonehandb}Dunland Caerdh Axe 1H Blade B"
+		tier="3"
+		piece_type="Blade"
+		mesh="dunland_caerdh_axe_blade_1h_b"
+		distance_to_next_piece="0"
+		distance_to_previous_piece="0"
+		weight="0.95">
+		<BuildData
+			piece_offset="0" />
+		<BladeData
+			stack_amount="3"
+			blade_length="8.0156"
+			blade_width="34.6855"
+			physics_material="metal_weapon"
+			body_name="bo_dunland_caerdh_axe_blade_1h_b">
+			<Swing
+				damage_type="Cut"
+				damage_factor="3.6" />
+		</BladeData>
+		<Flags>
+			<Flag name="BonusAgainstShield" />
+			<Flag
+				name="CanBePickedUpFromCorpse"
+				type="ItemFlags" />
+			<Flag name="Civilian"
+				  type="ItemFlags" />
+		</Flags>
+		<Materials>
+			<Material
+				id="Iron3"
+				count="3" />
+		</Materials>
+	</CraftingPiece>
+
+	<CraftingPiece
+		id="dunland_caerdh_axe_handle_1h_b"
+		name="{=dunlandcaerdh1hhandlea}Dunland Caerdh 1H Axe Handle B"
+		tier="3"
+		
+		piece_type="Handle"
+		mesh="dunland_caerdh_axe_handle_1h_b"
+		length="90"
+		weight="0.15">
+		<BuildData
+			piece_offset="0"
+			next_piece_offset="0" />
+		<Materials>
+			<Material
+				id="Wood"
+				count="1" />
+		</Materials>
+	</CraftingPiece>
+
+	<CraftingPiece
+			id="dunland_caerdh_axe_pommel_1h_b"
+			name="{=dunlandcaerdh1haxepommelb}Dunland Caerdh 1H Pommel B"
+			tier="3"
+			piece_type="Pommel"
+			mesh="dunland_caerdh_axe_pommel_1h_b"
+		
+			length="20.7"
+			weight="0">
+		<BuildData
+			piece_offset="-8" />
+		<Materials>
+			<Material
+				id="Iron4"
+				count="1" />
+		</Materials>
+	</CraftingPiece>
+	 <CraftingPiece id="rohan_handle_11" name="Herugrim Handle" tier="4" piece_type="Handle" mesh="rohan_sword_1_handle_a" culture="Culture.rohan" length="14" weight="0.15">
+   
+    <BuildData piece_offset="-3.5" previous_piece_offset="0.1" next_piece_offset="0.1" />
+    <Materials>
+      <Material id="Iron1" count="1" />
+    </Materials>
+  </CraftingPiece>
+	 <CraftingPiece id="rohan_handle_1" name="Herugrim Handle" tier="4" piece_type="Handle" mesh="rohan_sword_1_handle_a" culture="Culture.rohan" length="14" weight="0.15">
+   
+    <BuildData piece_offset="-3.5" previous_piece_offset="0.1" next_piece_offset="0.1" />
+    <Materials>
+      <Material id="Iron1" count="1" />
+    </Materials>
+  </CraftingPiece>
+  <CraftingPiece id="rohan_guard_11" name="Herugrim Guard" tier="1" piece_type="Guard" mesh="rohan_sword_1_guard_a" culture="Culture.rohan" length="5" weight="0.15" is_default="true">
+
+    <BuildData next_piece_offset="0.2" />
+    <StatContributions armor_bonus="2" />
+    <Materials>
+      <Material id="Iron1" count="1" />
+    </Materials>
+  </CraftingPiece>
+	<CraftingPiece id="rohan_guard_1" name="Herugrim Guard" tier="1" piece_type="Guard" mesh="rohan_sword_1_guard_a" culture="Culture.rohan" length="5" weight="0.15" is_default="true">
+
+    <BuildData next_piece_offset="0.2" />
+    <StatContributions armor_bonus="2" />
+    <Materials>
+      <Material id="Iron1" count="1" />
+    </Materials>
+  </CraftingPiece>
+  <CraftingPiece id="rohan_blade_11" name="Herugrim Blade" tier="4" piece_type="Blade" mesh="rohan_sword_1_blade_a" culture="Culture.rohan" length="70" weight="0.95" CraftingCost="75">
+
+    <BuildData previous_piece_offset="-0.4" />
+    <BladeData stack_amount="3" physics_material="metal_weapon" body_name="bo_sword_one_handed" holster_mesh="" >
+      <Thrust damage_type="Pierce" damage_factor="2.3" />
+      <Swing damage_type="Cut" damage_factor="4.0" />
+    </BladeData>
+    <Flags>
+      <Flag name="Civilian" type="ItemFlags" />
+    </Flags>
+    <Materials>
+      <Material id="Iron2" count="4" />
+    </Materials>
+  </CraftingPiece>
+	<CraftingPiece id="rohan_blade_1" name="Herugrim Blade" tier="4" piece_type="Blade" mesh="rohan_sword_1_blade_a" culture="Culture.rohan" length="99" weight="0.95" CraftingCost="75">
+
+    <BuildData previous_piece_offset="-0.4" />
+    <BladeData stack_amount="3" physics_material="metal_weapon" body_name="bo_sword_one_handed" holster_mesh="rohan_sword_1_holster_a" >
+      <Thrust damage_type="Pierce" damage_factor="2.3" />
+      <Swing damage_type="Cut" damage_factor="4.0" />
+    </BladeData>
+    <Flags>
+      <Flag name="Civilian" type="ItemFlags" />
+    </Flags>
+    <Materials>
+      <Material id="Iron2" count="4" />
+    </Materials>
+  </CraftingPiece>
+	 <CraftingPiece id="uruk_handle_1" name="Uruk-Hai Leather Bound Handle" tier="3" piece_type="Handle" mesh="uruk_sword_1_handle" culture="Culture.aserai" length="17" weight="0.13">
+   
+    <BuildData piece_offset="0" previous_piece_offset="0.1" next_piece_offset="0.1" />
+    <Materials>
+      <Material id="Iron1" count="1" />
+    </Materials>
+  </CraftingPiece>
+	 <CraftingPiece id="uruk_blade_1" name="Uruk-Hai Cleaver Blade" tier="3" piece_type="Blade" mesh="uruk_sword_1_blade" culture="Culture.aserai" length="74" weight="0.90" excluded_item_usage_features="thrust">
+
+    <BuildData previous_piece_offset="-0.4" />
+    <BladeData stack_amount="3" physics_material="metal_weapon" body_name="bo_sword_one_handed" >
+      <Swing damage_type="Cut" damage_factor="4" />
+    </BladeData>
+    <Flags>
+      <Flag name="Civilian" type="ItemFlags" />
+    </Flags>
+    <Materials>
+      <Material id="Iron2" count="4" />
+    </Materials>
+  </CraftingPiece>
+	 <CraftingPiece id="spear_banner_r"
+                 name="{=CYVjEcPQ}Rohan Banner Spear"
+                 tier="5"
+                 piece_type="Guard"
+                 mesh="spear_banner_r"
+                 culture="Culture.neutral_culture"
+                 length="20.4"
+                 weight="0">
+    <Materials>
+      <Material id="Iron4"
+                count="0" />
+    </Materials>
+  </CraftingPiece>
+	<CraftingPiece id="anduril_blade"
+				   name="{=andurilblade}Anduril Blade"
+				   tier="5"
+				   piece_type="Blade"
+				   mesh="anduril_blade_b"
+				   length="115"
+				   weight="0.95">
+		<BladeData stack_amount="3"
+				   physics_material="metal_weapon"
+				   body_name="bo_sword_one_handed"
+				   holster_mesh="">
+			<Thrust damage_type="Pierce"
+					damage_factor="3.0" />
+			<Swing damage_type="Cut"
+				   damage_factor="4.0" />
+		</BladeData>
+		<Flags>
+			<Flag name="BonusAgainstShield" />
+			<Flag name="Civilian"
+				  type="ItemFlags" />
+		</Flags>
+		<Materials>
+			<Material id="Iron6"
+					  count="3" />
+		</Materials>
+	</CraftingPiece>
+
+	<CraftingPiece id="anduril_guard"
+				   name="{=andurilguard}Anduril Guard"
+				   tier="5"
+				   piece_type="Guard"
+				   mesh="anduril_guard_b"
+               
+				   length="3.34"
+				   weight="0.15">
+		<BuildData next_piece_offset="15.0"
+				   previous_piece_offset="0.0" />
+		<StatContributions armor_bonus="5" />
+		<Materials>
+			<Material id="Iron5"
+					  count="2" />
+		</Materials>
+	</CraftingPiece>
+
+
+	<CraftingPiece id="anduril_handle"
+				   name="{=andurilhandle}Anduril Grip"
+				   tier="5"
+				   piece_type="Handle"
+				   mesh="anduril_handle_b"
+           
+				   length="20"
+				   weight="0.105">
+		<BuildData piece_offset="0"
+				   previous_piece_offset="0.0"
+				   next_piece_offset="0.0" />
+		<Materials>
+			<Material id="Iron5"
+					  count="1" />
+		</Materials>
+	</CraftingPiece>
+
+	<CraftingPiece id="anduril_pommel"
+				   name="{=andurilpommel}Anduril Pommel"
+				   tier="5"
+				   piece_type="Pommel"
+				   mesh="anduril_pommel_b"
+           
+				   length="14"
+				   weight="0.284">
+		<BuildData piece_offset="0"
+					previous_piece_offset="0.0"
+					next_piece_offset="0.0" />
+		<Materials>
+			<Material id="Iron5"
+					  count="2" />
+		</Materials>
+	</CraftingPiece>
+
+	<!--Numenorean Swords-->
+
+	<CraftingPiece id="numenorean_sword_blade_a"
+                 name="{=numenoreanswordbladea}Numenorean Sword Blade A"
+                 tier="5"
+                 piece_type="Blade"
+                 mesh="numenorean_sword_blade_a"
+                 length="114.618"
+                 weight="0.95">
+		<BladeData stack_amount="3"
+				   physics_material="metal_weapon"
+				   body_name="bo_numenorean_sword_blade_a"
+				   holster_mesh="">
+			<Thrust damage_type="Pierce"
+					damage_factor="3.0" />
+			<Swing damage_type="Cut"
+				   damage_factor="4.0" />
+		</BladeData>
+		<Flags>
+			<Flag name="BonusAgainstShield" />
+			<Flag name="Civilian"
+				  type="ItemFlags" />
+		</Flags>
+		<Materials>
+			<Material id="Iron6"
+					  count="3" />
+		</Materials>
+	</CraftingPiece>
+
+	<CraftingPiece id="numenorean_sword_guard_a"
+				   name="{=numenoreanswordguarda}Numenorean Sword Guard A"
+				   tier="5"
+				   piece_type="Guard"
+				   mesh="numenorean_sword_guard_a"
+				   length="2.5355"
+				   weight="0.15">
+		<BuildData next_piece_offset="0"
+				   previous_piece_offset="0.0" />
+		<StatContributions armor_bonus="5" />
+		<Materials>
+			<Material id="Iron5"
+					  count="2" />
+		</Materials>
+	</CraftingPiece>
+
+	<CraftingPiece id="numenorean_sword_handle_a"
+				   name="{=numenoreanswordhandlea}Numenorean Sword Handle A"
+				   tier="5"
+				   piece_type="Handle"
+				   mesh="numenorean_sword_handle_a"
+				   length="30.3645"
+				   weight="0.2">
+		<BuildData piece_offset="0"
+				   previous_piece_offset="0"
+				   next_piece_offset="0" />
+		<Materials>
+			<Material id="Iron5"
+					  count="1" />
+		</Materials>
+	</CraftingPiece>
+
+	<CraftingPiece id="numenorean_sword_pommel_a"
+				   name="{=numenoreanswordpommela}Numenorean Sword Pommel A"
+				   tier="5"
+				   piece_type="Pommel"
+				   mesh="numenorean_sword_pommel_a"
+           
+				   length="11.7316"
+				   weight="0.3">
+		<BuildData piece_offset="0"
+				   previous_piece_offset="0.0"
+				   next_piece_offset="0.0" />
+		<Materials>
+			<Material id="Iron5"
+					  count="2" />
+		</Materials>
+	</CraftingPiece>
+
+
+	<CraftingPiece id="numenorean_sword_blade_b"
+			 name="{=numenoreanswordbladeb}Numenorean Sword Blade B"
+			 tier="5"
+			 piece_type="Blade"
+			 mesh="numenorean_sword_blade_b"
+			 length="114.618"
+			 weight="0.95">
+		<BladeData stack_amount="3"
+				   physics_material="metal_weapon"
+				   body_name="bo_numenorean_sword_blade_b"
+				   holster_mesh="">
+			<Thrust damage_type="Pierce"
+					damage_factor="3.0" />
+			<Swing damage_type="Cut"
+				   damage_factor="4.0" />
+		</BladeData>
+		<Flags>
+			<Flag name="BonusAgainstShield" />
+			<Flag name="Civilian"
+				  type="ItemFlags" />
+		</Flags>
+		<Materials>
+			<Material id="Iron6"
+					  count="3" />
+		</Materials>
+	</CraftingPiece>
+
+	<CraftingPiece id="numenorean_sword_guard_b"
+				   name="{=numenoreanswordguardb}Numenorean Sword Guard B"
+				   tier="5"
+				   piece_type="Guard"
+				   mesh="numenorean_sword_guard_b"
+				   length="3.6466"
+				   weight="0.15">
+		<BuildData next_piece_offset="0"
+				   previous_piece_offset="2.9" />
+		<StatContributions armor_bonus="5" />
+		<Materials>
+			<Material id="Iron5"
+					  count="2" />
+		</Materials>
+	</CraftingPiece>
+
+	<CraftingPiece id="numenorean_sword_handle_b"
+				   name="{=numenoreanswordhandleb}Numenorean Sword Handle B"
+				   tier="5"
+				   piece_type="Handle"
+				   mesh="numenorean_sword_handle_b"
+				   weight="0.2"
+				   length="30.3645">
+		<BuildData piece_offset="0"
+				   previous_piece_offset="0"
+				   next_piece_offset="0" />
+		<Materials>
+			<Material id="Iron5"
+					  count="1" />
+		</Materials>
+	</CraftingPiece>
+
+	<CraftingPiece id="numenorean_sword_pommel_b"
+				   name="{=numenoreanswordpommelb}Numenorean Sword Pommel B"
+				   tier="5"
+				   piece_type="Pommel"
+				   mesh="numenorean_sword_pommel_b"
+				   length="11.7316"
+				   weight="0.3">
+		<BuildData piece_offset="0"
+				   previous_piece_offset="0.0"
+				   next_piece_offset="0.0" />
+		<Materials>
+			<Material id="Iron5"
+					  count="2" />
+		</Materials>
+	</CraftingPiece>
+
+
+	<CraftingPiece id="numenorean_sword_blade_c"
+			 name="{=numenoreanswordbladec}Numenorean Sword Blade C"
+			 tier="5"
+			 piece_type="Blade"
+			 mesh="numenorean_sword_blade_c"
+			 length="114.618"
+			 weight="0.95">
+		<BladeData stack_amount="3"
+				   physics_material="metal_weapon"
+				   body_name="bo_numenorean_sword_blade_c"
+				   holster_mesh="">
+			<Thrust damage_type="Pierce"
+					damage_factor="3.0" />
+			<Swing damage_type="Cut"
+				   damage_factor="4.0" />
+		</BladeData>
+		<Flags>
+			<Flag name="BonusAgainstShield" />
+			<Flag name="Civilian"
+				  type="ItemFlags" />
+		</Flags>
+		<Materials>
+			<Material id="Iron6"
+					  count="3" />
+		</Materials>
+	</CraftingPiece>
+
+	<CraftingPiece id="numenorean_sword_guard_c"
+				   name="{=numenoreanswordguardc}Numenorean Sword Guard C"
+				   tier="5"
+				   piece_type="Guard"
+				   mesh="numenorean_sword_guard_c"
+				   length="6.4091"
+				   weight="0.15">
+		<BuildData next_piece_offset="0"
+				   previous_piece_offset="2.9" />
+		<StatContributions armor_bonus="5" />
+		<Materials>
+			<Material id="Iron5"
+					  count="2" />
+		</Materials>
+	</CraftingPiece>
+
+	<CraftingPiece id="numenorean_sword_handle_c"
+				   name="{=numenoreanswordhandlec}Numenorean Sword Handle C"
+				   tier="5"
+				   piece_type="Handle"
+				   mesh="numenorean_sword_handle_c"
+           
+				   length="30.3645"
+				   weight="0.2">
+		<BuildData piece_offset="0"
+				   previous_piece_offset="0"
+				   next_piece_offset="0" />
+		<Materials>
+			<Material id="Iron5"
+					  count="1" />
+		</Materials>
+	</CraftingPiece>
+
+	<CraftingPiece id="numenorean_sword_pommel_c"
+				   name="{=numenoreanswordpommelc}Numenorean Sword Pommel C"
+				   tier="5"
+				   piece_type="Pommel"
+				   mesh="numenorean_sword_pommel_c"
+           
+				   length="10.5901"
+				   weight="0.3">
+		<BuildData piece_offset="0"
+				   previous_piece_offset="0.0"
+				   next_piece_offset="0.0" />
+		<Materials>
+			<Material id="Iron5"
+					  count="2" />
+		</Materials>
+	</CraftingPiece>
+
+	<CraftingPiece id="numenorean_sword_blade_d"
+			 name="{=numenoreanswordbladed}Numenorean Sword Blade D"
+			 tier="5"
+			 piece_type="Blade"
+			 mesh="numenorean_sword_blade_d"
+			 length="114.618"
+			 weight="0.95">
+		<BladeData stack_amount="3"
+				   physics_material="metal_weapon"
+				   body_name="bo_numenorean_sword_blade_d"
+				   holster_mesh="">
+			<Thrust damage_type="Pierce"
+					damage_factor="3.0" />
+			<Swing damage_type="Cut"
+				   damage_factor="4.0" />
+		</BladeData>
+		<Flags>
+			<Flag name="BonusAgainstShield" />
+			<Flag name="Civilian"
+				  type="ItemFlags" />
+		</Flags>
+		<Materials>
+			<Material id="Iron6"
+					  count="3" />
+		</Materials>
+	</CraftingPiece>
+
+	<CraftingPiece id="numenorean_sword_guard_d"
+				   name="{=numenoreanswordguardd}Numenorean Sword Guard D"
+				   tier="5"
+				   piece_type="Guard"
+				   mesh="numenorean_sword_guard_d"
+				   length="8.2229"
+				   weight="0.15">
+		<BuildData next_piece_offset="0"
+				   previous_piece_offset="2.9" />
+		<StatContributions armor_bonus="5" />
+		<Materials>
+			<Material id="Iron5"
+					  count="2" />
+		</Materials>
+	</CraftingPiece>
+
+	<CraftingPiece id="numenorean_sword_handle_d"
+				   name="{=numenoreanswordhandled}Numenorean Sword Handle D"
+				   tier="5"
+				   piece_type="Handle"
+				   mesh="numenor_handle_a"
+           
+				   length="15"
+				   weight="0.1">
+		<BuildData piece_offset="0"
+				   previous_piece_offset="0"
+				   next_piece_offset="0" />
+		<Materials>
+			<Material id="Iron5"
+					  count="1" />
+		</Materials>
+	</CraftingPiece>
+
+	<CraftingPiece id="numenorean_sword_pommel_d"
+				   name="{=numenoreanswordpommeld}Numenorean Sword Pommel D"
+				   tier="5"
+				   piece_type="Pommel"
+				   mesh="numenorean_sword_pommel_d"
+           
+				   length="7"
+				   weight="0.3">
+		<BuildData piece_offset="0"
+				   previous_piece_offset="0.0"
+				   next_piece_offset="0.0" />
+		<Materials>
+			<Material id="Iron5"
+					  count="2" />
+		</Materials>
+	</CraftingPiece>
+
+	<CraftingPiece id="numenorean_sword_blade_e"
+			 name="{=numenoreanswordbladee}Numenorean Sword Blade E"
+			 tier="5"
+			 piece_type="Blade"
+			 mesh="numenor_blade_a"
+			 length="99"
+			 weight="0.95">
+		<BladeData stack_amount="3"
+				   physics_material="metal_weapon"
+				   body_name="bo_numenorean_sword_blade_e"
+				   holster_mesh="">
+			<Thrust damage_type="Pierce"
+					damage_factor="2.8" />
+			<Swing damage_type="Cut"
+				   damage_factor="4.0" />
+		</BladeData>
+		<Flags>
+			<Flag name="BonusAgainstShield" />
+			<Flag name="Civilian"
+				  type="ItemFlags" />
+		</Flags>
+		<Materials>
+			<Material id="Iron6"
+					  count="3" />
+		</Materials>
+	</CraftingPiece>
+
+	<CraftingPiece id="numenorean_sword_guard_e"
+				   name="{=numenoreanswordguarde}Numenorean Sword Guard E"
+				   tier="5"
+				   piece_type="Guard"
+				   mesh="numenorean_sword_guard_e"
+				   length="3.6466"
+				   weight="0.15">
+		<BuildData next_piece_offset="0"
+				   previous_piece_offset="2.9" />
+		<StatContributions armor_bonus="5" />
+		<Materials>
+			<Material id="Iron5"
+					  count="2" />
+		</Materials>
+	</CraftingPiece>
+
+
+
+
+
+
+	<!--Easterling Sword-->
+
+	<CraftingPiece id="easterling_sword_blade"
+				   name="{=easterlingswordblade}Easterling Sword Blade"
+				   tier="3"
+				   piece_type="Blade"
+				   mesh="easterling_blade_a"
+              
+				   length="105"
+				   weight="0.95">
+		<BladeData stack_amount="3"
+				   physics_material="metal_weapon"
+				   body_name="bo_sword_one_handed"
+				   holster_mesh="">
+			<Thrust damage_type="Pierce"
+					damage_factor="2.8" />
+			<Swing damage_type="Cut"
+				   damage_factor="3.7" />
+		</BladeData>
+		<Flags>
+			<Flag name="Civilian"
+				   type="ItemFlags" />
+		</Flags>
+		<Materials>
+			<Material id="Iron3"
+					  count="3" />
+		</Materials>
+	</CraftingPiece>
+
+	<CraftingPiece id="easterling_sword_guard"
+				   name="{=easterlingswordguard}Easterling Sword Guard"
+				   tier="3"
+				   piece_type="Guard"
+				   mesh="easterling_sword_guard"
+              
+				   length="2.34"
+				   weight="0.15">
+		<BuildData next_piece_offset="-5.0"
+				   previous_piece_offset="0.0" />
+		<StatContributions armor_bonus="5" />
+		<Materials>
+			<Material id="Iron5"
+					  count="2" />
+		</Materials>
+	</CraftingPiece>
+
+	<CraftingPiece id="easterling_sword_handle"
+				   name="{=easterlingswordhandle}Easterling Sword Grip"
+				   tier="2"
+				   piece_type="Handle"
+				   mesh="easterling_sword_handle"
+             
+				   length="3"
+				   weight="0.15">
+		<BuildData piece_offset="0"
+				   previous_piece_offset="0.0"
+				   next_piece_offset="5.0" />
+		<Materials>
+			<Material id="Iron5"
+					  count="1" />
+		</Materials>
+	</CraftingPiece>
+
+	<CraftingPiece id="easterling_sword_pommel"
+				   name="{=easterlingswordpommel}Easterling Sword Pommel"
+				   tier="2"
+				   piece_type="Pommel"
+				   mesh="easterling_sword_pommel"
+      
+				   length="2"
+				   weight="0.284">
+		<BuildData piece_offset="0"
+					previous_piece_offset="0.0"
+					next_piece_offset="-15.0" />
+		<Materials>
+			<Material id="Iron3"
+					  count="2" />
+		</Materials>
+	</CraftingPiece>
+
+
+	<!--Easterling Spears-->
+
+	<CraftingPiece
+		  id="easterling_spear_blade"
+		  name="{=easterlingpolearmblade}Easterling Polearm Blade"
+		  tier="4"
+		  piece_type="Blade"
+		  mesh="easterling_spear_blade"
+		  length="40"
+		  weight="0.6248">
+		<BuildData
+			   piece_offset="-10.0" />
+		<BladeData
+			stack_amount="3"
+			physics_material="metal_weapon"
+			body_name="bo_spear_b">
+			<Thrust
+				damage_type="Pierce"
+				damage_factor="3.2" />
+			<Swing
+				damage_type="Cut"
+				damage_factor="2.3" />
+		</BladeData>
+		<Materials>
+			<Material
+				id="Iron3"
+				count="4" />
+		</Materials>
+		<Flags>
+			<Flag
+				name="Civilian"
+				type="ItemFlags" />
+		</Flags>
+	</CraftingPiece>
+
+
+	<CraftingPiece
+		  id="easterling_spear_handle"
+		  name="{=beasterlingpolearmhandle}Easterling Polearm Handle"
+		  tier="4"
+		  piece_type="Handle"
+		  mesh="easterling_spear_handle"
+		  length="110"
+		  weight="0.95"
+		  CraftingCost="90">
+		<Materials>
+			<Material
+				id="Wood"
+				count="5" />
+		</Materials>
+	</CraftingPiece>
+
+	<!--Gondor Spears-->
+
+	<CraftingPiece id="gond_spr2_bld"
+                 name="{=gondorspearhead}Gondor Spear Head"
+                 tier="5"
+                 piece_type="Blade"
+                 mesh="gond_spr2_bld"
+                 length="47"
+                 weight="0.3592"
+                 excluded_item_usage_features="swing">
+		<BladeData stack_amount="3"
+				   physics_material="wood_weapon"
+				   body_name="bo_spear_b">
+			<Thrust damage_type="Pierce"
+					damage_factor="2.8" />
+		</BladeData>
+		<Flags>
+			<Flag name="NotStackable"
+				  type="ItemFlags" />
+		</Flags>
+		<Materials>
+			<Material id="Iron5"
+					  count="2" />
+		</Materials>
+	</CraftingPiece>
+
+	<CraftingPiece id="gond_spr2_hndl"
+				   name="{=gondorspearhandle}Gondor Spear Handle"
+				   tier="4"
+				   piece_type="Handle"
+				   mesh="gond_spr2_hndl"
+				   length="190"
+				   weight="1.6">
+		<BuildData piece_offset="22.9" />
+		<Materials>
+			<Material id="Wood"
+					  count="1" />
+		</Materials>
+	</CraftingPiece>
+
+	<CraftingPiece id="gond_spr2_pml"
+				   name="{=gondorspearpommel}Gondor Spear Pommel"
+				   tier="3"
+				   piece_type="Pommel"
+				   mesh="gond_spr2_pml"
+			
+				   length="3.8"
+				   weight="0">
+		<Materials>
+			<Material id="Iron3"
+					  count="2" />
+		</Materials>
+	</CraftingPiece>
+
+	<CraftingPiece id="wm_gondor_spear_blade"
+			 name="{=gondorspearheadb}Gondor Spear Head B"
+			 tier="5"
+			 piece_type="Blade"
+			 mesh="wm_gondor_spear_blade"
+			 length="47"
+			 weight="0.3592"
+			 excluded_item_usage_features="swing">
+		<BladeData stack_amount="3"
+				   physics_material="wood_weapon"
+				   body_name="bo_wm_gondor_spear_blade">
+			<Thrust damage_type="Pierce"
+					damage_factor="2.8" />
+		</BladeData>
+		<Flags>
+			<Flag name="NotStackable"
+				  type="ItemFlags" />
+		</Flags>
+		<Materials>
+			<Material id="Iron5"
+					  count="2" />
+		</Materials>
+	</CraftingPiece>
+
+	<CraftingPiece id="wm_gondor_spear_shaft"
+				   name="{=gondorspearhandleb}Gondor Spear Handle B"
+				   tier="4"
+				   piece_type="Handle"
+				   mesh="wm_gondor_spear_shaft"
+				   length="190"
+				   weight="1.6">
+		<BuildData piece_offset="22.9" />
+		<Materials>
+			<Material id="Wood"
+					  count="1" />
+		</Materials>
+	</CraftingPiece>
+
+
+	<CraftingPiece id="wm_gondor_spear_b_blade"
+			 name="{=gondorspearheadc}Gondor Spear Head C"
+			 tier="5"
+			 piece_type="Blade"
+			 mesh="wm_gondor_spear_b_blade"
+			 length="47"
+			 weight="0.3592"
+			 excluded_item_usage_features="swing">
+		<BladeData stack_amount="3"
+				   physics_material="wood_weapon"
+				   body_name="bo_wm_gondor_spear_blade">
+			<Thrust damage_type="Pierce"
+					damage_factor="2.8" />
+		</BladeData>
+		<Flags>
+			<Flag name="NotStackable"
+				  type="ItemFlags" />
+		</Flags>
+		<Materials>
+			<Material id="Iron5"
+					  count="2" />
+		</Materials>
+	</CraftingPiece>
+
+	<CraftingPiece id="wm_gondor_spear_b_shaft"
+				   name="{=gondorspearhandlec}Gondor Spear Handle C"
+				   tier="4"
+				   piece_type="Handle"
+				   mesh="wm_gondor_spear_a_shaft"
+				   length="190"
+				   weight="1.6">
+		<BuildData piece_offset="22.9" />
+		<Materials>
+			<Material id="Wood"
+					  count="1" />
+		</Materials>
+	</CraftingPiece>
+
+	<CraftingPiece id="wm_gondor_spear_a_blade"
+			 name="{=gondorspearheadd}Gondor Spear Head D"
+			 tier="5"
+			 piece_type="Blade"
+			 mesh="wm_gondor_spear_a_blade"
+			 length="47"
+			 weight="0.3592"
+			 excluded_item_usage_features="swing">
+		<BladeData stack_amount="3"
+				   physics_material="wood_weapon"
+				   body_name="bo_wm_gondor_spear_blade">
+			<Thrust damage_type="Pierce"
+					damage_factor="2.8" />
+		</BladeData>
+		<Flags>
+			<Flag name="NotStackable"
+				  type="ItemFlags" />
+		</Flags>
+		<Materials>
+			<Material id="Iron5"
+					  count="2" />
+		</Materials>
+	</CraftingPiece>
+
+	<CraftingPiece id="wm_gondor_spear_a_shaft"
+				   name="{=gondorspearhandled}Gondor Spear Handle D"
+				   tier="4"
+				   piece_type="Handle"
+				   mesh="wm_gondor_spear_a_shaft"
+				   length="190"
+				   weight="1.6">
+		<BuildData piece_offset="-23" />
+		<Materials>
+			<Material id="Wood"
+					  count="1" />
+		</Materials>
+	</CraftingPiece>
+
+
+	<!--Dunland One Hand Axes-->
+
+	<CraftingPiece
+			id="dunland_caerdh_axe_blade_1h_a"
+			name="{=dunlandcaerdhaxebladeonehanda}Dunland Caerdh 1H Axe Blade A"
+			tier="3"
+			piece_type="Blade"
+			mesh="dunland_caerdh_axe_blade_1h_a"
+			distance_to_next_piece="0"
+			distance_to_previous_piece="0"
+			weight="0.734">
+		<BuildData
+			piece_offset="0" />
+		<BladeData
+			stack_amount="3"
+			blade_length="9.0659"
+			blade_width="30.7159"
+			physics_material="metal_weapon"
+			body_name="bo_dunland_caerdh_axe_blade_1h_a">
+			<Swing
+				damage_type="Cut"
+				damage_factor="3.8" />
+		</BladeData>
+		<Flags>
+			<Flag name="BonusAgainstShield" />
+			<Flag
+				name="CanBePickedUpFromCorpse"
+				type="ItemFlags" />
+			<Flag name="Civilian"
+				  type="ItemFlags" />
+		</Flags>
+		<Materials>
+			<Material
+				id="Iron3"
+				count="3" />
+		</Materials>
+	</CraftingPiece>
+
+	<CraftingPiece
+		id="dunland_caerdh_axe_handle_1h_a"
+		name="{=dunlandcaerdh1hhandlea}Dunland Caerdh 1H Axe Handle A"
+		tier="3"
+	
+		piece_type="Handle"
+		mesh="dunland_caerdh_axe_handle_1h_a"
+		length="90"
+		weight="0.296">
+		<BuildData
+			piece_offset="0"
+			next_piece_offset="0"
+			previous_piece_offset="0"/>
+		<Materials>
+			<Material
+				id="Wood"
+				count="1" />
+		</Materials>
+	</CraftingPiece>
+
+	<CraftingPiece
+			id="dunland_caerdh_axe_pommel_1h_a"
+			name="{=dunlandcaerdh1haxepommela}Dunland Caerdh 1H Pommel A"
+			tier="3"
+			piece_type="Pommel"
+			mesh="dunland_caerdh_axe_pommel_1h_a"
+	
+			length="20.7"
+			weight="0">
+		<BuildData
+			piece_offset="-8"/>
+		<Materials>
+			<Material
+				id="Iron4"
+				count="1" />
+		</Materials>
+	</CraftingPiece>
+
+	<CraftingPiece
+		id="dunland_caerdh_axe_handle_1h_b"
+		name="{=dunlandcaerdh1hhandlea}Dunland Caerdh 1H Axe Handle B"
+		tier="3"
+		
+		piece_type="Handle"
+		mesh="dunland_caerdh_axe_handle_1h_e"
+		length="90"
+		weight="0.15">
+		<BuildData
+			piece_offset="0"
+			next_piece_offset="0" />
+		<Materials>
+			<Material
+				id="Wood"
+				count="1" />
+		</Materials>
+	</CraftingPiece>
+
+	<CraftingPiece
+			id="dunland_caerdh_axe_pommel_1h_b"
+			name="{=dunlandcaerdh1haxepommelb}Dunland Caerdh 1H Pommel B"
+			tier="3"
+			piece_type="Pommel"
+			mesh="dunland_caerdh_axe_pommel_1h_e"
+		
+			length="20.7"
+			weight="0">
+		<BuildData
+			piece_offset="-8" />
+		<Materials>
+			<Material
+				id="Iron4"
+				count="1" />
+		</Materials>
+	</CraftingPiece>
+
+	<!--Dunland Two Hand Axes-->
+
+	<CraftingPiece
+			id="dunland_caerdh_axe_blade_2h_a"
+			name="{=dunlandcaerdhaxebladetwohanda}Dunland Caerdh Axe 2H Blade A"
+			tier="3"
+			piece_type="Blade"
+			mesh="dunland_caerdh_axe_blade_2h_a"
+			distance_to_next_piece="0"
+			distance_to_previous_piece="0"
+			weight="1.0176">
+		<BuildData
+			piece_offset="0" />
+		<BladeData
+			stack_amount="3"
+			blade_length="12.0485"
+			blade_width="43.1602"
+			physics_material="metal_weapon"
+			body_name="bo_dunland_caerdh_axe_blade_2h_a">
+			<Swing
+				damage_type="Cut"
+				damage_factor="4.5" />
+		</BladeData>
+		<Flags>
+			<Flag name="BonusAgainstShield" />
+			<Flag
+				name="CanBePickedUpFromCorpse"
+				type="ItemFlags" />
+			<Flag name="Civilian"
+				  type="ItemFlags" />
+		</Flags>
+		<Materials>
+			<Material
+				id="Iron3"
+				count="3" />
+			<Material
+				id="Iron2"
+				count="1" />
+		</Materials>
+	</CraftingPiece>
+
+	<CraftingPiece
+		id="dunland_caerdh_axe_handle_2h_a"
+		name="{=dunlandcaerdh2hhandlea}Dunland Caerdh 2H Axe Handle A"
+		tier="3"
+	
+		piece_type="Handle"
+		mesh="dunland_caerdh_axe_handle_2h_a"
+		length="130"
+		weight="0.644"
+		item_holster_pos_shift="0,0,-0.1"
+		excluded_item_usage_features="widegrip">
+		<BuildData
+			piece_offset="37"
+			next_piece_offset="0"
+			previous_piece_offset="0"
+			/>
+		<Materials>
+			<Material
+				id="Wood"
+				count="1" />
+			<Material
+				id="Iron4"
+				count="1" />
+		</Materials>
+	</CraftingPiece>
+
+	<CraftingPiece
+			id="dunland_caerdh_axe_pommel_2h_a"
+			name="{=dunlandcaerdh2haxepommela}Dunland Caerdh 2H Pommel A"
+			tier="3"
+			piece_type="Pommel"
+			mesh="dunland_caerdh_axe_pommel_2h_a"
+			length="5.4788"
+			weight="0">
+		<BuildData
+			piece_offset="0" />
+		<Materials>
+			<Material
+				id="Iron4"
+				count="1" />
+		</Materials>
+	</CraftingPiece>
+
+	<CraftingPiece
+			id="dunland_caerdh_axe_blade_2h_b"
+			name="{=dunlandcaerdhaxebladetwohanda}Dunland Caerdh Axe 2H Blade B"
+			tier="3"
+			piece_type="Blade"
+			mesh="dunland_caerdh_axe_blade_2h_b"
+			distance_to_next_piece="0"
+			distance_to_previous_piece="0"
+			weight="1.0176">
+		<BuildData
+			piece_offset="0" />
+		<BladeData
+			stack_amount="3"
+			blade_length="13.2416"
+			blade_width="30.9492"
+			physics_material="metal_weapon"
+			body_name="bo_dunland_caerdh_axe_blade_2h_b">
+			<Swing
+				damage_type="Cut"
+				damage_factor="4.5" />
+		</BladeData>
+		<Flags>
+			<Flag name="BonusAgainstShield" />
+			<Flag
+				name="CanBePickedUpFromCorpse"
+				type="ItemFlags" />
+			<Flag name="Civilian"
+				  type="ItemFlags" />
+		</Flags>
+		<Materials>
+			<Material
+				id="Iron3"
+				count="3" />
+			<Material
+				id="Iron2"
+				count="1" />
+		</Materials>
+	</CraftingPiece>
+
+	<CraftingPiece
+		id="dunland_caerdh_axe_handle_2h_b"
+		name="{=dunlandcaerdh2hhandleb}Dunland Caerdh 2H Axe Handle B"
+		tier="3"
+
+		piece_type="Handle"
+		mesh="dunland_caerdh_axe_handle_2h_b"
+		length="127.871"
+		weight="0.644"
+		item_holster_pos_shift="0,0,-0.1"
+		excluded_item_usage_features="widegrip">
+		<BuildData
+			piece_offset="37"
+			next_piece_offset="0"
+			previous_piece_offset="0"
+			/>
+		<Materials>
+			<Material
+				id="Wood"
+				count="1" />
+			<Material
+				id="Iron4"
+				count="1" />
+		</Materials>
+	</CraftingPiece>
+
+	<CraftingPiece
+			id="dunland_caerdh_axe_pommel_2h_b"
+			name="{=dunlandcaerdh2haxepommelb}Dunland Caerdh 2H Pommel B"
+			tier="3"
+			piece_type="Pommel"
+			mesh="dunland_caerdh_axe_pommel_2h_b"
+			length="27.057"
+			weight="0">
+		<Materials>
+			<Material
+				id="Iron4"
+				count="1" />
+		</Materials>
+	</CraftingPiece>
+
+
+	<!--Dunland Two Hand Sword-->
+
+	<CraftingPiece
+			id="dunland_caerdh_sword_blade_2h_a"
+			name="{=dunlandcaerdhswordbladetwohanda}Dunland Caerdh Sword 2H Blade A"
+			tier="3"
+			piece_type="Blade"
+			mesh="dunland_caerdh_sword_blade_2h_a"
+			length="107.188"
+            weight="1.2">
+		<BladeData
+			stack_amount="3"
+			physics_material="metal_weapon"
+			body_name="bo_dunland_caerdh_sword_blade_2h">
+			<Thrust
+				damage_type="Pierce"
+				damage_factor="3.5" />
+			<Swing
+				damage_type="Cut"
+				damage_factor="3.5" />
+		</BladeData>
+		<Flags>
+			<Flag
+				name="CanBePickedUpFromCorpse"
+				type="ItemFlags" />
+			<Flag name="Civilian"
+				  type="ItemFlags" />
+		</Flags>
+		<Materials>
+			<Material
+				id="Iron3"
+				count="3" />
+			<Material
+				id="Iron2"
+				count="1" />
+		</Materials>
+	</CraftingPiece>
+
+	<CraftingPiece
+		id="dunland_caerdh_sword_handle_2h_a"
+		name="{=dunlandcaerdhsword2hhandlea}Dunland Caerdh 2H Sword Handle A"
+		tier="3"
+		piece_type="Handle"
+		mesh="dunland_caerdh_sword_handle_2h_a"
+		length="22.0135"
+		weight="0.644">
+		<BuildData
+			piece_offset="0"
+			next_piece_offset="0"
+			previous_piece_offset="0"
+			/>
+		<Materials>
+			<Material id="Iron6" count="10" />
+		</Materials>
+	</CraftingPiece>
+
+	<CraftingPiece
+			id="dunland_caerdh_sword_guard_2h_a"
+			name="{=dunlandcaerdhsword2hguarda}Dunland Caerdh Sword Guard A"
+			tier="3"
+			piece_type="Guard"
+			mesh="dunland_caerdh_sword_guard_2h_a"
+			
+			length="9.4534"
+			weight="0.128">
+		<BuildData
+			piece_offset="0"
+			next_piece_offset="1.3"
+			previous_piece_offset="0"
+			/>
+		<StatContributions
+			armor_bonus="5" />
+		<Materials>
+			<Material
+				id="Iron5"
+				count="1" />
+		</Materials>
+	</CraftingPiece>
+
+	<CraftingPiece
+			id="dunland_caerdh_sword_pommel_2h_a"
+			name="{=dunlandcaerdh2hswordpommela}Dunland Caerdh 2H Sword Pommel A"
+			tier="3"
+			piece_type="Pommel"
+			mesh="dunland_caerdh_sword_pommel_2h_a"
+		
+			length="4.72"
+			weight="0">
+		<Materials>
+			<Material
+				id="Iron4"
+				count="1" />
+		</Materials>
+	</CraftingPiece>
+
+
+
+	<!--Dunland Spear Heads-->
+	<CraftingPiece
+			id="dunland_caerdh_spear_head_a"
+			name="{=dunlandcaerdhspearheada}Dunland Caerdh Spear Head A"
+			tier="2"
+			piece_type="Blade"
+			mesh="dunland_caerdh_spear_head_a"
+			length="50.11"
+			weight="0.21"
+			excluded_item_usage_features="swing">
+		<BladeData
+			stack_amount="4"
+			physics_material="wood_weapon"
+			body_name="bo_dunland_caerdh_spear_head_a"
+			holster_mesh="throwing_spear_quiver_1_1"
+			holster_body_name="bo_throwing_spear_quiver_1_1"
+			holster_mesh_length="68.9">
+			<Thrust
+				damage_type="Pierce"
+				damage_factor="1.7" />
+		</BladeData>
+		<Materials>
+			<Material
+				id="Iron2"
+				count="1" />
+		</Materials>
+	</CraftingPiece>
+
+	<CraftingPiece
+			id="dunland_caerdh_spear_head_b"
+			name="{=dunlandcaerdhspearheadb}Dunland Caerdh Spear Head B"
+			tier="2"
+			piece_type="Blade"
+			mesh="dunland_caerdh_spear_head_b"
+			length="50.11"
+			weight="0.21"
+			excluded_item_usage_features="swing">
+		<BladeData
+			stack_amount="4"
+			physics_material="wood_weapon"
+			body_name="bo_dunland_caerdh_spear_head_b"
+			holster_mesh="throwing_spear_quiver_1_1"
+			holster_body_name="bo_throwing_spear_quiver_1_1"
+			holster_mesh_length="68.9">
+			<Thrust
+				damage_type="Pierce"
+				damage_factor="1.9" />
+		</BladeData>
+		<Materials>
+			<Material
+				id="Iron2"
+				count="1" />
+		</Materials>
+	</CraftingPiece>
+
+
+	<CraftingPiece
+				id="dunland_caerdh_spear_head_c"
+				name="{=dunlandcaerdhspearheadc}Dunland Caerdh Spear Head C"
+				tier="2"
+				piece_type="Blade"
+				mesh="dunland_caerdh_spear_head_c"
+				length="50.1085"
+				weight="0.2136"
+				excluded_item_usage_features="swing">
+		<BladeData
+			stack_amount="4"
+			physics_material="wood_weapon"
+			body_name="bo_dunland_caerdh_spear_head_c"
+			holster_mesh="throwing_spear_quiver_1_1"
+			holster_body_name="bo_throwing_spear_quiver_1_1"
+			holster_mesh_length="68.9">
+			<Thrust
+				damage_type="Pierce"
+				damage_factor="1.9" />
+		</BladeData>
+		<Materials>
+			<Material
+				id="Iron2"
+				count="1" />
+		</Materials>
+	</CraftingPiece>
+
+
+	<CraftingPiece
+				id="dunland_caerdh_spear_head_d"
+				name="{=dunlandcaerdhspearheadd}Dunland Caerdh Spear Head D"
+				tier="2"
+				piece_type="Blade"
+				mesh="dunland_caerdh_spear_head_d"
+				length="34.8551"
+				weight="0.2136"
+				excluded_item_usage_features="swing">
+		<BladeData
+			stack_amount="4"
+			physics_material="wood_weapon"
+			body_name="bo_dunland_caerdh_spear_head_d"
+			holster_mesh="throwing_spear_quiver_1_1"
+			holster_body_name="bo_throwing_spear_quiver_1_1"
+			holster_mesh_length="68.9">
+			<Thrust
+				damage_type="Pierce"
+				damage_factor="1.9" />
+		</BladeData>
+		<Materials>
+			<Material
+				id="Iron2"
+				count="1" />
+		</Materials>
+	</CraftingPiece>
+
+
+	<CraftingPiece
+				id="dunland_caerdh_spear_head_e"
+				name="{=dunlandcaerdhspearheade}Dunland Caerdh Spear Head E"
+				tier="2"
+				piece_type="Blade"
+				mesh="dunland_caerdh_spear_head_e"
+				length="35.1283"
+				weight="0.2136"
+				excluded_item_usage_features="swing">
+		<BladeData
+			stack_amount="4"
+			physics_material="wood_weapon"
+			body_name="bo_dunland_caerdh_spear_head_e"
+			holster_mesh="throwing_spear_quiver_1_1"
+			holster_body_name="bo_throwing_spear_quiver_1_1"
+			holster_mesh_length="68.9">
+			<Thrust
+				damage_type="Pierce"
+				damage_factor="1.9" />
+		</BladeData>
+		<Materials>
+			<Material
+				id="Iron2"
+				count="1" />
+		</Materials>
+	</CraftingPiece>
+
+	<!--Dunland Spear Handle-->
+	<CraftingPiece
+		id="dunland_caerdh_short_spear_handle_b"
+		name="{=dunlandcaerdh_short_spear_handle_b}Dunland Caerdh Short Spear Handle B"
+		tier="3"
+		piece_type="Handle"
+		mesh="dunland_caerdh_short_spear_handle_b"
+		length="100"
+		weight="1.3">
+		<BuildData
+			piece_offset="0" />
+		<Materials>
+			<Material
+				id="Wood"
+				count="3" />
+		</Materials>
+	</CraftingPiece>
+
+	<CraftingPiece
+		id="dunland_caerdh_short_spear_handle_c"
+		name="{=dunlandcaerdh_short_spear_handle_c}Dunland Caerdh Short Spear Handle C"
+		tier="3"
+		piece_type="Handle"
+		mesh="dunland_caerdh_short_spear_handle_c"
+		length="100"
+		weight="1.3">
+		<BuildData
+			piece_offset="0" />
+		<Materials>
+			<Material
+				id="Wood"
+				count="3" />
+		</Materials>
+	</CraftingPiece>
+
+	<CraftingPiece
+		id="dunland_caerdh_short_spear_handle_d"
+		name="{=dunlandcaerdh_short_spear_handle_d}Dunland Caerdh Short Spear Handle D"
+		tier="3"
+		piece_type="Handle"
+		mesh="dunland_caerdh_short_spear_handle_d"
+		length="100"
+		weight="1.3">
+		<BuildData
+			piece_offset="0" />
+		<Materials>
+			<Material
+				id="Wood"
+				count="3" />
+		</Materials>
+	</CraftingPiece>
+
+	<CraftingPiece
+			id="dunland_caerdh_spear_handle_a"
+			name="{=dunlandcaerdh_spear_handle_a}Dunland Caerdh Spear Handle A"
+			tier="3"
+			piece_type="Handle"
+			mesh="dunland_caerdh_spear_handle_a"
+			length="240"
+			weight="1.8">
+		<BuildData
+			piece_offset="0" />
+		<Materials>
+			<Material
+				id="Wood"
+				count="3" />
+		</Materials>
+	</CraftingPiece>
+
+	<CraftingPiece
+				id="dunland_caerdh_spear_handle_b"
+				name="{=dunlandcaerdh_spear_handle_b}Dunland Caerdh Spear Handle B"
+				tier="3"
+				piece_type="Handle"
+				mesh="dunland_caerdh_spear_handle_b"
+				length="240"
+				weight="1.8">
+		<BuildData
+			piece_offset="0" />
+		<Materials>
+			<Material
+				id="Wood"
+				count="3" />
+		</Materials>
+	</CraftingPiece>
+
+	<CraftingPiece
+			id="dunland_caerdh_spear_handle_c"
+			name="{=dunlandcaerdh_spear_handle_c}Dunland Caerdh Spear Handle C"
+			tier="3"
+			piece_type="Handle"
+			mesh="dunland_caerdh_spear_handle_c"
+			length="240"
+			weight="1.8">
+		<BuildData
+			piece_offset="0" />
+		<Materials>
+			<Material
+				id="Wood"
+				count="3" />
+		</Materials>
+	</CraftingPiece>
+
+	<CraftingPiece
+				id="dunland_caerdh_spear_handle_d"
+				name="{=dunlandcaerdh_spear_handle_d}Dunland Caerdh Spear Handle D"
+				tier="3"
+				piece_type="Handle"
+				mesh="dunland_caerdh_spear_handle_d"
+				length="240"
+				weight="1.8">
+		<BuildData
+			piece_offset="0" />
+		<Materials>
+			<Material
+				id="Wood"
+				count="3" />
+		</Materials>
+	</CraftingPiece>
+
+	<CraftingPiece
+			id="dunland_caerdh_spear_handle_e"
+			name="{=dunlandcaerdh_spear_handle_e}Dunland Caerdh Spear Handle E"
+			tier="3"
+			piece_type="Handle"
+			mesh="dunland_caerdh_spear_handle_e"
+			length="240"
+			weight="1.8">
+		<BuildData
+			piece_offset="0" />
+		<Materials>
+			<Material
+				id="Wood"
+				count="3" />
+		</Materials>
+	</CraftingPiece>
+
+	<CraftingPiece
+				id="dunland_caerdh_spear_handle_f"
+				name="{=dunlandcaerdh_spear_handle_f}Dunland Caerdh Spear Handle F"
+				tier="3"
+				piece_type="Handle"
+				mesh="dunland_caerdh_spear_handle_f"
+				length="240"
+				weight="1.8">
+		<BuildData
+			piece_offset="0" />
+		<Materials>
+			<Material
+				id="Wood"
+				count="3" />
+		</Materials>
+	</CraftingPiece>
+
+	<CraftingPiece
+			id="dunland_caerdh_spear_handle_g"
+			name="{=dunlandcaerdh_spear_handle_g}Dunland Caerdh Spear Handle G"
+			tier="3"
+			piece_type="Handle"
+			mesh="dunland_caerdh_spear_handle_g"
+			length="240"
+			weight="1.8">
+		<BuildData
+			piece_offset="0" />
+		<Materials>
+			<Material
+				id="Wood"
+				count="3" />
+		</Materials>
+	</CraftingPiece>
+
+	<CraftingPiece
+			id="dunland_caerdh_spear_handle_h"
+			name="{=dunlandcaerdh_spear_handle_h}Dunland Caerdh Spear Handle H"
+			tier="3"
+			piece_type="Handle"
+			mesh="dunland_caerdh_spear_handle_h"
+			length="240"
+			weight="1.8">
+		<BuildData
+			piece_offset="0" />
+		<Materials>
+			<Material
+				id="Wood"
+				count="3" />
+		</Materials>
+	</CraftingPiece>
+
+	<CraftingPiece
+			id="dunland_caerdh_spear_handle_i"
+			name="{=dunlandcaerdh_spear_handle_i}Dunland Caerdh Spear Handle I"
+			tier="3"
+			piece_type="Handle"
+			mesh="dunland_caerdh_spear_handle_i"
+			length="240"
+			weight="1.8">
+		<BuildData
+			piece_offset="0" />
+		<Materials>
+			<Material
+				id="Wood"
+				count="3" />
+		</Materials>
+	</CraftingPiece>
+
+
+
+
+
+
+	<!--High  Elf Spear -->
+	<CraftingPiece
+				id="wm_elven_spear_blade"
+				name="{=hespearblade}High Elven Spear Blade"
+				tier="2"
+				piece_type="Blade"
+				mesh="wm_elven_spear_blade"
+				length="110.326"
+				weight="0.3136"
+				excluded_item_usage_features="swing">
+		<BladeData
+			stack_amount="4"
+			physics_material="metal_weapon"
+			body_name="bo_wm_elven_spear_blade"
+			holster_mesh="throwing_spear_quiver_1_1"
+			holster_body_name="bo_throwing_spear_quiver_1_1"
+			holster_mesh_length="68.9">
+			<Thrust damage_type="Pierce"
+					damage_factor="2.8" />
+		</BladeData>
+		<Materials>
+			<Material
+				id="Iron2"
+				count="1" />
+		</Materials>
+	</CraftingPiece>
+
+
+	<CraftingPiece
+		id="wm_elven_spear_shaft"
+		name="{=wm_elven_spear_shaft}High Elven Spear Shaft"
+		tier="3"
+		piece_type="Handle"
+		mesh="wm_elven_spear_shaft"
+		length="148.336"
+		weight="1.3">
+		<BuildData
+			piece_offset="0" />
+		<Materials>
+			<Material
+				id="Wood"
+				count="3" />
+		</Materials>
+	</CraftingPiece>
+
+
+
+	<!--High Elven Sword-->
+	<CraftingPiece id="wm_elven_sword_a_blade"
+				   name="{=elvenswordblade}High Elven Sword Blade"
+				   tier="5"
+				   piece_type="Blade"
+				   mesh="wm_elven_blade_a"
+				   length="58.6922"
+				   weight="0.95">
+		<BladeData stack_amount="3"
+				   physics_material="metal_weapon"
+				   body_name="bo_wm_elven_sword_a_blade"
+				   holster_mesh="">
+			<Thrust damage_type="Pierce"
+					damage_factor="4.0" />
+			<Swing damage_type="Cut"
+				   damage_factor="4.2" />
+		</BladeData>
+		<Flags>
+			<Flag name="BonusAgainstShield" />
+			<Flag name="Civilian"
+				  type="ItemFlags" />
+		</Flags>
+		<Materials>
+			<Material id="Iron6"
+					  count="3" />
+		</Materials>
+	</CraftingPiece>
+
+	<CraftingPiece id="wm_elven_sword_a_handguard"
+				   name="{=elvenswordbguard}High Elven Sword Guard"
+				   tier="5"
+				   piece_type="Guard"
+				   mesh="wm_elven_sword_a_handguard"
+               
+				   length="4.048"
+				   weight="0.15">
+		<BuildData next_piece_offset="27.0"
+				   previous_piece_offset="02.0" />
+		<StatContributions armor_bonus="5" />
+		<Materials>
+			<Material id="Iron5"
+					  count="2" />
+		</Materials>
+	</CraftingPiece>
+
+	<CraftingPiece id="wm_elven_sword_a_hilt"
+				   name="{=elvenswordbhilt}High Elven Sword Hilt"
+				   tier="5"
+				   piece_type="Handle"
+				   mesh="wm_elven_hilt_aa"
+                   length="62.3816"
+				   weight="0.105">
+		<BuildData piece_offset="0"
+				   previous_piece_offset="0.0"
+				   next_piece_offset="0.0" />
+		<Materials>
+			<Material id="Iron5"
+					  count="1" />
+		</Materials>
+	</CraftingPiece>
+
+	<CraftingPiece id="wm_elven_sword_a_pommel"
+				   name="{=elvenswordpommel}High Elven Sword Pommel"
+				   tier="5"
+				   piece_type="Pommel"
+				   mesh="wm_elven_sword_a_pommel"
+           
+				   length="5.034"
+				   weight="0.284">
+		<BuildData piece_offset="-5"
+					previous_piece_offset="0.0"
+					next_piece_offset="0.0" />
+		<Materials>
+			<Material id="Iron5"
+					  count="2" />
+		</Materials>
+	</CraftingPiece>
+ <CraftingPiece id="rohan_blade_1" name="Herugrim Blade" tier="4" piece_type="Blade" mesh="rohan_sword_1_blade_a" culture="Culture.rohan" length="80" weight="0.95" CraftingCost="75">
+
+    <BuildData previous_piece_offset="-0.4" />
+    <BladeData stack_amount="3" physics_material="metal_weapon" body_name="bo_sword_one_handed" holster_mesh="" >
+      <Thrust damage_type="Pierce" damage_factor="2.3" />
+      <Swing damage_type="Cut" damage_factor="4.0" />
+    </BladeData>
+    <Flags>
+      <Flag name="Civilian" type="ItemFlags" />
+    </Flags>
+    <Materials>
+      <Material id="Iron2" count="4" />
+    </Materials>
+  </CraftingPiece>
+
+  <CraftingPiece id="rohan_handle_1" name="Herugrim Handle" tier="4" piece_type="Handle" mesh="rohan_sword_1_handle_a" culture="Culture.rohan" length="7" weight="0.15">
+   
+    <BuildData piece_offset="-3.5" previous_piece_offset="0.1" next_piece_offset="0.1" />
+    <Materials>
+      <Material id="Iron1" count="1" />
+    </Materials>
+  </CraftingPiece>
+  <CraftingPiece id="rohan_guard_1" name="Herugrim Guard" tier="1" piece_type="Guard" mesh="rohan_sword_1_guard_a" culture="Culture.rohan" length="0.16" weight="0.15" is_default="true">
+
+    <BuildData next_piece_offset="0.2" />
+    <StatContributions armor_bonus="2" />
+    <Materials>
+      <Material id="Iron1" count="1" />
+    </Materials>
+  </CraftingPiece>
+  <CraftingPiece id="elf_blade_1" name="Galadhrim Blade" tier="4" piece_type="Blade" mesh="elf_sword_1_blade" culture="Culture.rohan" length="65" weight="0.95" excluded_item_usage_features="thrust">
+
+    <BuildData previous_piece_offset="-0.4" />
+    <BladeData stack_amount="3" physics_material="metal_weapon" body_name="bo_sword_one_handed" holster_mesh="elf_sword_1_holster" >
+      <Thrust damage_type="Pierce" damage_factor="2.9" />
+      <Swing damage_type="Cut" damage_factor="3.2" />
+    </BladeData>
+    <Flags>
+      <Flag name="Civilian" type="ItemFlags" />
+    </Flags>
+    <Materials>
+      <Material id="Iron2" count="4" />
+    </Materials>
+  </CraftingPiece>
+  <CraftingPiece id="elf_blade_2" name="Galadhrim Sword Blade" tier="4" piece_type="Blade" mesh="elf_sword_2_blade_a" culture="Culture.rohan" length="75" weight="0.80" excluded_item_usage_features="thrust">
+    <BuildData previous_piece_offset="-0.4" />
+    <BladeData stack_amount="3" physics_material="metal_weapon" body_name="bo_sword_one_handed" holster_mesh="" >
+      <Thrust damage_type="Pierce" damage_factor="3.0" />
+      <Swing damage_type="Cut" damage_factor="3.5" />
+    </BladeData>
+    <Flags>
+      <Flag name="Civilian" type="ItemFlags" />
+    </Flags>
+    <Materials>
+      <Material id="Iron2" count="4" />
+    </Materials>
+  </CraftingPiece>
+  <CraftingPiece id="elf_handle_1" name="Galadhrim Bound Handle" tier="4" piece_type="Handle" mesh="elf_sword_1_handle" culture="Culture.rohan" length="61" weight="0.18">
+   
+    <BuildData piece_offset="0" previous_piece_offset="0.1" next_piece_offset="0.1" />
+    <Materials>
+      <Material id="Iron1" count="1" />
+    </Materials>
+  </CraftingPiece>
+  <CraftingPiece id="elf_handle_2" name="Galadhrim Handle" tier="4" piece_type="Handle" mesh="elf_sword_2_handle_a" culture="Culture.rohan" length="38" weight="0.15">
+
+    <BuildData piece_offset="0" previous_piece_offset="0.1" next_piece_offset="0.1" />
+    <Materials>
+      <Material id="Iron1" count="1" />
+    </Materials>
+  </CraftingPiece>
+
+<CraftingPiece id="anduril_handle_b"
+				   name="{=andurilhandle}Anduril Grip"
+				   tier="5"
+				   piece_type="Handle"
+				   mesh="anduril_handle_b"
+           
+				   length="20"
+				   weight="0.105">
+		<BuildData piece_offset="0"
+				   previous_piece_offset="0.0"
+				   next_piece_offset="0.0" />
+		<Materials>
+			<Material id="Iron5"
+					  count="1" />
+		</Materials>
+	</CraftingPiece>
+
+<CraftingPiece id="anduril_blade_b"
+				   name="{=andurilblade}Anduril Blade"
+				   tier="5"
+				   piece_type="Blade"
+				   mesh="anduril_blade_b"
+				   length="115"
+				   weight="0.95">
+		<BladeData stack_amount="3"
+				   physics_material="metal_weapon"
+				   body_name="bo_sword_one_handed"
+				   holster_mesh="">
+			<Thrust damage_type="Pierce"
+					damage_factor="3.0" />
+			<Swing damage_type="Cut"
+				   damage_factor="4.0" />
+		</BladeData>
+		<Flags>
+			<Flag name="BonusAgainstShield" />
+			<Flag name="Civilian"
+				  type="ItemFlags" />
+		</Flags>
+		<Materials>
+			<Material id="Iron6"
+					  count="3" />
+		</Materials>
+	</CraftingPiece>
+
+	<CraftingPiece id="anduril_guard_b"
+				   name="{=andurilguard}Anduril Guard"
+				   tier="5"
+				   piece_type="Guard"
+				   mesh="anduril_guard_b"
+               
+				   length="1"
+				   weight="0.15">
+		<BuildData next_piece_offset="15.0"
+				   previous_piece_offset="0.0" />
+		<StatContributions armor_bonus="5" />
+		<Materials>
+			<Material id="Iron5"
+					  count="2" />
+		</Materials>
+	</CraftingPiece>
+	
+	<CraftingPiece id="anduril_pommel_b"
+				   name="{=andurilpommel}Anduril Pommel"
+				   tier="5"
+				   piece_type="Pommel"
+				   mesh="anduril_pommel_b"
+           
+				   length="10"
+				   weight="0.284">
+		<BuildData piece_offset="0"
+					previous_piece_offset="0.0"
+					next_piece_offset="0.0" />
+		<Materials>
+			<Material id="Iron5"
+					  count="2" />
+		</Materials>
+	</CraftingPiece>
+	
+	 <CraftingPiece id="uruk_guard_1" name="Uruk-Hai Berserker Guard" tier="1" piece_type="Guard" mesh="uruk_sword_2_guard" culture="Culture.sturgia" length="1" weight="0.15" is_default="true">
+
+    <BuildData next_piece_offset="0.2" />
+    <StatContributions armor_bonus="2" />
+    <Materials>
+      <Material id="Iron1" count="1" />
+    </Materials>
+  </CraftingPiece>
+	 <CraftingPiece id="uruk_blade_3" name="Uruk Steel Pike Head" tier="3" piece_type="Blade" mesh="uruk_pike_1_blade" length="65" weight="1" excluded_item_usage_features="swing">
+
+    <BladeData stack_amount="3" physics_material="wood_weapon" body_name="bo_spear_b">
+      <Thrust damage_type="Pierce" damage_factor="3" />
+    </BladeData>
+    <Materials>
+      <Material id="Iron4" count="1" />
+    </Materials>
+  </CraftingPiece>
+  <CraftingPiece id="uruk_handle_3" name="Dark Uruk-Hai Pike Shaft" tier="2" piece_type="Handle" mesh="uruk_pike_1_handle" length="340" weight="2.7" CraftingCost="110">
+    <BuildData piece_offset="22.9" />
+    <Materials>
+      <Material id="Wood" count="1" />
+    </Materials>
+  </CraftingPiece>
+  <CraftingPiece id="uruk_pommel_1" name="Uruk-Hai Pike Pommel" tier="4" piece_type="Pommel" mesh="uruk_pike_1_pommel" culture="Culture.isengard" length="18.7" weight="0">
+
+    <Materials>
+      <Material id="Iron4" count="1" />
+    </Materials>
+  </CraftingPiece>
+	
+
+</CraftingPieces>

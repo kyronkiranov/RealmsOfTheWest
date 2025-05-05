@@ -1,0 +1,328 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+	<!-- Rohan -->
+<Item
+		id="cts_rohan_royal_guard_shoulder_armor"
+		name="{=vo9kYKNQ}Rohan Royal Guard Shoulder Armor"
+		mesh="cts_rohan_royal_guard_shoulder_armor"
+		culture="Culture.vlandia"
+		weight="9.0"
+		appearance="6"
+		Type="Cape">
+	<ItemComponent>
+		<Armor
+			body_armor="12"
+			arm_armor="12"
+			modifier_group="plate"
+			material_type="Plate" />
+	</ItemComponent>
+	<Flags />
+</Item>
+	<Item
+			id="whiterun_cloak"
+			name="{=vo9kYKNQ}Rohan Royal Guard Cloak Two"
+			mesh="whiterun_cloak"
+			culture="Culture.vlandia"
+			weight="9.0"
+			appearance="6"
+			Type="Cape">
+		<ItemComponent>
+			<Armor
+				body_armor="12"
+				arm_armor="12"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+	<Item
+			id="rohan_militia_pauldron_both"
+			name="{=vo9kYKNQ}Rohan Militia Leather Pauldron"
+			mesh="rohan_militia_pauldron_both"
+			culture="Culture.vlandia"
+			weight="5.0"
+			appearance="6"
+			Type="Cape">
+		<ItemComponent>
+			<Armor
+				body_armor="5"
+				arm_armor="1"
+				modifier_group="leather"
+				material_type="Leather" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+	<Item
+				id="cts_roha_cape1"
+				name="{=rohansoldiercapeone}Rohan Soldier Cloak One"
+				mesh="cts_roha_cape1"
+				culture="Culture.vlandia"
+				weight="2.0"
+				appearance="6"
+				Type="Cape">
+		<ItemComponent>
+			<Armor
+				body_armor="5"
+				arm_armor="1"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+
+	<Item
+				id="cts_rohan_cape2"
+				name="{=rohansoldiercapetwo}Rohan Soldier Cloak Two"
+				mesh="cts_rohan_cape2"
+				culture="Culture.vlandia"
+				weight="2.0"
+				appearance="6"
+				Type="Cape">
+		<ItemComponent>
+			<Armor
+				body_armor="5"
+				arm_armor="1"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+	<Item
+					id="cts_rohan_cape3"
+					name="{=rohansoldiercapetwo}Rohan Soldier Cloak Three"
+					mesh="cts_rohan_cape3"
+					culture="Culture.vlandia"
+					weight="2.0"
+					appearance="6"
+					Type="Cape">
+		<ItemComponent>
+			<Armor
+				body_armor="5"
+				arm_armor="1"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+	<Item
+					id="cts_rohan_cape4"
+					name="{=rohansoldiercapetwo}Rohan Soldier Cloak Four"
+					mesh="cts_rohan_cape4"
+					culture="Culture.vlandia"
+					weight="2.0"
+					appearance="6"
+					Type="Cape">
+		<ItemComponent>
+			<Armor
+				body_armor="5"
+				arm_armor="1"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+	<Item
+				id="theodred_pauldrons"
+				name="{=theodredpauldrons}Theodred Pauldrons"
+				mesh="theodred_pauldrons"
+				culture="Culture.vlandia"
+				weight="9.0"
+				appearance="6"
+				Type="Cape">
+		<ItemComponent>
+			<Armor
+				body_armor="15"
+				arm_armor="15"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+
+	<Item
+		id="roh_nbl_gorg_tst_6"
+		name="{=roh_nbl_gorg_tst_6}Rohan Noble Gorget Shoulders"
+		mesh="roh_nbl_gorg_tst_6"
+		culture="Culture.vlandia"
+		weight="11.0"
+		appearance="6"
+		Type="Cape">
+		<ItemComponent>
+			<Armor
+				body_armor="25"
+				arm_armor="25"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+	<Item
+		id="roh_nbl_shldr_c"
+		name="{=roh_nbl_shldr_c}Rohan Noble Cloak A"
+		mesh="roh_nbl_shldr_c"
+		culture="Culture.vlandia"
+		weight="2.0"
+		appearance="6"
+		Type="Cape">
+		<ItemComponent>
+			<Armor
+				body_armor="9"
+				arm_armor="5"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+	<Item
+			id="roh_nbl_shldr_cgs_2"
+			name="{=roh_nbl_shldr_cgs_2}Rohan Noble Pauldrons A"
+			mesh="roh_nbl_shldr_cgs_2"
+			culture="Culture.vlandia"
+			weight="11.0"
+			appearance="6"
+			Type="Cape">
+		<ItemComponent>
+			<Armor
+				body_armor="15"
+				arm_armor="5"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+	<Item
+			id="roh_nbl_shldr_cs"
+			name="{=roh_nbl_shldr_cs}Rohan Noble Pauldrons B"
+			mesh="roh_nbl_shldr_cs"
+			culture="Culture.vlandia"
+			weight="11.0"
+			appearance="6"
+			Type="Cape">
+		<ItemComponent>
+			<Armor
+				body_armor="12"
+				arm_armor="5"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+
+	<Item
+			id="roh_nbl_shldr_g_2"
+			name="{=roh_nbl_shldr_g_2}Rohan Noble Pauldrons C"
+			mesh="roh_nbl_shldr_g_2"
+			culture="Culture.vlandia"
+			weight="11.0"
+			appearance="6"
+			Type="Cape">
+		<ItemComponent>
+			<Armor
+				body_armor="9"
+				arm_armor="5"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+	<Item
+			id="roh_nbl_shldr_gs"
+			name="{=roh_nbl_shldr_gs}Rohan Noble Pauldrons D"
+			mesh="roh_nbl_shldr_gs"
+			culture="Culture.vlandia"
+			weight="11.0"
+			appearance="6"
+			Type="Cape">
+		<ItemComponent>
+			<Armor
+				body_armor="9"
+				arm_armor="5"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+	<Item
+			id="roh_nbl_shldr_gs_2"
+			name="{=roh_nbl_shldr_gs_2}Rohan Noble Pauldrons E"
+			mesh="roh_nbl_shldr_gs_2"
+			culture="Culture.vlandia"
+			weight="11.0"
+			appearance="6"
+			Type="Cape">
+		<ItemComponent>
+			<Armor
+				body_armor="9"
+				arm_armor="5"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+	<Item
+			id="roh_nbl_shldr_s"
+			name="{=roh_nbl_shldr_s}Rohan Noble Pauldrons F"
+			mesh="roh_nbl_shldr_s"
+			culture="Culture.vlandia"
+			weight="11.0"
+			appearance="6"
+			Type="Cape">
+		<ItemComponent>
+			<Armor
+				body_armor="7"
+				arm_armor="5"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+	<Item
+				id="cts_rohan_shoulder_captain1"
+				name="{=cts_rohan_shoulder_captain1}Rohan Captain Pauldrons - Two"
+				mesh="cts_rohan_shoulder_captain1"
+				culture="Culture.vlandia"
+				weight="9.0"
+				appearance="6"
+				Type="Cape">
+		<ItemComponent>
+			<Armor
+				body_armor="14"
+				arm_armor="14"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+
+	<Item
+				id="cts_rohan_captain_shoulder"
+				name="{=cts_rohan_shoulder_captain}Rohan Captain Pauldrons - One"
+				mesh="cts_rohan_captain_shoulder"
+				culture="Culture.vlandia"
+				weight="9.0"
+				appearance="6"
+				Type="Cape">
+		<ItemComponent>
+			<Armor
+				body_armor="14"
+				arm_armor="14"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+	<!-- #endregion -->
+</Items>

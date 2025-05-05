@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+	<!-- Harad Glove -->
+<Item
+		id="haradrim_gloves"
+		name="{=haradrimglove}Haradrim Glove"
+		mesh="haradrim_gloves"
+		culture="Culture.aserai"
+		weight="1.0"
+		difficulty="0"
+		appearance="3"
+		Type="HandArmor">
+		<ItemComponent>
+			<Armor
+				arm_armor="15"
+				covers_hands="false"
+				modifier_group="leather"
+				material_type="Leather" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+
+	<Item
+		id="haradrim02_gloves"
+		name="{=haradrim02_gloves}Haradrim Glove - Gray"
+		mesh="haradrim02_gloves"
+		culture="Culture.aserai"
+		weight="1.0"
+		difficulty="0"
+		appearance="3"
+		Type="HandArmor">
+		<ItemComponent>
+			<Armor
+				arm_armor="15"
+				covers_hands="true"
+				modifier_group="leather"
+				material_type="Leather" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+	<Item
+		id="haradrim02a_gloves"
+		name="{=haradrim02a_gloves}Haradrim Glove - Brown"
+		mesh="haradrim02a_gloves"
+		culture="Culture.aserai"
+		weight="1.0"
+		difficulty="0"
+		appearance="3"
+		Type="HandArmor">
+		<ItemComponent>
+			<Armor
+				arm_armor="15"
+				covers_hands="true"
+				modifier_group="leather"
+				material_type="Leather" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+	<Item
+		id="haradrim02b_gloves"
+		name="{=haradrim02b_gloves}Haradrim Glove - Maroon"
+		mesh="haradrim02b_gloves"
+		culture="Culture.aserai"
+		weight="1.0"
+		difficulty="0"
+		appearance="3"
+		Type="HandArmor">
+		<ItemComponent>
+			<Armor
+				arm_armor="15"
+				covers_hands="true"
+				modifier_group="leather"
+				material_type="Leather" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+	<Item
+		id="haradrim02c_gloves"
+		name="{=haradrim02c_gloves}Haradrim Glove - Orange"
+		mesh="haradrim02c_gloves"
+		culture="Culture.aserai"
+		weight="1.0"
+		difficulty="0"
+		appearance="3"
+		Type="HandArmor">
+		<ItemComponent>
+			<Armor
+				arm_armor="15"
+				covers_hands="true"
+				modifier_group="leather"
+				material_type="Leather" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+	
+	<!-- #endregion -->
+</Items>

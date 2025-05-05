@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+	<!-- Mordor --> 
+<Item
+		id="sk_uruk_mordor_pauldron_medium_a"
+		name="{=mordorpauldronmediuma}Mordor Pauldrons Medium A"
+		mesh="sk_uruk_mordor_pauldron_medium_a"
+		culture="Culture.vlandia"
+		weight="9.0"
+		appearance="6"
+		Type="Cape">
+	<ItemComponent>
+		<Armor
+			body_armor="15"
+			arm_armor="12"
+			modifier_group="plate"
+			material_type="Plate" />
+	</ItemComponent>
+	<Flags />
+</Item>
+		<Item
+			id="sk_uruk_mordor_pauldron_medium_b"
+			name="{=mordorpauldronmediumb}Mordor Pauldrons Medium B"
+			mesh="sk_uruk_mordor_pauldron_medium_b"
+			culture="Culture.vlandia"
+			weight="9.0"
+			appearance="6"
+			Type="Cape">
+			<ItemComponent>
+				<Armor
+					body_armor="15"
+					arm_armor="12"
+					modifier_group="plate"
+					material_type="Plate" />
+			</ItemComponent>
+			<Flags />
+		</Item>
+		<Item
+			id="sk_uruk_mordor_pauldron_medium_c"
+			name="{=mordorpauldronmediumc}Mordor Pauldrons Medium C"
+			mesh="sk_uruk_mordor_pauldron_medium_c"
+			culture="Culture.vlandia"
+			weight="9.0"
+			appearance="6"
+			Type="Cape">
+			<ItemComponent>
+				<Armor
+					body_armor="15"
+					arm_armor="12"
+					modifier_group="plate"
+					material_type="Plate" />
+			</ItemComponent>
+			<Flags />
+		</Item>
+		<Item
+			id="sk_uruk_mordor_pauldron_medium_d"
+			name="{=mordorpauldronmediumd}Mordor Pauldrons Medium D"
+			mesh="sk_uruk_mordor_pauldron_medium_d"
+			culture="Culture.vlandia"
+			weight="9.0"
+			appearance="6"
+			Type="Cape">
+			<ItemComponent>
+				<Armor
+					body_armor="15"
+					arm_armor="12"
+					modifier_group="plate"
+					material_type="Plate" />
+			</ItemComponent>
+			<Flags />
+		</Item>
+
+	<Item
+			id="sk_uruk_mordor_pauldron_heavy_a"
+			name="{=mordorpauldronheavya}Mordor Pauldrons Heavy A"
+			mesh="sk_uruk_mordor_pauldron_heavy_a"
+			culture="Culture.mordor"
+			weight="9.0"
+			appearance="6"
+			Type="Cape">
+		<ItemComponent>
+			<Armor
+				body_armor="25"
+				arm_armor="20"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+		<Item
+			id="sk_uruk_mordor_pauldron_heavy_b"
+			name="{=mordorpauldronheavyb}Mordor Pauldrons Heavy B"
+			mesh="sk_uruk_mordor_pauldron_heavy_b"
+			culture="Culture.vlandia"
+			weight="9.0"
+			appearance="6"
+			Type="Cape">
+			<ItemComponent>
+				<Armor
+					body_armor="25"
+					arm_armor="20"
+					modifier_group="plate"
+					material_type="Plate" />
+			</ItemComponent>
+			<Flags />
+		</Item>
+		<Item
+			id="sk_uruk_mordor_pauldron_heavy_c"
+			name="{=mordorpauldronheavyc}Mordor Pauldrons Heavy C"
+			mesh="sk_uruk_mordor_pauldron_heavy_c"
+			culture="Culture.vlandia"
+			weight="9.0"
+			appearance="6"
+			Type="Cape">
+			<ItemComponent>
+				<Armor
+					body_armor="25"
+					arm_armor="20"
+					modifier_group="plate"
+					material_type="Plate" />
+			</ItemComponent>
+			<Flags />
+		</Item>
+		<Item
+			id="sk_uruk_mordor_pauldron_heavy_d"
+			name="{=mordorpauldronheavyd}Mordor Pauldrons Heavy D"
+			mesh="sk_uruk_mordor_pauldron_heavy_d"
+			culture="Culture.vlandia"
+			weight="9.0"
+			appearance="6"
+			Type="Cape">
+			<ItemComponent>
+				<Armor
+					body_armor="25"
+					arm_armor="20"
+					modifier_group="plate"
+					material_type="Plate" />
+			</ItemComponent>
+			<Flags />
+		</Item>
+		<Item
+			id="sk_uruk_mordor_pauldron_heavy_e"
+			name="{=mordorpauldronheavye}Mordor Pauldrons Heavy E"
+			mesh="sk_uruk_mordor_pauldron_heavy_e"
+			culture="Culture.vlandia"
+			weight="9.0"
+			appearance="6"
+			Type="Cape">
+			<ItemComponent>
+				<Armor
+					body_armor="25"
+					arm_armor="20"
+					modifier_group="plate"
+					material_type="Plate" />
+			</ItemComponent>
+			<Flags />
+		</Item>
+		<Item
+			id="sk_uruk_mordor_pauldron_heavy_f"
+			name="{=mordorpauldronheavyf}Mordor Pauldrons Heavy F"
+			mesh="sk_uruk_mordor_pauldron_heavy_f"
+			culture="Culture.vlandia"
+			weight="9.0"
+			appearance="6"
+			Type="Cape">
+			<ItemComponent>
+				<Armor
+					body_armor="25"
+					arm_armor="20"
+					modifier_group="plate"
+					material_type="Plate" />
+			</ItemComponent>
+			<Flags />
+		</Item>
+		<Item
+			id="sk_uruk_mordor_pauldron_heavy_g"
+			name="{=mordorpauldronheavyg}Mordor Pauldrons Heavy G"
+			mesh="sk_uruk_mordor_pauldron_heavy_g"
+			culture="Culture.vlandia"
+			weight="9.0"
+			appearance="6"
+			Type="Cape">
+			<ItemComponent>
+				<Armor
+					body_armor="25"
+					arm_armor="20"
+					modifier_group="plate"
+					material_type="Plate" />
+			</ItemComponent>
+			<Flags />
+		</Item>
+		<Item
+			id="sk_uruk_mordor_pauldron_heavy_h"
+			name="{=mordorpauldronheavyh}Mordor Pauldrons Heavy H"
+			mesh="sk_uruk_mordor_pauldron_heavy_h"
+			culture="Culture.vlandia"
+			weight="9.0"
+			appearance="6"
+			Type="Cape">
+			<ItemComponent>
+				<Armor
+					body_armor="25"
+					arm_armor="20"
+					modifier_group="plate"
+					material_type="Plate" />
+			</ItemComponent>
+			<Flags />
+		</Item>
+<!--Witch King Shoulders-->
+	<Item
+			id="witch_king_pauldrons"
+			name="{=witchkingpauldrons}Witch King Pauldrons"
+			mesh="witch_king_pauldrons"
+			culture="Culture.mordor"
+			weight="9.0"
+			appearance="6"
+			Type="Cape">
+		<ItemComponent>
+			<Armor
+				body_armor="95"
+				arm_armor="95"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+
+</Items>

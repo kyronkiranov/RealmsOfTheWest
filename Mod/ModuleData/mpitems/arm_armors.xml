@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+	<!-- Gondor -->
+<Item
+		id="gondor_bracers"
+		name="{=gondorplategloves}Gondor Plate Gloves"
+		mesh="gondor_bracers"
+		culture="Culture.empire"
+		weight="1.5"
+		difficulty="0"
+		appearance="3"
+		Type="HandArmor">
+		<ItemComponent>
+			<Armor
+				arm_armor="25"
+				covers_hands="false"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+<Item
+		id="citidel_guard_bracers"
+		name="{=gondorplateglovescitidelbracers}Gondor Citidel Guard Bracers"
+		mesh="citidel_guard_bracers"
+		culture="Culture.empire"
+		weight="1.5"
+		difficulty="0"
+		appearance="3"
+		Type="HandArmor">
+	<ItemComponent>
+		<Armor
+			arm_armor="25"
+			covers_hands="true"
+			modifier_group="plate"
+			material_type="Plate" />
+	</ItemComponent>
+	<Flags />
+</Item>
+
+	<Item
+			id="citidel_guard_bracers_shield"
+			name="{=gondorplateglovescitidelshield}Gondor Citidel Guard Shield Bracers"
+			mesh="citidel_guard_bracers_shield"
+			culture="Culture.empire"
+			weight="1.5"
+			difficulty="0"
+			appearance="3"
+			Type="HandArmor">
+		<ItemComponent>
+			<Armor
+				arm_armor="25"
+				covers_hands="true"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+	<Item
+		id="citidel_guard_gloves"
+		name="{=gondorplateglovescitidelleather}Gondor Gloves"
+		mesh="citidel_guard_gloves"
+		culture="Culture.empire"
+		weight="0.6"
+		difficulty="0"
+		appearance="3"
+		Type="HandArmor">
+		<ItemComponent>
+			<Armor
+				arm_armor="10"
+				covers_hands="true"
+				modifier_group="leather"
+				material_type="Leather" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+	<Item
+			id="fountain_guard_bracers"
+			name="{=gondorplatefountainbracers}Gondor Fountain Guard Bracers"
+			mesh="fountain_guard_bracers"
+			culture="Culture.empire"
+			weight="1.5"
+			difficulty="0"
+			appearance="3"
+			Type="HandArmor">
+		<ItemComponent>
+			<Armor
+				arm_armor="25"
+				covers_hands="false"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+
+	<Item
+			id="faramir_bracers"
+			name="{=faramirbracers}Faramir Bracers"
+			mesh="faramir_bracers"
+			culture="Culture.empire"
+			weight="1.5"
+			difficulty="0"
+			appearance="3"
+			Type="HandArmor">
+		<ItemComponent>
+			<Armor
+				arm_armor="20"
+				covers_hands="true"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+	<Item
+				id="ithilien_bracers"
+				name="{=ithilienbracers}Ithilien Bracers"
+				mesh="ithilien_bracers"
+				culture="Culture.empire"
+				weight="1.5"
+				difficulty="0"
+				appearance="3"
+				Type="HandArmor">
+		<ItemComponent>
+			<Armor
+				arm_armor="15"
+				covers_hands="true"
+				modifier_group="leather"
+				material_type="Leather" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+
+	<Item
+		id="gondor_king_bracers"
+		name="{=gondorkingbracers}Gondor King Bracers"
+		mesh="gondor_king_bracers"
+		culture="Culture.empire"
+		weight="1.5"
+		difficulty="0"
+		appearance="3"
+		Type="HandArmor">
+		<ItemComponent>
+			<Armor
+				arm_armor="25"
+				covers_hands="false"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+	<Item
+		id="gondor_nobke_bracers"
+		name="{=gondornoblebracers}Gondor Noble Bracers"
+		mesh="gondor_nobke_bracers"
+		culture="Culture.empire"
+		weight="1.5"
+		difficulty="0"
+		appearance="3"
+		Type="HandArmor">
+		<ItemComponent>
+			<Armor
+				arm_armor="25"
+				covers_hands="false"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+
+	<Item
+		id="lossarnach_gloves"
+		name="{=lossarnach_gloves}Lossarnach Bracers"
+		mesh="lossarnach_gloves"
+		culture="Culture.gondor"
+		weight="1.5"
+		difficulty="0"
+		appearance="3"
+		Type="HandArmor">
+		<ItemComponent>
+			<Armor
+				arm_armor="25"
+				covers_hands="true"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+
+	<Item
+		id="golasgil_gloves"
+		name="{=golasgil_gloves}Golasgil Bracers"
+		mesh="golasgil_gloves"
+		culture="Culture.gondor"
+		weight="1.5"
+		difficulty="0"
+		appearance="3"
+		Type="HandArmor">
+		<ItemComponent>
+			<Armor
+				arm_armor="25"
+				covers_hands="true"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+
+	<Item
+		id="imrahil_gloves"
+		name="{=imrahil_gloves}Imrahil Bracers"
+		mesh="imrahil_gloves"
+		culture="Culture.gondor"
+		weight="1.5"
+		difficulty="0"
+		appearance="3"
+		Type="HandArmor">
+		<ItemComponent>
+			<Armor
+				arm_armor="25"
+				covers_hands="true"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+	<!-- #endregion -->
+</Items>

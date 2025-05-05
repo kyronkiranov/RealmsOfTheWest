@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+	<!-- Mirkwood -->
+<Item
+		id="mirkwood_shoulder"
+		name="{=mirkwoodshoulder}Mirkwood Shoulder Armor"
+		mesh="mirkwood_shoulder"
+		culture="Culture.battania"
+		weight="9.0"
+		appearance="6"
+		Type="Cape">
+	<ItemComponent>
+		<Armor
+			body_armor="12"
+			arm_armor="12"
+			modifier_group="plate"
+			material_type="Plate" />
+	</ItemComponent>
+	<Flags />
+</Item>
+
+	<!-- #endregion -->
+</Items>

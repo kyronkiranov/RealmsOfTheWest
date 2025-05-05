@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+	<!-- Mordor Bracer -->
+<Item
+		id="sk_uruk_mordor_bracer_medium_a"
+		name="{=mordorbracermediuma}Mordor Medium Plate Bracer A"
+		mesh="sk_uruk_mordor_bracer_medium_a"
+		culture="Culture.mordor"
+		weight="1.0"
+		difficulty="0"
+		appearance="3"
+		Type="HandArmor">
+		<ItemComponent>
+			<Armor
+				arm_armor="20"
+				covers_hands="false"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+	<Item
+			id="sk_uruk_mordor_bracer_medium_b"
+			name="{=mordorbracermediumb}Mordor Medium Plate Bracer B"
+			mesh="sk_uruk_mordor_bracer_medium_b"
+			culture="Culture.mordor"
+			weight="1.0"
+			difficulty="0"
+			appearance="3"
+			Type="HandArmor">
+		<ItemComponent>
+			<Armor
+				arm_armor="20"
+				covers_hands="false"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+	<Item
+			id="sk_uruk_mordor_bracer_medium_c"
+			name="{=mordorbracermediumc}Mordor Medium Plate Bracer C"
+			mesh="sk_uruk_mordor_bracer_medium_c"
+			culture="Culture.mordor"
+			weight="1.0"
+			difficulty="0"
+			appearance="3"
+			Type="HandArmor">
+		<ItemComponent>
+			<Armor
+				arm_armor="20"
+				covers_hands="false"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+	
+	<Item
+			id="sk_uruk_mordor_bracer_medium_d"
+			name="{=mordorbracermediumd}Mordor Medium Plate Bracer D"
+			mesh="sk_uruk_mordor_bracer_medium_d"
+			culture="Culture.mordor"
+			weight="1.0"
+			difficulty="0"
+			appearance="3"
+			Type="HandArmor">
+		<ItemComponent>
+			<Armor
+				arm_armor="20"
+				covers_hands="false"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+	<Item
+			id="sk_uruk_mordor_bracer_heavy_a"
+			name="{=mordorbracerheavya}Mordor Heavy Plate Bracer A"
+			mesh="sk_uruk_mordor_bracer_heavy_a"
+			culture="Culture.mordor"
+			weight="1.0"
+			difficulty="0"
+			appearance="3"
+			Type="HandArmor">
+		<ItemComponent>
+			<Armor
+				arm_armor="30"
+				covers_hands="false"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+	<Item
+				id="sk_uruk_mordor_bracer_heavy_b"
+				name="{=mordorbracerheavyb}Mordor Heavy Plate Bracer B"
+				mesh="sk_uruk_mordor_bracer_heavy_b"
+				culture="Culture.mordor"
+				weight="1.0"
+				difficulty="0"
+				appearance="3"
+				Type="HandArmor">
+		<ItemComponent>
+			<Armor
+				arm_armor="30"
+				covers_hands="false"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+	<Item
+				id="sk_uruk_mordor_bracer_heavy_c"
+				name="{=mordorbracerheavyc}Mordor Heavy Plate Bracer C"
+				mesh="sk_uruk_mordor_bracer_heavy_c"
+				culture="Culture.mordor"
+				weight="1.0"
+				difficulty="0"
+				appearance="3"
+				Type="HandArmor">
+		<ItemComponent>
+			<Armor
+				arm_armor="30"
+				covers_hands="false"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+	<Item
+		id="sk_uruk_mordor_bracer_heavy_d"
+		name="{=mordorbracerheavyd}Mordor Heavy Plate Bracer D"
+		mesh="sk_uruk_mordor_bracer_heavy_d"
+		culture="Culture.mordor"
+		weight="1.0"
+		difficulty="0"
+		appearance="3"
+		Type="HandArmor">
+		<ItemComponent>
+			<Armor
+				arm_armor="30"
+				covers_hands="false"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+	<Item
+		id="sk_uruk_mordor_bracer_heavy_e"
+		name="{=mordorbracerheavye}Mordor Heavy Plate Bracer E"
+		mesh="sk_uruk_mordor_bracer_heavy_e"
+		culture="Culture.mordor"
+		weight="1.0"
+		difficulty="0"
+		appearance="3"
+		Type="HandArmor">
+		<ItemComponent>
+			<Armor
+				arm_armor="30"
+				covers_hands="false"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+	<Item
+		id="sk_uruk_mordor_bracer_heavy_f"
+		name="{=mordorbracerheavyf}Mordor Heavy Plate Bracer F"
+		mesh="sk_uruk_mordor_bracer_heavy_f"
+		culture="Culture.mordor"
+		weight="1.0"
+		difficulty="0"
+		appearance="3"
+		Type="HandArmor">
+		<ItemComponent>
+			<Armor
+				arm_armor="30"
+				covers_hands="false"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+<!--Witch King-->
+	<Item
+			id="witch_king_gloves"
+			name="{=witchkinggloves}Witch King Gloves"
+			mesh="Witch_King_gloves"
+			culture="Culture.mordor"
+			weight="1.0"
+			difficulty="0"
+			appearance="3"
+			Type="HandArmor">
+		<ItemComponent>
+			<Armor
+				arm_armor="90"
+				covers_hands="true"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+	<!-- #endregion -->
+</Items>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+	<!-- Rhun -->
+<Item
+		id="easterling_cape"
+		name="{=easterlingcape}Easterling Cape"
+		mesh="easterling_cape"
+		culture="Culture.vlandia"
+		weight="9.0"
+		appearance="6"
+		Type="Cape">
+	<ItemComponent>
+		<Armor
+			body_armor="12"
+			arm_armor="12"
+			modifier_group="plate"
+			material_type="Plate" />
+	</ItemComponent>
+	<Flags />
+</Item>
+
+
+	<!-- #endregion -->
+</Items>

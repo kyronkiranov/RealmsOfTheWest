@@ -1,0 +1,480 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+	<!-- Dunland -->
+	<Item
+			id="dunland_caerdh_boots_light_a"
+			name="{=dunlandcaerdhbootsa}Dunland Caerdh Leather Boots A"
+			mesh="dunland_caerdh_boots_light_a"
+			culture="Culture.battania"
+			weight="1.6"
+			difficulty="0"
+			appearance="3"
+			Type="LegArmor">
+		<ItemComponent>
+			<Armor
+				leg_armor="5"
+				covers_legs="true"
+				modifier_group="leather"
+				material_type="Leather" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+		
+	<Item
+		id="dunland_caerdh_boots_light_b"
+		name="{=dunlandcaerdhbootsb}Dunland Caerdh Leather Boots B"
+		mesh="dunland_caerdh_boots_light_b"
+		culture="Culture.battania"
+		weight="1.6"
+		difficulty="0"
+		appearance="3"
+		Type="LegArmor">
+		<ItemComponent>
+			<Armor
+				leg_armor="5"
+				covers_legs="true"
+				modifier_group="leather"
+				material_type="Leather" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+	<Item
+			id="dunland_caerdh_boots_medium_a"
+			name="{=dunlandcaerdhbootsma}Dunland Caerdh Leather Boots C"
+			mesh="dunland_caerdh_boots_medium_a"
+			culture="Culture.battania"
+			weight="1.9"
+			difficulty="0"
+			appearance="3"
+			Type="LegArmor">
+		<ItemComponent>
+			<Armor
+				leg_armor="8"
+				covers_legs="true"
+				modifier_group="leather"
+				material_type="Leather" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+	<Item
+				id="dunland_caerdh_boots_medium_b"
+				name="{=dunlandcaerdhbootsmb}Dunland Caerdh Leather Boots D"
+				mesh="dunland_caerdh_boots_medium_b"
+				culture="Culture.battania"
+				weight="1.9"
+				difficulty="0"
+				appearance="3"
+				Type="LegArmor">
+		<ItemComponent>
+			<Armor
+				leg_armor="8"
+				covers_legs="true"
+				modifier_group="leather"
+				material_type="Leather" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+	<Item
+					id="dunland_caerdh_boots_medium_c"
+					name="{=dunlandcaerdhbootsmc}Dunland Caerdh Leather Boots E"
+					mesh="dunland_caerdh_boots_medium_c"
+					culture="Culture.battania"
+					weight="1.9"
+					difficulty="0"
+					appearance="3"
+					Type="LegArmor">
+		<ItemComponent>
+			<Armor
+				leg_armor="8"
+				covers_legs="true"
+				modifier_group="leather"
+				material_type="Leather" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+	<Item
+				id="dunland_caerdh_boots_medium_d"
+				name="{=dunlandcaerdhbootsme}Dunland Caerdh Leather Boots F"
+				mesh="dunland_caerdh_boots_medium_d"
+				culture="Culture.battania"
+				weight="1.9"
+				difficulty="0"
+				appearance="3"
+				Type="LegArmor">
+		<ItemComponent>
+			<Armor
+				leg_armor="8"
+				covers_legs="true"
+				modifier_group="leather"
+				material_type="Leather" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+	<Item
+				id="dunland_caerdh_boots_heavy_a"
+				name="{=dunlandcaerdhbootsha}Dunland Caerdh Heavy Greaves A"
+				mesh="dunland_caerdh_boots_heavy_a"
+				culture="Culture.battania"
+				weight="3"
+				difficulty="0"
+				appearance="3"
+				Type="LegArmor">
+		<ItemComponent>
+			<Armor
+				leg_armor="10"
+				covers_legs="true"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+	<Item
+				id="dunland_caerdh_boots_heavy_b"
+				name="{=dunlandcaerdhbootshb}Dunland Caerdh Heavy Greaves B"
+				mesh="dunland_caerdh_boots_heavy_b"
+				culture="Culture.battania"
+				weight="3"
+				difficulty="0"
+				appearance="3"
+				Type="LegArmor">
+		<ItemComponent>
+			<Armor
+				leg_armor="10"
+				covers_legs="true"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+	<Item
+				id="dunland_caerdh_boots_heavy_c"
+				name="{=dunlandcaerdhbootshc}Dunland Caerdh Heavy Greaves C"
+				mesh="dunland_caerdh_boots_heavy_c"
+				culture="Culture.battania"
+				weight="3"
+				difficulty="0"
+				appearance="3"
+				Type="LegArmor">
+		<ItemComponent>
+			<Armor
+				leg_armor="10"
+				covers_legs="true"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+	<Item
+				id="dunland_caerdh_boots_heavy_d"
+				name="{=dunlandcaerdhbootshd}Dunland Caerdh Heavy Greaves D"
+				mesh="dunland_caerdh_boots_heavy_d"
+				culture="Culture.battania"
+				weight="3"
+				difficulty="0"
+				appearance="3"
+				Type="LegArmor">
+		<ItemComponent>
+			<Armor
+				leg_armor="10"
+				covers_legs="true"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+	<!-- Wulf -->
+	<Item
+			id="dunland_wulf_boots_light_a"
+			name="{=dunlandwulfbootsa}Dunland Wulf Leather Boots A"
+			mesh="dunland_wulf_boots_light_a"
+			culture="Culture.battania"
+			weight="1.6"
+			difficulty="0"
+			appearance="3"
+			Type="LegArmor">
+		<ItemComponent>
+			<Armor
+				leg_armor="5"
+				covers_legs="true"
+				modifier_group="leather"
+				material_type="Leather" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+	<Item
+		id="dunland_wulf_boots_light_b"
+		name="{=dunlandwulfbootsb}Dunland Wulf Leather Boots B"
+		mesh="dunland_wulf_boots_light_b"
+		culture="Culture.battania"
+		weight="1.6"
+		difficulty="0"
+		appearance="3"
+		Type="LegArmor">
+		<ItemComponent>
+			<Armor
+				leg_armor="5"
+				covers_legs="true"
+				modifier_group="leather"
+				material_type="Leather" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+
+	<Item
+		id="dunland_wulf_boots_light_c"
+		name="{=dunlandwulfbootsc}Dunland Wulf Leather Boots C"
+		mesh="dunland_wulf_boots_light_c"
+		culture="Culture.battania"
+		weight="1.6"
+		difficulty="0"
+		appearance="3"
+		Type="LegArmor">
+		<ItemComponent>
+			<Armor
+				leg_armor="5"
+				covers_legs="true"
+				modifier_group="leather"
+				material_type="Leather" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+	<Item
+			id="dunland_wulf_boots_medium_a"
+			name="{=dunlandwulfbootsma}Dunland Wulf Medium Boots A"
+			mesh="dunland_wulf_boots_medium_a"
+			culture="Culture.battania"
+			weight="1.9"
+			difficulty="0"
+			appearance="3"
+			Type="LegArmor">
+		<ItemComponent>
+			<Armor
+				leg_armor="8"
+				covers_legs="true"
+				modifier_group="leather"
+				material_type="Leather" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+	<Item
+				id="dunland_wulf_boots_medium_b"
+				name="{=dunlandwulfbootsmb}Dunland Wulf Medium Boots B"
+				mesh="dunland_wulf_boots_medium_b"
+				culture="Culture.battania"
+				weight="1.9"
+				difficulty="0"
+				appearance="3"
+				Type="LegArmor">
+		<ItemComponent>
+			<Armor
+				leg_armor="8"
+				covers_legs="true"
+				modifier_group="leather"
+				material_type="Leather" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+	<Item
+					id="dunland_wulf_boots_medium_c"
+					name="{=dunlandwulfbootsmc}Dunland Wulf Medium Boots C"
+					mesh="dunland_wulf_boots_medium_c"
+					culture="Culture.battania"
+					weight="1.9"
+					difficulty="0"
+					appearance="3"
+					Type="LegArmor">
+		<ItemComponent>
+			<Armor
+				leg_armor="8"
+				covers_legs="true"
+				modifier_group="leather"
+				material_type="Leather" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+	<Item
+				id="dunland_wulf_boots_medium_d"
+				name="{=dunlandwulfbootsmf}Dunland Wulf Medium Boots D"
+				mesh="dunland_wulf_boots_medium_d"
+				culture="Culture.battania"
+				weight="1.9"
+				difficulty="0"
+				appearance="3"
+				Type="LegArmor">
+		<ItemComponent>
+			<Armor
+				leg_armor="8"
+				covers_legs="true"
+				modifier_group="leather"
+				material_type="Leather" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+	<Item
+			id="dunland_wulf_boots_medium_e"
+			name="{=dunlandwulfbootsmg}Dunland Wulf Medium Boots E"
+			mesh="dunland_wulf_boots_medium_e"
+			culture="Culture.battania"
+			weight="1.9"
+			difficulty="0"
+			appearance="3"
+			Type="LegArmor">
+		<ItemComponent>
+			<Armor
+				leg_armor="8"
+				covers_legs="true"
+				modifier_group="leather"
+				material_type="Leather" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+	<Item
+			id="dunland_wulf_boots_medium_f"
+			name="{=dunlandwulfbootsmf}Dunland Wulf Medium Boots F"
+			mesh="dunland_wulf_boots_medium_f"
+			culture="Culture.battania"
+			weight="1.9"
+			difficulty="0"
+			appearance="3"
+			Type="LegArmor">
+		<ItemComponent>
+			<Armor
+				leg_armor="8"
+				covers_legs="true"
+				modifier_group="leather"
+				material_type="Leather" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+	<Item
+				id="dunland_wulf_boots_heavy_a"
+				name="{=dunlandwulfbootsha}Dunland Wulf Heavy Greaves A"
+				mesh="dunland_wulf_boots_heavy_a"
+				culture="Culture.battania"
+				weight="3"
+				difficulty="0"
+				appearance="3"
+				Type="LegArmor">
+		<ItemComponent>
+			<Armor
+				leg_armor="10"
+				covers_legs="true"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+	<Item
+				id="dunland_wulf_boots_heavy_b"
+				name="{=dunlandwulfbootshb}Dunland Wulf Heavy Greaves B"
+				mesh="dunland_wulf_boots_heavy_b"
+				culture="Culture.battania"
+				weight="3"
+				difficulty="0"
+				appearance="3"
+				Type="LegArmor">
+		<ItemComponent>
+			<Armor
+				leg_armor="10"
+				covers_legs="true"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+	<Item
+				id="dunland_wulf_boots_heavy_c"
+				name="{=dunlandwulfbootshc}Dunland Wulf Heavy Greaves C"
+				mesh="dunland_wulf_boots_heavy_c"
+				culture="Culture.battania"
+				weight="3"
+				difficulty="0"
+				appearance="3"
+				Type="LegArmor">
+		<ItemComponent>
+			<Armor
+				leg_armor="10"
+				covers_legs="true"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+	<Item
+				id="dunland_wulf_boots_heavy_d"
+				name="{=dunlandwulfbootshd}Dunland Wulf Heavy Greaves D"
+				mesh="dunland_wulf_boots_heavy_d"
+				culture="Culture.battania"
+				weight="3"
+				difficulty="0"
+				appearance="3"
+				Type="LegArmor">
+		<ItemComponent>
+			<Armor
+				leg_armor="10"
+				covers_legs="true"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+	<Item
+				id="dunland_wulf_boots_heavy_e"
+				name="{=dunlandwulfbootshe}Dunland Wulf Heavy Greaves E"
+				mesh="dunland_wulf_boots_heavy_e"
+				culture="Culture.battania"
+				weight="3"
+				difficulty="0"
+				appearance="3"
+				Type="LegArmor">
+		<ItemComponent>
+			<Armor
+				leg_armor="10"
+				covers_legs="true"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+	<Item
+				id="dunland_wulf_boots_heavy_f"
+				name="{=dunlandwulfbootshf}Dunland Wulf Heavy Greaves F"
+				mesh="dunland_wulf_boots_heavy_f"
+				culture="Culture.battania"
+				weight="3"
+				difficulty="0"
+				appearance="3"
+				Type="LegArmor">
+		<ItemComponent>
+			<Armor
+				leg_armor="10"
+				covers_legs="true"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+	
+	<!-- #endregion -->
+</Items>

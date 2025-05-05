@@ -1,0 +1,452 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+	<!-- Dunland -->
+	<Item
+			id="dunland_caerdh_bracer_light_a"
+			name="{=dunlandcaerdhbracerlightb}Dunland Light Bracers A"
+			mesh="dunland_caerdh_bracer_light_a"
+			culture="Culture.battania"
+			weight="1.5"
+			difficulty="0"
+			appearance="3"
+			Type="HandArmor">
+		<ItemComponent>
+			<Armor
+				arm_armor="10"
+				covers_hands="false"
+				modifier_group="leather"
+				material_type="Leather" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+	
+	<Item
+		id="dunland_caerdh_bracer_light_b"
+		name="{=dunlandcaerdhbracerlightb}Dunland Light Bracers B"
+		mesh="dunland_caerdh_bracer_light_b"
+		culture="Culture.battania"
+		weight="1.5"
+		difficulty="0"
+		appearance="3"
+		Type="HandArmor">
+		<ItemComponent>
+			<Armor
+				arm_armor="10"
+				covers_hands="false"
+				modifier_group="leather"
+				material_type="Leather" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+	
+	<Item
+			id="dunland_caerdh_bracer_heavy_a"
+			name="{=dunlandcaerdhbracerheavya}Dunland Heavy Bracers A"
+			mesh="dunland_caerdh_bracer_heavy_a"
+			culture="Culture.battania"
+			weight="2.5"
+			difficulty="0"
+			appearance="3"
+			Type="HandArmor">
+		<ItemComponent>
+			<Armor
+				arm_armor="15"
+				covers_hands="false"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+	<Item
+			id="dunland_caerdh_bracer_heavy_b"
+			name="{=dunlandcaerdhbracerheavyb}Dunland Heavy Bracers B"
+			mesh="dunland_caerdh_bracer_heavy_b"
+			culture="Culture.battania"
+			weight="2.5"
+			difficulty="0"
+			appearance="3"
+			Type="HandArmor">
+		<ItemComponent>
+			<Armor
+				arm_armor="15"
+				covers_hands="false"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+
+	<Item
+			id="dunland_caerdh_bracer_heavy_c"
+			name="{=dunlandcaerdhbracerheavyc}Dunland Heavy Bracers C"
+			mesh="dunland_caerdh_bracer_heavy_c"
+			culture="Culture.battania"
+			weight="2.5"
+			difficulty="0"
+			appearance="3"
+			Type="HandArmor">
+		<ItemComponent>
+			<Armor
+				arm_armor="15"
+				covers_hands="false"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+
+	<Item
+			id="dunland_caerdh_bracer_heavy_d"
+			name="{=dunlandcaerdhbracerheavyd}Dunland Heavy Bracers D"
+			mesh="dunland_caerdh_bracer_heavy_d"
+			culture="Culture.battania"
+			weight="2.5"
+			difficulty="0"
+			appearance="3"
+			Type="HandArmor">
+		<ItemComponent>
+			<Armor
+				arm_armor="15"
+				covers_hands="false"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+
+	<Item
+		id="dunland_caerdh_bracer_medium_a"
+		name="{=dunlandcaerdhbracermeda}Dunland Medium Bracers A"
+		mesh="dunland_caerdh_bracer_medium_a"
+		culture="Culture.battania"
+		weight="2.5"
+		difficulty="0"
+		appearance="3"
+		Type="HandArmor">
+		<ItemComponent>
+			<Armor
+				arm_armor="12"
+				covers_hands="false"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+	<Item
+		id="dunland_caerdh_bracer_medium_b"
+		name="{=dunlandcaerdhbracermeda}Dunland Medium Bracers B"
+		mesh="dunland_caerdh_bracer_medium_b"
+		culture="Culture.battania"
+		weight="2.5"
+		difficulty="0"
+		appearance="3"
+		Type="HandArmor">
+		<ItemComponent>
+			<Armor
+				arm_armor="12"
+				covers_hands="false"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+	<Item
+		id="dunland_caerdh_bracer_medium_c"
+		name="{=dunlandcaerdhbracermeda}Dunland Medium Bracers C"
+		mesh="dunland_caerdh_bracer_medium_c"
+		culture="Culture.battania"
+		weight="2.5"
+		difficulty="0"
+		appearance="3"
+		Type="HandArmor">
+		<ItemComponent>
+			<Armor
+				arm_armor="12"
+				covers_hands="false"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+	
+	<Item
+		id="dunland_caerdh_bracer_medium_d"
+		name="{=dunlandcaerdhbracermeda}Dunland Medium Bracers D"
+		mesh="dunland_caerdh_bracer_medium_d"
+		culture="Culture.battania"
+		weight="2.5"
+		difficulty="0"
+		appearance="3"
+		Type="HandArmor">
+		<ItemComponent>
+			<Armor
+				arm_armor="12"
+				covers_hands="false"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+	
+<!-- Wulf -->
+	<Item
+				id="dunland_wulf_bracer_light_a"
+				name="{=dunlandwulfbracerlightb}Dunland Wulf Light Bracers A"
+				mesh="dunland_caerdh_bracer_light_a"
+				culture="Culture.battania"
+				weight="1.5"
+				difficulty="0"
+				appearance="3"
+				Type="HandArmor">
+		<ItemComponent>
+			<Armor
+				arm_armor="10"
+				covers_hands="false"
+				modifier_group="leather"
+				material_type="Leather" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+	<Item
+		id="dunland_wulf_bracer_light_b"
+		name="{=dunlandaerdhbracerlightb}Dunland Wulf Light Bracers B"
+		mesh="dunland_wulf_bracer_light_b"
+		culture="Culture.battania"
+		weight="1.5"
+		difficulty="0"
+		appearance="3"
+		Type="HandArmor">
+		<ItemComponent>
+			<Armor
+				arm_armor="10"
+				covers_hands="false"
+				modifier_group="leather"
+				material_type="Leather" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+	<Item
+	id="dunland_wulf_bracer_light_c"
+	name="{=dunlandaerdhbracerlightc}Dunland Wulf Light Bracers C"
+	mesh="dunland_wulf_bracer_light_c"
+	culture="Culture.battania"
+	weight="1.5"
+	difficulty="0"
+	appearance="3"
+	Type="HandArmor">
+		<ItemComponent>
+			<Armor
+				arm_armor="10"
+				covers_hands="false"
+				modifier_group="leather"
+				material_type="Leather" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+
+
+	<Item
+			id="dunland_wulf_bracer_heavy_a"
+			name="{=dunlandwulfbracerheavya}Dunland Wulf Heavy Bracers A"
+			mesh="dunland_wulf_bracer_heavy_a"
+			culture="Culture.battania"
+			weight="2.5"
+			difficulty="0"
+			appearance="3"
+			Type="HandArmor">
+		<ItemComponent>
+			<Armor
+				arm_armor="15"
+				covers_hands="false"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+	<Item
+			id="dunland_wulf_bracer_heavy_b"
+			name="{=dunlandwulfbracerheavyb}Dunland Wulf Heavy Bracers B"
+			mesh="dunland_wulf_bracer_heavy_b"
+			culture="Culture.battania"
+			weight="2.5"
+			difficulty="0"
+			appearance="3"
+			Type="HandArmor">
+		<ItemComponent>
+			<Armor
+				arm_armor="15"
+				covers_hands="false"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+
+	<Item
+			id="dunland_wulf_bracer_heavy_c"
+			name="{=dunlandwulfbracerheavyc}Dunland Wulf Heavy Bracers C"
+			mesh="dunland_wulf_bracer_heavy_c"
+			culture="Culture.battania"
+			weight="2.5"
+			difficulty="0"
+			appearance="3"
+			Type="HandArmor">
+		<ItemComponent>
+			<Armor
+				arm_armor="15"
+				covers_hands="false"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+
+	<Item
+			id="dunland_wulf_bracer_heavy_d"
+			name="{=dunlandwulfbracerheavyd}Dunland Wulf Heavy Bracers D"
+			mesh="dunland_wulf_bracer_heavy_d"
+			culture="Culture.battania"
+			weight="2.5"
+			difficulty="0"
+			appearance="3"
+			Type="HandArmor">
+		<ItemComponent>
+			<Armor
+				arm_armor="15"
+				covers_hands="false"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+
+	<Item
+		id="dunland_wulf_bracer_medium_a"
+		name="{=dunlandwulfbracermeda}Dunland Wulf Medium Bracers A"
+		mesh="dunland_wulf_bracer_medium_a"
+		culture="Culture.battania"
+		weight="2.5"
+		difficulty="0"
+		appearance="3"
+		Type="HandArmor">
+		<ItemComponent>
+			<Armor
+				arm_armor="12"
+				covers_hands="false"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+	<Item
+		id="dunland_wulf_bracer_medium_b"
+		name="{=dunlandwulfbracermedb}Dunland Wulf Medium Bracers B"
+		mesh="dunland_wulf_bracer_medium_b"
+		culture="Culture.battania"
+		weight="2.5"
+		difficulty="0"
+		appearance="3"
+		Type="HandArmor">
+		<ItemComponent>
+			<Armor
+				arm_armor="12"
+				covers_hands="false"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+	<Item
+		id="dunland_wulf_bracer_medium_c"
+		name="{=dunlandwulfbracermedc}Dunland Wulf Medium Bracers C"
+		mesh="dunland_wulf_bracer_medium_c"
+		culture="Culture.battania"
+		weight="2.5"
+		difficulty="0"
+		appearance="3"
+		Type="HandArmor">
+		<ItemComponent>
+			<Armor
+				arm_armor="12"
+				covers_hands="false"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+	<Item
+		id="dunland_wulf_bracer_medium_d"
+		name="{=dunlandwulfbracermedd}Dunland Wulf Medium Bracers D"
+		mesh="dunland_wulf_bracer_medium_d"
+		culture="Culture.battania"
+		weight="2.5"
+		difficulty="0"
+		appearance="3"
+		Type="HandArmor">
+		<ItemComponent>
+			<Armor
+				arm_armor="12"
+				covers_hands="false"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+	<Item
+		id="dunland_wulf_bracer_medium_e"
+		name="{=dunlandwulfbracermede}Dunland Wulf Medium Bracers E"
+		mesh="dunland_wulf_bracer_medium_e"
+		culture="Culture.battania"
+		weight="2.5"
+		difficulty="0"
+		appearance="3"
+		Type="HandArmor">
+		<ItemComponent>
+			<Armor
+				arm_armor="12"
+				covers_hands="false"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+	<Item
+	id="dunland_wulf_bracer_medium_f"
+	name="{=dunlandwulfbracermedf}Dunland Wulf Medium Bracers F"
+	mesh="dunland_wulf_bracer_medium_f"
+	culture="Culture.battania"
+	weight="2.5"
+	difficulty="0"
+	appearance="3"
+	Type="HandArmor">
+		<ItemComponent>
+			<Armor
+				arm_armor="12"
+				covers_hands="false"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+
+	
+	<!-- #endregion -->
+</Items>

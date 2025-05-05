@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+	<!-- Rhun -->
+	<Item
+		id="easterling_torso"
+		name="{=easterlingtorso}Easterling Chestpiece"
+		subtype="body_armor"
+		mesh="easterling_torso"
+		culture="Culture.vlandia"
+		weight="16.5"
+		difficulty="0"
+		appearance="1.5"
+		Type="BodyArmor">
+		<ItemComponent>
+			<Armor
+				body_armor="48"
+				arm_armor="20"
+				has_gender_variations="false"
+				covers_body="true"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags
+			UseTeamColor="true" />
+	</Item>
+	
+	<!-- #endregion -->
+	<!-- #endregion -->
+</Items>

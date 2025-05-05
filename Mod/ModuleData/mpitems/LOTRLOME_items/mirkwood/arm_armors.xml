@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+	<!-- Mirkwood -->
+<Item
+		id="mirkwood_gloves"
+		name="{=mirkwoodgloves}Mirkwood Plate Gloves"
+		mesh="mirkwood_gloves"
+		culture="Culture.battania"
+		weight="1.5"
+		difficulty="0"
+		appearance="3"
+		Type="HandArmor">
+		<ItemComponent>
+			<Armor
+				arm_armor="25"
+				covers_hands="false"
+				modifier_group="plate"
+				material_type="Plate" />
+		</ItemComponent>
+		<Flags />
+	</Item>
+	<!-- #endregion -->
+</Items>

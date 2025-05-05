@@ -18,5 +18,29 @@
 	<XmlNode>
 		<XmlName id="BasicCultures" path="mpcultures" />
 	</XmlNode>
+	<XmlNode>
+		<XmlName id="Items" path="mpitems" />
+	</XmlNode>
+	<XmlNode>
+		<XmlName id="ClanBanners" path="mpitems" />
+	</XmlNode>
+	<XmlNode>
+		<XmlName id="GameText" path="multiplayer_strings" />
+	</XmlNode>
+	<XmlNode>
+		<XmlName id="WeaponDescriptions" path="weapon_descriptions" />
+	</XmlNode>
+	<XmlNode>
+		<XmlName id="CraftingPieces" path="crafting_pieces" />
+	</XmlNode>
+	<XmlNode>
+		<XmlName id="CraftingPieces" path="LOTRLOME_crafting_pieces" />
+	</XmlNode>
+	<XmlNode>
+		<XmlName id="CraftingTemplates" path="crafting_templates" />
+	</XmlNode>
+	<XmlNode>
+			<XmlName id="Items" path="LOTRLOME_items/gondor"/>
+		</XmlNode>
   </Xmls>
 </Module>
